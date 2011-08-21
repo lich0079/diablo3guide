@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E334091114016527000AD3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E334091014016526000AD3B8 /* UIKit.framework */; };
+		E334091314016527000AD3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E334091214016527000AD3B8 /* Foundation.framework */; };
+		E334091514016527000AD3B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E334091414016527000AD3B8 /* CoreGraphics.framework */; };
+		E334091B14016527000AD3B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E334091914016527000AD3B8 /* InfoPlist.strings */; };
+		E334091D14016527000AD3B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E334091C14016527000AD3B8 /* main.m */; };
+		E334092114016527000AD3B8 /* diablo3guideAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E334092014016527000AD3B8 /* diablo3guideAppDelegate.m */; };
+		E334092414016527000AD3B8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E334092214016527000AD3B8 /* MainWindow.xib */; };
+		E334092714016527000AD3B8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E334092614016527000AD3B8 /* RootViewController.m */; };
+		E334092A14016527000AD3B8 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E334092814016527000AD3B8 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E334090C14016526000AD3B8 /* diablo3guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diablo3guide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E334091014016526000AD3B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E334091214016527000AD3B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E334091414016527000AD3B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E334091814016527000AD3B8 /* diablo3guide-Info.plist */ = {isa = PBXFileReference; path = "diablo3guide-Info.plist"; sourceTree = "<group>"; };
+		E334091A14016527000AD3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E334091C14016527000AD3B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E334091E14016527000AD3B8 /* diablo3guide-Prefix.pch */ = {isa = PBXFileReference; path = "diablo3guide-Prefix.pch"; sourceTree = "<group>"; };
+		E334091F14016527000AD3B8 /* diablo3guideAppDelegate.h */ = {isa = PBXFileReference; path = diablo3guideAppDelegate.h; sourceTree = "<group>"; };
+		E334092014016527000AD3B8 /* diablo3guideAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = diablo3guideAppDelegate.m; sourceTree = "<group>"; };
+		E334092314016527000AD3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E334092514016527000AD3B8 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		E334092614016527000AD3B8 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E334092914016527000AD3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E334090914016526000AD3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E334091114016527000AD3B8 /* UIKit.framework in Frameworks */,
+				E334091314016527000AD3B8 /* Foundation.framework in Frameworks */,
+				E334091514016527000AD3B8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E334090114016526000AD3B8 = {
+			isa = PBXGroup;
+			children = (
+				E334091614016527000AD3B8 /* diablo3guide */,
+				E334090F14016526000AD3B8 /* Frameworks */,
+				E334090D14016526000AD3B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E334090D14016526000AD3B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E334090C14016526000AD3B8 /* diablo3guide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E334090F14016526000AD3B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E334091014016526000AD3B8 /* UIKit.framework */,
+				E334091214016527000AD3B8 /* Foundation.framework */,
+				E334091414016527000AD3B8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E334091614016527000AD3B8 /* diablo3guide */ = {
+			isa = PBXGroup;
+			children = (
+				E334091F14016527000AD3B8 /* diablo3guideAppDelegate.h */,
+				E334092014016527000AD3B8 /* diablo3guideAppDelegate.m */,
+				E334092214016527000AD3B8 /* MainWindow.xib */,
+				E334092514016527000AD3B8 /* RootViewController.h */,
+				E334092614016527000AD3B8 /* RootViewController.m */,
+				E334092814016527000AD3B8 /* RootViewController.xib */,
+				E334091714016527000AD3B8 /* Supporting Files */,
+			);
+			path = diablo3guide;
+			sourceTree = "<group>";
+		};
+		E334091714016527000AD3B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E334091814016527000AD3B8 /* diablo3guide-Info.plist */,
+				E334091914016527000AD3B8 /* InfoPlist.strings */,
+				E334091C14016527000AD3B8 /* main.m */,
+				E334091E14016527000AD3B8 /* diablo3guide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E334090B14016526000AD3B8 /* diablo3guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E334092D14016527000AD3B8 /* Build configuration list for PBXNativeTarget "diablo3guide" */;
+			buildPhases = (
+				E334090814016526000AD3B8 /* Sources */,
+				E334090914016526000AD3B8 /* Frameworks */,
+				E334090A14016526000AD3B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diablo3guide;
+			productName = diablo3guide;
+			productReference = E334090C14016526000AD3B8 /* diablo3guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E334090314016526000AD3B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ibm;
+			};
+			buildConfigurationList = E334090614016526000AD3B8 /* Build configuration list for PBXProject "diablo3guide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E334090114016526000AD3B8;
+			productRefGroup = E334090D14016526000AD3B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E334090B14016526000AD3B8 /* diablo3guide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E334090A14016526000AD3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E334091B14016527000AD3B8 /* InfoPlist.strings in Resources */,
+				E334092414016527000AD3B8 /* MainWindow.xib in Resources */,
+				E334092A14016527000AD3B8 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E334090814016526000AD3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E334091D14016527000AD3B8 /* main.m in Sources */,
+				E334092114016527000AD3B8 /* diablo3guideAppDelegate.m in Sources */,
+				E334092714016527000AD3B8 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E334091914016527000AD3B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E334091A14016527000AD3B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E334092214016527000AD3B8 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E334092314016527000AD3B8 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E334092814016527000AD3B8 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E334092914016527000AD3B8 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E334092B14016527000AD3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E334092C14016527000AD3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E334092E14016527000AD3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "diablo3guide/diablo3guide-Prefix.pch";
+				INFOPLIST_FILE = "diablo3guide/diablo3guide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E334092F14016527000AD3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "diablo3guide/diablo3guide-Prefix.pch";
+				INFOPLIST_FILE = "diablo3guide/diablo3guide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E334090614016526000AD3B8 /* Build configuration list for PBXProject "diablo3guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E334092B14016527000AD3B8 /* Debug */,
+				E334092C14016527000AD3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E334092D14016527000AD3B8 /* Build configuration list for PBXNativeTarget "diablo3guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E334092E14016527000AD3B8 /* Debug */,
+				E334092F14016527000AD3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E334090314016526000AD3B8 /* Project object */;
+}
