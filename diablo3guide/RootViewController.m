@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "ClassSelect.h"
 
 @implementation RootViewController
 
@@ -14,35 +15,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"Daiblo 3 ";
+    UIImageView *background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg.png"]];
+    [[self tableView] setBackgroundView:background];
+    [background autorelease];
+    
+//    UIImage *image = [UIImage imageNamed:@"naviBg.png"];
+//    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+//    imageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;//autoresizing
+//    [self.navigationController.navigationBar addSubview:imageView];
+//    [self.navigationController.navigationBar sendSubviewToBack:imageView];
+//    [imageView release];
+    
+    self.tableView.rowHeight = 120;
 }
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-/*
- // Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	// Return YES for supported orientations.
-	return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
- */
 
 // Customize the number of sections in the table view.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -52,7 +38,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return 2;
 }
 
 // Customize the appearance of table view cells.
@@ -64,77 +50,79 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-
-    // Configure the cell.
+    int row = indexPath.row;
+    switch (row) {
+        case 0:
+            cell.textLabel.text = @"";
+            UIImage *bimage = [UIImage imageNamed:@"basic2.png"];
+            UIImageView *bimageView = [[UIImageView alloc] initWithImage:bimage];
+            bimageView.frame = CGRectMake(0, 0, bimage.size.width, bimage.size.height);
+            [cell addSubview:bimageView];
+            [bimageView release];
+            
+            UILabel *blabel = [[UILabel alloc]initWithFrame:CGRectMake(0, bimageView.frame.size.height-30, 320, 30)];
+            blabel.text = @"Basic System";
+            blabel.backgroundColor = [UIColor clearColor];
+            [cell addSubview:blabel];
+            [blabel release];
+            blabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
+            blabel.textAlignment = UITextAlignmentCenter;
+            blabel.font = [UIFont fontWithName:@"Cochin" size:28];
+            break;
+        case 1:
+            cell.textLabel.text = @"";
+            UIImage *image = [UIImage imageNamed:@"classes.png"];
+            UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+            imageView.frame = CGRectMake(0, 0, image.size.width, image.size.height);
+            [cell addSubview:imageView];
+            [imageView release];
+            
+            UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, imageView.frame.size.height-30, 320, 30)];
+            label.text = @"Character Classes";
+            label.backgroundColor = [UIColor clearColor];
+            [cell addSubview:label];
+            [label release];
+            label.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
+            label.textAlignment = UITextAlignmentCenter;
+            label.font = [UIFont fontWithName:@"Cochin" size:28];
+            break;
+            
+        default:
+            break;
+    }
     return cell;
 }
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete)
-    {
-        // Delete the row from the data source.
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }
-    else if (editingStyle == UITableViewCellEditingStyleInsert)
-    {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
+//
+//-(CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+//    return 120;
+//}
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+
+    UIViewController *controller; 
+    switch (indexPath.row) {
+        case 1:
+            controller = [[ClassSelect alloc] init];
+            break;
+            
+        default:
+            break;
+    }
+    
     // ...
     // Pass the selected object to the new view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
-	*/
+    [self.navigationController pushViewController:controller animated:YES];
+    [controller release];
+
 }
 
-- (void)didReceiveMemoryWarning
-{
-    // Releases the view if it doesn't have a superview.
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
-    // Relinquish ownership any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload
-{
+- (void)viewDidUnload {
     [super viewDidUnload];
-
-    // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
-    // For example: self.myOutlet = nil;
 }
 
 - (void)dealloc

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>Barbarian</string>
+		<key>name</key>
+		<string>Barbarian</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>Hunter</string>
+		<key>name</key>
+		<string>Demon Hunter</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>Monk</string>
+		<key>name</key>
+		<string>Monk</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>Witch</string>
+		<key>name</key>
+		<string>Witch Doctor</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>Wizard</string>
+		<key>name</key>
+		<string>Wizard</string>
+	</dict>
+</array>
+</plist>

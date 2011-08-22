@@ -16,6 +16,29 @@
 		E334092414016527000AD3B8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E334092214016527000AD3B8 /* MainWindow.xib */; };
 		E334092714016527000AD3B8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E334092614016527000AD3B8 /* RootViewController.m */; };
 		E334092A14016527000AD3B8 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E334092814016527000AD3B8 /* RootViewController.xib */; };
+		E334093114016544000AD3B8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E334093014016544000AD3B8 /* Icon.png */; };
+		E33409331401654E000AD3B8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E33409321401654D000AD3B8 /* Icon@2x.png */; };
+		E334094414016F88000AD3B8 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E334094314016F88000AD3B8 /* bg.png */; };
+		E3340946140170A3000AD3B8 /* naviBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3340945140170A3000AD3B8 /* naviBg.png */; };
+		E334094814017245000AD3B8 /* classes.png in Resources */ = {isa = PBXBuildFile; fileRef = E334094714017245000AD3B8 /* classes.png */; };
+		E3924AC314017B90000BA714 /* basic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3924AC114017B90000BA714 /* basic@2x.png */; };
+		E3924AC414017B90000BA714 /* basic.png in Resources */ = {isa = PBXBuildFile; fileRef = E3924AC214017B90000BA714 /* basic.png */; };
+		E3924AC714017BBD000BA714 /* classes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3924AC614017BBD000BA714 /* classes@2x.png */; };
+		E39B50CB1401F76300F58D78 /* basic2.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50C91401F76300F58D78 /* basic2.png */; };
+		E39B50CC1401F76300F58D78 /* basic2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50CA1401F76300F58D78 /* basic2@2x.png */; };
+		E39B50D11401F84700F58D78 /* ClassSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = E39B50CF1401F84700F58D78 /* ClassSelect.m */; };
+		E39B50D21401F84700F58D78 /* ClassSelect.xib in Resources */ = {isa = PBXBuildFile; fileRef = E39B50D01401F84700F58D78 /* ClassSelect.xib */; };
+		E39B50D41401F93800F58D78 /* classes.plist in Resources */ = {isa = PBXBuildFile; fileRef = E39B50D31401F93800F58D78 /* classes.plist */; };
+		E39B50E814020D2600F58D78 /* Barbarian.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50DE14020D2600F58D78 /* Barbarian.png */; };
+		E39B50E914020D2600F58D78 /* Barbarian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50DF14020D2600F58D78 /* Barbarian@2x.png */; };
+		E39B50EA14020D2600F58D78 /* Hunter.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50E014020D2600F58D78 /* Hunter.png */; };
+		E39B50EB14020D2600F58D78 /* Hunter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50E114020D2600F58D78 /* Hunter@2x.png */; };
+		E39B50EC14020D2600F58D78 /* Monk.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50E214020D2600F58D78 /* Monk.png */; };
+		E39B50ED14020D2600F58D78 /* Monk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50E314020D2600F58D78 /* Monk@2x.png */; };
+		E39B50EE14020D2600F58D78 /* Witch.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50E414020D2600F58D78 /* Witch.png */; };
+		E39B50EF14020D2600F58D78 /* Witch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50E514020D2600F58D78 /* Witch@2x.png */; };
+		E39B50F014020D2600F58D78 /* Wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50E614020D2600F58D78 /* Wizard.png */; };
+		E39B50F114020D2600F58D78 /* Wizard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50E714020D2600F58D78 /* Wizard@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +46,41 @@
 		E334091014016526000AD3B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E334091214016527000AD3B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E334091414016527000AD3B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E334091814016527000AD3B8 /* diablo3guide-Info.plist */ = {isa = PBXFileReference; path = "diablo3guide-Info.plist"; sourceTree = "<group>"; };
+		E334091814016527000AD3B8 /* diablo3guide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "diablo3guide-Info.plist"; sourceTree = "<group>"; };
 		E334091A14016527000AD3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E334091C14016527000AD3B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E334091E14016527000AD3B8 /* diablo3guide-Prefix.pch */ = {isa = PBXFileReference; path = "diablo3guide-Prefix.pch"; sourceTree = "<group>"; };
-		E334091F14016527000AD3B8 /* diablo3guideAppDelegate.h */ = {isa = PBXFileReference; path = diablo3guideAppDelegate.h; sourceTree = "<group>"; };
+		E334091E14016527000AD3B8 /* diablo3guide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "diablo3guide-Prefix.pch"; sourceTree = "<group>"; };
+		E334091F14016527000AD3B8 /* diablo3guideAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diablo3guideAppDelegate.h; sourceTree = "<group>"; };
 		E334092014016527000AD3B8 /* diablo3guideAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = diablo3guideAppDelegate.m; sourceTree = "<group>"; };
 		E334092314016527000AD3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		E334092514016527000AD3B8 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		E334092514016527000AD3B8 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E334092614016527000AD3B8 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E334092914016527000AD3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		E334093014016544000AD3B8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E33409321401654D000AD3B8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E334094314016F88000AD3B8 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		E3340945140170A3000AD3B8 /* naviBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naviBg.png; sourceTree = "<group>"; };
+		E334094714017245000AD3B8 /* classes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classes.png; sourceTree = "<group>"; };
+		E3924AC114017B90000BA714 /* basic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "basic@2x.png"; sourceTree = "<group>"; };
+		E3924AC214017B90000BA714 /* basic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basic.png; sourceTree = "<group>"; };
+		E3924AC614017BBD000BA714 /* classes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classes@2x.png"; sourceTree = "<group>"; };
+		E39B50C91401F76300F58D78 /* basic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basic2.png; sourceTree = "<group>"; };
+		E39B50CA1401F76300F58D78 /* basic2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "basic2@2x.png"; sourceTree = "<group>"; };
+		E39B50CE1401F84700F58D78 /* ClassSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassSelect.h; sourceTree = "<group>"; };
+		E39B50CF1401F84700F58D78 /* ClassSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassSelect.m; sourceTree = "<group>"; };
+		E39B50D01401F84700F58D78 /* ClassSelect.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassSelect.xib; sourceTree = "<group>"; };
+		E39B50D31401F93800F58D78 /* classes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = classes.plist; sourceTree = "<group>"; };
+		E39B50DD1401FC9400F58D78 /* CLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLog.h; sourceTree = "<group>"; };
+		E39B50DE14020D2600F58D78 /* Barbarian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barbarian.png; sourceTree = "<group>"; };
+		E39B50DF14020D2600F58D78 /* Barbarian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Barbarian@2x.png"; sourceTree = "<group>"; };
+		E39B50E014020D2600F58D78 /* Hunter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hunter.png; sourceTree = "<group>"; };
+		E39B50E114020D2600F58D78 /* Hunter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hunter@2x.png"; sourceTree = "<group>"; };
+		E39B50E214020D2600F58D78 /* Monk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Monk.png; sourceTree = "<group>"; };
+		E39B50E314020D2600F58D78 /* Monk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Monk@2x.png"; sourceTree = "<group>"; };
+		E39B50E414020D2600F58D78 /* Witch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Witch.png; sourceTree = "<group>"; };
+		E39B50E514020D2600F58D78 /* Witch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Witch@2x.png"; sourceTree = "<group>"; };
+		E39B50E614020D2600F58D78 /* Wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wizard.png; sourceTree = "<group>"; };
+		E39B50E714020D2600F58D78 /* Wizard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wizard@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +100,9 @@
 		E334090114016526000AD3B8 = {
 			isa = PBXGroup;
 			children = (
+				E33409321401654D000AD3B8 /* Icon@2x.png */,
+				E334093014016544000AD3B8 /* Icon.png */,
+				E39B50F214020D3500F58D78 /* img */,
 				E334091614016527000AD3B8 /* diablo3guide */,
 				E334090F14016526000AD3B8 /* Frameworks */,
 				E334090D14016526000AD3B8 /* Products */,
@@ -79,12 +130,13 @@
 		E334091614016527000AD3B8 /* diablo3guide */ = {
 			isa = PBXGroup;
 			children = (
+				E39B50DD1401FC9400F58D78 /* CLog.h */,
 				E334091F14016527000AD3B8 /* diablo3guideAppDelegate.h */,
 				E334092014016527000AD3B8 /* diablo3guideAppDelegate.m */,
-				E334092214016527000AD3B8 /* MainWindow.xib */,
 				E334092514016527000AD3B8 /* RootViewController.h */,
 				E334092614016527000AD3B8 /* RootViewController.m */,
-				E334092814016527000AD3B8 /* RootViewController.xib */,
+				E39B50CE1401F84700F58D78 /* ClassSelect.h */,
+				E39B50CF1401F84700F58D78 /* ClassSelect.m */,
 				E334091714016527000AD3B8 /* Supporting Files */,
 			);
 			path = diablo3guide;
@@ -93,12 +145,41 @@
 		E334091714016527000AD3B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E334092214016527000AD3B8 /* MainWindow.xib */,
+				E334092814016527000AD3B8 /* RootViewController.xib */,
+				E39B50D01401F84700F58D78 /* ClassSelect.xib */,
 				E334091814016527000AD3B8 /* diablo3guide-Info.plist */,
 				E334091914016527000AD3B8 /* InfoPlist.strings */,
 				E334091C14016527000AD3B8 /* main.m */,
 				E334091E14016527000AD3B8 /* diablo3guide-Prefix.pch */,
+				E39B50D31401F93800F58D78 /* classes.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E39B50F214020D3500F58D78 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				E334094314016F88000AD3B8 /* bg.png */,
+				E334094714017245000AD3B8 /* classes.png */,
+				E3924AC614017BBD000BA714 /* classes@2x.png */,
+				E3340945140170A3000AD3B8 /* naviBg.png */,
+				E3924AC114017B90000BA714 /* basic@2x.png */,
+				E3924AC214017B90000BA714 /* basic.png */,
+				E39B50C91401F76300F58D78 /* basic2.png */,
+				E39B50CA1401F76300F58D78 /* basic2@2x.png */,
+				E39B50DE14020D2600F58D78 /* Barbarian.png */,
+				E39B50DF14020D2600F58D78 /* Barbarian@2x.png */,
+				E39B50E014020D2600F58D78 /* Hunter.png */,
+				E39B50E114020D2600F58D78 /* Hunter@2x.png */,
+				E39B50E214020D2600F58D78 /* Monk.png */,
+				E39B50E314020D2600F58D78 /* Monk@2x.png */,
+				E39B50E414020D2600F58D78 /* Witch.png */,
+				E39B50E514020D2600F58D78 /* Witch@2x.png */,
+				E39B50E614020D2600F58D78 /* Wizard.png */,
+				E39B50E714020D2600F58D78 /* Wizard@2x.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +208,7 @@
 		E334090314016526000AD3B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = ibm;
 			};
 			buildConfigurationList = E334090614016526000AD3B8 /* Build configuration list for PBXProject "diablo3guide" */;
@@ -154,6 +236,28 @@
 				E334091B14016527000AD3B8 /* InfoPlist.strings in Resources */,
 				E334092414016527000AD3B8 /* MainWindow.xib in Resources */,
 				E334092A14016527000AD3B8 /* RootViewController.xib in Resources */,
+				E334093114016544000AD3B8 /* Icon.png in Resources */,
+				E33409331401654E000AD3B8 /* Icon@2x.png in Resources */,
+				E334094414016F88000AD3B8 /* bg.png in Resources */,
+				E3340946140170A3000AD3B8 /* naviBg.png in Resources */,
+				E334094814017245000AD3B8 /* classes.png in Resources */,
+				E3924AC314017B90000BA714 /* basic@2x.png in Resources */,
+				E3924AC414017B90000BA714 /* basic.png in Resources */,
+				E3924AC714017BBD000BA714 /* classes@2x.png in Resources */,
+				E39B50CB1401F76300F58D78 /* basic2.png in Resources */,
+				E39B50CC1401F76300F58D78 /* basic2@2x.png in Resources */,
+				E39B50D21401F84700F58D78 /* ClassSelect.xib in Resources */,
+				E39B50D41401F93800F58D78 /* classes.plist in Resources */,
+				E39B50E814020D2600F58D78 /* Barbarian.png in Resources */,
+				E39B50E914020D2600F58D78 /* Barbarian@2x.png in Resources */,
+				E39B50EA14020D2600F58D78 /* Hunter.png in Resources */,
+				E39B50EB14020D2600F58D78 /* Hunter@2x.png in Resources */,
+				E39B50EC14020D2600F58D78 /* Monk.png in Resources */,
+				E39B50ED14020D2600F58D78 /* Monk@2x.png in Resources */,
+				E39B50EE14020D2600F58D78 /* Witch.png in Resources */,
+				E39B50EF14020D2600F58D78 /* Witch@2x.png in Resources */,
+				E39B50F014020D2600F58D78 /* Wizard.png in Resources */,
+				E39B50F114020D2600F58D78 /* Wizard@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +271,7 @@
 				E334091D14016527000AD3B8 /* main.m in Sources */,
 				E334092114016527000AD3B8 /* diablo3guideAppDelegate.m in Sources */,
 				E334092714016527000AD3B8 /* RootViewController.m in Sources */,
+				E39B50D11401F84700F58D78 /* ClassSelect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +354,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "diablo3guide/diablo3guide-Prefix.pch";
 				INFOPLIST_FILE = "diablo3guide/diablo3guide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -260,6 +366,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "diablo3guide/diablo3guide-Prefix.pch";
 				INFOPLIST_FILE = "diablo3guide/diablo3guide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -284,6 +391,7 @@
 				E334092F14016527000AD3B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
