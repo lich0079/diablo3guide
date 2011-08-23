@@ -21,6 +21,13 @@
 		E334094414016F88000AD3B8 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E334094314016F88000AD3B8 /* bg.png */; };
 		E3340946140170A3000AD3B8 /* naviBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3340945140170A3000AD3B8 /* naviBg.png */; };
 		E334094814017245000AD3B8 /* classes.png in Resources */ = {isa = PBXBuildFile; fileRef = E334094714017245000AD3B8 /* classes.png */; };
+		E357C15714024CCA005ED4F3 /* askill.png in Resources */ = {isa = PBXBuildFile; fileRef = E357C15614024CCA005ED4F3 /* askill.png */; };
+		E357C16214024FF1005ED4F3 /* pskill.png in Resources */ = {isa = PBXBuildFile; fileRef = E357C16114024FF1005ED4F3 /* pskill.png */; };
+		E357C1661402557A005ED4F3 /* Skills.m in Sources */ = {isa = PBXBuildFile; fileRef = E357C1641402557A005ED4F3 /* Skills.m */; };
+		E357C1671402557A005ED4F3 /* Skills.xib in Resources */ = {isa = PBXBuildFile; fileRef = E357C1651402557A005ED4F3 /* Skills.xib */; };
+		E357C16A140256E1005ED4F3 /* BaseTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E357C169140256E1005ED4F3 /* BaseTable.m */; };
+		E357C16C14025844005ED4F3 /* Bash.png in Resources */ = {isa = PBXBuildFile; fileRef = E357C16B14025844005ED4F3 /* Bash.png */; };
+		E357C16E140261DF005ED4F3 /* Ground Stomp.png in Resources */ = {isa = PBXBuildFile; fileRef = E357C16D140261DF005ED4F3 /* Ground Stomp.png */; };
 		E3924AC314017B90000BA714 /* basic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3924AC114017B90000BA714 /* basic@2x.png */; };
 		E3924AC414017B90000BA714 /* basic.png in Resources */ = {isa = PBXBuildFile; fileRef = E3924AC214017B90000BA714 /* basic.png */; };
 		E3924AC714017BBD000BA714 /* classes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3924AC614017BBD000BA714 /* classes@2x.png */; };
@@ -39,6 +46,96 @@
 		E39B50EF14020D2600F58D78 /* Witch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50E514020D2600F58D78 /* Witch@2x.png */; };
 		E39B50F014020D2600F58D78 /* Wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50E614020D2600F58D78 /* Wizard.png */; };
 		E39B50F114020D2600F58D78 /* Wizard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E39B50E714020D2600F58D78 /* Wizard@2x.png */; };
+		E3B80D8F14034915007366B7 /* Demon HunterPSBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D8E14034915007366B7 /* Demon HunterPSBg.png */; };
+		E3B80D92140349E8007366B7 /* MonkASBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D90140349E8007366B7 /* MonkASBg.png */; };
+		E3B80D93140349E8007366B7 /* MonkPSBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D91140349E8007366B7 /* MonkPSBg.png */; };
+		E3B80D9614034A61007366B7 /* WizardASBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D9414034A61007366B7 /* WizardASBg.png */; };
+		E3B80D9714034A61007366B7 /* WizardPSBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D9514034A61007366B7 /* WizardPSBg.png */; };
+		E3B80D9A14034B67007366B7 /* Witch DoctorASBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D9814034B67007366B7 /* Witch DoctorASBg.png */; };
+		E3B80D9B14034B67007366B7 /* Witch DoctorPSBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D9914034B67007366B7 /* Witch DoctorPSBg.png */; };
+		E3B80D9F140350C2007366B7 /* Skill_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D9E140350C2007366B7 /* Skill_blank.png */; };
+		E3B80DA114036246007366B7 /* Quickening.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80DA014036246007366B7 /* Quickening.png */; };
+		E3D1CA8E1402730400E84211 /* Wrath of the Berserker.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA7A1402730400E84211 /* Wrath of the Berserker.png */; };
+		E3D1CA8F1402730400E84211 /* Call of the Ancients.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA7B1402730400E84211 /* Call of the Ancients.png */; };
+		E3D1CA901402730400E84211 /* Earthquake.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA7C1402730400E84211 /* Earthquake.png */; };
+		E3D1CA911402730400E84211 /* Sprint.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA7D1402730400E84211 /* Sprint.png */; };
+		E3D1CA921402730400E84211 /* Whirlwind.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA7E1402730400E84211 /* Whirlwind.png */; };
+		E3D1CA931402730400E84211 /* Ancient Spear.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA7F1402730400E84211 /* Ancient Spear.png */; };
+		E3D1CA941402730400E84211 /* Overpower.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA801402730400E84211 /* Overpower.png */; };
+		E3D1CA951402730400E84211 /* Seismic Slam.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA811402730400E84211 /* Seismic Slam.png */; };
+		E3D1CA961402730400E84211 /* Furious Charge.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA821402730400E84211 /* Furious Charge.png */; };
+		E3D1CA971402730400E84211 /* War Cry.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA831402730400E84211 /* War Cry.png */; };
+		E3D1CA981402730400E84211 /* Revenge.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA841402730400E84211 /* Revenge.png */; };
+		E3D1CA991402730400E84211 /* Frenzy.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA851402730400E84211 /* Frenzy.png */; };
+		E3D1CA9A1402730400E84211 /* Threatening Shout.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA861402730400E84211 /* Threatening Shout.png */; };
+		E3D1CA9B1402730400E84211 /* Rend.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA871402730400E84211 /* Rend.png */; };
+		E3D1CA9C1402730400E84211 /* Weapon Throw.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA881402730400E84211 /* Weapon Throw.png */; };
+		E3D1CA9D1402730400E84211 /* Leap Attack.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA891402730400E84211 /* Leap Attack.png */; };
+		E3D1CA9E1402730400E84211 /* Cleave.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA8A1402730400E84211 /* Cleave.png */; };
+		E3D1CA9F1402730400E84211 /* Ignore Pain.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA8B1402730400E84211 /* Ignore Pain.png */; };
+		E3D1CAA01402730400E84211 /* Battle Rage.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA8C1402730400E84211 /* Battle Rage.png */; };
+		E3D1CAA11402730400E84211 /* Hammer of the Ancients.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CA8D1402730400E84211 /* Hammer of the Ancients.png */; };
+		E3D1CAA41402788100E84211 /* Animosity.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAA31402788100E84211 /* Animosity.png */; };
+		E3D1CABA14027ED500E84211 /* Shield of Iron.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAA514027ED500E84211 /* Shield of Iron.png */; };
+		E3D1CABB14027ED500E84211 /* Second Wind.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAA614027ED500E84211 /* Second Wind.png */; };
+		E3D1CABC14027ED500E84211 /* Insane Courage.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAA714027ED500E84211 /* Insane Courage.png */; };
+		E3D1CABD14027ED500E84211 /* Frenzied Attacks.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAA814027ED500E84211 /* Frenzied Attacks.png */; };
+		E3D1CABE14027ED500E84211 /* Bad Temper.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAA914027ED500E84211 /* Bad Temper.png */; };
+		E3D1CABF14027ED500E84211 /* Slaughter.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAAA14027ED500E84211 /* Slaughter.png */; };
+		E3D1CAC014027ED500E84211 /* Superstition.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAAB14027ED500E84211 /* Superstition.png */; };
+		E3D1CAC114027ED500E84211 /* Weak Spot.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAAC14027ED500E84211 /* Weak Spot.png */; };
+		E3D1CAC214027ED500E84211 /* Toughness.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAAD14027ED500E84211 /* Toughness.png */; };
+		E3D1CAC314027ED500E84211 /* Expert Defense.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAAE14027ED500E84211 /* Expert Defense.png */; };
+		E3D1CAC414027ED500E84211 /* Superior Skill.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAAF14027ED500E84211 /* Superior Skill.png */; };
+		E3D1CAC514027ED500E84211 /* Aggression.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAB014027ED500E84211 /* Aggression.png */; };
+		E3D1CAC614027ED500E84211 /* Cruelty.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAB114027ED500E84211 /* Cruelty.png */; };
+		E3D1CAC714027ED500E84211 /* Intimidation.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAB214027ED500E84211 /* Intimidation.png */; };
+		E3D1CAC814027ED500E84211 /* Pound of Flesh.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAB314027ED500E84211 /* Pound of Flesh.png */; };
+		E3D1CAC914027ED500E84211 /* Iron Skin.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAB414027ED500E84211 /* Iron Skin.png */; };
+		E3D1CACA14027ED500E84211 /* Unforgiving.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAB514027ED500E84211 /* Unforgiving.png */; };
+		E3D1CACB14027ED500E84211 /* Ruthless.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAB614027ED500E84211 /* Ruthless.png */; };
+		E3D1CACC14027ED500E84211 /* Relentless.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAB714027ED500E84211 /* Relentless.png */; };
+		E3D1CACD14027ED500E84211 /* Bloodthirst.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAB814027ED500E84211 /* Bloodthirst.png */; };
+		E3D1CACE14027ED500E84211 /* Berserker Rage.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAB914027ED500E84211 /* Berserker Rage.png */; };
+		E3D1CAD01402818100E84211 /* BarbarianPSBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CACF1402818100E84211 /* BarbarianPSBg.png */; };
+		E3D1CAD21402849200E84211 /* BarbarianASBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAD11402849200E84211 /* BarbarianASBg.png */; };
+		E3D1CAD4140286DB00E84211 /* Demon HunterASBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D1CAD3140286DB00E84211 /* Demon HunterASBg.png */; };
+		E3D3679C14038605004A7DE4 /* Archon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678314038605004A7DE4 /* Archon.png */; };
+		E3D3679D14038605004A7DE4 /* Familiar.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678414038605004A7DE4 /* Familiar.png */; };
+		E3D3679E14038605004A7DE4 /* Blizzard.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678514038605004A7DE4 /* Blizzard.png */; };
+		E3D3679F14038605004A7DE4 /* Meteor.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678614038605004A7DE4 /* Meteor.png */; };
+		E3D367A014038605004A7DE4 /* Arcane Torrent.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678714038605004A7DE4 /* Arcane Torrent.png */; };
+		E3D367A114038605004A7DE4 /* Energy Armor.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678814038605004A7DE4 /* Energy Armor.png */; };
+		E3D367A214038605004A7DE4 /* Ray of Frost.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678914038605004A7DE4 /* Ray of Frost.png */; };
+		E3D367A314038605004A7DE4 /* Hydra.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678A14038605004A7DE4 /* Hydra.png */; };
+		E3D367A414038605004A7DE4 /* Teleport.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678B14038605004A7DE4 /* Teleport.png */; };
+		E3D367A514038605004A7DE4 /* Slow Time.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678C14038605004A7DE4 /* Slow Time.png */; };
+		E3D367A614038605004A7DE4 /* Mirror Image.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678D14038605004A7DE4 /* Mirror Image.png */; };
+		E3D367A714038605004A7DE4 /* Explosive Blast.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678E14038605004A7DE4 /* Explosive Blast.png */; };
+		E3D367A814038605004A7DE4 /* Storm Armor.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3678F14038605004A7DE4 /* Storm Armor.png */; };
+		E3D367A914038605004A7DE4 /* Disintegrate.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3679014038605004A7DE4 /* Disintegrate.png */; };
+		E3D367AA14038605004A7DE4 /* Energy Twister.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3679114038605004A7DE4 /* Energy Twister.png */; };
+		E3D367AB14038605004A7DE4 /* Diamond Skin.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3679214038605004A7DE4 /* Diamond Skin.png */; };
+		E3D367AC14038605004A7DE4 /* Arcane Orb.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3679314038605004A7DE4 /* Arcane Orb.png */; };
+		E3D367AD14038605004A7DE4 /* Magic Weapon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3679414038605004A7DE4 /* Magic Weapon.png */; };
+		E3D367AE14038605004A7DE4 /* Electrocute.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3679514038605004A7DE4 /* Electrocute.png */; };
+		E3D367AF14038605004A7DE4 /* Spectral Blade.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3679614038605004A7DE4 /* Spectral Blade.png */; };
+		E3D367B014038605004A7DE4 /* Wave of Force.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3679714038605004A7DE4 /* Wave of Force.png */; };
+		E3D367B114038605004A7DE4 /* Shock Pulse.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3679814038605004A7DE4 /* Shock Pulse.png */; };
+		E3D367B214038605004A7DE4 /* Ice Armor.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3679914038605004A7DE4 /* Ice Armor.png */; };
+		E3D367B314038605004A7DE4 /* Magic Missile.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3679A14038605004A7DE4 /* Magic Missile.png */; };
+		E3D367B414038605004A7DE4 /* Frost Nova.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D3679B14038605004A7DE4 /* Frost Nova.png */; };
+		E3D367C1140388E1004A7DE4 /* Knowledge is Power.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D367B6140388E1004A7DE4 /* Knowledge is Power.png */; };
+		E3D367C2140388E1004A7DE4 /* Unstable Energy.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D367B7140388E1004A7DE4 /* Unstable Energy.png */; };
+		E3D367C3140388E1004A7DE4 /* Temporal Shift.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D367B8140388E1004A7DE4 /* Temporal Shift.png */; };
+		E3D367C4140388E1004A7DE4 /* Piercing Attacks.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D367B9140388E1004A7DE4 /* Piercing Attacks.png */; };
+		E3D367C5140388E1004A7DE4 /* Temporal Flux.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D367BA140388E1004A7DE4 /* Temporal Flux.png */; };
+		E3D367C6140388E1004A7DE4 /* Black Ice.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D367BB140388E1004A7DE4 /* Black Ice.png */; };
+		E3D367C7140388E1004A7DE4 /* Astral Presence.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D367BC140388E1004A7DE4 /* Astral Presence.png */; };
+		E3D367C8140388E1004A7DE4 /* Glass Cannon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D367BD140388E1004A7DE4 /* Glass Cannon.png */; };
+		E3D367C9140388E1004A7DE4 /* Flight Before Fight.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D367BE140388E1004A7DE4 /* Flight Before Fight.png */; };
+		E3D367CA140388E1004A7DE4 /* Drain Power.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D367BF140388E1004A7DE4 /* Drain Power.png */; };
+		E3D367CB140388E1004A7DE4 /* Blur.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D367C0140388E1004A7DE4 /* Blur.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +158,15 @@
 		E334094314016F88000AD3B8 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		E3340945140170A3000AD3B8 /* naviBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naviBg.png; sourceTree = "<group>"; };
 		E334094714017245000AD3B8 /* classes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classes.png; sourceTree = "<group>"; };
+		E357C15614024CCA005ED4F3 /* askill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = askill.png; sourceTree = "<group>"; };
+		E357C16114024FF1005ED4F3 /* pskill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pskill.png; sourceTree = "<group>"; };
+		E357C1631402557A005ED4F3 /* Skills.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skills.h; sourceTree = "<group>"; };
+		E357C1641402557A005ED4F3 /* Skills.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skills.m; sourceTree = "<group>"; };
+		E357C1651402557A005ED4F3 /* Skills.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Skills.xib; sourceTree = "<group>"; };
+		E357C168140256E1005ED4F3 /* BaseTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTable.h; sourceTree = "<group>"; };
+		E357C169140256E1005ED4F3 /* BaseTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTable.m; sourceTree = "<group>"; };
+		E357C16B14025844005ED4F3 /* Bash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bash.png; sourceTree = "<group>"; };
+		E357C16D140261DF005ED4F3 /* Ground Stomp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ground Stomp.png"; sourceTree = "<group>"; };
 		E3924AC114017B90000BA714 /* basic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "basic@2x.png"; sourceTree = "<group>"; };
 		E3924AC214017B90000BA714 /* basic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basic.png; sourceTree = "<group>"; };
 		E3924AC614017BBD000BA714 /* classes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classes@2x.png"; sourceTree = "<group>"; };
@@ -81,6 +187,96 @@
 		E39B50E514020D2600F58D78 /* Witch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Witch@2x.png"; sourceTree = "<group>"; };
 		E39B50E614020D2600F58D78 /* Wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wizard.png; sourceTree = "<group>"; };
 		E39B50E714020D2600F58D78 /* Wizard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wizard@2x.png"; sourceTree = "<group>"; };
+		E3B80D8E14034915007366B7 /* Demon HunterPSBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Demon HunterPSBg.png"; sourceTree = "<group>"; };
+		E3B80D90140349E8007366B7 /* MonkASBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MonkASBg.png; sourceTree = "<group>"; };
+		E3B80D91140349E8007366B7 /* MonkPSBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MonkPSBg.png; sourceTree = "<group>"; };
+		E3B80D9414034A61007366B7 /* WizardASBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WizardASBg.png; sourceTree = "<group>"; };
+		E3B80D9514034A61007366B7 /* WizardPSBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WizardPSBg.png; sourceTree = "<group>"; };
+		E3B80D9814034B67007366B7 /* Witch DoctorASBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Witch DoctorASBg.png"; sourceTree = "<group>"; };
+		E3B80D9914034B67007366B7 /* Witch DoctorPSBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Witch DoctorPSBg.png"; sourceTree = "<group>"; };
+		E3B80D9E140350C2007366B7 /* Skill_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skill_blank.png; sourceTree = "<group>"; };
+		E3B80DA014036246007366B7 /* Quickening.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quickening.png; sourceTree = "<group>"; };
+		E3D1CA7A1402730400E84211 /* Wrath of the Berserker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wrath of the Berserker.png"; sourceTree = "<group>"; };
+		E3D1CA7B1402730400E84211 /* Call of the Ancients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Call of the Ancients.png"; sourceTree = "<group>"; };
+		E3D1CA7C1402730400E84211 /* Earthquake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Earthquake.png; sourceTree = "<group>"; };
+		E3D1CA7D1402730400E84211 /* Sprint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sprint.png; sourceTree = "<group>"; };
+		E3D1CA7E1402730400E84211 /* Whirlwind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Whirlwind.png; sourceTree = "<group>"; };
+		E3D1CA7F1402730400E84211 /* Ancient Spear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ancient Spear.png"; sourceTree = "<group>"; };
+		E3D1CA801402730400E84211 /* Overpower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overpower.png; sourceTree = "<group>"; };
+		E3D1CA811402730400E84211 /* Seismic Slam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Seismic Slam.png"; sourceTree = "<group>"; };
+		E3D1CA821402730400E84211 /* Furious Charge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Furious Charge.png"; sourceTree = "<group>"; };
+		E3D1CA831402730400E84211 /* War Cry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "War Cry.png"; sourceTree = "<group>"; };
+		E3D1CA841402730400E84211 /* Revenge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Revenge.png; sourceTree = "<group>"; };
+		E3D1CA851402730400E84211 /* Frenzy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Frenzy.png; sourceTree = "<group>"; };
+		E3D1CA861402730400E84211 /* Threatening Shout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Threatening Shout.png"; sourceTree = "<group>"; };
+		E3D1CA871402730400E84211 /* Rend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rend.png; sourceTree = "<group>"; };
+		E3D1CA881402730400E84211 /* Weapon Throw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Weapon Throw.png"; sourceTree = "<group>"; };
+		E3D1CA891402730400E84211 /* Leap Attack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leap Attack.png"; sourceTree = "<group>"; };
+		E3D1CA8A1402730400E84211 /* Cleave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cleave.png; sourceTree = "<group>"; };
+		E3D1CA8B1402730400E84211 /* Ignore Pain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ignore Pain.png"; sourceTree = "<group>"; };
+		E3D1CA8C1402730400E84211 /* Battle Rage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Battle Rage.png"; sourceTree = "<group>"; };
+		E3D1CA8D1402730400E84211 /* Hammer of the Ancients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hammer of the Ancients.png"; sourceTree = "<group>"; };
+		E3D1CAA31402788100E84211 /* Animosity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Animosity.png; sourceTree = "<group>"; };
+		E3D1CAA514027ED500E84211 /* Shield of Iron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shield of Iron.png"; sourceTree = "<group>"; };
+		E3D1CAA614027ED500E84211 /* Second Wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Second Wind.png"; sourceTree = "<group>"; };
+		E3D1CAA714027ED500E84211 /* Insane Courage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Insane Courage.png"; sourceTree = "<group>"; };
+		E3D1CAA814027ED500E84211 /* Frenzied Attacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frenzied Attacks.png"; sourceTree = "<group>"; };
+		E3D1CAA914027ED500E84211 /* Bad Temper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bad Temper.png"; sourceTree = "<group>"; };
+		E3D1CAAA14027ED500E84211 /* Slaughter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slaughter.png; sourceTree = "<group>"; };
+		E3D1CAAB14027ED500E84211 /* Superstition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Superstition.png; sourceTree = "<group>"; };
+		E3D1CAAC14027ED500E84211 /* Weak Spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Weak Spot.png"; sourceTree = "<group>"; };
+		E3D1CAAD14027ED500E84211 /* Toughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Toughness.png; sourceTree = "<group>"; };
+		E3D1CAAE14027ED500E84211 /* Expert Defense.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Expert Defense.png"; sourceTree = "<group>"; };
+		E3D1CAAF14027ED500E84211 /* Superior Skill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Superior Skill.png"; sourceTree = "<group>"; };
+		E3D1CAB014027ED500E84211 /* Aggression.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aggression.png; sourceTree = "<group>"; };
+		E3D1CAB114027ED500E84211 /* Cruelty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cruelty.png; sourceTree = "<group>"; };
+		E3D1CAB214027ED500E84211 /* Intimidation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Intimidation.png; sourceTree = "<group>"; };
+		E3D1CAB314027ED500E84211 /* Pound of Flesh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pound of Flesh.png"; sourceTree = "<group>"; };
+		E3D1CAB414027ED500E84211 /* Iron Skin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Iron Skin.png"; sourceTree = "<group>"; };
+		E3D1CAB514027ED500E84211 /* Unforgiving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unforgiving.png; sourceTree = "<group>"; };
+		E3D1CAB614027ED500E84211 /* Ruthless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ruthless.png; sourceTree = "<group>"; };
+		E3D1CAB714027ED500E84211 /* Relentless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Relentless.png; sourceTree = "<group>"; };
+		E3D1CAB814027ED500E84211 /* Bloodthirst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bloodthirst.png; sourceTree = "<group>"; };
+		E3D1CAB914027ED500E84211 /* Berserker Rage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Berserker Rage.png"; sourceTree = "<group>"; };
+		E3D1CACF1402818100E84211 /* BarbarianPSBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarbarianPSBg.png; sourceTree = "<group>"; };
+		E3D1CAD11402849200E84211 /* BarbarianASBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarbarianASBg.png; sourceTree = "<group>"; };
+		E3D1CAD3140286DB00E84211 /* Demon HunterASBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Demon HunterASBg.png"; sourceTree = "<group>"; };
+		E3D3678314038605004A7DE4 /* Archon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Archon.png; sourceTree = "<group>"; };
+		E3D3678414038605004A7DE4 /* Familiar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Familiar.png; sourceTree = "<group>"; };
+		E3D3678514038605004A7DE4 /* Blizzard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blizzard.png; sourceTree = "<group>"; };
+		E3D3678614038605004A7DE4 /* Meteor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meteor.png; sourceTree = "<group>"; };
+		E3D3678714038605004A7DE4 /* Arcane Torrent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arcane Torrent.png"; sourceTree = "<group>"; };
+		E3D3678814038605004A7DE4 /* Energy Armor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Energy Armor.png"; sourceTree = "<group>"; };
+		E3D3678914038605004A7DE4 /* Ray of Frost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ray of Frost.png"; sourceTree = "<group>"; };
+		E3D3678A14038605004A7DE4 /* Hydra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hydra.png; sourceTree = "<group>"; };
+		E3D3678B14038605004A7DE4 /* Teleport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teleport.png; sourceTree = "<group>"; };
+		E3D3678C14038605004A7DE4 /* Slow Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slow Time.png"; sourceTree = "<group>"; };
+		E3D3678D14038605004A7DE4 /* Mirror Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mirror Image.png"; sourceTree = "<group>"; };
+		E3D3678E14038605004A7DE4 /* Explosive Blast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Explosive Blast.png"; sourceTree = "<group>"; };
+		E3D3678F14038605004A7DE4 /* Storm Armor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Storm Armor.png"; sourceTree = "<group>"; };
+		E3D3679014038605004A7DE4 /* Disintegrate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Disintegrate.png; sourceTree = "<group>"; };
+		E3D3679114038605004A7DE4 /* Energy Twister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Energy Twister.png"; sourceTree = "<group>"; };
+		E3D3679214038605004A7DE4 /* Diamond Skin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Diamond Skin.png"; sourceTree = "<group>"; };
+		E3D3679314038605004A7DE4 /* Arcane Orb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arcane Orb.png"; sourceTree = "<group>"; };
+		E3D3679414038605004A7DE4 /* Magic Weapon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Magic Weapon.png"; sourceTree = "<group>"; };
+		E3D3679514038605004A7DE4 /* Electrocute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Electrocute.png; sourceTree = "<group>"; };
+		E3D3679614038605004A7DE4 /* Spectral Blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spectral Blade.png"; sourceTree = "<group>"; };
+		E3D3679714038605004A7DE4 /* Wave of Force.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wave of Force.png"; sourceTree = "<group>"; };
+		E3D3679814038605004A7DE4 /* Shock Pulse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shock Pulse.png"; sourceTree = "<group>"; };
+		E3D3679914038605004A7DE4 /* Ice Armor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ice Armor.png"; sourceTree = "<group>"; };
+		E3D3679A14038605004A7DE4 /* Magic Missile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Magic Missile.png"; sourceTree = "<group>"; };
+		E3D3679B14038605004A7DE4 /* Frost Nova.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frost Nova.png"; sourceTree = "<group>"; };
+		E3D367B6140388E1004A7DE4 /* Knowledge is Power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Knowledge is Power.png"; sourceTree = "<group>"; };
+		E3D367B7140388E1004A7DE4 /* Unstable Energy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unstable Energy.png"; sourceTree = "<group>"; };
+		E3D367B8140388E1004A7DE4 /* Temporal Shift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Temporal Shift.png"; sourceTree = "<group>"; };
+		E3D367B9140388E1004A7DE4 /* Piercing Attacks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Piercing Attacks.png"; sourceTree = "<group>"; };
+		E3D367BA140388E1004A7DE4 /* Temporal Flux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Temporal Flux.png"; sourceTree = "<group>"; };
+		E3D367BB140388E1004A7DE4 /* Black Ice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black Ice.png"; sourceTree = "<group>"; };
+		E3D367BC140388E1004A7DE4 /* Astral Presence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Astral Presence.png"; sourceTree = "<group>"; };
+		E3D367BD140388E1004A7DE4 /* Glass Cannon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Glass Cannon.png"; sourceTree = "<group>"; };
+		E3D367BE140388E1004A7DE4 /* Flight Before Fight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flight Before Fight.png"; sourceTree = "<group>"; };
+		E3D367BF140388E1004A7DE4 /* Drain Power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drain Power.png"; sourceTree = "<group>"; };
+		E3D367C0140388E1004A7DE4 /* Blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blur.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,10 +329,14 @@
 				E39B50DD1401FC9400F58D78 /* CLog.h */,
 				E334091F14016527000AD3B8 /* diablo3guideAppDelegate.h */,
 				E334092014016527000AD3B8 /* diablo3guideAppDelegate.m */,
+				E357C168140256E1005ED4F3 /* BaseTable.h */,
+				E357C169140256E1005ED4F3 /* BaseTable.m */,
 				E334092514016527000AD3B8 /* RootViewController.h */,
 				E334092614016527000AD3B8 /* RootViewController.m */,
 				E39B50CE1401F84700F58D78 /* ClassSelect.h */,
 				E39B50CF1401F84700F58D78 /* ClassSelect.m */,
+				E357C1631402557A005ED4F3 /* Skills.h */,
+				E357C1641402557A005ED4F3 /* Skills.m */,
 				E334091714016527000AD3B8 /* Supporting Files */,
 			);
 			path = diablo3guide;
@@ -148,6 +348,7 @@
 				E334092214016527000AD3B8 /* MainWindow.xib */,
 				E334092814016527000AD3B8 /* RootViewController.xib */,
 				E39B50D01401F84700F58D78 /* ClassSelect.xib */,
+				E357C1651402557A005ED4F3 /* Skills.xib */,
 				E334091814016527000AD3B8 /* diablo3guide-Info.plist */,
 				E334091914016527000AD3B8 /* InfoPlist.strings */,
 				E334091C14016527000AD3B8 /* main.m */,
@@ -178,6 +379,100 @@
 				E39B50E514020D2600F58D78 /* Witch@2x.png */,
 				E39B50E614020D2600F58D78 /* Wizard.png */,
 				E39B50E714020D2600F58D78 /* Wizard@2x.png */,
+				E357C15614024CCA005ED4F3 /* askill.png */,
+				E357C16114024FF1005ED4F3 /* pskill.png */,
+				E357C16B14025844005ED4F3 /* Bash.png */,
+				E357C16D140261DF005ED4F3 /* Ground Stomp.png */,
+				E3D1CA7A1402730400E84211 /* Wrath of the Berserker.png */,
+				E3D1CA7B1402730400E84211 /* Call of the Ancients.png */,
+				E3D1CA7C1402730400E84211 /* Earthquake.png */,
+				E3D1CA7D1402730400E84211 /* Sprint.png */,
+				E3D1CA7E1402730400E84211 /* Whirlwind.png */,
+				E3D1CA7F1402730400E84211 /* Ancient Spear.png */,
+				E3D1CA801402730400E84211 /* Overpower.png */,
+				E3D1CA811402730400E84211 /* Seismic Slam.png */,
+				E3D1CA821402730400E84211 /* Furious Charge.png */,
+				E3D1CA831402730400E84211 /* War Cry.png */,
+				E3D1CA841402730400E84211 /* Revenge.png */,
+				E3D1CA851402730400E84211 /* Frenzy.png */,
+				E3D1CA861402730400E84211 /* Threatening Shout.png */,
+				E3D1CA871402730400E84211 /* Rend.png */,
+				E3D1CA881402730400E84211 /* Weapon Throw.png */,
+				E3D1CA891402730400E84211 /* Leap Attack.png */,
+				E3D1CA8A1402730400E84211 /* Cleave.png */,
+				E3D1CA8B1402730400E84211 /* Ignore Pain.png */,
+				E3D1CA8C1402730400E84211 /* Battle Rage.png */,
+				E3D1CA8D1402730400E84211 /* Hammer of the Ancients.png */,
+				E3D1CAA31402788100E84211 /* Animosity.png */,
+				E3D1CAA514027ED500E84211 /* Shield of Iron.png */,
+				E3D1CAA614027ED500E84211 /* Second Wind.png */,
+				E3D1CAA714027ED500E84211 /* Insane Courage.png */,
+				E3D1CAD3140286DB00E84211 /* Demon HunterASBg.png */,
+				E3D1CAA814027ED500E84211 /* Frenzied Attacks.png */,
+				E3D1CAA914027ED500E84211 /* Bad Temper.png */,
+				E3D1CAAA14027ED500E84211 /* Slaughter.png */,
+				E3D1CAAB14027ED500E84211 /* Superstition.png */,
+				E3D1CAAC14027ED500E84211 /* Weak Spot.png */,
+				E3D1CAAD14027ED500E84211 /* Toughness.png */,
+				E3D1CAAE14027ED500E84211 /* Expert Defense.png */,
+				E3D1CAAF14027ED500E84211 /* Superior Skill.png */,
+				E3D1CAB014027ED500E84211 /* Aggression.png */,
+				E3D1CAB114027ED500E84211 /* Cruelty.png */,
+				E3D1CAB214027ED500E84211 /* Intimidation.png */,
+				E3D1CAB314027ED500E84211 /* Pound of Flesh.png */,
+				E3D1CAB414027ED500E84211 /* Iron Skin.png */,
+				E3D1CAB514027ED500E84211 /* Unforgiving.png */,
+				E3D1CAB614027ED500E84211 /* Ruthless.png */,
+				E3D1CAB714027ED500E84211 /* Relentless.png */,
+				E3D1CAB814027ED500E84211 /* Bloodthirst.png */,
+				E3D1CAB914027ED500E84211 /* Berserker Rage.png */,
+				E3D1CACF1402818100E84211 /* BarbarianPSBg.png */,
+				E3D1CAD11402849200E84211 /* BarbarianASBg.png */,
+				E3B80D8E14034915007366B7 /* Demon HunterPSBg.png */,
+				E3B80D90140349E8007366B7 /* MonkASBg.png */,
+				E3B80D91140349E8007366B7 /* MonkPSBg.png */,
+				E3B80D9414034A61007366B7 /* WizardASBg.png */,
+				E3B80D9514034A61007366B7 /* WizardPSBg.png */,
+				E3B80D9814034B67007366B7 /* Witch DoctorASBg.png */,
+				E3B80D9914034B67007366B7 /* Witch DoctorPSBg.png */,
+				E3B80D9E140350C2007366B7 /* Skill_blank.png */,
+				E3B80DA014036246007366B7 /* Quickening.png */,
+				E3D3678314038605004A7DE4 /* Archon.png */,
+				E3D3678414038605004A7DE4 /* Familiar.png */,
+				E3D3678514038605004A7DE4 /* Blizzard.png */,
+				E3D3678614038605004A7DE4 /* Meteor.png */,
+				E3D3678714038605004A7DE4 /* Arcane Torrent.png */,
+				E3D3678814038605004A7DE4 /* Energy Armor.png */,
+				E3D3678914038605004A7DE4 /* Ray of Frost.png */,
+				E3D3678A14038605004A7DE4 /* Hydra.png */,
+				E3D3678B14038605004A7DE4 /* Teleport.png */,
+				E3D3678C14038605004A7DE4 /* Slow Time.png */,
+				E3D3678D14038605004A7DE4 /* Mirror Image.png */,
+				E3D3678E14038605004A7DE4 /* Explosive Blast.png */,
+				E3D3678F14038605004A7DE4 /* Storm Armor.png */,
+				E3D3679014038605004A7DE4 /* Disintegrate.png */,
+				E3D3679114038605004A7DE4 /* Energy Twister.png */,
+				E3D3679214038605004A7DE4 /* Diamond Skin.png */,
+				E3D3679314038605004A7DE4 /* Arcane Orb.png */,
+				E3D3679414038605004A7DE4 /* Magic Weapon.png */,
+				E3D3679514038605004A7DE4 /* Electrocute.png */,
+				E3D3679614038605004A7DE4 /* Spectral Blade.png */,
+				E3D3679714038605004A7DE4 /* Wave of Force.png */,
+				E3D3679814038605004A7DE4 /* Shock Pulse.png */,
+				E3D3679914038605004A7DE4 /* Ice Armor.png */,
+				E3D3679A14038605004A7DE4 /* Magic Missile.png */,
+				E3D3679B14038605004A7DE4 /* Frost Nova.png */,
+				E3D367B6140388E1004A7DE4 /* Knowledge is Power.png */,
+				E3D367B7140388E1004A7DE4 /* Unstable Energy.png */,
+				E3D367B8140388E1004A7DE4 /* Temporal Shift.png */,
+				E3D367B9140388E1004A7DE4 /* Piercing Attacks.png */,
+				E3D367BA140388E1004A7DE4 /* Temporal Flux.png */,
+				E3D367BB140388E1004A7DE4 /* Black Ice.png */,
+				E3D367BC140388E1004A7DE4 /* Astral Presence.png */,
+				E3D367BD140388E1004A7DE4 /* Glass Cannon.png */,
+				E3D367BE140388E1004A7DE4 /* Flight Before Fight.png */,
+				E3D367BF140388E1004A7DE4 /* Drain Power.png */,
+				E3D367C0140388E1004A7DE4 /* Blur.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -258,6 +553,101 @@
 				E39B50EF14020D2600F58D78 /* Witch@2x.png in Resources */,
 				E39B50F014020D2600F58D78 /* Wizard.png in Resources */,
 				E39B50F114020D2600F58D78 /* Wizard@2x.png in Resources */,
+				E357C15714024CCA005ED4F3 /* askill.png in Resources */,
+				E357C16214024FF1005ED4F3 /* pskill.png in Resources */,
+				E357C1671402557A005ED4F3 /* Skills.xib in Resources */,
+				E357C16C14025844005ED4F3 /* Bash.png in Resources */,
+				E357C16E140261DF005ED4F3 /* Ground Stomp.png in Resources */,
+				E3D1CA8E1402730400E84211 /* Wrath of the Berserker.png in Resources */,
+				E3D1CA8F1402730400E84211 /* Call of the Ancients.png in Resources */,
+				E3D1CA901402730400E84211 /* Earthquake.png in Resources */,
+				E3D1CA911402730400E84211 /* Sprint.png in Resources */,
+				E3D1CA921402730400E84211 /* Whirlwind.png in Resources */,
+				E3D1CA931402730400E84211 /* Ancient Spear.png in Resources */,
+				E3D1CA941402730400E84211 /* Overpower.png in Resources */,
+				E3D1CA951402730400E84211 /* Seismic Slam.png in Resources */,
+				E3D1CA961402730400E84211 /* Furious Charge.png in Resources */,
+				E3D1CA971402730400E84211 /* War Cry.png in Resources */,
+				E3D1CA981402730400E84211 /* Revenge.png in Resources */,
+				E3D1CA991402730400E84211 /* Frenzy.png in Resources */,
+				E3D1CA9A1402730400E84211 /* Threatening Shout.png in Resources */,
+				E3D1CA9B1402730400E84211 /* Rend.png in Resources */,
+				E3D1CA9C1402730400E84211 /* Weapon Throw.png in Resources */,
+				E3D1CA9D1402730400E84211 /* Leap Attack.png in Resources */,
+				E3D1CA9E1402730400E84211 /* Cleave.png in Resources */,
+				E3D1CA9F1402730400E84211 /* Ignore Pain.png in Resources */,
+				E3D1CAA01402730400E84211 /* Battle Rage.png in Resources */,
+				E3D1CAA11402730400E84211 /* Hammer of the Ancients.png in Resources */,
+				E3D1CAA41402788100E84211 /* Animosity.png in Resources */,
+				E3D1CABA14027ED500E84211 /* Shield of Iron.png in Resources */,
+				E3D1CABB14027ED500E84211 /* Second Wind.png in Resources */,
+				E3D1CABC14027ED500E84211 /* Insane Courage.png in Resources */,
+				E3D1CABD14027ED500E84211 /* Frenzied Attacks.png in Resources */,
+				E3D1CABE14027ED500E84211 /* Bad Temper.png in Resources */,
+				E3D1CABF14027ED500E84211 /* Slaughter.png in Resources */,
+				E3D1CAC014027ED500E84211 /* Superstition.png in Resources */,
+				E3D1CAC114027ED500E84211 /* Weak Spot.png in Resources */,
+				E3D1CAC214027ED500E84211 /* Toughness.png in Resources */,
+				E3D1CAC314027ED500E84211 /* Expert Defense.png in Resources */,
+				E3D1CAC414027ED500E84211 /* Superior Skill.png in Resources */,
+				E3D1CAC514027ED500E84211 /* Aggression.png in Resources */,
+				E3D1CAC614027ED500E84211 /* Cruelty.png in Resources */,
+				E3D1CAC714027ED500E84211 /* Intimidation.png in Resources */,
+				E3D1CAC814027ED500E84211 /* Pound of Flesh.png in Resources */,
+				E3D1CAC914027ED500E84211 /* Iron Skin.png in Resources */,
+				E3D1CACA14027ED500E84211 /* Unforgiving.png in Resources */,
+				E3D1CACB14027ED500E84211 /* Ruthless.png in Resources */,
+				E3D1CACC14027ED500E84211 /* Relentless.png in Resources */,
+				E3D1CACD14027ED500E84211 /* Bloodthirst.png in Resources */,
+				E3D1CACE14027ED500E84211 /* Berserker Rage.png in Resources */,
+				E3D1CAD01402818100E84211 /* BarbarianPSBg.png in Resources */,
+				E3D1CAD21402849200E84211 /* BarbarianASBg.png in Resources */,
+				E3D1CAD4140286DB00E84211 /* Demon HunterASBg.png in Resources */,
+				E3B80D8F14034915007366B7 /* Demon HunterPSBg.png in Resources */,
+				E3B80D92140349E8007366B7 /* MonkASBg.png in Resources */,
+				E3B80D93140349E8007366B7 /* MonkPSBg.png in Resources */,
+				E3B80D9614034A61007366B7 /* WizardASBg.png in Resources */,
+				E3B80D9714034A61007366B7 /* WizardPSBg.png in Resources */,
+				E3B80D9A14034B67007366B7 /* Witch DoctorASBg.png in Resources */,
+				E3B80D9B14034B67007366B7 /* Witch DoctorPSBg.png in Resources */,
+				E3B80D9F140350C2007366B7 /* Skill_blank.png in Resources */,
+				E3B80DA114036246007366B7 /* Quickening.png in Resources */,
+				E3D3679C14038605004A7DE4 /* Archon.png in Resources */,
+				E3D3679D14038605004A7DE4 /* Familiar.png in Resources */,
+				E3D3679E14038605004A7DE4 /* Blizzard.png in Resources */,
+				E3D3679F14038605004A7DE4 /* Meteor.png in Resources */,
+				E3D367A014038605004A7DE4 /* Arcane Torrent.png in Resources */,
+				E3D367A114038605004A7DE4 /* Energy Armor.png in Resources */,
+				E3D367A214038605004A7DE4 /* Ray of Frost.png in Resources */,
+				E3D367A314038605004A7DE4 /* Hydra.png in Resources */,
+				E3D367A414038605004A7DE4 /* Teleport.png in Resources */,
+				E3D367A514038605004A7DE4 /* Slow Time.png in Resources */,
+				E3D367A614038605004A7DE4 /* Mirror Image.png in Resources */,
+				E3D367A714038605004A7DE4 /* Explosive Blast.png in Resources */,
+				E3D367A814038605004A7DE4 /* Storm Armor.png in Resources */,
+				E3D367A914038605004A7DE4 /* Disintegrate.png in Resources */,
+				E3D367AA14038605004A7DE4 /* Energy Twister.png in Resources */,
+				E3D367AB14038605004A7DE4 /* Diamond Skin.png in Resources */,
+				E3D367AC14038605004A7DE4 /* Arcane Orb.png in Resources */,
+				E3D367AD14038605004A7DE4 /* Magic Weapon.png in Resources */,
+				E3D367AE14038605004A7DE4 /* Electrocute.png in Resources */,
+				E3D367AF14038605004A7DE4 /* Spectral Blade.png in Resources */,
+				E3D367B014038605004A7DE4 /* Wave of Force.png in Resources */,
+				E3D367B114038605004A7DE4 /* Shock Pulse.png in Resources */,
+				E3D367B214038605004A7DE4 /* Ice Armor.png in Resources */,
+				E3D367B314038605004A7DE4 /* Magic Missile.png in Resources */,
+				E3D367B414038605004A7DE4 /* Frost Nova.png in Resources */,
+				E3D367C1140388E1004A7DE4 /* Knowledge is Power.png in Resources */,
+				E3D367C2140388E1004A7DE4 /* Unstable Energy.png in Resources */,
+				E3D367C3140388E1004A7DE4 /* Temporal Shift.png in Resources */,
+				E3D367C4140388E1004A7DE4 /* Piercing Attacks.png in Resources */,
+				E3D367C5140388E1004A7DE4 /* Temporal Flux.png in Resources */,
+				E3D367C6140388E1004A7DE4 /* Black Ice.png in Resources */,
+				E3D367C7140388E1004A7DE4 /* Astral Presence.png in Resources */,
+				E3D367C8140388E1004A7DE4 /* Glass Cannon.png in Resources */,
+				E3D367C9140388E1004A7DE4 /* Flight Before Fight.png in Resources */,
+				E3D367CA140388E1004A7DE4 /* Drain Power.png in Resources */,
+				E3D367CB140388E1004A7DE4 /* Blur.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +662,8 @@
 				E334092114016527000AD3B8 /* diablo3guideAppDelegate.m in Sources */,
 				E334092714016527000AD3B8 /* RootViewController.m in Sources */,
 				E39B50D11401F84700F58D78 /* ClassSelect.m in Sources */,
+				E357C1661402557A005ED4F3 /* Skills.m in Sources */,
+				E357C16A140256E1005ED4F3 /* BaseTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

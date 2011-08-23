@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ClassSelect : UITableViewController
+@interface ClassSelect : BaseTable
 
 @property (retain , nonatomic) NSArray *classes;
 

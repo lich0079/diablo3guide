@@ -3,30 +3,1786 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>pskill</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Animosity</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>Increases Fury generation by 10% and adds 20 points to the maximum amount of Fury.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Berserker Rage</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>Increases damage by 20% when the Barbarian&apos;s Fury is 100%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Bloodthirst</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>10% of damage dealt is gained as health.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Relentless</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>When the Barbarian is below 20% health, skills cost no Fury and damage taken is reduced by 50%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ruthless</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>Increases critical strike chance by 5% and increases critical strike damage by 50%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Unforgiving</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>Fury does not degenerate any longer. Also, the Barbarian gains 1 Fury every 5 seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Iron Skin</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>Increases armor by 100%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Pound of Flesh</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>Increases the chance to find health globes by 3% and healing done by these is increased by 33%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Intimidation</string>
+				<key>level</key>
+				<string>13</string>
+				<key>desc1</key>
+				<string>Increases damage dealt by 15% and reduces repair costs by 5%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Cruelty</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>Unknown. (Currently shares a description with Bloodthirst.)</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Aggression</string>
+				<key>level</key>
+				<string>17</string>
+				<key>desc1</key>
+				<string>Increases attack by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Superior Skill</string>
+				<key>level</key>
+				<string>19</string>
+				<key>desc1</key>
+				<string>Increases precision by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Expert Defense</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>Increases defense by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Toughness</string>
+				<key>level</key>
+				<string>23</string>
+				<key>desc1</key>
+				<string>Increases vitality by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Weak Spot</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>Increases critical strike damage by 100%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Superstition</string>
+				<key>level</key>
+				<string>26</string>
+				<key>desc1</key>
+				<string>Reduces non-physical damage taken by 10%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Slaughter</string>
+				<key>level</key>
+				<string>28</string>
+				<key>desc1</key>
+				<string>Unknown. (Currently shares a description with Berserker Rage.)</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Bad Temper</string>
+				<key>level</key>
+				<string>31</string>
+				<key>desc1</key>
+				<string>Increases Fury generation by 10%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Frenzied Attacks</string>
+				<key>level</key>
+				<string>31</string>
+				<key>desc1</key>
+				<string>When wielding two weapons, the character has 20% increased critical strike chance and 30% increased critical strike damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Insane Courage</string>
+				<key>level</key>
+				<string>31</string>
+				<key>desc1</key>
+				<string>When the Barbarian has under 35% health, damage taken is reduced by 30%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Second Wind</string>
+				<key>level</key>
+				<string>31</string>
+				<key>desc1</key>
+				<string>Regenerates 20% health per minute.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Shield of Iron</string>
+				<key>level</key>
+				<string>31</string>
+				<key>desc1</key>
+				<string>Increases the chance to block attacks with a shield by 10%.</string>
+			</dict>
+		</array>
+		<key>askill</key>
+		<array>
+			<dict>
+				<key>desc2</key>
+				<string>Bashes the enemy for X-X weapon damage, with a X% chance to cause knockback.</string>
+				<key>desc1</key>
+				<string>A powerful melee swiping attack, this hits a single target for heavy damage, with a chance to knockback as well.</string>
+				<key>name</key>
+				<string>Bash</string>
+				<key>level</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ground Stomp</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>This defensive skill causes the Barbarian to stomp his foot, crushing the earth and stunning all nearby enemies. With runestones it can add damage, knockback, and more.</string>
+				<key>desc2</key>
+				<string>Shakes the ground, stunning all enemies within X feet for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Hammer of the Ancients</string>
+				<key>level</key>
+				<string>2</string>
+				<key>desc1</key>
+				<string>The Barbarian swings a huge yellow hammer overhead, crushing it down on enemies for massive damage, plus a good chance of critical damage.</string>
+				<key>desc2</key>
+				<string>Calls forth a massive hammer to smash the enemy for X% weapon damage, and has a X% critical chance.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Battle Rage</string>
+				<key>level</key>
+				<string>3</string>
+				<key>desc1</key>
+				<string>A shout that provides a damage boost and critical hit improvement for a short duration.</string>
+				<key>desc2</key>
+				<string>Enter a rage which provides a X% damage boost and X% critical hit bonus for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ignore Pain</string>
+				<key>level</key>
+				<string>4</string>
+				<key>desc1</key>
+				<string>A shout, this skill reduces all damage taken and grants immunity to most debuffs.</string>
+				<key>decs2</key>
+				<string>Reduces all damage taken by X% and grants immunity to root, snare and stun effects for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Cleave</string>
+				<key>level</key>
+				<string>5</string>
+				<key>desc1</key>
+				<string>A powerful melee attack, this hits multiple enemies per swing; as many as are within the sweep of the Barbarian&apos;s reach, dealing substantial damage to everything.</string>
+				<key>desc2</key>
+				<string>The Barbarian swings at multiple targets at once, dealing X% weapon damage to all targets in front of him.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Leap Attack</string>
+				<key>level</key>
+				<string>6</string>
+				<key>desc1</key>
+				<string>A deadly fast attack, this one allows the Barbarian to leap into attack, moving far faster than running speed, as well as vaulting over obstacles or monsters between him and his prey.</string>
+				<key>desc2</key>
+				<string>The Barbarian makes a mighty leap, causing X% weapon damage to all enemies within X feet upon landing.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Weapon Throw</string>
+				<key>level</key>
+				<string>7</string>
+				<key>desc1</key>
+				<string>A powerful ranged attack, this one allows the Barbarian to hurl his weapon at enemies. Runestones add amazing effects, including one in which the Barbarian hurls a monster corpse, dealing high damage to nearby targets.</string>
+				<key>desc2</key>
+				<string>The Barbarian hurls a weapon at his foes, causing X% weapon damage and slows the target to X% of their normal movement speed for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Rend</string>
+				<key>level</key>
+				<string>8</string>
+				<key>desc1</key>
+				<string>A melee attack that deals considerable bonus damage to all enemies within range.</string>
+				<key>desc2</key>
+				<string>Perform a slashing vicious blow to all enemies within X feet, dealing X% weapon damage and an additional X-X physical damage over X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Threatening Shout</string>
+				<key>level</key>
+				<string>9</string>
+				<key>desc1</key>
+				<string>A shout that debuffs enemies, lowering their damage.</string>
+				<key>desc2</key>
+				<string>Shouts with great ferocity, reducing damage done by enemies within X feet by X% for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Frenzy</string>
+				<key>level</key>
+				<string>11</string>
+				<key>desc1</key>
+				<string>Consecutive hits with this melee skill grant increased attack speed and weapon damage.</string>
+				<key>desc2</key>
+				<string>Each strike grants a X% attack speed and X% weapon damage boost for X seconds. Frenzy can be stacked up to X times for a total bonus of X% attack speed and X% weapon damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Revenge</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>A melee skill, this one becomes available when when the Barbarian is hit. It deals a fast spinning hit that can strike multiple enemies for considerable damage. When seen at Blizzcon 2010, this skill was an active one; players had to hit the button to trigger it once it was enabled. The skill was changed to a direct, automated strike of some sort during later development, though details are not yet known.</string>
+				<key>desc2</key>
+				<string>When hit, there is a X% chance the Barbarian may strike all enemies within X feet, dealing X% weapon damage and gaining X% health for each enemy hit.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>War Cry</string>
+				<key>level</key>
+				<string>14</string>
+				<key>desc1</key>
+				<string>This shout boosts the Barbarian&apos;s Fury, as well as the armor of the Barbarian and all nearby party members.</string>
+				<key>desc2</key>
+				<string>A terrifying cry that provides X fury and increases the armor of the Barbarian and all party members within X feet by X% for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Furious Charge</string>
+				<key>level</key>
+				<string>16</string>
+				<key>desc1</key>
+				<string>A very fast moving charge attack, enabling the Barbarian to pass through enemies on the way to his target.</string>
+				<key>desc2</key>
+				<string>Charge directly at an enemy causing X% weapon damage to them and X% damage to enemies in the way.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Seismic Slam</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>A more powerful version of Ground Stomp, this skill deals higher damage and knocks back enemies, rather than stunning them.</string>
+				<key>desc2</key>
+				<string>Slam the ground causing a wave of destruction that deals X% weapon damage in front of the Barbarian and causes knockback.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Overpower</string>
+				<key>level</key>
+				<string>19</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ancient Spear</string>
+				<key>level</key>
+				<string>21</string>
+				<key>desc1</key>
+				<string>&quot;Get over here!&quot; A spear on a chain, hurled to skewer enemies and drag them closer. Runestones can add the ability to skewer multiple enemies on a single spear. This skill should really be called &quot;Ancient Harpoon&quot; since harpoons have barbs and ropes to pull in the aquatic life form they are used to skewer. Spears have neither barbs nor ropes attached.</string>
+				<key>desc2</key>
+				<string>Throws a spear with a maximum range of X feet, pulling each target back to the Barbarian, slowing movement speed and dealing X-X damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Whirlwind</string>
+				<key>level</key>
+				<string>22</string>
+				<key>desc1</key>
+				<string>The classic Diablo 2 skill, this one allows the Barbarian to whirl in a moving circle, landing multiple hits to anything in range. Can be quite dangerous in PvP, since a slowed Barbarian becomes a sitting duck, unable to exit the WW in case of emergency.</string>
+				<key>desc2</key>
+				<string>The Barbarian swirls in a cyclone, delivering multiple attacks to everything in his path with each hit doing X% weapon damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Sprint</string>
+				<key>level</key>
+				<string>23</string>
+				<key>desc1</key>
+				<string>A shout that buffs the Barbarian with extra movement speed.</string>
+				<key>desc2</key>
+				<string>Grants X% speed boost for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Earthquake</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>This stomp causes massive damage to all nearby enemies.</string>
+				<key>desc2</key>
+				<string>Shakes the earth violently, causing massive damage to all nearby enemies.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Call of the Ancients</string>
+				<key>level</key>
+				<string>27</string>
+				<key>desc1</key>
+				<string>The only summoning skill of the Barbarian, this one allows him to summon the Ancients from Diablo II, who will briefly assist in battle.</string>
+				<key>desc2</key>
+				<string>Summons three ancient Barbarians; Talic, Korlic and Madawc, who inflict X% weapon damage. Lasts X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Wrath of the Berserker</string>
+				<key>level</key>
+				<string>29</string>
+				<key>desc1</key>
+				<string>This shout grants higher stats and enables the Barbarian to partially break monster immunities.</string>
+				<key>desc2</key>
+				<string>Enter a heightened sense of fury, raising several stats (Critical Hit, Attack Speed, Dodge Chance, Movement Speed) for X seconds. Monsters with damage immunities will take X% less damage from the Barbarian&apos;s attacks rather than being immune.</string>
+			</dict>
+		</array>
 		<key>icon</key>
 		<string>Barbarian</string>
 		<key>name</key>
 		<string>Barbarian</string>
 	</dict>
 	<dict>
+		<key>askill</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Caltrops</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Hungering Arrow</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>An arrow skill that does bonus damage and has a seeking property, much like the Amazon&apos;s Guided Arrow from Diablo II.</string>
+				<key>desc2</key>
+				<string>A bolt that seeks out enemies and does X% damage and has an Y% chance to pierce the target.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Entangling Shot</string>
+				<key>level</key>
+				<string>2</string>
+				<key>desc1</key>
+				<string>This debuff skill deals solid damage, as well as slowing the target. Nearby enemies may be chained as well, potentially slowing several monsters and blocking the movement of all that are stuck behind them.</string>
+				<key>desc2</key>
+				<string>Release a sticky adhesive that deals X% weapon damage and entangles up to X enemies, slowing their movement speed by X% for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Evasive Fire</string>
+				<key>level</key>
+				<string>3</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Fan of Knives</string>
+				<key>level</key>
+				<string>4</string>
+				<key>desc1</key>
+				<string>This skill, instantly nicknamed &quot;knife nova,&quot; shoots out numerous blades, dealing considerable physical damage to any targets nearby. The range is very short, hardly more than a melee weapon, making this one best used in very close range against multiple targets.</string>
+				<key>desc2</key>
+				<string>Throw knives out in a spiral around you doing X-X damage to all enemies within X feet of you. Your knives will also slow enemies by X% for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Bola Shot</string>
+				<key>level</key>
+				<string>5</string>
+				<key>desc1</key>
+				<string>The Demon Hunter uses a bow or crossbow to fire a spinning projectile; two bombs on a length of rope. The Bola hits the target and wraps around it, dealing minimal impact damage but considerably more explosive damage after a couple of seconds.</string>
+				<key>desc2</key>
+				<string>Shoot out an explosive Bola that wraps itself around its target. After X seconds the Bola explodes, dealing X% weapon damage to the target and an additional X% weapon damage to all targets within X feet.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Vault</string>
+				<key>level</key>
+				<string>6</string>
+				<key>desc1</key>
+				<string>A fast movement skill, this allows the Demon Hunter to move a considerable distance at high speed, passing through monsters and other players, though not through solid objects or over open space, as Teleport or Leap Attack does.</string>
+				<key>desc2</key>
+				<string>Tumble acrobatically X feet.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Grenades</string>
+				<key>level</key>
+				<string>7</string>
+				<key>desc1</key>
+				<string>Grenades are small projectiles thrown by the Demon Hunter. They bounce around, ricocheting off of walls and other obstacles, before exploding a couple of seconds after they are thrown. They deal considerable fire damage, but are hard to aim precisely, and are best used against large mobs, especially to hit targets located in the back row.</string>
+				<key>desc2</key>
+				<string>Throw out three grenades that explode for X-X fire damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Marked for Death</string>
+				<key>level</key>
+				<string>8</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Chakram</string>
+				<key>level</key>
+				<string>9</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Impale</string>
+				<key>level</key>
+				<string>11</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Smoke Screen</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Spike Trap</string>
+				<key>level</key>
+				<string>14</string>
+				<key>desc1</key>
+				<string>This trap/object is placed and triggers when enemies move into range.You can have a maximum for X traps active at one time.</string>
+				<key>desc2</key>
+				<string>Lay a trap that arms after X seconds and triggers when an enemy approaches. The explosion does X-X damage per second to all enemies within X feet for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Companion</string>
+				<key>level</key>
+				<string>16</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Elemental Arrow</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Shadow Power</string>
+				<key>level</key>
+				<string>19</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Multishot</string>
+				<key>level</key>
+				<string>21</string>
+				<key>desc1</key>
+				<string>The Diablo II favorite returns. This skill fires a huge cluster of arrows or bolts, guaranteeing a hit on everything in range. The mana cost is fairly high and the damage is lower than most single arrow attacks, making it best used against huge groups.</string>
+				<key>desc2</key>
+				<string>Fire a massive volley of arrows dealing X% weapon damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Sentry</string>
+				<key>level</key>
+				<string>22</string>
+				<key>desc1</key>
+				<string>Sentry creates a mechanical turret that fires arrows at enemies, working much like the Wizard&apos;s Hydra skill.</string>
+				<key>desc2</key>
+				<string>The Demon Hunter can have a maximum of X traps active at one time.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Cluster Arrow</string>
+				<key>level</key>
+				<string>23</string>
+				<key>desc1</key>
+				<string>The Demon Hunter fires an arrow that hits the ground, and grenades erupt from the consequent blast, which in turn explode to damage enemies.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Rapid Fire</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Preparation</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Strafe</string>
+				<key>level</key>
+				<string>27</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Rain of Arrows</string>
+				<key>level</key>
+				<string>29</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+		</array>
+		<key>pskill</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Weak Spot</string>
+				<key>level</key>
+				<string>3</string>
+				<key>desc1</key>
+				<string>Increases critical strike damage by 100%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Archery</string>
+				<key>level</key>
+				<string>6</string>
+				<key>desc1</key>
+				<string>Reduces the cost of Hatred-based skills by 50%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Cloak of Shadows</string>
+				<key>level</key>
+				<string>6</string>
+				<key>desc1</key>
+				<string>Reduces melee damage taken by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Aggression</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>Increases attack by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Superior Skill</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>Increases precision by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Toughness</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>Increases vitality by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Back to Basics</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>Increases the basic damage done by the Demon Hunter&apos;s weapon by 100%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Focused Discipline</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>Reduces the cost of Discipline-based skills by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Opportunity</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>Increases damage dealt to slowed targets by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Years of Training</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>When a Discipline-based skill is used, damage dealt by the Demon Hunter is increased by 10% for 10 seconds. Can stack up to three times.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ballistics</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>Increases damage dealt by rockets (?) by 100%. The rocket effect is provided by certain runestones.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Hot Pursuit</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>When Hatred is at its maximum, run speed is increased by 10%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Killing Spree</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>When an enemy is killed by the Demon Hunter, the next attack dealt within the next 5 seconds has 30%% increased critical strike chance.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Resourcefulness</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>When Discipline is under 20%, the regeneration of Hatred is increased by 30%.</string>
+			</dict>
+		</array>
 		<key>icon</key>
 		<string>Hunter</string>
 		<key>name</key>
 		<string>Demon Hunter</string>
 	</dict>
 	<dict>
+		<key>pskill</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Exalted Soul</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>Increases maximum Spirit by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Frenzied Attacks</string>
+				<key>level</key>
+				<string>13</string>
+				<key>desc1</key>
+				<string>When wielding two weapons, the character has 20% increased critical strike chance and 30% increased critical strike damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Aggression</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>Increases attack by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Superior Skill</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>Increases precision by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Expert Defense</string>
+				<key>level</key>
+				<string>17</string>
+				<key>desc1</key>
+				<string>Increases defense by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Resonance</string>
+				<key>level</key>
+				<string>19</string>
+				<key>desc1</key>
+				<string>Increases the duration of auras by 120 seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Untouchable</string>
+				<key>level</key>
+				<string>19</string>
+				<key>desc1</key>
+				<string>After dealing a critical strike, increases dodge chance by 10% for 10 seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Counterattack</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>When the Monk dodges an attack, the next skill has its Spirit cost reduced by 40%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Weak Spot</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>Increases critical strike damage by 100%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Strength in Adversity</string>
+				<key>level</key>
+				<string>23</string>
+				<key>desc1</key>
+				<string>Healing effects are improved by 50% if the Monk is under 35% health.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Near Death Experience</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>When the Monk receives a fatal blow, the Monk gains 30% health and 30% Spirit.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Flawless Technique</string>
+				<key>level</key>
+				<string>28</string>
+				<key>desc1</key>
+				<string>Skills that generate Spirit (i.e. combos) do 20% more damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Strength of Spirit</string>
+				<key>level</key>
+				<string>30</string>
+				<key>desc1</key>
+				<string>Skills that require Spirit do 30% more damage.</string>
+			</dict>
+		</array>
+		<key>askill</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Blinding Flash</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>Spirit Skill</string>
+				<key>desc2</key>
+				<string>Creates a flash of light that blinds all nearby enemies. Blinded enemies will not attack unless they are attacked first. Lasts for X-X seconds. Blinded enemies have a X% reduced chance to hit.  Rank One: Blinds enemies for 3-4 seconds, 20% reduced chance to hit.  Rank Two: Blinds enemies for 3-5 seconds, 25% reduced chance to hit.</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>One of two low-level combo skills available to the Monk, this punching attack lands three not-very quick hits, dealing increasing amounts of lightning damage with each attack.  Generates 3 Spirit per hit.</string>
+				<key>desc2</key>
+				<string>Unleashes a series of increasingly powerful lightning infused punches that deal X% weapon damage as lightning damage, and has a higher chance than normal to interrupt enemy attacks.</string>
+				<key>level</key>
+				<string>1</string>
+				<key>name</key>
+				<string>Fists of Thunder</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>A curing, cleansing spell that removes debuffs from the Monk and his party.</string>
+				<key>desc2</key>
+				<string>The Monk banishes any harmful effects from himself and his allies, including stun, slowing, and effects that reduce defensive or offensive abilities.</string>
+				<key>level</key>
+				<string>2</string>
+				<key>name</key>
+				<string>Breath of Heaven</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>A roundhouse kick that knocks back enemies.</string>
+				<key>desc2</key>
+				<string>The Monk unleashes a deadly roundhouse kick, causing knockback and dealing X-X physical damage.  Rank One: 25 Spirit, Deals 10-20 Physical damage.</string>
+				<key>level</key>
+				<string>3</string>
+				<key>name</key>
+				<string>Lashing Tail Kick</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>No description is available.</string>
+				<key>level</key>
+				<string>4</string>
+				<key>name</key>
+				<string>Mantra of Healing</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>No description is available.</string>
+				<key>level</key>
+				<string>5</string>
+				<key>name</key>
+				<string>Deadly Reach</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>A fast moving, charge-like attack, more useful for the movement than the damage dealt.</string>
+				<key>desc2</key>
+				<string>The Monk dashes quickly at the targeted enemy or location, dealing X% weapon damage plus X-X physical damage.</string>
+				<key>level</key>
+				<string>6</string>
+				<key>name</key>
+				<string>Dashing Strike</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>Spirit Skill</string>
+				<key>desc2</key>
+				<string>The Monk creates an illusion of himself composed of pure holy energy. This illusion attracts enemies to it, and then it explodes dealing X-X holy damage.  Rank One: Costs 40 Spirit, Explodes for 10-20 holy damage</string>
+				<key>level</key>
+				<string>7</string>
+				<key>name</key>
+				<string>Lethal Decoy</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>A debuff combo, this one slows enemies, while dealing fairly minor damage. Best mixed in for the first or second hit with another more impactful combo.</string>
+				<key>desc2</key>
+				<string>A series of large sweeping attacks that debilitate enemies and cause X% weapon damage.  First Hit: Enemies are dazed, reducing movement speed by X% for X seconds.  Second and Third Hit: Refreshes the duration of the daze effect.</string>
+				<key>level</key>
+				<string>8</string>
+				<key>name</key>
+				<string>Crippling Wave</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>No description is available.</string>
+				<key>level</key>
+				<string>9</string>
+				<key>name</key>
+				<string>Mantra of Retribution</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>A defensive skill that creates a small protected circle around the Monk into which no monster can enter. Spells and ranged attacks will still strike the Monk though.</string>
+				<key>desc2</key>
+				<string>Creates a protected region on the ground for X seconds that cannot be passed through.</string>
+				<key>level</key>
+				<string>11</string>
+				<key>name</key>
+				<string>Inner Sanctuary</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>This skill became an instant legend when the Monk debuted at Blizzcon 2009. It&apos;s a combo skill that deals two light damage hits, before the third booby traps the target with a beating heart visible above their head. If a monster dies with the heart still there, they explode in a supernova of blood, dealing substantial AoE damage to all nearby enemies.</string>
+				<key>desc2</key>
+				<string>A series of lethal strikes target enemy nerve clusters that sets up a deadly chain reaction within the target. Deals X% weapon damage.  Third Hit: Target bleeds for X physical damage over X seconds. If the target dies it explodes dealing X-X% of maximum health in physical damage to all enemies nearby.</string>
+				<key>level</key>
+				<string>12</string>
+				<key>name</key>
+				<string>Exploding Palm</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>No description is available.</string>
+				<key>level</key>
+				<string>14</string>
+				<key>name</key>
+				<string>Mantra of Evasion</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>No description is available.</string>
+				<key>level</key>
+				<string>16</string>
+				<key>name</key>
+				<string>Tempest Rush</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>Combo skill</string>
+				<key>desc2</key>
+				<string>The Monk sweeps his weapon in a circle, forming a barrier of force that deals X% weapon damage to every enemy hit. Can hit enemies multiple times.</string>
+				<key>level</key>
+				<string>17</string>
+				<key>name</key>
+				<string>Sweeping Wind</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>Spirit Skill</string>
+				<key>desc2</key>
+				<string>The Monk creates a shield that protects him from all incoming damage. Lasts X seconds.</string>
+				<key>level</key>
+				<string>18</string>
+				<key>name</key>
+				<string>Serenity</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>One of the most popular combo skills, this attack lands a crushing series of body shots on the enemy. It was shown in modified form in the Monk cinematic; used to pulverize the ribs of a Morlu Caster.</string>
+				<key>desc2</key>
+				<string>A series of punches strike enemies in front of the Monk that cause X% weapon damage.</string>
+				<key>level</key>
+				<string>21</string>
+				<key>name</key>
+				<string>Way of the Hundred Fists</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>No description is available.</string>
+				<key>level</key>
+				<string>22</string>
+				<key>name</key>
+				<string>Mantra of Conviction</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>A very powerful attack, when used in Blizzcon 2009 this skill allowed the Monk to teleport to an enemy, to strike it or other nearby enemies five times, and all without ever being hit in return. It was expected to be nerfed, and has not been seen in action since.</string>
+				<key>desc2</key>
+				<string>Unleashes a fury of attacks striking nearby enemies X times for X% weapon damage for each hit.</string>
+				<key>level</key>
+				<string>24</string>
+				<key>name</key>
+				<string>Seven Sided Strike</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>No description is available.</string>
+				<key>level</key>
+				<string>27</string>
+				<key>name</key>
+				<string>Mystic Ally</string>
+			</dict>
+			<dict>
+				<key>desc1</key>
+				<string>Spirit Skill</string>
+				<key>desc2</key>
+				<string>The Monk summons a rolling wave of holy fire that scorches everything in its path, dealing X holy damage.</string>
+				<key>level</key>
+				<string>29</string>
+				<key>name</key>
+				<string>Wave of Light</string>
+			</dict>
+		</array>
 		<key>icon</key>
 		<string>Monk</string>
 		<key>name</key>
 		<string>Monk</string>
 	</dict>
 	<dict>
+		<key>askill</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Poison Dart</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>The Witch Doctor uses a blowpipe to fire a poison dart. A fairly slow attack that&apos;s hugely improved by runestones.</string>
+				<key>desc2</key>
+				<string>Fires a deadly poison dart that deals X-X poison damage and an additional X-X poison damage over X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Summon Zombie Dog</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>Better known as &quot;Mongrels,&quot; Zombie Dogs are the basic Witch Doctor pet, capable of tanking and fighting effectively, though they are not meant for a long life, and deal their best damage when Sacrificed.</string>
+				<key>desc2</key>
+				<string>The Witch Doctor summons a level X zombie dog to aid him. Can have up to X zombie dogs out at a time.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Plague of Toads</string>
+				<key>level</key>
+				<string>2</string>
+				<key>desc1</key>
+				<string>The Witch Doctor summons several toads that hop forward like living Charged Bolts and explode against enemies. Some dramatic runestone effects are known for this skill.</string>
+				<key>desc2</key>
+				<string>Release a handful of toads that explode on contact with an enemy, dealing poison damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Grasp of the Dead</string>
+				<key>level</key>
+				<string>3</string>
+				<key>desc1</key>
+				<string>A powerful curse, this one deals damage as well as slowing enemies for a short duration.</string>
+				<key>desc2</key>
+				<string>Hands reach out, slowing enemies by X% and dealing X-X damage per second for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Haunt</string>
+				<key>level</key>
+				<string>4</string>
+				<key>desc1</key>
+				<string>A ranged spell attack, this sics a ghostly entity upon the target, dealing DoT. The Haunt will seek a new target when its victim dies.</string>
+				<key>desc2</key>
+				<string>Haunt an enemy with a spirit dealing X arcane damage over X seconds. If the target dies, the spirit will automatically haunt another nearby target.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Zombie Charger</string>
+				<key>level</key>
+				<string>5</string>
+				<key>desc1</key>
+				<string>A zombie is summoned, which charges straight in the direction specified, melting into nothing and dealing poison damage to any targes along the way. A runestone can grant the infamous Zombie Bears effect.</string>
+				<key>desc2</key>
+				<string>A reckless, suicidal zombie deals X-X poison damage to all enemies in its way.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Hex</string>
+				<key>level</key>
+				<string>6</string>
+				<key>desc1</key>
+				<string>A curse of sorts, this one causes damage and blocks the afflicted&apos;s ability to attack.</string>
+				<key>desc2</key>
+				<string>Summon a fetish shaman for X seconds that will hex enemies into chickens. Hexed enemies are unable to perform offensive actions and will take X% additional damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Corpse Spiders</string>
+				<key>level</key>
+				<string>7</string>
+				<key>desc1</key>
+				<string>Spiders emerge from a rotting zombie corpse and launch themselves at nearby enemies, dealing poison damage with their swarming bites.</string>
+				<key>desc2</key>
+				<string>Summon X spiders to attack nearby enemies.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Horrify</string>
+				<key>level</key>
+				<string>8</string>
+				<key>desc1</key>
+				<string>A powerful curse, this one frightens nearby enemies into running away for a few seconds. The radius emanates from the Witch Doctor, not from the spot targeted when cast, so it only works on enemies who are very nearby.</string>
+				<key>desc2</key>
+				<string>Don a spectral mask that horrifies all enemies within X feet, causing them to run in fear for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Firebats</string>
+				<key>level</key>
+				<string>9</string>
+				<key>desc1</key>
+				<string>A short range spell attack, this sends flaming bats out in an Inferno-like spray, dealing damage to anything in their path.</string>
+				<key>desc2</key>
+				<string>A swarm of fiery bats burn enemies in front of you for X fire damage per second.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Firebomb</string>
+				<key>level</key>
+				<string>11</string>
+				<key>desc1</key>
+				<string>Previously known as Skull of Flame, this is a ranged attack that&apos;s thrown like a grenade. It deals explodes on impact, dealing considerable fire damage. The projectile is a human skull, filled with an explosive liquid.</string>
+				<key>desc2</key>
+				<string>Lob an explosive skull that deals X-X fire damage to all enemies caught in the explosion.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Spirit Walk</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>A powerful movement/escape skill, especially useful in the Battle Arena. The Witch Doctor leaves his physical body behind as a decoy and can run freely, invisible, for several seconds.</string>
+				<key>desc2</key>
+				<string>Enter the spirit realm, allowing unhindered movement for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Soul Harvest</string>
+				<key>level</key>
+				<string>14</string>
+				<key>desc1</key>
+				<string>A buff that increases the WD&apos;s spell damage based on how many enemies are nearby.</string>
+				<key>desc2</key>
+				<string>Feed on the life force of nearby enemies. Gain X% increased spell damage per enemy within X feet for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Sacrifice</string>
+				<key>level</key>
+				<string>16</string>
+				<key>desc1</key>
+				<string>This skill causes a Mongrel to detonate in a huge spray of purple and pink smoke, dealing physical damage to all nearby enemies.</string>
+				<key>desc2</key>
+				<string>A nearby zombie dog explodes, dealing X damage to all enemies within X yards.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Gargantuan</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>A large, powerful zombie pet that tanks for the Witch Doctor.</string>
+				<key>desc2</key>
+				<string>Summon a large level X zombie follower to fight for you.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Locust Swarm</string>
+				<key>level</key>
+				<string>19</string>
+				<key>desc1</key>
+				<string>A ranged spell attack, this sends out a cloud of locusts that swarm over enemies, eating their flesh from the bones. Locusts will chain between nearby enemies, potentially consuming numerous targets per cast.</string>
+				<key>desc2</key>
+				<string>A plague of locusts assault enemies dealing X damage per second over X seconds. The locusts will jump to additional nearby targets.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Spirit Barrage</string>
+				<key>level</key>
+				<string>21</string>
+				<key>desc1</key>
+				<string>A Death from Above attack that&apos;s never yet been shown publicly. Acid Cloud covers a small radius, so presumably this one has a larger radius.</string>
+				<key>desc2</key>
+				<string>A multitude of spirit bolts bombard enemies in the targeted area. Each bolt deals X-X arcane damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Acid Cloud</string>
+				<key>level</key>
+				<string>22</string>
+				<key>desc1</key>
+				<string>Originally a Wizard spell, this one was moved to the Witch Doctor to provide a DfA attack with a small radius that melts the flesh from the bones of anything in the targeted area.</string>
+				<key>desc2</key>
+				<string>Acid rains down dealing an initial X-X poison damage followed by X-X poison damage per second to nearby enemies who remain in the area.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Mass Confusion</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>A mind control spell that temporarily changes the alignment of some enemies.</string>
+				<key>desc2</key>
+				<string>Incite paranoia in enemies, causing some to fight for the Witch Doctor for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Big Bad Voodoo</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>No description is available.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Wall of Zombies</string>
+				<key>level</key>
+				<string>27</string>
+				<key>desc1</key>
+				<string>One of the showier Witch Doctor skills to be displayed in the early announcement, this one causes a wall of zombies to erupt from the earth. The WoZ blocks the progress of enemies as well as dealing physical damage to anything in range.</string>
+				<key>desc2</key>
+				<string>Zombies erupt from the earth and attack nearby enemies for X damage per second.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Fetish Army</string>
+				<key>level</key>
+				<string>29</string>
+				<key>desc1</key>
+				<string>The Witch Doctor is able to summon Fetishes, versions of the monsters from Diablo II, to fight for him. Never yet publicly seen.</string>
+				<key>desc2</key>
+				<string>Summon an army of fetish creatures to fight by your side for X seconds.</string>
+			</dict>
+		</array>
+		<key>pskill</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Mana Regeneration</string>
+				<key>level</key>
+				<string>3</string>
+				<key>desc1</key>
+				<string>Regenerates 2% of maximum mana per second.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Mind and Body</string>
+				<key>level</key>
+				<string>3</string>
+				<key>desc1</key>
+				<string>Regenerates 20% health per minute.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Spiritual Attunement</string>
+				<key>level</key>
+				<string>3</string>
+				<key>desc1</key>
+				<string>Increases maximum mana by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Care of the Master</string>
+				<key>level</key>
+				<string>6</string>
+				<key>desc1</key>
+				<string>Increases the health of pets by 60%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Quickening</string>
+				<key>level</key>
+				<string>6</string>
+				<key>desc1</key>
+				<string>Increases casting speed by 10%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Spirit Vessel</string>
+				<key>level</key>
+				<string>6</string>
+				<key>desc1</key>
+				<string>Health globes provide 10% of maximum mana when picked up.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Aggression</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>Increases attack by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Superior Skill</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>Increases precision by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Expert Defense</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>Increases defense by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Toughness</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>Increases vitality by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Death Pact</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>When the Witch Doctor has under 35% health, damage taken is reduced by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Leader of the Pack</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>Increases damage dealt by Zombie Dogs by 6%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ritual of Blood</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>30% of mana costs for skills is taken from health instead.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ferocity</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>Increases pet damage dealt by 40%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Plagued</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>Increases Animal and Plague skill damage by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Rituals</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>Increases damage by 15% of health. (Unknown if max or current health.)</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Zombie Master</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>Increases Zombie skill damage by 20%.</string>
+			</dict>
+		</array>
 		<key>icon</key>
 		<string>Witch</string>
 		<key>name</key>
 		<string>Witch Doctor</string>
 	</dict>
 	<dict>
+		<key>askill</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Frost Nova</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>This defensive skill freezes all enemies in a ring around the player, stopping normal monsters and slowing bosses.</string>
+				<key>desc2</key>
+				<string>An explosion of ice freezes nearby enemies for X seconds and causes X-X cold damage. Cold damage chills enemies, slowing their movement and attack speed. Damage will break the freeze effect, but not the chill effect.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Magic Missile</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>Magic missiles are fast-moving, conjured projectiles that deal arcane damage.</string>
+				<key>desc2</key>
+				<string>Fires a missile of energy causing arcane damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ice Armor</string>
+				<key>level</key>
+				<string>2</string>
+				<key>desc1</key>
+				<string>Surrounds the Wizard in a barrier of ice that increases armor by X%, freezes attackers for X seconds, and causes X-X cold damage. Cold damage chills enemies, slowing their movement and attack speed. You can only be affected by one armor spell at a time.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Shock Pulse</string>
+				<key>level</key>
+				<string>3</string>
+				<key>desc1</key>
+				<string>This skill debuted in the beta build; it&apos;s thought to be a renamed version of Charged Bolt.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Wave of Force</string>
+				<key>level</key>
+				<string>4</string>
+				<key>desc1</key>
+				<string>A defensive skill that pushes back enemies and enemy projectiles. Works well when combined with Slow Time.</string>
+				<key>desc2</key>
+				<string>Causes a wave of pure force that causes a knockback to nearby enemies, repels projectiles and deals X-X physical damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Spectral Blade</string>
+				<key>level</key>
+				<string>5</string>
+				<key>desc1</key>
+				<string>A magical melee attack, this hits nearby enemies for considerable physical damage.</string>
+				<key>desc2</key>
+				<string>Summons a spectral blade that strikes enemies in front of the Wizard X times causing X-X physical damage with each hit.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Electrocute</string>
+				<key>level</key>
+				<string>6</string>
+				<key>desc1</key>
+				<string>A beam weapon, the bolt of lightning locks onto an enemy and deals steadily draining damage, as well as stunning and slowing the target. An excellent skill for hitting moving targets that might dodge projectiles.</string>
+				<key>desc2</key>
+				<string>Lightning arcs from the Wizard&apos;s fingertips towards an enemy dealing X-X lightning damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Magic Weapon</string>
+				<key>level</key>
+				<string>7</string>
+				<key>desc1</key>
+				<string>A spell for the battle mage, this one imbues huge magical damage into the wizard&apos;s weapon.</string>
+				<key>desc2</key>
+				<string>Imbues the Wizard&apos;s weapon with magical energy, granting X-X increased damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Arcane Orb</string>
+				<key>level</key>
+				<string>8</string>
+				<key>desc1</key>
+				<string>A projectile that moves slower than most such magical attacks, but that deals considerable arcane AoE damage upon impact and explosion.</string>
+				<key>desc2</key>
+				<string>An orb of pure energy that explodes on contact with enemies dealing X-X arcane damage to all enemies in the blast area.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Diamond Skin</string>
+				<key>level</key>
+				<string>9</string>
+				<key>desc1</key>
+				<string>A powerful defensive skill, this absorbs considerable points from all types of damage for a short duration.</string>
+				<key>desc2</key>
+				<string>Turns the Wizard&apos;s skin to diamond for X seconds absorbing up to X damage from incoming attacks.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Energy Twister</string>
+				<key>level</key>
+				<string>11</string>
+				<key>desc1</key>
+				<string>Cast tornadoes of arcane damage that deal substantial damage to all they come into contact with. The tornadoes move semi-randomly, making this better against crowds than individuals.</string>
+				<key>desc2</key>
+				<string>Summon an energy twister that deals X arcane damage per second to everything in its path.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Disintegrate</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>A laser beam of doom, this instantly-hitting, long range attack deals considerable damage to everything in its path.</string>
+				<key>desc2</key>
+				<string>Emanate a beam of pure energy dealing X arcane damage per second and disintegrating enemies it kills.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Storm Armor</string>
+				<key>level</key>
+				<string>13</string>
+				<key>desc1</key>
+				<string>A fire and forget skill, this one shocks enemies with electrical bolts for the duration of effect, without requiring the Wizard to aim or target them.</string>
+				<key>desc2</key>
+				<string>Surround yourself in electrical energy. Electric bolts are automatically fired at attackers for X-X lightning damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Explosive Blast</string>
+				<key>level</key>
+				<string>14</string>
+				<key>desc1</key>
+				<string>A physical damage attack that turns the Wizard into a time bomb. Click to arm the spell, run into a pack of enemies, and blow up amidst them.</string>
+				<key>desc2</key>
+				<string>Builds up energy around the Wizard that explodes after X seconds, causing X-X physical damage in a small radius.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Mirror Image</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>The Wizard creates multiple images of himself. These duplicates move and attack enemies in convincing fashion.</string>
+				<key>desc2</key>
+				<string>Creates an illusionary duplicate of the Wizard that lasts for X seconds and has X% of the caster&apos;s health.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Slow Time</string>
+				<key>level</key>
+				<string>16</string>
+				<key>desc1</key>
+				<string>Slow time creates a bubble of protection around the location its cast in, slowing all enemy projectiles and the enemies themselves.</string>
+				<key>desc2</key>
+				<string>Warps space and time, slowing nearby monsters and projectiles for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Teleport</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>Bamf instantly from one location to another. This skill carries a considerable cool down time in Diablo III, making it something best saved for emergency escapes.</string>
+				<key>desc2</key>
+				<string>Teleport instantly to the selected location.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Hydra</string>
+				<key>level</key>
+				<string>19</string>
+				<key>desc1</key>
+				<string>Summons a fiery, three-headed dragon that appears from the ground and assails enemies with bolts of flame. Runestone bonuses give great flexibility to this spell.</string>
+				<key>desc2</key>
+				<string>Creates a multi-headed hydra that attacks your enemies with bolts of fire, dealing X-X fire damage per attack for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ray of Frost</string>
+				<key>level</key>
+				<string>21</string>
+				<key>desc1</key>
+				<string>A laser beam of cold damage, this one chills enemies, slowing them while dealing damage.</string>
+				<key>desc2</key>
+				<string>Project a beam of cold that deals X cold damage per second. Cold damage chills enemies, slowing their movement and attack speed.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Energy Armor</string>
+				<key>level</key>
+				<string>22</string>
+				<key>desc1</key>
+				<string>The classic protective skill (renamed from Energy Shield) returns, now trading Arcane Power for damage reduction.</string>
+				<key>desc2</key>
+				<string>A protective barrier that absorbs damage, draining arcane power in its place. Absorbs X% of all damage dealt to the Wizard.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Arcane Torrent</string>
+				<key>level</key>
+				<string>23</string>
+				<key>desc1</key>
+				<string>An arcane style of Meteor Storm, this spell hurls flaming rocks at the targeted spot, dealing AoE damage to anything in the vicinity.</string>
+				<key>desc2</key>
+				<string>Arcane meteorites pelt the targeted region dealing X-X arcane damage per second.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Meteor</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>The biggest damage of the death from above skills, this one lands a flaming stone on the targeted location, dealing huge fire damage and leaving a dangerous field of fire in the location for some time.</string>
+				<key>desc2</key>
+				<string>Summons a massive meteor from the sky that causes X-X fire damage to all enemies in the affected area. Also leaves a pool of fire that does X fire damage every second for X seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Blizzard</string>
+				<key>level</key>
+				<string>26</string>
+				<key>desc1</key>
+				<string>Another powerful AoE spell, this one drops damaging ice on a large section of the screen, chilling and injuring anything in the area.</string>
+				<key>desc2</key>
+				<string>Call down shards of ice to pelt an area dealing X-X cold damage per second for X seconds. Cold damage chills enemies, slowing their movement and attack speed.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Familiar</string>
+				<key>level</key>
+				<string>27</string>
+				<key>desc1</key>
+				<string>An assisting creature that boosts the Wizard&apos;s damage, without serving as a &quot;tank&quot; to distract their attacks.</string>
+				<key>desc2</key>
+				<string>Creates a companion that accompanies the Wizard, attacking enemies for X-X damage. This companion cannot be targeted or damaged by enemies.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Archon</string>
+				<key>level</key>
+				<string>29</string>
+				<key>desc1</key>
+				<string>No description available.</string>
+			</dict>
+		</array>
+		<key>pskill</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Blur</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>Reduces melee damage taken by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Drain Power</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>All basic attacks provide 10 Arcane Power.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Quickening</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>Increases casting speed by 10%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Flight Before Fight</string>
+				<key>level</key>
+				<string>13</string>
+				<key>desc1</key>
+				<string>Increases run speed by 5% when the Wizard is blocked in melee.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Glass Cannon</string>
+				<key>level</key>
+				<string>13</string>
+				<key>desc1</key>
+				<string>Increases damage dealt by 20%, but reduces armor by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Aggression</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>Increases attack by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Superior Skill</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>Increases precision by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Expert Defense</string>
+				<key>level</key>
+				<string>17</string>
+				<key>desc1</key>
+				<string>Increases defense by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Astral Presence</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>Increases maximum Arcane Power by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Black Ice</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>Damage dealt to frozen targets is increased by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Temporal Flux</string>
+				<key>level</key>
+				<string>21</string>
+				<key>desc1</key>
+				<string>When an enemy takes damage from an Arcane skill, its speed is reduced by 24% for 4 seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Piercing Attacks</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>Reduces the magical resistances of enemies by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Temporal Shift</string>
+				<key>level</key>
+				<string>26</string>
+				<key>desc1</key>
+				<string>Reduces cooldowns of skills by 10%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Unstable Energy</string>
+				<key>level</key>
+				<string>28</string>
+				<key>desc1</key>
+				<string>When under 20% health, the next skill knocks back all targets it hits. Can happen once every 90 seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Knowledge is Power</string>
+				<key>level</key>
+				<string>30</string>
+				<key>desc1</key>
+				<string>Unknown. (Used to provide 25% extra Willpower, a stat that&apos;s not in the game anymore.)</string>
+			</dict>
+		</array>
 		<key>icon</key>
 		<string>Wizard</string>
 		<key>name</key>

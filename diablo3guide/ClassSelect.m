@@ -7,6 +7,7 @@
 //
 
 #import "ClassSelect.h"
+#import "Skills.h"
 
 @implementation ClassSelect
 
@@ -29,10 +30,6 @@
     [super viewDidLoad];
     self.title= NSLocalizedString(@"Class Select", @"Class Select");
     
-    UIImageView *background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg.png"]];
-    [[self tableView] setBackgroundView:background];
-    [background autorelease];
-    
     NSString *path = [[NSBundle mainBundle] pathForResource:@"classes" ofType:@"plist"];
 	NSData *plistData = [NSData dataWithContentsOfFile:path];
 	NSString *error;
@@ -41,7 +38,6 @@
                                                           mutabilityOption:NSPropertyListImmutable
                                                                     format:&format
                                                           errorDescription:&error];
-
     self.tableView.rowHeight = 104;
 }
 
@@ -76,46 +72,102 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+//    static NSString *CellIdentifier = @"Cell";
+//    
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+//    if (cell == nil) {
+//        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+//    }
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-    }
+    UITableViewCell *cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil] autorelease];
+    
+	cell.selectedBackgroundView=[[[UIView alloc] initWithFrame:CGRectMake(0, 0, 320.0f, 104)] autorelease];	
     
     NSDictionary *class = [classes objectAtIndex:indexPath.row];
-    cell.textLabel.text = [class objectForKey:@"name"];
-    NSString *path = [[NSBundle mainBundle] pathForResource:[class objectForKey:@"icon"] ofType:@"png"]; //多张图片用这个
+    //class png
+    NSString *path = [[NSBundle mainBundle] pathForResource:[class objectForKey:@"icon"] ofType:@"png"]; 
     UIImage *bimage = [UIImage imageWithContentsOfFile:path];
     UIImageView *bimageView = [[UIImageView alloc] initWithImage:bimage];
     bimageView.frame = CGRectMake(2, 2, bimage.size.width, bimage.size.height);
     [cell addSubview:bimageView];
     [bimageView release];
+    //class name
+    UILabel *blabel = [[UILabel alloc]initWithFrame:CGRectMake(150, 2, 150, 30)];
+    blabel.text = [class objectForKey:@"name"];
+    blabel.backgroundColor = [UIColor clearColor];
+    [cell addSubview:blabel];
+    [blabel release];
+    blabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
+    blabel.textAlignment = UITextAlignmentCenter;
+    blabel.font = [UIFont fontWithName:@"Cochin" size:18];
+    //class Active Skills
+    UIButton *aSkill = [UIButton buttonWithType:UIButtonTypeCustom];
+    aSkill.tag = indexPath.row;
+    aSkill.frame = CGRectMake(170, 32, 130, 30);
+    NSString *askillImgpath = [[NSBundle mainBundle] pathForResource:@"askill" ofType:@"png"]; 
+    UIImage *askillimage = [UIImage imageWithContentsOfFile:askillImgpath];
+    [aSkill setImage:askillimage forState:UIControlStateNormal];
+    [aSkill setImage:askillimage forState:UIControlStateSelected];
+    [aSkill addTarget:self action:@selector(aSkill:) forControlEvents:UIControlEventTouchUpInside];
+    [cell addSubview:aSkill];
     
-    UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeContactAdd];
-    [rightButton addTarget:self action:@selector(showDetails) forControlEvents:UIControlEventTouchUpInside];
-    [cell addSubview:rightButton];
+    UILabel *aSkilllabel = [[UILabel alloc]initWithFrame:CGRectMake(180, 32, 100, 30)];
+    aSkilllabel.text = @"Active Skills";
+    aSkilllabel.backgroundColor = [UIColor clearColor];
+    [cell addSubview:aSkilllabel];
+    [aSkilllabel release];
+    aSkilllabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
+    aSkilllabel.font = [UIFont fontWithName:@"Cochin" size:17];
+    //class Passive Skills
+    UIButton *pSkill = [UIButton buttonWithType:UIButtonTypeCustom];
+    pSkill.tag = indexPath.row;
+    pSkill.frame = CGRectMake(170, 62, 130, 30);
+    NSString *pSkillImgpath = [[NSBundle mainBundle] pathForResource:@"pskill" ofType:@"png"]; 
+    UIImage *pSkillimage = [UIImage imageWithContentsOfFile:pSkillImgpath];
+    [pSkill setImage:pSkillimage forState:UIControlStateNormal];
+    [pSkill setImage:pSkillimage forState:UIControlStateSelected];
+    [pSkill addTarget:self action:@selector(pSkill:) forControlEvents:UIControlEventTouchUpInside];
+    [cell addSubview:pSkill];
+    
+    UILabel *pSkilllabel = [[UILabel alloc]initWithFrame:CGRectMake(180, 62, 100, 30)];
+    pSkilllabel.text = @"Passive Skills";
+    pSkilllabel.backgroundColor = [UIColor clearColor];
+    [cell addSubview:pSkilllabel];
+    [pSkilllabel release];
+    pSkilllabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
+    pSkilllabel.font = [UIFont fontWithName:@"Cochin" size:17];
     
     return cell;
 }
 
--(void) showDetails{
-    NSLog(@"%s",__FUNCTION__);
+-(void) aSkill:(id)sender {
+    UIButton *aSkill = sender;
+    NSDictionary *class = [classes objectAtIndex:aSkill.tag];
+    Skills *controller = [[Skills alloc] init];
+    controller.title = [NSString stringWithFormat:@"%@",[class objectForKey:@"name"]];
+    controller.skills = [class objectForKey:@"askill"];
+    controller.isActive = YES;
+    controller.className = [class objectForKey:@"name"];
+    [self.navigationController pushViewController:controller animated:YES];
+    [controller release];
+}
+
+-(void) pSkill:(id)sender {
+    UIButton *aSkill = sender;
+    NSDictionary *class = [classes objectAtIndex:aSkill.tag];
+    Skills *controller = [[Skills alloc] init];
+    controller.title = [NSString stringWithFormat:@"%@",[class objectForKey:@"name"]];
+    controller.skills = [class objectForKey:@"pskill"];
+    controller.isActive = NO;
+    controller.className = [class objectForKey:@"name"];
+    [self.navigationController pushViewController:controller animated:YES];
+    [controller release];
 }
 
 #pragma mark - Table view delegate
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    CLogc;
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     [detailViewController release];
-     */
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end

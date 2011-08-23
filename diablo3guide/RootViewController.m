@@ -16,17 +16,7 @@
 {
     [super viewDidLoad];
     self.title = @"Daiblo 3 ";
-    UIImageView *background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg.png"]];
-    [[self tableView] setBackgroundView:background];
-    [background autorelease];
-    
-//    UIImage *image = [UIImage imageNamed:@"naviBg.png"];
-//    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
-//    imageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;//autoresizing
-//    [self.navigationController.navigationBar addSubview:imageView];
-//    [self.navigationController.navigationBar sendSubviewToBack:imageView];
-//    [imageView release];
-    
+   
     self.tableView.rowHeight = 120;
 }
 
@@ -102,6 +92,10 @@
 
     UIViewController *controller; 
     switch (indexPath.row) {
+        case 0:
+            controller = [[ClassSelect alloc] init];
+            break;
+
         case 1:
             controller = [[ClassSelect alloc] init];
             break;
