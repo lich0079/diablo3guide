@@ -13,4 +13,6 @@
     #import <Foundation/Foundation.h>
     #import "CLog.h"
     #import "BaseTable.h"
+#import "ClassSelect.h"
+#import "ClassIntro.h"
 #endif

@@ -300,7 +300,7 @@
 				<key>level</key>
 				<string>12</string>
 				<key>desc1</key>
-				<string>A melee skill, this one becomes available when when the Barbarian is hit. It deals a fast spinning hit that can strike multiple enemies for considerable damage. When seen at Blizzcon 2010, this skill was an active one; players had to hit the button to trigger it once it was enabled. The skill was changed to a direct, automated strike of some sort during later development, though details are not yet known.</string>
+				<string>A melee skill, this one becomes available when the Barbarian is hit. It deals a fast spinning hit that can strike multiple enemies for considerable damage. When seen at Blizzcon 2010, this skill was an active one; players had to hit the button to trigger it once it was enabled. The skill was changed to a direct, automated strike of some sort during later development, though details are not yet known.</string>
 				<key>desc2</key>
 				<string>When hit, there is a X% chance the Barbarian may strike all enemies within X feet, dealing X% weapon damage and gaining X% health for each enemy hit.</string>
 			</dict>

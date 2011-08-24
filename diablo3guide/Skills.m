@@ -28,12 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-//    NSString *bgName = [NSString stringWithFormat:@"%@%@Bg",className,isActive?@"AS":@"PS"];
-//    NSString *bgImgpath = [[NSBundle mainBundle] pathForResource:bgName ofType:@"png"]; 
-//    UIImage *bgImage = [UIImage imageWithContentsOfFile:bgImgpath];
-//    UIImageView *background = [[UIImageView alloc] initWithImage:bgImage];
-//    [[self tableView] setBackgroundView:background];
-//    [background release];
+    [self backButton];
 
 }
 
@@ -56,14 +51,7 @@
     return [skills count];
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-//    static NSString *CellIdentifier = @"Cell";
-//    
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-//    if (cell == nil) {
-//        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-//    }
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell *cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil] autorelease];
     
@@ -111,6 +99,9 @@
     [desc1 release];
     desc1.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
     desc1.font = [UIFont fontWithName:@"Cochin" size:15];
+    
+    float height =17;
+    height += (desc1Size.height > 53 ? desc1Size.height:53); 
     //skill desc2
     if ([skill objectForKey:@"desc2"]) {
         NSString *desc2Str = [skill objectForKey:@"desc2"];
@@ -127,7 +118,15 @@
         [desc2 release];
         desc2.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
         desc2.font = [UIFont fontWithName:@"Cochin" size:15];
+        height += desc2Size.height;
     }
+    
+    //serp png
+    UIImage *serpImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"serp" ofType:@"png"]];
+    UIImageView *serpImageView = [[UIImageView alloc] initWithImage:serpImage];
+    serpImageView.frame = CGRectMake(0, height+5, 320, 5);
+    [cell addSubview:serpImageView];
+    [serpImageView release];
 
     return cell;
 }
@@ -160,7 +159,4 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 
 }
-
-
-
 @end

@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+
+@interface UIViewController (backButton)
+- (void)backButton;
+- (void)backClick:(id)sender;
+@end
+
 @interface BaseTable : UITableViewController
 
 @end

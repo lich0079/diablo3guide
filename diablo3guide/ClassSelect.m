@@ -8,6 +8,7 @@
 
 #import "ClassSelect.h"
 #import "Skills.h"
+#import "ClassIntro.h"
 
 @implementation ClassSelect
 
@@ -28,7 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title= NSLocalizedString(@"Class Select", @"Class Select");
+//    self.title= NSLocalizedString(@"Class Select", @"Class Select");
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"classes" ofType:@"plist"];
 	NSData *plistData = [NSData dataWithContentsOfFile:path];
@@ -39,13 +40,11 @@
                                                                     format:&format
                                                           errorDescription:&error];
     self.tableView.rowHeight = 104;
+    [self backButton];
 }
 
-- (void)viewDidUnload
-{
+- (void)viewDidUnload {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 -(void) dealloc{
@@ -70,18 +69,9 @@
     return [classes count];
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-//    static NSString *CellIdentifier = @"Cell";
-//    
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-//    if (cell == nil) {
-//        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-//    }
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell *cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil] autorelease];
-    
-	cell.selectedBackgroundView=[[[UIView alloc] initWithFrame:CGRectMake(0, 0, 320.0f, 104)] autorelease];	
     
     NSDictionary *class = [classes objectAtIndex:indexPath.row];
     //class png
@@ -137,6 +127,13 @@
     pSkilllabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
     pSkilllabel.font = [UIFont fontWithName:@"Cochin" size:17];
     
+    //serp png
+    UIImage *serpImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"serp" ofType:@"png"]];
+    UIImageView *serpImageView = [[UIImageView alloc] initWithImage:serpImage];
+    serpImageView.frame = CGRectMake(0, 102, 320, 4);
+    [cell addSubview:serpImageView];
+    [serpImageView release];
+    
     return cell;
 }
 
@@ -168,6 +165,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    NSDictionary *class = [classes objectAtIndex:indexPath.row];
+    ClassIntro *controller = [[ClassIntro alloc] init];
+    controller.title = [NSString stringWithFormat:@"%@ Basic",[class objectForKey:@"name"]];
+    controller.className = [class objectForKey:@"name"];
+    [self.navigationController pushViewController:controller animated:YES];
+    [controller release];
 }
 
 @end
