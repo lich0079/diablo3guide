@@ -24,6 +24,14 @@
     [help addTarget:self action:@selector(help:) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = BackBarBtn;
     [BackBarBtn release];
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if(![defaults objectForKey:@"version1.0helpchecked"]){
+        [self help:nil];
+        [defaults setValue:@"YES" forKey:@"version1.0helpchecked"];
+        [defaults synchronize];
+    }
+    
 }
 
 -(void) help:(id)sender {

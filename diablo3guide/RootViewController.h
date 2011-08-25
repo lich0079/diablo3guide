@@ -10,4 +10,5 @@
 
 @interface RootViewController : BaseTable
 
+-(void) help:(id)sender;
 @end
