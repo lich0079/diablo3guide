@@ -134,6 +134,7 @@
     [cell addSubview:serpImageView];
     [serpImageView release];
     
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
@@ -164,7 +165,6 @@
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NSDictionary *class = [classes objectAtIndex:indexPath.row];
     ClassIntro *controller = [[ClassIntro alloc] init];
     controller.title = [NSString stringWithFormat:@"%@ Basic",[class objectForKey:@"name"]];

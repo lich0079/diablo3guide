@@ -137,6 +137,8 @@
     serpImageView.frame = CGRectMake(0, 120, 320, 5);
     [cell addSubview:serpImageView];
     [serpImageView release];
+    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
