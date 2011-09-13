@@ -7,59 +7,11 @@
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Animosity</string>
-				<key>level</key>
-				<string>1</string>
-				<key>desc1</key>
-				<string>Increases Fury generation by 10% and adds 20 points to the maximum amount of Fury.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Berserker Rage</string>
-				<key>level</key>
-				<string>1</string>
-				<key>desc1</key>
-				<string>Increases damage by 20% when the Barbarian&apos;s Fury is 100%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
 				<string>Bloodthirst</string>
-				<key>level</key>
-				<string>1</string>
-				<key>desc1</key>
-				<string>10% of damage dealt is gained as health.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Relentless</string>
-				<key>level</key>
-				<string>1</string>
-				<key>desc1</key>
-				<string>When the Barbarian is below 20% health, skills cost no Fury and damage taken is reduced by 50%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Ruthless</string>
-				<key>level</key>
-				<string>1</string>
-				<key>desc1</key>
-				<string>Increases critical strike chance by 5% and increases critical strike damage by 50%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Unforgiving</string>
-				<key>level</key>
-				<string>1</string>
-				<key>desc1</key>
-				<string>Fury does not degenerate any longer. Also, the Barbarian gains 1 Fury every 5 seconds.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Iron Skin</string>
 				<key>level</key>
 				<string>10</string>
 				<key>desc1</key>
-				<string>Increases armor by 100%.</string>
+				<string>Gain 10% of all damage done as Life.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -67,344 +19,1146 @@
 				<key>level</key>
 				<string>10</string>
 				<key>desc1</key>
-				<string>Increases the chance to find health globes by 3% and healing done by these is increased by 33%.</string>
+				<string>Increases the chance of finding a health globe by 25% and you gain 100% additional health from health globes.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Intimidation</string>
+				<string>Ruthless</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>Critical hit chance increased by 5%. Critical hit damage increased by 50%.
+Many skills and runestone effects rely on critical hits to trigger their effects.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Weapons Master</string>
 				<key>level</key>
 				<string>13</string>
 				<key>desc1</key>
-				<string>Increases damage dealt by 15% and reduces repair costs by 5%.</string>
+				<string>Gain a bonus based on the weapon type of your main hand weapon:
+Swords/Daggers: 10% increased damage
+Maces/Axes: 5% chance to critical hit
+Polearms/Spears: 10% attack speed
+Mighty Weapons: 1 Fury per hit</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Cruelty</string>
+				<string>Inspiring Presence</string>
 				<key>level</key>
 				<string>15</string>
 				<key>desc1</key>
-				<string>Unknown. (Currently shares a description with Bloodthirst.)</string>
+				<string>The duration of your shouts is doubled. While benefiting from War Cry or Battle Rage you regenerate 60% of your total Life per minute.
+Your shouts are:
+ Battle Rage
+ Threatning Shout
+ War Cry</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Aggression</string>
+				<string>Berserker Rage</string>
 				<key>level</key>
 				<string>17</string>
 				<key>desc1</key>
-				<string>Increases attack by 20%.</string>
+				<string>You inflict an additional 20% damage while at maximum Fury.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Superior Skill</string>
+				<string>Animosity</string>
 				<key>level</key>
 				<string>19</string>
 				<key>desc1</key>
-				<string>Increases precision by 20%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Expert Defense</string>
-				<key>level</key>
-				<string>20</string>
-				<key>desc1</key>
-				<string>Increases defense by 20%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Toughness</string>
-				<key>level</key>
-				<string>23</string>
-				<key>desc1</key>
-				<string>Increases vitality by 20%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Weak Spot</string>
-				<key>level</key>
-				<string>25</string>
-				<key>desc1</key>
-				<string>Increases critical strike damage by 100%.</string>
+				<string>Increases Fury generation by 10% and maximum Fury is increased by 20.
+Fury is used to fuel your most powerful attacks.</string>
 			</dict>
 			<dict>
 				<key>name</key>
 				<string>Superstition</string>
 				<key>level</key>
-				<string>26</string>
+				<string>20</string>
 				<key>desc1</key>
-				<string>Reduces non-physical damage taken by 10%.</string>
+				<string>Reduces all non-physical damage by 20%. Whenever you take damage from a ranged or elemental attack you gain 3 Fury.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Slaughter</string>
+				<string>Tough as Nails</string>
+				<key>level</key>
+				<string>22</string>
+				<key>desc1</key>
+				<string>Increases armor by 100%.
+Thorns damage dealt increased by 100%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>No Escape</string>
+				<key>level</key>
+				<string>23</string>
+				<key>desc1</key>
+				<string>Increases the damage of Ancient Spear and Weapon Throw by 100%. In addition, killing an enemy with Ancient Spear automatically resets the cooldown and killing an enemy with Weapon Throw returns 20 Fury.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Relentless</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>While below 20% Life, all skills cost no Fury and all damage taken is reduced by 50%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Brawler</string>
+				<key>level</key>
+				<string>26</string>
+				<key>desc1</key>
+				<string>As long as there are 5 enemies within 8 yards, all of your damage is increased by 30%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Juggernaut</string>
 				<key>level</key>
 				<string>28</string>
 				<key>desc1</key>
-				<string>Unknown. (Currently shares a description with Berserker Rage.)</string>
+				<string>The duration of control impairing effects on you are reduced by 20%. In addition, whenever you become stunned, feared or charmed you recover 15% of your maximum Life.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Bad Temper</string>
+				<string>Boon of Bul-Kathos</string>
 				<key>level</key>
-				<string>31</string>
+				<string>30</string>
 				<key>desc1</key>
-				<string>Increases Fury generation by 10%.</string>
+				<string>The cooldown on your Earthquake, Call of the Ancients and Wrath of the Berserker skills is reduced by 30 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Frenzied Attacks</string>
+				<string>Unforgiving</string>
 				<key>level</key>
-				<string>31</string>
+				<string>30</string>
 				<key>desc1</key>
-				<string>When wielding two weapons, the character has 20% increased critical strike chance and 30% increased critical strike damage.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Insane Courage</string>
-				<key>level</key>
-				<string>31</string>
-				<key>desc1</key>
-				<string>When the Barbarian has under 35% health, damage taken is reduced by 30%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Second Wind</string>
-				<key>level</key>
-				<string>31</string>
-				<key>desc1</key>
-				<string>Regenerates 20% health per minute.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Shield of Iron</string>
-				<key>level</key>
-				<string>31</string>
-				<key>desc1</key>
-				<string>Increases the chance to block attacks with a shield by 10%.</string>
+				<string>You no longer degenerate Fury. Instead, you gain 1 Fury every 2 seconds.</string>
 			</dict>
 		</array>
+		<key>icon</key>
+		<string>Barbarian</string>
 		<key>askill</key>
 		<array>
 			<dict>
-				<key>desc2</key>
-				<string>Bashes the enemy for X-X weapon damage, with a X% chance to cause knockback.</string>
-				<key>desc1</key>
-				<string>A powerful melee swiping attack, this hits a single target for heavy damage, with a chance to knockback as well.</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Pulverize</string>
+						<key>desc</key>
+						<string>Cause a shockwave that inflicts 80% weapon damage to enemies in a 26 yard line behind the targeted enemy.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Onslaught</string>
+						<key>desc</key>
+						<string>Add 7 reverberation that causes 18% weapon damage per strike.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Unleashed</string>
+						<key>desc</key>
+						<string>Generate 7 additional Fury per attack.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Punish</string>
+						<key>desc</key>
+						<string>Each attack grants a 10% damage boost for 5 seconds. This effect stacks up to 8 times.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Clobber</string>
+						<key>desc</key>
+						<string>Gives each hit a 20% chance to stun the target for 3.5 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Generate: 6 Fury per attack</string>
 				<key>name</key>
 				<string>Bash</string>
 				<key>level</key>
 				<string>1</string>
+				<key>desc1</key>
+				<string>Brutally smash an enemy for 145% weapon damage with a 20% chance to knock the enemy back.</string>
+				<key>category</key>
+				<string>Fury Generator</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Fury Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Grim Harvest</string>
+						<key>desc</key>
+						<string>Enemies are severely demoralized. Each enemy has a 28% chance to flee for 2 - 9 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Demoralize</string>
+						<key>desc</key>
+						<string>Affected enemies are also taunted to attack you for 9 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Stagger</string>
+						<key>desc</key>
+						<string>Affected enemies also have their attack speed reduced by 55%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Intimidate</string>
+						<key>desc</key>
+						<string>Affected enemies also have their movement speed reduced by 62%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Terrify</string>
+						<key>desc</key>
+						<string>Enemies are badly shaken and have a 22% chance to drop additional treasure.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 20 Fury</string>
 				<key>name</key>
-				<string>Ground Stomp</string>
+				<string>Threatening Shout</string>
 				<key>level</key>
 				<string>1</string>
 				<key>desc1</key>
-				<string>This defensive skill causes the Barbarian to stomp his foot, crushing the earth and stunning all nearby enemies. With runestones it can add damage, knockback, and more.</string>
-				<key>desc2</key>
-				<string>Shakes the ground, stunning all enemies within X feet for X seconds.</string>
+				<string>Shout with great ferocity, reducing damage done by enemies within 25 yards by 50% for 15 seconds.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Fury Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Thunderstrike</string>
+						<key>desc</key>
+						<string>Whenever you kill an enemy with Hammer of the Ancients every other nearby enemy has a 65% chance to be stunned for 3 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Smash</string>
+						<key>desc</key>
+						<string>Strike a smaller area for 396% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Birthright</string>
+						<key>desc</key>
+						<string>Critical hits have a 55% chance to cause enemies to drop treasure or health globes.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Rolling Thunder</string>
+						<key>desc</key>
+						<string>Modifies the strike to create a shockwave that deals 172% weapon damage to all enemies in front of you.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>The Devil&apos;s Anvil</string>
+						<key>desc</key>
+						<string>Create a tremor at the point of impact that slows the movement speed of enemies by 40% and deals an additional 117% weapon damage over 2 seconds.</string>
+					</dict>
+				</array>
+				<key>desc1</key>
+				<string>Call forth a massive hammer to smash enemies directly in front of you for 180% weapon damage. Hammer of the Ancients has a 15% increased chance to critical hit.</string>
+				<key>cost1</key>
+				<string>Cost: 20 Fury</string>
 				<key>name</key>
 				<string>Hammer of the Ancients</string>
 				<key>level</key>
 				<string>2</string>
-				<key>desc1</key>
-				<string>The Barbarian swings a huge yellow hammer overhead, crushing it down on enemies for massive damage, plus a good chance of critical damage.</string>
-				<key>desc2</key>
-				<string>Calls forth a massive hammer to smash the enemy for X% weapon damage, and has a X% critical chance.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Fury Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Bloodshed</string>
+						<key>desc</key>
+						<string>While under the effects of Battle Rage, critical hits cause an explosion of blood dealing 55% weapon damage to all nearby enemies.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Marauder&apos;s Rage</string>
+						<key>desc</key>
+						<string>Increase damage bonus to 100%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Into the Fray</string>
+						<key>desc</key>
+						<string>Critical hits generate 7 additional Fury.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Ferocity</string>
+						<key>desc</key>
+						<string>Critical hits increase the duration of the Battle Rage effect by 4.0 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Swords to Ploughshares</string>
+						<key>desc</key>
+						<string>Critical hits have a 20% chance to cause enemies to drop additional treasure or health globes.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 20 Fury</string>
+				<key>desc2</key>
+				<string>This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.</string>
 				<key>name</key>
 				<string>Battle Rage</string>
 				<key>level</key>
 				<string>3</string>
 				<key>desc1</key>
-				<string>A shout that provides a damage boost and critical hit improvement for a short duration.</string>
-				<key>desc2</key>
-				<string>Enter a rage which provides a X% damage boost and X% critical hit bonus for X seconds.</string>
+				<string>Enter a rage which increases damage by 30% and critical hit chance by 4% for 30 seconds.</string>
 			</dict>
 			<dict>
-				<key>name</key>
-				<string>Ignore Pain</string>
-				<key>level</key>
-				<string>4</string>
-				<key>desc1</key>
-				<string>A shout, this skill reduces all damage taken and grants immunity to most debuffs.</string>
-				<key>decs2</key>
-				<string>Reduces all damage taken by X% and grants immunity to root, snare and stun effects for X seconds.</string>
-			</dict>
-			<dict>
+				<key>category</key>
+				<string>Fury Generator</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Rupture</string>
+						<key>desc</key>
+						<string>Enemies slain by this attack have a 100% chance to explode, causing 150% physical damage to all other enemies within 19 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Broad Sweep</string>
+						<key>desc</key>
+						<string>Increases damage to 260% weapon damage to the targeted enemy and 130% weapon damage to others in the arc.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Reaping Swing</string>
+						<key>desc</key>
+						<string>Generate 1 Fury per enemy hit, up to 7 additional Fury total.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Gathering Storm</string>
+						<key>desc</key>
+						<string>Draw enemies in from 26 yards away before the strike lands.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Scattering Blast</string>
+						<key>desc</key>
+						<string>On critical hits, knock enemies back 22 yards and inflict 175% weapon damage to enemies where they land. Enemies knock each other back up to 8 times.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Generate: 4 Fury per attack</string>
 				<key>name</key>
 				<string>Cleave</string>
 				<key>level</key>
-				<string>5</string>
+				<string>4</string>
 				<key>desc1</key>
-				<string>A powerful melee attack, this hits multiple enemies per swing; as many as are within the sweep of the Barbarian&apos;s reach, dealing substantial damage to everything.</string>
-				<key>desc2</key>
-				<string>The Barbarian swings at multiple targets at once, dealing X% weapon damage to all targets in front of him.</string>
+				<string>Swing in a wide arc to deal 120% weapon damage to the targeted enemy and 60% weapon damage to any other enemies caught in the swing.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Situational</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Ignorance is Bliss</string>
+						<key>desc</key>
+						<string>While Ignore Pain is active, gain 40% of all damage dealt as Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Contempt for Weakness</string>
+						<key>desc</key>
+						<string>Reflects 65% of ignored damage back at the enemy.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Bravado</string>
+						<key>desc</key>
+						<string>Knocks back all enemies within 28 yards when triggered and reduces cooldown time to 25 seconds. Also deals 50% weapon damage on affected enemies.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Iron Hide</string>
+						<key>desc</key>
+						<string>Increases duration to 13 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Mob Rule</string>
+						<key>desc</key>
+						<string>Extend the effect to nearby allies, reducing damage taken by 65% for 5.0 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cooldown: 60 seconds</string>
+				<key>name</key>
+				<string>Ignore Pain</string>
+				<key>level</key>
+				<string>5</string>
+				<key>desc1</key>
+				<string>Reduces all damage taken by 65% for 5 seconds.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Fury Generator</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Death from Above</string>
+						<key>desc</key>
+						<string>Land with such force that enemies suffer a 100% chance to become stunned for 3 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Call of Arreat</string>
+						<key>desc</key>
+						<string>Shockwaves burst forth from the ground at the destination and knock enemies toward you from 45.0 yards away.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Iron Impact</string>
+						<key>desc</key>
+						<string>Gain 700% additional armor for 4 seconds after landing.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Toppling Impact</string>
+						<key>desc</key>
+						<string>Send enemies hurtling 6 yards into other nearby enemies who suffer 80% weapon damage and are pushed back in a chain up to 2 times.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Launch</string>
+						<key>desc</key>
+						<string>Jump into the air with such great force that enemies within 7.5 yards of the origin of the jump take 160% weapon damage.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Generate: 15 Fury</string>
+				<key>cost2</key>
+				<string>Cooldown: 10 seconds</string>
 				<key>name</key>
 				<string>Leap Attack</string>
 				<key>level</key>
 				<string>6</string>
 				<key>desc1</key>
-				<string>A deadly fast attack, this one allows the Barbarian to leap into attack, moving far faster than running speed, as well as vaulting over obstacles or monsters between him and his prey.</string>
-				<key>desc2</key>
-				<string>The Barbarian makes a mighty leap, causing X% weapon damage to all enemies within X feet upon landing.</string>
+				<string>Leap into the air, dealing 40% weapon damage to all enemies within 8 yards of your destination. Only generates Fury if you hit an enemy.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Fury Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Stupefy</string>
+						<key>desc</key>
+						<string>Aim for the head, causing your target to be confused and attack other enemies for 9 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Mighty Throw</string>
+						<key>desc</key>
+						<string>Increase thrown weapon damage to 462% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Dread Shot</string>
+						<key>desc</key>
+						<string>Expend all remaining Fury to throw a fallen foe which inflicts an additional 9% weapon damage for each point of Fury expended to all enemies within 22 yards of the target.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Ricochet</string>
+						<key>desc</key>
+						<string>Angle the weapon to ricochet and hit up to 8 targets within 20 yards of each other.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Throwing Hammer</string>
+						<key>desc</key>
+						<string>Hurl a hammer with a 33% chance to stun the target for 3 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 20 Fury</string>
 				<key>name</key>
 				<string>Weapon Throw</string>
 				<key>level</key>
 				<string>7</string>
 				<key>desc1</key>
-				<string>A powerful ranged attack, this one allows the Barbarian to hurl his weapon at enemies. Runestones add amazing effects, including one in which the Barbarian hurls a monster corpse, dealing high damage to nearby targets.</string>
-				<key>desc2</key>
-				<string>The Barbarian hurls a weapon at his foes, causing X% weapon damage and slows the target to X% of their normal movement speed for X seconds.</string>
+				<string>Hurl a throwing weapon at an enemy for 210% weapon damage and slowing the movement of the enemy by 70% for 4 seconds.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Fury Generator</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Deafening Crash</string>
+						<key>desc</key>
+						<string>Enemies in the area are slowed for 10 - 12 seconds after they recover from being stunned.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Trembling Stomp</string>
+						<key>desc</key>
+						<string>Increase damage to 102% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Foot of the Mountain</string>
+						<key>desc</key>
+						<string>Increase Fury gained to 43 Fury per stomp.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Wrenching Smash</string>
+						<key>desc</key>
+						<string>Increase the area of effect to 33 yards. Enemies are pulled closer before the strike lands.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Avalanche</string>
+						<key>desc</key>
+						<string>Enemies are knocked back 15 yards and inflict 175% weapon damage where they land.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Generate: 15 Fury</string>
+				<key>cost2</key>
+				<string>Cooldown: 12 seconds</string>
 				<key>name</key>
-				<string>Rend</string>
+				<string>Ground Stomp</string>
 				<key>level</key>
 				<string>8</string>
 				<key>desc1</key>
-				<string>A melee attack that deals considerable bonus damage to all enemies within range.</string>
-				<key>desc2</key>
-				<string>Perform a slashing vicious blow to all enemies within X feet, dealing X% weapon damage and an additional X-X physical damage over X seconds.</string>
+				<string>Shake the ground to inflict 30% weapon damage to all enemies within 12 yards and stun them for 3 seconds. Only generates Fury if you hit an enemy.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Fury Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Bloodbath</string>
+						<key>desc</key>
+						<string>Enemies killed while bleeding cause all enemies within 10 yards to begin bleeding for 100% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Lacerate</string>
+						<key>desc</key>
+						<string>Increases damage to 123% weapon damage every second for 3 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Blood Lust</string>
+						<key>desc</key>
+						<string>Gain 40% of the damage done by Rend as Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Ravage</string>
+						<key>desc</key>
+						<string>Increases the range to deal 96% weapon damage every second for 3 seconds to all enemies within 14 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Mutilate</string>
+						<key>desc</key>
+						<string>Increase bleeding duration to 10 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 20 Fury</string>
 				<key>name</key>
-				<string>Threatening Shout</string>
+				<string>Rend</string>
 				<key>level</key>
 				<string>9</string>
 				<key>desc1</key>
-				<string>A shout that debuffs enemies, lowering their damage.</string>
-				<key>desc2</key>
-				<string>Shouts with great ferocity, reducing damage done by enemies within X feet by X% for X seconds.</string>
+				<string>Perform a vicious strike to all enemies within 9 yards, dealing 60% weapon damage every second for 3 seconds.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Fury Generator</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Triumph</string>
+						<key>desc</key>
+						<string>Killing a creature with Frenzy heals you for 25% Life over 6 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Maniac</string>
+						<key>desc</key>
+						<string>Each Frenzy effect also increases your damage by 24%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Smite</string>
+						<key>desc</key>
+						<string>Adds a 35% chance to call down a bolt of lightning from above, stunning your target for 3 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Sidearm</string>
+						<key>desc</key>
+						<string>Each strike has a 55% chance to throw a piercing axe at a nearby enemy that deals 100% weapon damage to all enemies in its path.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Relentless</string>
+						<key>desc</key>
+						<string>While under the effects of Frenzy you gain 22% increased movement speed.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Generate: 3 Fury per attack</string>
 				<key>name</key>
 				<string>Frenzy</string>
 				<key>level</key>
 				<string>11</string>
 				<key>desc1</key>
-				<string>Consecutive hits with this melee skill grant increased attack speed and weapon damage.</string>
-				<key>desc2</key>
-				<string>Each strike grants a X% attack speed and X% weapon damage boost for X seconds. Frenzy can be stacked up to X times for a total bonus of X% attack speed and X% weapon damage.</string>
+				<string>Swing for 80% weapon damage. Each swing increases attack speed of Frenzy by 15% for 4 seconds. This effect can stack up to 5 times for a total bonus of 75% attack speed.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Situational</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Best Served Cold</string>
+						<key>desc</key>
+						<string>After using Revenge, your critical strike chance is increased by 27% for 10 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Retribution</string>
+						<key>desc</key>
+						<string>Increase damage to 255% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Vengeance is Mine</string>
+						<key>desc</key>
+						<string>Gain 7 Fury each time Revenge is used and improve Life gained from each enemy hit to 12.0%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Provocation</string>
+						<key>desc</key>
+						<string>Increases the chance Revenge will become active for use to 31% each time you are hit by an attack.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Grudge</string>
+						<key>desc</key>
+						<string>Knocks enemies back 30 yards when Revenge is used.</string>
+					</dict>
+				</array>
+				<key>desc2</key>
+				<string>Revenge has a 10% chance to become active for a short time each time you are hit by an attack.</string>
 				<key>name</key>
 				<string>Revenge</string>
 				<key>level</key>
 				<string>12</string>
 				<key>desc1</key>
-				<string>A melee skill, this one becomes available when the Barbarian is hit. It deals a fast spinning hit that can strike multiple enemies for considerable damage. When seen at Blizzcon 2010, this skill was an active one; players had to hit the button to trigger it once it was enabled. The skill was changed to a direct, automated strike of some sort during later development, though details are not yet known.</string>
-				<key>desc2</key>
-				<string>When hit, there is a X% chance the Barbarian may strike all enemies within X feet, dealing X% weapon damage and gaining X% health for each enemy hit.</string>
+				<string>Inflict 150% weapon damage to all enemies within 8 yards and gain 5.0% Life for each enemy hit.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Fury Generator</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Invigorate</string>
+						<key>desc</key>
+						<string>Increases maximum Life by 50% and regenerates 479 Life per second while affected by War Cry.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Hardened Wrath</string>
+						<key>desc</key>
+						<string>Increases the armor bonus to 260%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Charge!</string>
+						<key>desc</key>
+						<string>Increases the Fury generated to 51 when used.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Veteran&apos;s Warning</string>
+						<key>desc</key>
+						<string>War Cry also grants 27% dodge bonus.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Impunity</string>
+						<key>desc</key>
+						<string>All of your resistances are increased by 80% while affected by War Cry.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Generate: 30 Fury</string>
 				<key>name</key>
 				<string>War Cry</string>
 				<key>level</key>
 				<string>14</string>
 				<key>desc1</key>
-				<string>This shout boosts the Barbarian&apos;s Fury, as well as the armor of the Barbarian and all nearby party members.</string>
-				<key>desc2</key>
-				<string>A terrifying cry that provides X fury and increases the armor of the Barbarian and all party members within X feet by X% for X seconds.</string>
+				<string>Unleash a rallying cry to increase the armor of you and all allies within 30 yards by 100% for 60 seconds.</string>
+				<key>cost2</key>
+				<string>Cooldown: 30 seconds</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Fury Generator</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Merciless Assault</string>
+						<key>desc</key>
+						<string>Cooldown is reduced by 1 second for every target hit. This effect can reduce the cooldown by up to 8 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Battering Ram</string>
+						<key>desc</key>
+						<string>Increase damage at the destination to 300% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Stamina</string>
+						<key>desc</key>
+						<string>Generate 8 Fury for each target hit while charging.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Juggernaut</string>
+						<key>desc</key>
+						<string>Regain 5% of your maximum Life for each target hit by Furious Charge.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Bull Rush</string>
+						<key>desc</key>
+						<string>Any targets who are critically hit by Furious Charge will be stunned for 5.0 seconds.</string>
+					</dict>
+				</array>
+				<key>cost2</key>
+				<string>Cooldown: 10 seconds</string>
+				<key>cost1</key>
+				<string>Generate: 15 Fury</string>
 				<key>name</key>
 				<string>Furious Charge</string>
 				<key>level</key>
 				<string>16</string>
 				<key>desc1</key>
-				<string>A very fast moving charge attack, enabling the Barbarian to pass through enemies on the way to his target.</string>
-				<key>desc2</key>
-				<string>Charge directly at an enemy causing X% weapon damage to them and X% damage to enemies in the way.</string>
+				<string>Rush forward knocking back enemies and inflicting 60% weapon damage to enemies at the destination and 30% damage to enemies along the path of the charge. Only generates Fury if you hit an enemy.</string>
 			</dict>
 			<dict>
-				<key>name</key>
-				<string>Seismic Slam</string>
-				<key>level</key>
-				<string>18</string>
-				<key>desc1</key>
-				<string>A more powerful version of Ground Stomp, this skill deals higher damage and knocks back enemies, rather than stunning them.</string>
+				<key>category</key>
+				<string>Situational</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Crushing Advance</string>
+						<key>desc</key>
+						<string>Reflect 45% of incoming melee damage for 17 seconds after Overpower is activated.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Killing Spree</string>
+						<key>desc</key>
+						<string>Whenever used, your chance to critical hit is increased by 22% for 6.0 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Momentum</string>
+						<key>desc</key>
+						<string>Overpower generates 7 Fury for every enemy hit.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Storm of Steel</string>
+						<key>desc</key>
+						<string>Throw up to 9 axes at nearby enemies which inflict 240% weapon damage each.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Revel</string>
+						<key>desc</key>
+						<string>Heal 18% of your maximum Life whenever Overpower is used.</string>
+					</dict>
+				</array>
 				<key>desc2</key>
-				<string>Slam the ground causing a wave of destruction that deals X% weapon damage in front of the Barbarian and causes knockback.</string>
-			</dict>
-			<dict>
+				<string>Overpower becomes available whenever you make a critical hit against an enemy.</string>
 				<key>name</key>
 				<string>Overpower</string>
 				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>Press the advantage of a powerful attack to overwhelm the enemy for 150% weapon damage to all targets within 9 yards.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Fury Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Cracking Rift</string>
+						<key>desc</key>
+						<string>Focus the seismic shockwaves along a narrow path to inflict 441% weapon damage to targets along a 42 yard path.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Shattered Ground</string>
+						<key>desc</key>
+						<string>Increase damage to 366% weapon damage and increases the knockback by 225%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Strength from Earth</string>
+						<key>desc</key>
+						<string>Reduce Fury cost to 16 Fury.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Rumble</string>
+						<key>desc</key>
+						<string>The ground continues to shudder after the intitial strike, damaging enemies in the area for 160% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Stagger</string>
+						<key>desc</key>
+						<string>Adds a 100% chance of stunning enemies for 3 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 30 Fury</string>
+				<key>name</key>
+				<string>Seismic Slam</string>
+				<key>level</key>
 				<string>19</string>
 				<key>desc1</key>
-				<string>No description is available.</string>
+				<string>Slam the ground to cause a wave of destruction that deals 215% weapon damage and knockback to targets in a 45 yard arc.</string>
 			</dict>
 			<dict>
-				<key>name</key>
-				<string>Ancient Spear</string>
-				<key>level</key>
-				<string>21</string>
-				<key>desc1</key>
-				<string>&quot;Get over here!&quot; A spear on a chain, hurled to skewer enemies and drag them closer. Runestones can add the ability to skewer multiple enemies on a single spear. This skill should really be called &quot;Ancient Harpoon&quot; since harpoons have barbs and ropes to pull in the aquatic life form they are used to skewer. Spears have neither barbs nor ropes attached.</string>
-				<key>desc2</key>
-				<string>Throws a spear with a maximum range of X feet, pulling each target back to the Barbarian, slowing movement speed and dealing X-X damage.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Whirlwind</string>
-				<key>level</key>
-				<string>22</string>
-				<key>desc1</key>
-				<string>The classic Diablo 2 skill, this one allows the Barbarian to whirl in a moving circle, landing multiple hits to anything in range. Can be quite dangerous in PvP, since a slowed Barbarian becomes a sitting duck, unable to exit the WW in case of emergency.</string>
-				<key>desc2</key>
-				<string>The Barbarian swirls in a cyclone, delivering multiple attacks to everything in his path with each hit doing X% weapon damage.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Sprint</string>
-				<key>level</key>
-				<string>23</string>
-				<key>desc1</key>
-				<string>A shout that buffs the Barbarian with extra movement speed.</string>
-				<key>desc2</key>
-				<string>Grants X% speed boost for X seconds.</string>
-			</dict>
-			<dict>
+				<key>cost2</key>
+				<string>Cooldown: 120 seconds</string>
+				<key>category</key>
+				<string>Situational</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Flying Boulder</string>
+						<key>desc</key>
+						<string>Project secondary tremors up to 12 yards ahead of you that inflict 260% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Aftershocks</string>
+						<key>desc</key>
+						<string>Secondary tremors knock enemies back and inflict 260% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>The Mountain&apos;s Call</string>
+						<key>desc</key>
+						<string>Reduce Fury cost to 40 Fury and the cooldown to 50 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Giant&apos;s Stride</string>
+						<key>desc</key>
+						<string>Secondary tremors follow your movement and inflict 260% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Chilling Earth</string>
+						<key>desc</key>
+						<string>Creates an icy patch causing Eathquake&apos;s damage to turn cold and slow the movement of enemies by 62%.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 75 Fury</string>
 				<key>name</key>
 				<string>Earthquake</string>
 				<key>level</key>
-				<string>24</string>
+				<string>21</string>
 				<key>desc1</key>
-				<string>This stomp causes massive damage to all nearby enemies.</string>
-				<key>desc2</key>
-				<string>Shakes the earth violently, causing massive damage to all nearby enemies.</string>
+				<string>Shake the ground violently dealing 240% weapon damage followed by an additional 150% weapon damage per second for 8 seconds to all enemies within 15 yards.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Fury Generator</string>
+				<key>cost1</key>
+				<string>Generate: 15 Fury</string>
+				<key>cost2</key>
+				<string>Cooldown: 10 seconds</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Rage Flip</string>
+						<key>desc</key>
+						<string>Enemies hit with Ancient Spear will be tossed in the opposite direction and damage is increased to 143% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Harpoon</string>
+						<key>desc</key>
+						<string>Pierce through up to 8 enemies in a straight line and drag them all back.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Skirmish</string>
+						<key>desc</key>
+						<string>Increases Fury gain to 38.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Grappling Hooks</string>
+						<key>desc</key>
+						<string>Throw 8 spears. Each spear will pull back the enemy that it hits.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Siphon</string>
+						<key>desc</key>
+						<string>Gain Life equal to 700% of the damage inflicted.</string>
+					</dict>
+				</array>
+				<key>name</key>
+				<string>Ancient Spear</string>
+				<key>level</key>
+				<string>22</string>
+				<key>desc1</key>
+				<string>Throw a spear up to 45 yards to pull an enemy back to you, slowing target&apos;s movement by 50% and dealing 55% weapon damage.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cost: 20 Fury</string>
+				<key>category</key>
+				<string>Fury Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Gangway</string>
+						<key>desc</key>
+						<string>Slams through enemies, knocking them back and inflicting 200% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Marathon</string>
+						<key>desc</key>
+						<string>Increases the movement speed bonus to 110% for 20 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Forced March</string>
+						<key>desc</key>
+						<string>Increase the movement speed of allies within 30 yards by 40% for 6 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Scramble</string>
+						<key>desc</key>
+						<string>Increase dodge chance by 22% while sprinting.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Run Like the Wind</string>
+						<key>desc</key>
+						<string>Tornadoes rage in the wake of the Sprint, each one inflicting 200% weapon damage.</string>
+					</dict>
+				</array>
+				<key>name</key>
+				<string>Sprint</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>Increase movement speed by 40% for 6 seconds.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cost: 75 Fury</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Talic&apos;s Anger</string>
+						<key>desc</key>
+						<string>Talic gains the ability Leap Attack which deals 360% of your weapon damage to enemies in the area of the leap.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Korlic&apos;s Might</string>
+						<key>desc</key>
+						<string>Korlic gains the ability Furious Charge which deals 280% of your weapon damage to all enemies in a line.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Duty to the Clan</string>
+						<key>desc</key>
+						<string>Increase duration to 85 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>The Council Rises</string>
+						<key>desc</key>
+						<string>The Ancients inflict 275% weapon damage with each attack and have 175% additional armor.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Madawc&apos;s Madness</string>
+						<key>desc</key>
+						<string>Madawc gains the ability Seismic Slam which deals 205% of your weapon damage to enemies in an arc.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Situational</string>
 				<key>name</key>
 				<string>Call of the Ancients</string>
 				<key>level</key>
-				<string>27</string>
+				<string>25</string>
 				<key>desc1</key>
-				<string>The only summoning skill of the Barbarian, this one allows him to summon the Ancients from Diablo II, who will briefly assist in battle.</string>
+				<string>Summon the ancient Barbarians Talic, Korlic, and Madawc to inflict 100% weapon damage with each attack as they join the battle for 15 seconds.</string>
 				<key>desc2</key>
-				<string>Summons three ancient Barbarians; Talic, Korlic and Madawc, who inflict X% weapon damage. Lasts X seconds.</string>
+				<string>Talic wields a sword and shield and uses the Whirlwind skill.
+Korlic wields a massive polearm and uses the Cleave skill.
+Madawc dual-wields axes and uses the Weapon Throw skill.</string>
+				<key>cost2</key>
+				<string>Cooldown: 120 seconds</string>
 			</dict>
 			<dict>
+				<key>cost1</key>
+				<string>Cost: 8 Fury per second</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Blood Funnel</string>
+						<key>desc</key>
+						<string>Critical strikes restore 7% of your maximum Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Volcanic Eruption</string>
+						<key>desc</key>
+						<string>Turns Whirlwind into a torrent of magma that inflicts 84% weapon damage every 0.40 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Eye of the Storm</string>
+						<key>desc</key>
+						<string>Reduce the cost of Whirlwind to 4.5 Fury per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Dust Devils</string>
+						<key>desc</key>
+						<string>Generate harsh tornadoes that inflict 90% weapon damage to enemies in their path.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Hurricane</string>
+						<key>desc</key>
+						<string>Increase the movement speed of Whirlwind by 85%.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Fury Spender</string>
+				<key>name</key>
+				<string>Whirlwind</string>
+				<key>level</key>
+				<string>27</string>
+				<key>desc1</key>
+				<string>Deliver multiple attacks to everything in your path for 44% weapon damage every 0.40 seconds.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cost: 75 Fury </string>
+				<key>cost2</key>
+				<string>Cooldown: 120 seconds</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Slaughter</string>
+						<key>desc</key>
+						<string>Killing an enemy while Wrath of the Berserker is active causes them to explode dealing 450% weapon damage to all enemies within 15 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Insanity</string>
+						<key>desc</key>
+						<string>While active your damage is also increased by 75%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Thrive on Chaos</string>
+						<key>desc</key>
+						<string>Every 9 Fury gained while Wrath of the Berserker is active adds 1 second to the duration of the effect.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Arreat&apos;s Wail</string>
+						<key>desc</key>
+						<string>Activating Wrath of the Berserker knocks back all enemies within 12 yards and deals 550% weapon damage to them.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Mountainous Form</string>
+						<key>desc</key>
+						<string>Increase the bonus dodge chance granted to 60%.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Situational</string>
 				<key>name</key>
 				<string>Wrath of the Berserker</string>
 				<key>level</key>
 				<string>29</string>
 				<key>desc1</key>
-				<string>This shout grants higher stats and enables the Barbarian to partially break monster immunities.</string>
+				<string>Enter a berserker rage which raises several attributes for 15 seconds.</string>
 				<key>desc2</key>
-				<string>Enter a heightened sense of fury, raising several stats (Critical Hit, Attack Speed, Dodge Chance, Movement Speed) for X seconds. Monsters with damage immunities will take X% less damage from the Barbarian&apos;s attacks rather than being immune.</string>
+				<string>Critical Hit: 10%
+Attack Speed: 45%
+Dodge Chance: 20%
+Movement Speed: 20%</string>
 			</dict>
 		</array>
-		<key>icon</key>
-		<string>Barbarian</string>
 		<key>name</key>
 		<string>Barbarian</string>
 	</dict>
@@ -1416,283 +2170,1170 @@
 		<key>askill</key>
 		<array>
 			<dict>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Deep Freeze</string>
+						<key>desc</key>
+						<string>If Frost Nova hits at least 5 targets, you gain 45% chance to critically hit for 12 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Bone Chill</string>
+						<key>desc</key>
+						<string>Enemies take 110% more damage while frozen or chilled by Frost Nova.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Cold Snap</string>
+						<key>desc</key>
+						<string>Reduce cooldown to 5 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Shatter</string>
+						<key>desc</key>
+						<string>A frozen enemy that is killed has a 70% chance of exploding in a smaller Frost Nova causing 34 - 60 Cold damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Frozen Mist</string>
+						<key>desc</key>
+						<string>The Frost Nova no longer freezes enemies, but instead leaves behind a mist of frost for 8 seconds that deals 32 Cold damage per second to enemies standing in it.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cooldown: 12 seconds</string>
 				<key>name</key>
 				<string>Frost Nova</string>
 				<key>level</key>
 				<string>1</string>
 				<key>desc1</key>
-				<string>This defensive skill freezes all enemies in a ring around the player, stopping normal monsters and slowing bosses.</string>
-				<key>desc2</key>
-				<string>An explosion of ice freezes nearby enemies for X seconds and causes X-X cold damage. Cold damage chills enemies, slowing their movement and attack speed. Damage will break the freeze effect, but not the chill effect.</string>
+				<string>An explosion of ice freezes nearby enemies for 4 seconds and causes 28 - 50 Cold damage.</string>
+				<key>category</key>
+				<string>Utility</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Signature</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Seeker</string>
+						<key>desc</key>
+						<string>Missiles track the nearest target and damage is increased to 72 - 110 Arcane damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Charged Blast</string>
+						<key>desc</key>
+						<string>Damage increased to 88 - 135 Arcane damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Attunement</string>
+						<key>desc</key>
+						<string>Whenever Magic Missile hits a target you gain 14 Arcane Power.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Fork</string>
+						<key>desc</key>
+						<string>Fires 8 missiles that do 20 - 31 damage each.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Penetrating Blast</string>
+						<key>desc</key>
+						<string>Missiles have a 100% chance to pierce through their target and hit additional targets.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 0 Arcane Power</string>
 				<key>name</key>
 				<string>Magic Missile</string>
 				<key>level</key>
 				<string>1</string>
 				<key>desc1</key>
-				<string>Magic missiles are fast-moving, conjured projectiles that deal arcane damage.</string>
+				<string>Launch a missile of magic energy causing 40 - 61 Arcane damage.</string>
 				<key>desc2</key>
-				<string>Fires a missile of energy causing arcane damage.</string>
+				<string>This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Utility</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Ice Reflect</string>
+						<key>desc</key>
+						<string>Attacks have a 55% chance to create a Frost Nova on the attacker dealing 78 - 85 Cold damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Jagged Ice</string>
+						<key>desc</key>
+						<string>Attackers take 30 - 38 Cold damage and are chilled for 5.5 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Crystallize</string>
+						<key>desc</key>
+						<string>Whenever you are struck by a melee attack the bonus armor granted by Ice Armor is increased by 85% for 10 seconds. This effect can stack up to 3 times.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Chilling Aura</string>
+						<key>desc</key>
+						<string>Lower the temperature of the air around you. Nearby enemies are chilled, slowing their movement and attack speed, for 3.0 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Frozen Storm</string>
+						<key>desc</key>
+						<string>A whirling storm of ice builds around you that deals 57 - 71 Cold damage per second for 16 seconds after casting Ice Armor.</string>
+					</dict>
+				</array>
+				<key>desc1</key>
+				<string>Surround yourself in a barrier of ice that increases armor by 50%, and causes 7 - 9 Cold damage to melee attackers, chilling them for 2 seconds. Lasts 120 seconds.</string>
+				<key>cost1</key>
+				<string>Cost: 25 Arcane Power</string>
 				<key>name</key>
 				<string>Ice Armor</string>
 				<key>level</key>
 				<string>2</string>
-				<key>desc1</key>
-				<string>Surrounds the Wizard in a barrier of ice that increases armor by X%, freezes attackers for X seconds, and causes X-X cold damage. Cold damage chills enemies, slowing their movement and attack speed. You can only be affected by one armor spell at a time.</string>
+				<key>desc2</key>
+				<string>This is an Armor spell. Only one Armor spell can be active at a time.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Signature</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Explosive Bolts</string>
+						<key>desc</key>
+						<string>Slain enemies have a 100% chance to explode dealing 124 - 252 Lightning damage to every enemy within 10 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Fire Bolts</string>
+						<key>desc</key>
+						<string>Casts out bolts of fire to deal 73 - 148 Fire damage per bolt.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Lightning Affinity</string>
+						<key>desc</key>
+						<string>Every target hit by a pulse restores 7 Arcane Power.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Lightning Orb</string>
+						<key>desc</key>
+						<string>Turn the bolts into a floating orb of static lightning that drifts directly forward, zapping up to 5 nearby enemies for 18 - 35 Lightning damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Piercing Orb</string>
+						<key>desc</key>
+						<string>Merge the bolts in a a single giant orb that oscillates forward dealing 36 - 72 Lightning damage to everything it hits with a 100% chance to pierce through enemies.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 0 Arcane Power</string>
+				<key>desc2</key>
+				<string>This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.</string>
 				<key>name</key>
 				<string>Shock Pulse</string>
 				<key>level</key>
 				<string>3</string>
 				<key>desc1</key>
-				<string>This skill debuted in the beta build; it&apos;s thought to be a renamed version of Charged Bolt.</string>
+				<string>Release a pulse of 3 unpredictable charges of electricity that deal 36 - 72 Lightning damage to enemies they hit.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Offensive</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Impactful Wave</string>
+						<key>desc</key>
+						<string>Increases the distance enemies are knocked back and stuns all affected enemies for 5.0 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Forceful Wave</string>
+						<key>desc</key>
+						<string>Increases damage to 203 - 234 physical damage but reduces knockback.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Force Affinity</string>
+						<key>desc</key>
+						<string>Reduce casting cost to 11 Arcane Power and cooldown is reduced to 8 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Exploding Wave</string>
+						<key>desc</key>
+						<string>Enemies hit have a 100% chance to cause a smaller Wave of Force that does 46 - 53 physical damage and knocks back enemies caught in its wake.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Teleporting Wave</string>
+						<key>desc</key>
+						<string>Enemies caught in the wave have a 70% chance to randomly teleport to somewhere else nearby.</string>
+					</dict>
+				</array>
+				<key>cost2</key>
+				<string>Cooldown: 15 seconds</string>
+				<key>cost1</key>
+				<string>Cost: 25 Arcane Power</string>
 				<key>name</key>
 				<string>Wave of Force</string>
 				<key>level</key>
 				<string>4</string>
 				<key>desc1</key>
-				<string>A defensive skill that pushes back enemies and enemy projectiles. Works well when combined with Slow Time.</string>
-				<key>desc2</key>
-				<string>Causes a wave of pure force that causes a knockback to nearby enemies, repels projectiles and deals X-X physical damage.</string>
+				<string>Explode a wave of pure energy that repels projectiles and knocks back nearby enemies. This also slows the movement of enemies by 50% and deals 92 - 107 physical damage to them.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Signature</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Healing Blades</string>
+						<key>desc</key>
+						<string>Whenever the blades do critical damage, you are healed 100% of the damage caused.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Deep Cuts</string>
+						<key>desc</key>
+						<string>Enemies hit by the blade will bleed for an additional 45% weapon damage done over 3 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Siphoning Blade</string>
+						<key>desc</key>
+						<string>Every enemy hit grants 7 Arcane Power.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Thrown Blade</string>
+						<key>desc</key>
+						<string>Extends the blades out to reach everything within 20 yards dealing 72% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Impactful Blades</string>
+						<key>desc</key>
+						<string>Hits have a 45% chance to cause knockback and slow the movement of enemies by 60% for 2 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 0 Arcane Power</string>
 				<key>name</key>
 				<string>Spectral Blade</string>
 				<key>level</key>
 				<string>5</string>
 				<key>desc1</key>
-				<string>A magical melee attack, this hits nearby enemies for considerable physical damage.</string>
+				<string>Summon a spectral blade that strikes all enemies in your path 3 times causing 35% weapon damage with each hit.</string>
 				<key>desc2</key>
-				<string>Summons a spectral blade that strikes enemies in front of the Wizard X times causing X-X physical damage with each hit.</string>
+				<string>This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Signature</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Forked Lightning</string>
+						<key>desc</key>
+						<string>Critical hits with this skill cause an explosion of 5 charged bolts in random directions, dealing 1 - 82 Lightning damage to any targets hit.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Ball Lightning</string>
+						<key>desc</key>
+						<string>Creates a streak of lightning that pierces targets, hitting all enemies in its path for 1 - 70 Lightning damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Surge of Power</string>
+						<key>desc</key>
+						<string>Gain 7 Arcane Power for every target hit by Electrocute.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Chain Lightning</string>
+						<key>desc</key>
+						<string>Increases the maximum number of jumps to 10 enemies.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Arc Lightning</string>
+						<key>desc</key>
+						<string>Blast a cone of lightning that causes 1 - 65 Lightning damage to all affected targets.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 0 Arcane Power</string>
 				<key>name</key>
 				<string>Electrocute</string>
 				<key>level</key>
 				<string>6</string>
 				<key>desc1</key>
-				<string>A beam weapon, the bolt of lightning locks onto an enemy and deals steadily draining damage, as well as stunning and slowing the target. An excellent skill for hitting moving targets that might dodge projectiles.</string>
+				<string>Lightning arcs from your fingertips towards an enemy dealing 1 - 59 Lightning damage. The lightning can jump, hitting up to 2 enemies. Damage is reduced by 30% for each jump.</string>
 				<key>desc2</key>
-				<string>Lightning arcs from the Wizard&apos;s fingertips towards an enemy dealing X-X lightning damage.</string>
+				<string>This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Utility</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Blood Magic</string>
+						<key>desc</key>
+						<string>Melee hits recover 45% of damage caused as Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Ignite</string>
+						<key>desc</key>
+						<string>Melee attacks burn enemies with fire for 70% of weapon damage for 3 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Conduit</string>
+						<key>desc</key>
+						<string>Melee hits restore 10% Arcane Power.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Electrify</string>
+						<key>desc</key>
+						<string>Melee attacks cause lightning to arc to 8 nearby enemies dealing 18% of weapon damage as Lightning damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Force Weapon</string>
+						<key>desc</key>
+						<string>Increases damage bonus to 34% physical damage, and gives a 45% chance to knock back any enemies hit.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 8 Arcane Power</string>
 				<key>name</key>
 				<string>Magic Weapon</string>
 				<key>level</key>
 				<string>7</string>
 				<key>desc1</key>
-				<string>A spell for the battle mage, this one imbues huge magical damage into the wizard&apos;s weapon.</string>
-				<key>desc2</key>
-				<string>Imbues the Wizard&apos;s weapon with magical energy, granting X-X increased damage.</string>
+				<string>Imbue your weapon with magical energy granting it 20% increased physical damage. Can only affect melee weapons. Lasts 60 seconds.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Offensive</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Celestial Orb</string>
+						<key>desc</key>
+						<string>The orb will pierce through targets, damaging any enemy it passes through dealing 154 - 211 Arcane damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Obliteration</string>
+						<key>desc</key>
+						<string>Increase the potency of the explosion to deal 297 - 406 Arcane damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Tap the Source</string>
+						<key>desc</key>
+						<string>Reduce casting cost to 21 Arcane Power.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Arcane Nova</string>
+						<key>desc</key>
+						<string>Modify the orb to deal 135 - 185 Arcane damage to all enemies within 16 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Arcane Orbit</string>
+						<key>desc</key>
+						<string>Create 4 Arcane Orb(s) that orbit you, exploding for 162 - 222 Arcane damage when enemies get close.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 35 Arcane Power</string>
 				<key>name</key>
 				<string>Arcane Orb</string>
 				<key>level</key>
 				<string>8</string>
 				<key>desc1</key>
-				<string>A projectile that moves slower than most such magical attacks, but that deals considerable arcane AoE damage upon impact and explosion.</string>
-				<key>desc2</key>
-				<string>An orb of pure energy that explodes on contact with enemies dealing X-X arcane damage to all enemies in the blast area.</string>
+				<string>Hurl an orb of pure energy that explodes when it hits, dealing 135 - 185 Arcane damage to all enemies within 10 yards.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Utility</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Diamond Shards</string>
+						<key>desc</key>
+						<string>When Diamond Skin wears off, diamond shards will explode in all directions dealing 18 - 36 physical damage to enemies nearby.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Mirror Skin</string>
+						<key>desc</key>
+						<string>Reflects 160% of damage absorbed back at the attacker.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Prism</string>
+						<key>desc</key>
+						<string>Reduce Arcane Power cost of all spells by 14 while Diamond Skin is active.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Enduring Skin</string>
+						<key>desc</key>
+						<string>Increase duration to 21 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Crystal Shell</string>
+						<key>desc</key>
+						<string>Increase the maximum absorption amount to 6919 damage.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cooldown: 25 seconds</string>
 				<key>name</key>
 				<string>Diamond Skin</string>
 				<key>level</key>
 				<string>9</string>
 				<key>desc1</key>
-				<string>A powerful defensive skill, this absorbs considerable points from all types of damage for a short duration.</string>
-				<key>desc2</key>
-				<string>Turns the Wizard&apos;s skin to diamond for X seconds absorbing up to X damage from incoming attacks.</string>
+				<string>Transform your skin to diamond for 5 seconds absorbing up to 2661 damage from incoming attacks.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Offensive</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Wicked Wind</string>
+						<key>desc</key>
+						<string>Twister no longer travels but spins in place dealing 38 Arcane damage per second to everything caught within it.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Gale Force</string>
+						<key>desc</key>
+						<string>Increase damage to 60 Arcane damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Mistral Breeze</string>
+						<key>desc</key>
+						<string>Reduce casting cost to 14 Arcane Power.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Raging Storm</string>
+						<key>desc</key>
+						<string>When two twisters touch they merge into a tornado with an increased area of effect that causes 32 Arcane damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Trail of Destruction</string>
+						<key>desc</key>
+						<string>Casting Energy Twister grants you a Wind Charge. You can store up to 5 Wind Charges at a time. Casting a Signature spell releases all Wind Charges as a giant Energy Twister that deals 11 - 18 damage per Wind Charge.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 35 Arcane Power</string>
 				<key>name</key>
 				<string>Energy Twister</string>
 				<key>level</key>
 				<string>11</string>
 				<key>desc1</key>
-				<string>Cast tornadoes of arcane damage that deal substantial damage to all they come into contact with. The tornadoes move semi-randomly, making this better against crowds than individuals.</string>
-				<key>desc2</key>
-				<string>Summon an energy twister that deals X arcane damage per second to everything in its path.</string>
+				<string>Unleash a twister of pure energy that deals 27 Arcane damage per second to everything caught within it.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Offensive</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Volatility</string>
+						<key>desc</key>
+						<string>Enemies killed by the beam have a 35% chance to explode causing 153 - 177 Arcane damage to all enemies within 8 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Intensify</string>
+						<key>desc</key>
+						<string>Damage increases slowly over time to inflict a maximum of 188 - 234 Arcane damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Chaos Nexus</string>
+						<key>desc</key>
+						<string>When casting the beam you become charged with energy that spits out at nearby enemies doing 68 - 85 Arcane damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Convergence</string>
+						<key>desc</key>
+						<string>Increase the width of the beam allowing it to hit more enemies for 111 - 139 Arcane damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Entropy</string>
+						<key>desc</key>
+						<string>The beam fractures into a short ranged cone causing 114 - 153 Arcane damage per second.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 20 Arcane Power per second</string>
 				<key>name</key>
 				<string>Disintegrate</string>
 				<key>level</key>
 				<string>12</string>
 				<key>desc1</key>
-				<string>A laser beam of doom, this instantly-hitting, long range attack deals considerable damage to everything in its path.</string>
-				<key>desc2</key>
-				<string>Emanate a beam of pure energy dealing X arcane damage per second and disintegrating enemies it kills.</string>
+				<string>Thrust a beam of pure energy forward dealing 85 - 107 Arcane damage per second and disintegrating enemies it kills.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Utility</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Shocking Aspect</string>
+						<key>desc</key>
+						<string>Whenever you cast a spell that critically hits, you also shock a nearby enemy for 2 - 153 Lightning damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Strike Back</string>
+						<key>desc</key>
+						<string>Increase the damage of the shock to 2 - 135 Lightning damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Power of the Storm</string>
+						<key>desc</key>
+						<string>Reduce the cost of all abilities by 7 Arcane Power while Storm Armor is active.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Static Charge</string>
+						<key>desc</key>
+						<string>Increase your movement speed by 20% for 5 seconds whenever you are hit by melee or ranged attack.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Reactive Armor</string>
+						<key>desc</key>
+						<string>Whenever you are hit you are enveloped with a lightning shield for 8 seconds that shocks nearby enemies for 1-74 Lightning damage.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 25 Arcane Power</string>
 				<key>name</key>
 				<string>Storm Armor</string>
 				<key>level</key>
 				<string>13</string>
 				<key>desc1</key>
-				<string>A fire and forget skill, this one shocks enemies with electrical bolts for the duration of effect, without requiring the Wizard to aim or target them.</string>
+				<string>Bathe yourself in electrical energy, shocking ranged and melee attackers for 1 - 61 Lightning damage. Lasts 120 seconds.</string>
 				<key>desc2</key>
-				<string>Surround yourself in electrical energy. Electric bolts are automatically fired at attackers for X-X lightning damage.</string>
+				<string>This is an Armor spell. Only one Armor spell can be active at a time.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Offensive</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Chain Reaction</string>
+						<key>desc</key>
+						<string>8 consecutive explosions cascade off you that each cause 50 - 67 physical damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Short Fuse</string>
+						<key>desc</key>
+						<string>An energy explosion fires immediately for 169 - 229 physical damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Unleashed</string>
+						<key>desc</key>
+						<string>Reduces the casting cost to 24 Arcane Power.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Obliterate</string>
+						<key>desc</key>
+						<string>Increase the explosion radius to 18 yards for 169 - 229 physical damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Time Bomb</string>
+						<key>desc</key>
+						<string>The blast detonates from the point it was originally cast after 2 seconds for 204 - 277 physical damage.</string>
+					</dict>
+				</array>
+				<key>cost2</key>
+				<string>Cooldown: 1 second</string>
+				<key>cost1</key>
+				<string>Cost: 45 Arcane Power</string>
 				<key>name</key>
 				<string>Explosive Blast</string>
 				<key>level</key>
 				<string>14</string>
 				<key>desc1</key>
-				<string>A physical damage attack that turns the Wizard into a time bomb. Click to arm the spell, run into a pack of enemies, and blow up amidst them.</string>
-				<key>desc2</key>
-				<string>Builds up energy around the Wizard that explodes after X seconds, causing X-X physical damage in a small radius.</string>
+				<string>Gather an infusion of energy around you that explodes after 2 seconds, causing 99 - 135 physical damage to any nearby enemies.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Utility</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Mocking Demise</string>
+						<key>desc</key>
+						<string>When an image is destroyed it explodes, doing 78 - 142 physical damage and has 50% chance to stun enemies it hits for 5 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Mirror Mimics</string>
+						<key>desc</key>
+						<string>Spells the images cast will do 70% of the damage as your own.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Extension of Will</string>
+						<key>desc</key>
+						<string>The duration of the images is increased to 31 seconds and increases the Life of your images to 60% of your Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Duplicates</string>
+						<key>desc</key>
+						<string>Summons 6 illusionary duplicates that have 25% of your Life each.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Simulacrum</string>
+						<key>desc</key>
+						<string>Increases the Life of your images to 125% of your Life.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cooldown: 25 seconds</string>
 				<key>name</key>
 				<string>Mirror Image</string>
 				<key>level</key>
 				<string>15</string>
 				<key>desc1</key>
-				<string>The Wizard creates multiple images of himself. These duplicates move and attack enemies in convincing fashion.</string>
-				<key>desc2</key>
-				<string>Creates an illusionary duplicate of the Wizard that lasts for X seconds and has X% of the caster&apos;s health.</string>
+				<string>Summon 2 illusionary duplicates of yourself that last for 15 seconds and have 25% of your Life. The images may cast some of the same spells as you, but those spells deal no damage.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Utility</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Stretch Time</string>
+						<key>desc</key>
+						<string>Time is sped up for any friendly heroes standing in the bubble, increasing attack and cast speed by 140%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Time Warp</string>
+						<key>desc</key>
+						<string>Enemies caught in the bubble of warped time take 140% more damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Perpetuity</string>
+						<key>desc</key>
+						<string>Reduce cooldown to 16 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Miasma</string>
+						<key>desc</key>
+						<string>Slow Time effects cling to enemies for 14 seconds after they have left the bubble.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Time Shell</string>
+						<key>desc</key>
+						<string>Reduces the size of the Slow Time bubble to 10 yards, but increases the effect, slowing movement and attack speed of enemies by 60% while inside the bubble.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cooldown: 30 seconds</string>
 				<key>name</key>
 				<string>Slow Time</string>
 				<key>level</key>
 				<string>16</string>
 				<key>desc1</key>
-				<string>Slow time creates a bubble of protection around the location its cast in, slowing all enemy projectiles and the enemies themselves.</string>
-				<key>desc2</key>
-				<string>Warps space and time, slowing nearby monsters and projectiles for X seconds.</string>
+				<string>Invoke a bubble of warped time and space for 10 seconds, slowing the movement and attack speed of enemies by 35%. This bubble also slows the movement of enemy projectiles by 90%.</string>
 			</dict>
 			<dict>
+				<key>cost2</key>
+				<string>Cooldown: 16 seconds</string>
+				<key>category</key>
+				<string>Utility</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Wormhole</string>
+						<key>desc</key>
+						<string>After casting Teleport there is a 2.0 second delay before the cooldown begins.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Calamity</string>
+						<key>desc</key>
+						<string>Casts a low power Wave of Force on arrival dealing 85 - 92 physical damage to all enemies nearby.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Reversal</string>
+						<key>desc</key>
+						<string>Casting Teleport again within 8 seconds will instantly bring you back to your original location.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Fracture</string>
+						<key>desc</key>
+						<string>Summon 2 mirror images for 15 seconds on arrival.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Safe Passage</string>
+						<key>desc</key>
+						<string>For 16 seconds after you appear you will take 25% less damage.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 15 Arcane Power</string>
 				<key>name</key>
 				<string>Teleport</string>
 				<key>level</key>
 				<string>18</string>
 				<key>desc1</key>
-				<string>Bamf instantly from one location to another. This skill carries a considerable cool down time in Diablo III, making it something best saved for emergency escapes.</string>
-				<key>desc2</key>
-				<string>Teleport instantly to the selected location.</string>
+				<string>Teleport through the ether to the selected location up to 35 yards away.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Offensive</string>
+				<key>cost1</key>
+				<string>Cost: 60 Arcane Power</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Arcane Hydra</string>
+						<key>desc</key>
+						<string>Summon Arcane Hydras that spit Arcane Orbs which explode on impact causing 22 - 26 Arcane damage to enemies near the explosion.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Frost Hydra</string>
+						<key>desc</key>
+						<string>Summon Frost Hydras that breathe a short range cone of frost causing 30 - 35 Cold damage to all enemies in the cone.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Brimstone Serpent</string>
+						<key>desc</key>
+						<string>Summon one Mammoth Hydra that breathes a wall of flame at nearby enemies dealing 38 - 45 Fire damage per second to enemies caught in the burning ground.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Lightning Hydra</string>
+						<key>desc</key>
+						<string>Summon Lightning Hydras that shock enemies for 41 - 48 Lightning damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Venom Hydra</string>
+						<key>desc</key>
+						<string>Summon Poison Breathing Hydras that leave a pool of acid causing 15 - 18 Poison damage per second to enemies who remain in the pool.</string>
+					</dict>
+				</array>
 				<key>name</key>
 				<string>Hydra</string>
 				<key>level</key>
 				<string>19</string>
 				<key>desc1</key>
-				<string>Summons a fiery, three-headed dragon that appears from the ground and assails enemies with bolts of flame. Runestone bonuses give great flexibility to this spell.</string>
-				<key>desc2</key>
-				<string>Creates a multi-headed hydra that attacks your enemies with bolts of fire, dealing X-X fire damage per attack for X seconds.</string>
+				<string>Summon a multi-headed Hydra for 9 seconds that attacks enemies with bolts of fire dealing 18 - 22 Fire damage per attack.</string>
 			</dict>
 			<dict>
+				<key>cost1</key>
+				<string>Cost: 29 Arcane Power per second</string>
+				<key>category</key>
+				<string>Offensive</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Black Ice</string>
+						<key>desc</key>
+						<string>Enemies who die leave a patch of ice on the ground that causes 199 - 234 Cold damage per second to enemies moving through it.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Snow Blast</string>
+						<key>desc</key>
+						<string>Damage increases slowly over 1.5 seconds to inflict a maximum of 369 - 434 Cold damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Cold Blood</string>
+						<key>desc</key>
+						<string>Reduce casting cost to 3 Arcane Power per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Sleet Storm</string>
+						<key>desc</key>
+						<string>Create a swirling storm of sleet dealing 99 - 107 Cold damage per second to all enemies caught within it.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Numb</string>
+						<key>desc</key>
+						<string>Increase enemy slow amount to 50% for 8.5 seconds, but damage is reduced to 114 - 134 Cold damage per second.</string>
+					</dict>
+				</array>
 				<key>name</key>
 				<string>Ray of Frost</string>
 				<key>level</key>
 				<string>21</string>
 				<key>desc1</key>
-				<string>A laser beam of cold damage, this one chills enemies, slowing them while dealing damage.</string>
-				<key>desc2</key>
-				<string>Project a beam of cold that deals X cold damage per second. Cold damage chills enemies, slowing their movement and attack speed.</string>
+				<string>Project a beam of frozen ice that blasts 142 - 167 Cold damage per second to the first enemy it hits, slowing the target&apos;s movement by 40% and attack speed by 30% for 5 seconds.</string>
 			</dict>
 			<dict>
+				<key>cost1</key>
+				<string>Cost: 25 Arcane Power</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Pinpoint Barrier</string>
+						<key>desc</key>
+						<string>Also increases your Precision by 40% while Energy Armor is active.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Prismatic Armor</string>
+						<key>desc</key>
+						<string>Increases all of your resistances by 180% while Energy Armor is active.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Absorption</string>
+						<key>desc</key>
+						<string>Gain 7 Arcane Power whenever you are hit by an ranged or melee attack.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Energy Tap</string>
+						<key>desc</key>
+						<string>Rather than reducing your maximum Arcane Power, it is increased by 40 while Energy Armor is active.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Force Armor</string>
+						<key>desc</key>
+						<string>While Energy Armor is active, incoming attacks that would deal more than 26% of your maximum Life are reduced to deal 26% of your maximum Life instead.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Utility</string>
 				<key>name</key>
 				<string>Energy Armor</string>
 				<key>level</key>
 				<string>22</string>
 				<key>desc1</key>
-				<string>The classic protective skill (renamed from Energy Shield) returns, now trading Arcane Power for damage reduction.</string>
+				<string>Focus your energies, increasing your Defense by 20% but lowers your maximum Arcane Power by 20. Lasts 120 seconds.</string>
 				<key>desc2</key>
-				<string>A protective barrier that absorbs damage, draining arcane power in its place. Absorbs X% of all damage dealt to the Wizard.</string>
+				<string>This is an Armor spell. Only one Armor spell can be active at a time.</string>
 			</dict>
 			<dict>
+				<key>cost1</key>
+				<string>Cost: 20 Arcane Power per second</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Death Blossom</string>
+						<key>desc</key>
+						<string>Unleash the torrent beyond your control. You can no longer direct where the projectiles go but their damage is increased to 199 - 249 Arcane damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Disruption</string>
+						<key>desc</key>
+						<string>Targets hit by Arcane Torrent become Disrupted for 6 seconds, causing them to take 120% additional damage from any attacks that deal Arcane damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Power Stone</string>
+						<key>desc</key>
+						<string>Every missile hit has a 8% chance to leave behind a Power Stone that grants Arcane Power when picked up.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Cascade</string>
+						<key>desc</key>
+						<string>Enemies killed by Arcane Torrent have a 95% chance to fire a new missile at a nearby enemy dealing 50 - 99 Arcane damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Arcane Mines</string>
+						<key>desc</key>
+						<string>Instead of firing projectiles, lay Arcane mines that arm after 1 second. These mines explode when an enemy approaches, dealing 114 - 142 Arcane damage. Enemies caught in the explosion have their movement and attack speeds reduced by 30% for 3 seconds.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Offensive</string>
 				<key>name</key>
 				<string>Arcane Torrent</string>
 				<key>level</key>
 				<string>23</string>
 				<key>desc1</key>
-				<string>An arcane style of Meteor Storm, this spell hurls flaming rocks at the targeted spot, dealing AoE damage to anything in the vicinity.</string>
-				<key>desc2</key>
-				<string>Arcane meteorites pelt the targeted region dealing X-X arcane damage per second.</string>
+				<string>Hurl a barrage of arcane projectiles that deal 107 - 181 Arcane damage per second to all enemies near the impact location.</string>
 			</dict>
 			<dict>
+				<key>cost1</key>
+				<string>Cost: 60 Arcane Power</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Liquify</string>
+						<key>desc</key>
+						<string>If the initial impact critically hits any targets the molten fire duration is increased to 18 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Molten Impact</string>
+						<key>desc</key>
+						<string>Increase the damage of the meteor impact to 469 - 641 Fire damage and the molten fire will do an additional 63 - 94 Fire damage over 3 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Star Pact</string>
+						<key>desc</key>
+						<string>Reduce casting cost to 39 Arcane Power.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Meteor Shower</string>
+						<key>desc</key>
+						<string>Unleash a volley of 14 smaller meteors that strike for 139 - 189 Fire damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Comet</string>
+						<key>desc</key>
+						<string>Transforms the meteor to ice that deals 298 - 408 Cold damage on impact and freezes the ground, causing 40 - 60 Cold damage over 3 seconds. The movement of enemies in the area will also be slowed by 60%.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Offensive</string>
 				<key>name</key>
 				<string>Meteor</string>
 				<key>level</key>
 				<string>24</string>
 				<key>desc1</key>
-				<string>The biggest damage of the death from above skills, this one lands a flaming stone on the targeted location, dealing huge fire damage and leaving a dangerous field of fire in the location for some time.</string>
-				<key>desc2</key>
-				<string>Summons a massive meteor from the sky that causes X-X fire damage to all enemies in the affected area. Also leaves a pool of fire that does X fire damage every second for X seconds.</string>
+				<string>Summon an immense meteor that plummets from the sky causing 213 - 291 Fire damage to all enemies it crashes into. The ground it hits is scorched with molten fire that does 28 - 43 Fire damage over 3 seconds.</string>
 			</dict>
 			<dict>
+				<key>cost1</key>
+				<string>Cost: 45 Arcane Power</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Frozen Solid</string>
+						<key>desc</key>
+						<string>Enemies caught in the storm have a 52% chance to be frozen for 3 seconds and the critical strike chance with Blizzard is increased by 80%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Unrelenting Storm</string>
+						<key>desc</key>
+						<string>Increase the duration of the Blizzard to 10 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Snowbound</string>
+						<key>desc</key>
+						<string>Reduce the casting cost to 24 Arcane Power.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Stark Winter</string>
+						<key>desc</key>
+						<string>Increase the size of the Blizzard to cover 22 yards, and deal 136 - 188 Cold damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Grasping Chill</string>
+						<key>desc</key>
+						<string>After the Blizzard ends, cover the ground in a low lying mist for 6.0 seconds that slows any enemies who enters it.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Offensive</string>
 				<key>name</key>
 				<string>Blizzard</string>
 				<key>level</key>
 				<string>26</string>
 				<key>desc1</key>
-				<string>Another powerful AoE spell, this one drops damaging ice on a large section of the screen, chilling and injuring anything in the area.</string>
-				<key>desc2</key>
-				<string>Call down shards of ice to pelt an area dealing X-X cold damage per second for X seconds. Cold damage chills enemies, slowing their movement and attack speed.</string>
+				<string>Call down shards of ice to pelt an area dealing 57 - 78 Cold damage per second for 3 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
 				<string>Familiar</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Ancient Guardian</string>
+						<key>desc</key>
+						<string>While you are below 25% Life the Familiar will absorb up to 8 attacks directed at you. If it absorbs all its attacks it will disintegrate.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Sparkflint</string>
+						<key>desc</key>
+						<string>Increase damage of all attacks by 40% while Familiar is active.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Arcanot</string>
+						<key>desc</key>
+						<string>While the Familiar is active you regenerate 270 Arcane Power per minute.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Cannoneer</string>
+						<key>desc</key>
+						<string>Familiar&apos;s projectiles explode on impact dealing 5 - 8 Arcane damage to all enemies within 10 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Dartling</string>
+						<key>desc</key>
+						<string>Familiar&apos;s projectiles have a 100% chance to pierce through enemies.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 20 Arcane Power</string>
+				<key>category</key>
+				<string>Utility</string>
 				<key>level</key>
 				<string>27</string>
 				<key>desc1</key>
-				<string>An assisting creature that boosts the Wizard&apos;s damage, without serving as a &quot;tank&quot; to distract their attacks.</string>
-				<key>desc2</key>
-				<string>Creates a companion that accompanies the Wizard, attacking enemies for X-X damage. This companion cannot be targeted or damaged by enemies.</string>
+				<string>Summon a companion that will attack your targets for 5 - 9 Arcane damage. This companion cannot be targeted or damaged by enemies. Pet lasts 60 seconds.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Utility</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Arcane Destruction</string>
+						<key>desc</key>
+						<string>An explosion errupts when you transform causing 568 - 852 Arcane damage to all enemies within 15 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Improved Archon</string>
+						<key>desc</key>
+						<string>Increase damage of all Archon abilities by 120%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Pure Power</string>
+						<key>desc</key>
+						<string>Decrease the cooldown of Archon to 80 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Slow Time</string>
+						<key>desc</key>
+						<string>Archon form can now cast a Slow Time that lasts for 20 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Teleport</string>
+						<key>desc</key>
+						<string>Archon form can now cast Teleport with a cooldown of 3 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 25 Arcane Power</string>
+				<key>cost2</key>
+				<string>Cooldown: 120 seconds</string>
 				<key>name</key>
 				<string>Archon</string>
 				<key>level</key>
 				<string>29</string>
 				<key>desc1</key>
-				<string>No description available.</string>
+				<string>Transform into a being of pure arcane energy for 15 seconds. While in Archon form your normal abilities are replaced by powerful Archon abilities, and your armor and resistances are increased by 40%. Every enemy killed while in Archon form adds 1 second to the duration of Archon.</string>
 			</dict>
 		</array>
 		<key>pskill</key>
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Blur</string>
+				<string>Power Hungry</string>
 				<key>level</key>
 				<string>10</string>
 				<key>desc1</key>
-				<string>Reduces melee damage taken by 20%.</string>
+				<string>Gain 30 Arcane Power whenever you are healed by a health globe.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Drain Power</string>
+				<string>Temporal Flux</string>
 				<key>level</key>
 				<string>10</string>
 				<key>desc1</key>
-				<string>All basic attacks provide 10 Arcane Power.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Quickening</string>
-				<key>level</key>
-				<string>10</string>
-				<key>desc1</key>
-				<string>Increases casting speed by 10%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Flight Before Fight</string>
-				<key>level</key>
-				<string>13</string>
-				<key>desc1</key>
-				<string>Increases run speed by 5% when the Wizard is blocked in melee.</string>
+				<string>Whenever you deal Arcane damage, enemies are slowed by 24% for 2 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -1700,87 +3341,79 @@
 				<key>level</key>
 				<string>13</string>
 				<key>desc1</key>
-				<string>Increases damage dealt by 20%, but reduces armor by 20%.</string>
+				<string>Increases all damage done by 20% but decreases armor and resistances by 10%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Aggression</string>
+				<string>Prodigy</string>
 				<key>level</key>
 				<string>15</string>
 				<key>desc1</key>
-				<string>Increases attack by 20%.</string>
+				<string>Every time you cast an Academic spell, you gain 5 Arcane Power. The following skills are Academic spells: Magic Missile, Shock Pulse, Spectral Blade, Electrocute</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Superior Skill</string>
-				<key>level</key>
-				<string>15</string>
-				<key>desc1</key>
-				<string>Increases precision by 20%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Expert Defense</string>
+				<string>Virtuoso</string>
 				<key>level</key>
 				<string>17</string>
 				<key>desc1</key>
-				<string>Increases defense by 20%.</string>
+				<string>Increases the damage of your basic wand attack by 100%. Successful attacks with a wand generate 15 Arcane Power and heal you for 1% of your maximum Life.</string>
 			</dict>
 			<dict>
 				<key>name</key>
 				<string>Astral Presence</string>
 				<key>level</key>
-				<string>20</string>
+				<string>19</string>
 				<key>desc1</key>
-				<string>Increases maximum Arcane Power by 20%.</string>
+				<string>Increases your maximum Arcane Power by 20 and Arcane Power regeneration by 2 per second.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Black Ice</string>
+				<string>Illusionist</string>
 				<key>level</key>
 				<string>20</string>
 				<key>desc1</key>
-				<string>Damage dealt to frozen targets is increased by 20%.</string>
+				<string>Whenever you suffer more than 15% of your Life in a single hit the cooldown on your Mirror Image and Teleport abilities is automatically reset.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Temporal Flux</string>
+				<string>Galvanizing Ward</string>
 				<key>level</key>
-				<string>21</string>
+				<string>23</string>
 				<key>desc1</key>
-				<string>When an enemy takes damage from an Arcane skill, its speed is reduced by 24% for 4 seconds.</string>
+				<string>Increases the duration of your armor spells by 120 seconds. As long as an Armor spell is active, you gain 3 Life per second. The following skills are improved: Energy Armor, Ice Armor, Storm Armor</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Piercing Attacks</string>
+				<string>Blur</string>
 				<key>level</key>
 				<string>25</string>
 				<key>desc1</key>
-				<string>Reduces the magical resistances of enemies by 20%.</string>
+				<string>Decreases melee damage taken by 20%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Temporal Shift</string>
+				<string>Evocation</string>
 				<key>level</key>
 				<string>26</string>
 				<key>desc1</key>
-				<string>Reduces cooldowns of skills by 10%.</string>
+				<string>Reduces all cooldowns by 20%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Unstable Energy</string>
+				<string>Arcane Dynamo</string>
 				<key>level</key>
 				<string>28</string>
 				<key>desc1</key>
-				<string>When under 20% health, the next skill knocks back all targets it hits. Can happen once every 90 seconds.</string>
+				<string>When you deal damage with a Signature spell you gain a Flash of Insight. After 8 Flashes of Insight your next non-Signature spell deals 50% additional damage. You cannot gain a Flash of Insight more than once every 1.5 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Knowledge is Power</string>
+				<string>Unstable Anomaly</string>
 				<key>level</key>
 				<string>30</string>
 				<key>desc1</key>
-				<string>Unknown. (Used to provide 25% extra Willpower, a stat that&apos;s not in the game anymore.)</string>
+				<string>When reduced below 20% Life release a shockwave that knocks all enemies back. This effect cannot occur more than once every 60 seconds.</string>
 			</dict>
 		</array>
 		<key>icon</key>

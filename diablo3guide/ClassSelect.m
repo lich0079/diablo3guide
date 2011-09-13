@@ -7,8 +7,9 @@
 //
 
 #import "ClassSelect.h"
-#import "Skills.h"
+#import "PassiveSkills.h"
 #import "ClassIntro.h"
+#import "ActiveSkills.h"
 
 @implementation ClassSelect
 
@@ -111,7 +112,7 @@
     //class Passive Skills
     UIButton *pSkill = [UIButton buttonWithType:UIButtonTypeCustom];
     pSkill.tag = indexPath.row;
-    pSkill.frame = CGRectMake(170, 62, 130, 30);
+    pSkill.frame = CGRectMake(170, 70, 130, 30);
     NSString *pSkillImgpath = [[NSBundle mainBundle] pathForResource:@"pskill" ofType:@"png"]; 
     UIImage *pSkillimage = [UIImage imageWithContentsOfFile:pSkillImgpath];
     [pSkill setImage:pSkillimage forState:UIControlStateNormal];
@@ -119,7 +120,7 @@
     [pSkill addTarget:self action:@selector(pSkill:) forControlEvents:UIControlEventTouchUpInside];
     [cell addSubview:pSkill];
     
-    UILabel *pSkilllabel = [[UILabel alloc]initWithFrame:CGRectMake(180, 62, 100, 30)];
+    UILabel *pSkilllabel = [[UILabel alloc]initWithFrame:CGRectMake(180, 70, 100, 30)];
     pSkilllabel.text = @"Passive Skills";
     pSkilllabel.backgroundColor = [UIColor clearColor];
     [cell addSubview:pSkilllabel];
@@ -141,10 +142,9 @@
 -(void) aSkill:(id)sender {
     UIButton *aSkill = sender;
     NSDictionary *class = [classes objectAtIndex:aSkill.tag];
-    Skills *controller = [[Skills alloc] init];
+    ActiveSkills *controller = [[ActiveSkills alloc] init];
     controller.title = [NSString stringWithFormat:@"%@",[class objectForKey:@"name"]];
     controller.skills = [class objectForKey:@"askill"];
-    controller.isActive = YES;
     controller.className = [class objectForKey:@"name"];
     [self.navigationController pushViewController:controller animated:YES];
     [controller release];
@@ -153,10 +153,9 @@
 -(void) pSkill:(id)sender {
     UIButton *aSkill = sender;
     NSDictionary *class = [classes objectAtIndex:aSkill.tag];
-    Skills *controller = [[Skills alloc] init];
+    PassiveSkills *controller = [[PassiveSkills alloc] init];
     controller.title = [NSString stringWithFormat:@"%@",[class objectForKey:@"name"]];
     controller.skills = [class objectForKey:@"pskill"];
-    controller.isActive = NO;
     controller.className = [class objectForKey:@"name"];
     [self.navigationController pushViewController:controller animated:YES];
     [controller release];

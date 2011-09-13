@@ -79,7 +79,7 @@
             break;
         case 1:
             cell.textLabel.text = @"";
-            UIImage *image = [UIImage imageNamed:@"classes.png"];
+            UIImage *image = [UIImage imageNamed:@"classes2.png"];
             UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
             imageView.frame = CGRectMake(0, 0, image.size.width, image.size.height);
             [cell addSubview:imageView];

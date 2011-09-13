@@ -66,6 +66,8 @@
     }
     UIImageView *bimageView = [[UIImageView alloc] initWithImage:bimage];
     bimageView.frame = CGRectMake(2, 2, 64, 64);
+//    bimageView.layer.cornerRadius = 10.0;
+//    bimageView.layer.masksToBounds = YES;
     [cell addSubview:bimageView];
     [bimageView release];
     //skill name
@@ -109,16 +111,52 @@
         CGSize constraintSize = CGSizeMake(320, MAXFLOAT);
         CGSize desc2Size = [desc2Str sizeWithFont:cellFont constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
         
-        UILabel *desc2 = [[UILabel alloc]initWithFrame:CGRectMake(1, (desc1Size.height + 20 > 70?desc1Size.height + 20:70), 320, desc2Size.height)];
+        UILabel *desc2 = [[UILabel alloc]initWithFrame:CGRectMake(1, height, 320, desc2Size.height)];
         desc2.text = desc2Str;
         desc2.backgroundColor = [UIColor clearColor];
         desc2.lineBreakMode = UILineBreakModeWordWrap;
         desc2.numberOfLines = 0;
         [cell addSubview:desc2];
         [desc2 release];
-        desc2.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
+        desc2.textColor = [UIColor  whiteColor];
         desc2.font = [UIFont fontWithName:@"Cochin" size:15];
         height += desc2Size.height;
+    }
+    //skill desc3
+    if ([skill objectForKey:@"desc3"]) {
+        NSString *desc3Str = [skill objectForKey:@"desc3"];
+        UIFont *cellFont = [UIFont fontWithName:@"Cochin" size:15];
+        CGSize constraintSize = CGSizeMake(320, MAXFLOAT);
+        CGSize desc3Size = [desc3Str sizeWithFont:cellFont constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
+        
+        UILabel *desc3 = [[UILabel alloc]initWithFrame:CGRectMake(1, height, 320, desc3Size.height)];
+        desc3.text = desc3Str;
+        desc3.backgroundColor = [UIColor clearColor];
+        desc3.lineBreakMode = UILineBreakModeWordWrap;
+        desc3.numberOfLines = 0;
+        [cell addSubview:desc3];
+        [desc3 release];
+        desc3.textColor = [UIColor  greenColor];
+        desc3.font = [UIFont fontWithName:@"Cochin" size:15];
+        height += desc3Size.height;
+    }
+    //skill desc4
+    if ([skill objectForKey:@"desc4"]) {
+        NSString *desc4Str = [skill objectForKey:@"desc4"];
+        UIFont *cellFont = [UIFont fontWithName:@"Cochin" size:15];
+        CGSize constraintSize = CGSizeMake(320, MAXFLOAT);
+        CGSize desc4Size = [desc4Str sizeWithFont:cellFont constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
+        
+        UILabel *desc4 = [[UILabel alloc]initWithFrame:CGRectMake(1, height, 320, desc4Size.height)];
+        desc4.text = desc4Str;
+        desc4.backgroundColor = [UIColor clearColor];
+        desc4.lineBreakMode = UILineBreakModeWordWrap;
+        desc4.numberOfLines = 0;
+        [cell addSubview:desc4];
+        [desc4 release];
+        desc4.textColor = [UIColor  greenColor];
+        desc4.font = [UIFont fontWithName:@"Cochin" size:15];
+        height += desc4Size.height;
     }
     
     //serp png
@@ -149,6 +187,20 @@
         CGSize constraintSize = CGSizeMake(320, MAXFLOAT);
         CGSize desc2Size = [desc2Str sizeWithFont:cellFont constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
         height += desc2Size.height;
+    }
+    if ([skill objectForKey:@"desc3"]) {
+        NSString *desc3Str = [skill objectForKey:@"desc3"];
+        UIFont *cellFont = [UIFont fontWithName:@"Cochin" size:15];
+        CGSize constraintSize = CGSizeMake(320, MAXFLOAT);
+        CGSize desc3Size = [desc3Str sizeWithFont:cellFont constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
+        height += desc3Size.height;
+    }
+    if ([skill objectForKey:@"desc4"]) {
+        NSString *desc4Str = [skill objectForKey:@"desc4"];
+        UIFont *cellFont = [UIFont fontWithName:@"Cochin" size:15];
+        CGSize constraintSize = CGSizeMake(320, MAXFLOAT);
+        CGSize desc4Size = [desc4Str sizeWithFont:cellFont constrainedToSize:constraintSize lineBreakMode:UILineBreakModeWordWrap];
+        height += desc4Size.height;
     }
     height += 20;
     return height > 70? height:70;
