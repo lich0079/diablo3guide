@@ -12,6 +12,7 @@
 @interface UIViewController (backButton)
 - (void)backButton;
 - (void)backClick:(id)sender;
+- (UILabel *)titleView;
 @end
 
 @interface BaseTable : UITableViewController

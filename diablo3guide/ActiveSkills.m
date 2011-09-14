@@ -25,6 +25,10 @@
 }
 
 #pragma mark - View lifecycle
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self titleView].text = className;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -52,6 +56,16 @@
     return [skills count];
 }
 
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+    UILabel *titleView = [[UILabel alloc]init];
+    titleView.backgroundColor = [UIColor clearColor];
+    titleView.textAlignment = UITextAlignmentCenter;
+    titleView.textColor = [UIColor  groupTableViewBackgroundColor];
+    titleView.font = [UIFont fontWithName:@"Cochin" size:12];
+    titleView.text = @"Note: Information is based on level 60.";
+    return [titleView autorelease];
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell *cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil] autorelease];
@@ -62,21 +76,18 @@
     //skill png
     NSString *path = [[NSBundle mainBundle] pathForResource:skillName ofType:@"png"]; 
     UIImage *bimage = [UIImage imageWithContentsOfFile:path];
-    if (!bimage) {
-        bimage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Skill_blank" ofType:@"png"]];
-    }
     UIImageView *bimageView = [[UIImageView alloc] initWithImage:bimage];
     bimageView.frame = CGRectMake(2, 2, 64, 64);
     [cell addSubview:bimageView];
     [bimageView release];
     //skill name
-    UILabel *skillNameLabel = [[UILabel alloc]initWithFrame:CGRectMake(70, 1, 180, 15)];
+    UILabel *skillNameLabel = [[UILabel alloc]initWithFrame:CGRectMake(70, 1, 180, 18)];
     skillNameLabel.text = skillName;
     skillNameLabel.backgroundColor = [UIColor clearColor];
     [cell addSubview:skillNameLabel];
     [skillNameLabel release];
     skillNameLabel.textColor = [UIColor  redColor];
-    skillNameLabel.font = [UIFont fontWithName:@"Cochin" size:15];
+    skillNameLabel.font = [UIFont fontWithName:@"Cochin" size:18];
     //skill unlock
     NSString *unlock = [[NSBundle mainBundle] pathForResource:@"unlock" ofType:@"png"]; 
     UIImage *unlockImage = [UIImage imageWithContentsOfFile:unlock];
@@ -102,13 +113,13 @@
     [runestonesImageView release];
     //skill category
     NSString *category = [skill objectForKey:@"category"];
-    UILabel *categoryLabel = [[UILabel alloc]initWithFrame:CGRectMake(70, 17, 180, 15)];
+    UILabel *categoryLabel = [[UILabel alloc]initWithFrame:CGRectMake(70, 20, 180, 12)];
     categoryLabel.text = category;
     categoryLabel.backgroundColor = [UIColor clearColor];
     [cell addSubview:categoryLabel];
     [categoryLabel release];
     categoryLabel.textColor = [UIColor  whiteColor];
-    categoryLabel.font = [UIFont fontWithName:@"Cochin" size:15];
+    categoryLabel.font = [UIFont fontWithName:@"Cochin" size:12];
     //skill cost1
     if ([skill objectForKey:@"cost1"]) {
         NSString *cost1 = [skill objectForKey:@"cost1"];

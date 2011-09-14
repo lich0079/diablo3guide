@@ -43,6 +43,15 @@
 - (void)backClick:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+- (UILabel *)titleView{
+    for (id view in [self.navigationController.navigationBar subviews]) {
+        if (NSClassFromString(@"UILabel") == [view class]) {
+            return view;
+        }
+    }
+    return nil;
+}
 @end
 
 

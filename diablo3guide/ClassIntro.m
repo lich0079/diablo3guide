@@ -31,12 +31,12 @@
     NSURL *url = [NSURL fileURLWithPath:path];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [web loadRequest:request];
-    UIScrollView *scroller = [web.subviews objectAtIndex:0];
-    if (scroller){
-        scroller.bounces = NO;
-        scroller.alwaysBounceVertical = NO;
-        scroller.alwaysBounceHorizontal = NO;
-    }
+//    UIScrollView *scroller = [web.subviews objectAtIndex:0];
+//    if (scroller){
+//        scroller.bounces = YES;
+//        scroller.alwaysBounceVertical = YES;
+//        scroller.alwaysBounceHorizontal = NO;
+//    }
     
     [self backButton];
 }

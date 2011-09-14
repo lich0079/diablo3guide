@@ -27,6 +27,10 @@
 }
 
 #pragma mark - View lifecycle
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self titleView].text = @"Classes";
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -40,7 +44,7 @@
                                                           mutabilityOption:NSPropertyListImmutable
                                                                     format:&format
                                                           errorDescription:&error];
-    self.tableView.rowHeight = 104;
+    self.tableView.rowHeight = 114;
     [self backButton];
 }
 
@@ -74,23 +78,31 @@
     
     UITableViewCell *cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil] autorelease];
     
+
     NSDictionary *class = [classes objectAtIndex:indexPath.row];
     //class png
     NSString *path = [[NSBundle mainBundle] pathForResource:[class objectForKey:@"icon"] ofType:@"png"]; 
     UIImage *bimage = [UIImage imageWithContentsOfFile:path];
     UIImageView *bimageView = [[UIImageView alloc] initWithImage:bimage];
-    bimageView.frame = CGRectMake(2, 2, bimage.size.width, bimage.size.height);
+    bimageView.frame = CGRectMake(32, 0, bimage.size.width, bimage.size.height);
     [cell addSubview:bimageView];
     [bimageView release];
+    //bg png
+    NSString *bgName = [NSString stringWithFormat:@"%@cellbg",[class objectForKey:@"icon"]];
+    NSString *bgNamepath = [[NSBundle mainBundle] pathForResource:bgName ofType:@"png"]; 
+    UIImage *bgimage = [UIImage imageWithContentsOfFile:bgNamepath];
+    UIImageView *bgimageView = [[UIImageView alloc] initWithImage:bgimage];
+    cell.backgroundView = bgimageView;
+    [bgimageView release];
     //class name
-    UILabel *blabel = [[UILabel alloc]initWithFrame:CGRectMake(150, 2, 150, 30)];
-    blabel.text = [class objectForKey:@"name"];
-    blabel.backgroundColor = [UIColor clearColor];
-    [cell addSubview:blabel];
-    [blabel release];
-    blabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
-    blabel.textAlignment = UITextAlignmentCenter;
-    blabel.font = [UIFont fontWithName:@"Cochin" size:18];
+//    UILabel *blabel = [[UILabel alloc]initWithFrame:CGRectMake(150, 2, 150, 30)];
+//    blabel.text = [class objectForKey:@"name"];
+//    blabel.backgroundColor = [UIColor clearColor];
+//    [cell addSubview:blabel];
+//    [blabel release];
+//    blabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
+//    blabel.textAlignment = UITextAlignmentCenter;
+//    blabel.font = [UIFont fontWithName:@"Cochin" size:18];
     //class Active Skills
     UIButton *aSkill = [UIButton buttonWithType:UIButtonTypeCustom];
     aSkill.tag = indexPath.row;
@@ -99,6 +111,7 @@
     UIImage *askillimage = [UIImage imageWithContentsOfFile:askillImgpath];
     [aSkill setImage:askillimage forState:UIControlStateNormal];
     [aSkill setImage:askillimage forState:UIControlStateSelected];
+    aSkill.alpha = 0.8;
     [aSkill addTarget:self action:@selector(aSkill:) forControlEvents:UIControlEventTouchUpInside];
     [cell addSubview:aSkill];
     
@@ -117,6 +130,7 @@
     UIImage *pSkillimage = [UIImage imageWithContentsOfFile:pSkillImgpath];
     [pSkill setImage:pSkillimage forState:UIControlStateNormal];
     [pSkill setImage:pSkillimage forState:UIControlStateSelected];
+    pSkill.alpha = 0.8;
     [pSkill addTarget:self action:@selector(pSkill:) forControlEvents:UIControlEventTouchUpInside];
     [cell addSubview:pSkill];
     
@@ -131,7 +145,7 @@
     //serp png
     UIImage *serpImage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"serp" ofType:@"png"]];
     UIImageView *serpImageView = [[UIImageView alloc] initWithImage:serpImage];
-    serpImageView.frame = CGRectMake(0, 102, 320, 4);
+    serpImageView.frame = CGRectMake(0, 112, 320, 4);
     [cell addSubview:serpImageView];
     [serpImageView release];
     
@@ -143,7 +157,7 @@
     UIButton *aSkill = sender;
     NSDictionary *class = [classes objectAtIndex:aSkill.tag];
     ActiveSkills *controller = [[ActiveSkills alloc] init];
-    controller.title = [NSString stringWithFormat:@"%@",[class objectForKey:@"name"]];
+//    controller.title = [NSString stringWithFormat:@"%@",[class objectForKey:@"name"]];
     controller.skills = [class objectForKey:@"askill"];
     controller.className = [class objectForKey:@"name"];
     [self.navigationController pushViewController:controller animated:YES];
@@ -154,7 +168,7 @@
     UIButton *aSkill = sender;
     NSDictionary *class = [classes objectAtIndex:aSkill.tag];
     PassiveSkills *controller = [[PassiveSkills alloc] init];
-    controller.title = [NSString stringWithFormat:@"%@",[class objectForKey:@"name"]];
+//    controller.title = [NSString stringWithFormat:@"%@",[class objectForKey:@"name"]];
     controller.skills = [class objectForKey:@"pskill"];
     controller.className = [class objectForKey:@"name"];
     [self.navigationController pushViewController:controller animated:YES];
@@ -166,7 +180,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSDictionary *class = [classes objectAtIndex:indexPath.row];
     ClassIntro *controller = [[ClassIntro alloc] init];
-    controller.title = [NSString stringWithFormat:@"%@ Basic",[class objectForKey:@"name"]];
+    [self titleView].text = [NSString stringWithFormat:@"%@ Overview",[class objectForKey:@"name"]];
     controller.className = [class objectForKey:@"name"];
     [self.navigationController pushViewController:controller animated:YES];
     [controller release];

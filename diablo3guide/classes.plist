@@ -37,6 +37,7 @@ Many skills and runestone effects rely on critical hits to trigger their effects
 				<string>13</string>
 				<key>desc1</key>
 				<string>Gain a bonus based on the weapon type of your main hand weapon:
+
 Swords/Daggers: 10% increased damage
 Maces/Axes: 5% chance to critical hit
 Polearms/Spears: 10% attack speed
@@ -49,6 +50,7 @@ Mighty Weapons: 1 Fury per hit</string>
 				<string>15</string>
 				<key>desc1</key>
 				<string>The duration of your shouts is doubled. While benefiting from War Cry or Battle Rage you regenerate 60% of your total Life per minute.
+
 Your shouts are:
  Battle Rage
  Threatning Shout
@@ -314,8 +316,6 @@ Thorns damage dealt increased by 100%.</string>
 				</array>
 				<key>cost1</key>
 				<string>Cost: 20 Fury</string>
-				<key>desc2</key>
-				<string>This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.</string>
 				<key>name</key>
 				<string>Battle Rage</string>
 				<key>level</key>
@@ -675,11 +675,11 @@ Thorns damage dealt increased by 100%.</string>
 						<key>name</key>
 						<string>Grudge</string>
 						<key>desc</key>
-						<string>Knocks enemies back 30 yards when Revenge is used.</string>
+						<string>Knocks enemies back 30 yards when Revenge is used.
+Revenge has a 10% chance to become active for a short time each time you are hit by an attack.
+</string>
 					</dict>
 				</array>
-				<key>desc2</key>
-				<string>Revenge has a 10% chance to become active for a short time each time you are hit by an attack.</string>
 				<key>name</key>
 				<string>Revenge</string>
 				<key>level</key>
@@ -814,11 +814,12 @@ Thorns damage dealt increased by 100%.</string>
 						<key>name</key>
 						<string>Revel</string>
 						<key>desc</key>
-						<string>Heal 18% of your maximum Life whenever Overpower is used.</string>
+						<string>Heal 18% of your maximum Life whenever Overpower is used.
+
+Overpower becomes available whenever you make a critical hit against an enemy.
+</string>
 					</dict>
 				</array>
-				<key>desc2</key>
-				<string>Overpower becomes available whenever you make a critical hit against an enemy.</string>
 				<key>name</key>
 				<string>Overpower</string>
 				<key>level</key>
@@ -1053,11 +1054,12 @@ Thorns damage dealt increased by 100%.</string>
 				<key>level</key>
 				<string>25</string>
 				<key>desc1</key>
-				<string>Summon the ancient Barbarians Talic, Korlic, and Madawc to inflict 100% weapon damage with each attack as they join the battle for 15 seconds.</string>
-				<key>desc2</key>
-				<string>Talic wields a sword and shield and uses the Whirlwind skill.
+				<string>Summon the ancient Barbarians Talic, Korlic, and Madawc to inflict 100% weapon damage with each attack as they join the battle for 15 seconds.
+
+Talic wields a sword and shield and uses the Whirlwind skill.
 Korlic wields a massive polearm and uses the Cleave skill.
-Madawc dual-wields axes and uses the Weapon Throw skill.</string>
+Madawc dual-wields axes and uses the Weapon Throw skill.
+</string>
 				<key>cost2</key>
 				<string>Cooldown: 120 seconds</string>
 			</dict>
@@ -1151,425 +1153,1255 @@ Madawc dual-wields axes and uses the Weapon Throw skill.</string>
 				<key>level</key>
 				<string>29</string>
 				<key>desc1</key>
-				<string>Enter a berserker rage which raises several attributes for 15 seconds.</string>
-				<key>desc2</key>
-				<string>Critical Hit: 10%
+				<string>Enter a berserker rage which raises several attributes for 15 seconds.
+
+Critical Hit: 10%
 Attack Speed: 45%
 Dodge Chance: 20%
-Movement Speed: 20%</string>
+Movement Speed: 20%
+</string>
 			</dict>
 		</array>
 		<key>name</key>
 		<string>Barbarian</string>
 	</dict>
 	<dict>
-		<key>askill</key>
-		<array>
-			<dict>
-				<key>name</key>
-				<string>Caltrops</string>
-				<key>level</key>
-				<string>1</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Hungering Arrow</string>
-				<key>level</key>
-				<string>1</string>
-				<key>desc1</key>
-				<string>An arrow skill that does bonus damage and has a seeking property, much like the Amazon&apos;s Guided Arrow from Diablo II.</string>
-				<key>desc2</key>
-				<string>A bolt that seeks out enemies and does X% damage and has an Y% chance to pierce the target.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Entangling Shot</string>
-				<key>level</key>
-				<string>2</string>
-				<key>desc1</key>
-				<string>This debuff skill deals solid damage, as well as slowing the target. Nearby enemies may be chained as well, potentially slowing several monsters and blocking the movement of all that are stuck behind them.</string>
-				<key>desc2</key>
-				<string>Release a sticky adhesive that deals X% weapon damage and entangles up to X enemies, slowing their movement speed by X% for X seconds.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Evasive Fire</string>
-				<key>level</key>
-				<string>3</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Fan of Knives</string>
-				<key>level</key>
-				<string>4</string>
-				<key>desc1</key>
-				<string>This skill, instantly nicknamed &quot;knife nova,&quot; shoots out numerous blades, dealing considerable physical damage to any targets nearby. The range is very short, hardly more than a melee weapon, making this one best used in very close range against multiple targets.</string>
-				<key>desc2</key>
-				<string>Throw knives out in a spiral around you doing X-X damage to all enemies within X feet of you. Your knives will also slow enemies by X% for X seconds.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Bola Shot</string>
-				<key>level</key>
-				<string>5</string>
-				<key>desc1</key>
-				<string>The Demon Hunter uses a bow or crossbow to fire a spinning projectile; two bombs on a length of rope. The Bola hits the target and wraps around it, dealing minimal impact damage but considerably more explosive damage after a couple of seconds.</string>
-				<key>desc2</key>
-				<string>Shoot out an explosive Bola that wraps itself around its target. After X seconds the Bola explodes, dealing X% weapon damage to the target and an additional X% weapon damage to all targets within X feet.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Vault</string>
-				<key>level</key>
-				<string>6</string>
-				<key>desc1</key>
-				<string>A fast movement skill, this allows the Demon Hunter to move a considerable distance at high speed, passing through monsters and other players, though not through solid objects or over open space, as Teleport or Leap Attack does.</string>
-				<key>desc2</key>
-				<string>Tumble acrobatically X feet.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Grenades</string>
-				<key>level</key>
-				<string>7</string>
-				<key>desc1</key>
-				<string>Grenades are small projectiles thrown by the Demon Hunter. They bounce around, ricocheting off of walls and other obstacles, before exploding a couple of seconds after they are thrown. They deal considerable fire damage, but are hard to aim precisely, and are best used against large mobs, especially to hit targets located in the back row.</string>
-				<key>desc2</key>
-				<string>Throw out three grenades that explode for X-X fire damage.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Marked for Death</string>
-				<key>level</key>
-				<string>8</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Chakram</string>
-				<key>level</key>
-				<string>9</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Impale</string>
-				<key>level</key>
-				<string>11</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Smoke Screen</string>
-				<key>level</key>
-				<string>12</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Spike Trap</string>
-				<key>level</key>
-				<string>14</string>
-				<key>desc1</key>
-				<string>This trap/object is placed and triggers when enemies move into range.You can have a maximum for X traps active at one time.</string>
-				<key>desc2</key>
-				<string>Lay a trap that arms after X seconds and triggers when an enemy approaches. The explosion does X-X damage per second to all enemies within X feet for X seconds.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Companion</string>
-				<key>level</key>
-				<string>16</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Elemental Arrow</string>
-				<key>level</key>
-				<string>18</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Shadow Power</string>
-				<key>level</key>
-				<string>19</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Multishot</string>
-				<key>level</key>
-				<string>21</string>
-				<key>desc1</key>
-				<string>The Diablo II favorite returns. This skill fires a huge cluster of arrows or bolts, guaranteeing a hit on everything in range. The mana cost is fairly high and the damage is lower than most single arrow attacks, making it best used against huge groups.</string>
-				<key>desc2</key>
-				<string>Fire a massive volley of arrows dealing X% weapon damage.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Sentry</string>
-				<key>level</key>
-				<string>22</string>
-				<key>desc1</key>
-				<string>Sentry creates a mechanical turret that fires arrows at enemies, working much like the Wizard&apos;s Hydra skill.</string>
-				<key>desc2</key>
-				<string>The Demon Hunter can have a maximum of X traps active at one time.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Cluster Arrow</string>
-				<key>level</key>
-				<string>23</string>
-				<key>desc1</key>
-				<string>The Demon Hunter fires an arrow that hits the ground, and grenades erupt from the consequent blast, which in turn explode to damage enemies.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Rapid Fire</string>
-				<key>level</key>
-				<string>24</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Preparation</string>
-				<key>level</key>
-				<string>25</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Strafe</string>
-				<key>level</key>
-				<string>27</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Rain of Arrows</string>
-				<key>level</key>
-				<string>29</string>
-				<key>desc1</key>
-				<string>No description is available.</string>
-			</dict>
-		</array>
+		<key>icon</key>
+		<string>Hunter</string>
 		<key>pskill</key>
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Weak Spot</string>
+				<string>Brooding</string>
 				<key>level</key>
-				<string>3</string>
+				<string>10</string>
 				<key>desc1</key>
-				<string>Increases critical strike damage by 100%.</string>
+				<string>As long as you have not taken damage in the last 5 seconds you gain 2% of your maximum health per second.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Archery</string>
+				<string>Thrill of the Hunt</string>
 				<key>level</key>
-				<string>6</string>
+				<string>10</string>
 				<key>desc1</key>
-				<string>Reduces the cost of Hatred-based skills by 50%.</string>
+				<string>Every 10 seconds your next normal attack will immobilize your target for 3 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Cloak of Shadows</string>
-				<key>level</key>
-				<string>6</string>
-				<key>desc1</key>
-				<string>Reduces melee damage taken by 20%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Aggression</string>
+				<string>Vengeance</string>
 				<key>level</key>
 				<string>12</string>
 				<key>desc1</key>
-				<string>Increases attack by 20%.</string>
+				<string>Gain 10 Hatred and 1 Discipline whenever you are healed by a health globe.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Superior Skill</string>
+				<string>Steady Aim</string>
 				<key>level</key>
-				<string>12</string>
+				<string>13</string>
 				<key>desc1</key>
-				<string>Increases precision by 20%.</string>
+				<string>As long as there are no enemies within 10 yards, all damage is increased by 10%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Toughness</string>
+				<string>Cull the Weak</string>
 				<key>level</key>
-				<string>12</string>
+				<string>15</string>
 				<key>desc1</key>
-				<string>Increases vitality by 20%.</string>
+				<string>Damage against slowed enemies increased by 20%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Back to Basics</string>
+				<string>Fundamentals</string>
 				<key>level</key>
-				<string>18</string>
+				<string>17</string>
 				<key>desc1</key>
-				<string>Increases the basic damage done by the Demon Hunter&apos;s weapon by 100%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Focused Discipline</string>
-				<key>level</key>
-				<string>18</string>
-				<key>desc1</key>
-				<string>Reduces the cost of Discipline-based skills by 20%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Opportunity</string>
-				<key>level</key>
-				<string>18</string>
-				<key>desc1</key>
-				<string>Increases damage dealt to slowed targets by 20%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Years of Training</string>
-				<key>level</key>
-				<string>18</string>
-				<key>desc1</key>
-				<string>When a Discipline-based skill is used, damage dealt by the Demon Hunter is increased by 10% for 10 seconds. Can stack up to three times.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Ballistics</string>
-				<key>level</key>
-				<string>24</string>
-				<key>desc1</key>
-				<string>Increases damage dealt by rockets (?) by 100%. The rocket effect is provided by certain runestones.</string>
+				<string>Increases the damage of your basic attacks by 100%. Your basic attacks restore 15 Hatred.</string>
 			</dict>
 			<dict>
 				<key>name</key>
 				<string>Hot Pursuit</string>
 				<key>level</key>
-				<string>24</string>
+				<string>19</string>
 				<key>desc1</key>
-				<string>When Hatred is at its maximum, run speed is increased by 10%.</string>
+				<string>Whenever you are at full Hatred, movement speed is increased by 10%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Killing Spree</string>
+				<string>Archery</string>
 				<key>level</key>
-				<string>24</string>
+				<string>20</string>
 				<key>desc1</key>
-				<string>When an enemy is killed by the Demon Hunter, the next attack dealt within the next 5 seconds has 30%% increased critical strike chance.</string>
+				<string>Gain bonuses based on weapon held:
+Bow: +10% increased damage
+Bonus with crossbows: +100% critical damage
+Bonus with hand xbows: +5% chance to critical hit</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Resourcefulness</string>
+				<string>Perfectionist</string>
+				<key>level</key>
+				<string>22</string>
+				<key>desc1</key>
+				<string>Reduces the Discipline cost of all skills by 20%.
+Discipline is used to fuel many of your tactical and defensive skills.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Custom Engineering</string>
 				<key>level</key>
 				<string>24</string>
 				<key>desc1</key>
-				<string>When Discipline is under 20%, the regeneration of Hatred is increased by 30%.</string>
+				<string>The duration of your Caltrops, Marked for Death, Spike Trap and Sentry abilities are increased by 100%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Grenadier</string>
+				<key>level</key>
+				<string>26</string>
+				<key>desc1</key>
+				<string>Reduces the Hatred cost of your Grenades and Cluster Arrow abilities by 15. Upon death, you drop a giant grenade that explodes for 213 - 320 fire damage.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Sharpshooter</string>
+				<key>level</key>
+				<string>28</string>
+				<key>desc1</key>
+				<string>Gain a 3% chance to critical hit every second. This bonus is reset 1 second after you successfully critical hit.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ballistics</string>
+				<key>level</key>
+				<string>30</string>
+				<key>desc1</key>
+				<string>Damage from rockets increased by 100%.
+Rockets are fired from certain socketed skill effects.</string>
 			</dict>
 		</array>
-		<key>icon</key>
-		<string>Hunter</string>
+		<key>askill</key>
+		<array>
+			<dict>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Bait the Trap</string>
+						<key>desc</key>
+						<string>Become empowered while standing in the area of effect, gaining an additional 11% chance to critical hit with all attacks.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Jagged Spikes</string>
+						<key>desc</key>
+						<string>Enemies in the area also take 110% weapon damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Carved Stakes</string>
+						<key>desc</key>
+						<string>Reduce the cost to 4.5 Discipline.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Hooked Spines</string>
+						<key>desc</key>
+						<string>Increase the slow amount to 79%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Torturous Ground</string>
+						<key>desc</key>
+						<string>Enemies in the area deal 90% less damage.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 8 Discipline</string>
+				<key>name</key>
+				<string>Caltrops</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>Lay a trap of caltrops on the ground that activates when an enemy approaches. Once sprung, the caltrops slow the movement of enemies within 12 yards by 65%. This trap lasts 12 seconds.</string>
+				<key>category</key>
+				<string>Discipline</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Offense</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Spray of Teeth</string>
+						<key>desc</key>
+						<string>Successful crits cause a burst of bone to explode from the target dealing 240% of weapon damage to enemies in that area.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Cinder Arrow</string>
+						<key>desc</key>
+						<string>Light the arrow on fire, dealing 160% additional weapon damage as Fire damage over 5 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Piercing Arrow</string>
+						<key>desc</key>
+						<string>Increase the chance for the arrow to pierce to %.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Shatter Shot</string>
+						<key>desc</key>
+						<string>If the arrow successfully pierces the first target, the arrow splits into 8 arrows.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Devouring Arrow</string>
+						<key>desc</key>
+						<string>Each consecutive pierce increases the damage of the arrow by 140%.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 15 Hatred</string>
+				<key>name</key>
+				<string>Hungering Arrow</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>Fire a magically imbued arrow that seeks out targets for 140% weapon damage and has a % chance to pierce through targets.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Offense</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Bounty Hunter</string>
+						<key>desc</key>
+						<string>Gain 22% of the damage dealt as Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Heavy Burden</string>
+						<key>desc</key>
+						<string>Increase the movement slow duration to 9 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Justice is Served</string>
+						<key>desc</key>
+						<string>Reduce cost to 1.0 Hatred.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Chain Gang</string>
+						<key>desc</key>
+						<string>Hit up to 9 targets.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Electrified Chain</string>
+						<key>desc</key>
+						<string>Strike with electrical chains that do an additional 64 damage over 2 seconds.</string>
+					</dict>
+				</array>
+				<key>desc1</key>
+				<string>Release a sticky adhesive that deals 130% weapon damage and entangles up to 2 enemies, slowing their movement by 70% for 2 seconds.</string>
+				<key>cost1</key>
+				<string>Cost: 15 Hatred</string>
+				<key>name</key>
+				<string>Entangling Shot</string>
+				<key>level</key>
+				<string>2</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Offense</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Tumble</string>
+						<key>desc</key>
+						<string>Increase the distance of the backflip to 36 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Shrapnel</string>
+						<key>desc</key>
+						<string>Fire exploding bullets that also deal 70% weapon damage to all enemies within 8.5 yards of the primary target.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Surge</string>
+						<key>desc</key>
+						<string>Shoot for 135% of weapon damage as lightning. Reduces the Discipline cost of the backflip component down to 0.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Withering Fire</string>
+						<key>desc</key>
+						<string>Fire a spread of bullets that hit up to 9 targets for 54% weapon damage each.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Backup Plan</string>
+						<key>desc</key>
+						<string>Shoot for 135% of weapon damage as Poison damage. Whenever a backflip is triggered, leave a poison bomb behind that explodes for 510% of weapon damage as poison in a 18 yard radius after 0.4 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 5 Hatred to shoot and an </string>
+				<key>cost2</key>
+				<string>additional 4 Discipline if you backflip.</string>
+				<key>name</key>
+				<string>Evasive Fire</string>
+				<key>level</key>
+				<string>3</string>
+				<key>desc1</key>
+				<string>Shoot for 135% of weapon damage. If an enemy is at close range, you will also backflip away 15 yards.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Offense</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Backlash</string>
+						<key>desc</key>
+						<string>Instead of throwing the knives immediately, the knives will release automatically dealing 28 - 40 physical damage to all enemies if you are struck in the next 20 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Hail of Knives</string>
+						<key>desc</key>
+						<string>Increase the radius to deal 28 - 40 physical damage to all enemies within 18 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Crippling Razors</string>
+						<key>desc</key>
+						<string>Increase the slow amount to 79% for 4 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Assassin&apos;s Knives</string>
+						<key>desc</key>
+						<string>Throw long-range knives that deal 85% weapon damage to 8 additional targets.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Fan of Daggers</string>
+						<key>desc</key>
+						<string>Imbue your knives with a 20% chance to stun enemies for 3.5 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 10 Hatred</string>
+				<key>name</key>
+				<string>Fan of Knives</string>
+				<key>level</key>
+				<string>4</string>
+				<key>desc1</key>
+				<string>Throw knives out in a spiral around you, doing 18 - 25 physical damage to all enemies within 10 yards of you. Your knives will also slow the movement of enemies by 65% for 4 seconds.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Offense</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Imminent Doom</string>
+						<key>desc</key>
+						<string>Augments the bola to deal 288% weapon damage as Arcane to the target and an additional 216% weapon damage to all other targets within 7 yards, but increases the explosion delay to 2 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Volatile Explosives</string>
+						<key>desc</key>
+						<string>Increase the explosion radius to 14 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Bitter Pill</string>
+						<key>desc</key>
+						<string>After the bola explodes, you have a 30% chance to gain 8 Discipline.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Acid Strike</string>
+						<key>desc</key>
+						<string>Shoot 9 poison bolas that deal 27% weapon damage each. The bolas no longer explode for area damage to nearby targets.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Thunder Ball</string>
+						<key>desc</key>
+						<string>When the bola explodes it deals 120% weapon damage as Lightning damage and has a 35% chance to stun the target for 3.0 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 20 Hatred</string>
+				<key>name</key>
+				<string>Bola Shot</string>
+				<key>level</key>
+				<string>5</string>
+				<key>desc1</key>
+				<string>Shoot out an explosive bola that wraps itself around its target. After 1 second, the bola explodes dealing 120% weapon damage as Fire to the target and an additional 90% weapon damage as Fire damage to all other targets within 7 yards.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Discipline</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Rattling Roll</string>
+						<key>desc</key>
+						<string>All enemies within 8 yards of your destination are knocked back and stunned for 4.5 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Trail of Cinders</string>
+						<key>desc</key>
+						<string>Ignite with fire dealing 80% weapon damage to everything along your path.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Tumble</string>
+						<key>desc</key>
+						<string>After using Vault, your next Vault within 5 seconds has its Discipline cost reduced by 80%</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Acrobatics</string>
+						<key>desc</key>
+						<string>Increases your Vault distance to 70 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Covering Fire</string>
+						<key>desc</key>
+						<string>As you travel, shoot arrows for 205% weapon damage at nearby targets.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 10 Discipline</string>
+				<key>name</key>
+				<string>Vault</string>
+				<key>level</key>
+				<string>6</string>
+				<key>desc1</key>
+				<string>Tumble acrobatically 35 yards.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Offense</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Stun Grenades</string>
+						<key>desc</key>
+						<string>Hurl grenades that have a 70% chance to stun enemies for 2.5 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Gas Grenades</string>
+						<key>desc</key>
+						<string>Toss poison gas grenades that explode for 0 - 0 damage and leaves a cloud that deals an additional 28 damage per second for 3 seconds to enemies who stand in the area.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Tinkerer</string>
+						<key>desc</key>
+						<string>Reduce cost to 12.5 Hatred.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Cluster Grenades</string>
+						<key>desc</key>
+						<string>Throw a large cluster of mini-grenades that deal 25 - 41 Fire damage over an 8 yard radius.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Fire Bomb</string>
+						<key>desc</key>
+						<string>Throw a single large grenade that deals 0 - 0 Fire damage and knocks enemies back.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 30 Hatred</string>
+				<key>name</key>
+				<string>Grenades</string>
+				<key>level</key>
+				<string>7</string>
+				<key>desc1</key>
+				<string>Throw out three grenades that explode for 53 - 89 Fire damage.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Discipline</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Death Toll</string>
+						<key>desc</key>
+						<string>10% of damage done to the marked target heals the attacker.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Grim Reaper</string>
+						<key>desc</key>
+						<string>An additional 40% of damage done to the target is also divided among all enemies within 20 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Mortal Enemy</string>
+						<key>desc</key>
+						<string>Attacks by the Demon Hunter against the Marked target have a 40% chance to generate 35 Hatred. This effect cannot occur more than once every 1 second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Contagion</string>
+						<key>desc</key>
+						<string>When the target is killed the ability spreads to 8 other nearby targets. This effect can chain repeatedly.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Valley of Death</string>
+						<key>desc</key>
+						<string>Mark an area on the ground 15 yards wide for 22 seconds. Enemies in the area take 20% additional damage.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 6 Discipline</string>
+				<key>name</key>
+				<string>Marked for Death</string>
+				<key>level</key>
+				<string>8</string>
+				<key>desc1</key>
+				<string>Marks an enemy. The marked enemy will take 20% additional damage for the next 30 seconds.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Offense</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Shuriken Cloud</string>
+						<key>desc</key>
+						<string>Surround yourself in spinning Chakrams for 70 seconds, dealing 90 - 124 physical damage per second to anybody nearby.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Twin Chakrams</string>
+						<key>desc</key>
+						<string>A second Chakram mirrors the first. Each Chakram deals 104 - 144 physical damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Razor Disk</string>
+						<key>desc</key>
+						<string>The Chakram spirals out from the targeted location dealing 90 - 124 Arcane damage to enemies along the path.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Boomerang</string>
+						<key>desc</key>
+						<string>The Chakram path turns into a loop, dealing 119 - 165 Lightning damage to enemies along the path.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Serpentine</string>
+						<key>desc</key>
+						<string>The Chakram follows a slow curve, dealing 90 - 124 Poison damage to enemies along the path.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 25 Hatred</string>
+				<key>name</key>
+				<string>Chakram</string>
+				<key>level</key>
+				<string>9</string>
+				<key>desc1</key>
+				<string>Fire a swirling Chakram that does 75 - 103 physical damage to enemies along its path.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Offense</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Grievous Wounds</string>
+						<key>desc</key>
+						<string>Critical hits deal an additional 500% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Overpenetration</string>
+						<key>desc</key>
+						<string>The shot will pierce through all enemies in a straight line for 242% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Recoil</string>
+						<key>desc</key>
+						<string>Every shot releases a shockwave of energy centered on you dealing 120% weapon damage to all enemies within 10 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Impact</string>
+						<key>desc</key>
+						<string>Shots knock the target back and stun them for 3.50 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Liquid Flame</string>
+						<key>desc</key>
+						<string>Fire an explosive shell that deals an additional 275% weapon damage over 2 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 20 Hatred</string>
+				<key>name</key>
+				<string>Impale</string>
+				<key>level</key>
+				<string>11</string>
+				<key>desc1</key>
+				<string>Fire a massive shot to impale a target for 220% weapon damage.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Discipline</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Displacement</string>
+						<key>desc</key>
+						<string>Gain 55% movement speed when activated.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Choking Gas</string>
+						<key>desc</key>
+						<string>Leave behind a cloud of gas that deals 92 physical damage per second to enemies in the area for 5 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Special Recipe</string>
+						<key>desc</key>
+						<string>Reduce the skill cost to 11.0 Discipline.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Lingering Fog</string>
+						<key>desc</key>
+						<string>Increase the duration of the effect to 4.00 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Breathe Deep</string>
+						<key>desc</key>
+						<string>While invisible you also gain 45 Hatred per second.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 15 Discipline</string>
+				<key>name</key>
+				<string>Smoke Screen</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>Vanish behind a wall of smoke, becoming momentarily invisible for 2 seconds.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Offense</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Lightning Rod</string>
+						<key>desc</key>
+						<string>When the trap is triggered, rather than exploding, it releases a pulse of lightning that will bounce to up to 10 enemies for 57 - 71 Lightning damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Long Fuse</string>
+						<key>desc</key>
+						<string>Increases the arming time to 1.5 seconds but increases damage to 148-185.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Scatter</string>
+						<key>desc</key>
+						<string>A single cast of Spike Trap lays all 3 traps at once and increases the damage of the traps to 102 - 128 damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Bandolier</string>
+						<key>desc</key>
+						<string>Increase the maximum number of traps that can be out simultaneously to 10.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Sticky Trap</string>
+						<key>desc</key>
+						<string>Plant an explosive on an enemy target rather than on the ground. If the target dies within 30 seconds, the trap explodes dealing 102 - 128 physical damage to all enemies within 8 yards.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 20 Hatred</string>
+				<key>name</key>
+				<string>Spike Trap</string>
+				<key>level</key>
+				<string>14</string>
+				<key>desc1</key>
+				<string>Lay a trap that arms after 0.8 seconds and triggers when an enemy approaches. The trap does 57 - 71 physical damage to all enemies within 8 yards.
+
+You can have a maximum of 3 Spike Traps active at one time.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Discipline</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Ferret Companion</string>
+						<key>desc</key>
+						<string>Summons ferrets instead of a raven. The ferrets collect gold for you and increase gold found on monsters by 40%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Spider Companion</string>
+						<key>desc</key>
+						<string>Summons a spider instead of a raven. The spiders&apos;s attacks also slows the movement of targets by 50% for 9 - 11 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Bat Companion</string>
+						<key>desc</key>
+						<string>Summons a bat instead of a raven. The bat grants you 4.0 Hatred per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Boar Companion</string>
+						<key>desc</key>
+						<string>Summon a boar instead of a raven. The boar strikes multiple enemies with every swing for 43 - 75 damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Wolf Companion</string>
+						<key>desc</key>
+						<string>Summon a powerful but temporary wolf ally rather than a long-term raven companion. The wolf will fight with you for 55 seconds and attacks enemies for 50 - 82 damage.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 10 Discipline</string>
+				<key>name</key>
+				<string>Companion</string>
+				<key>level</key>
+				<string>16</string>
+				<key>desc1</key>
+				<string>Summon a raven companion. Your raven companion will periodically peck at enemies for 21 - 28 damage.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Offense</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Lightning Bolts</string>
+						<key>desc</key>
+						<string>Fire bolts of lightning that stun enemies for 3.5 seconds when they critically hit.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Frost Arrow</string>
+						<key>desc</key>
+						<string>Turns into a frost arrow that explodes out conal damage from the back of the first target hit for 160% of weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Nether Tentacles</string>
+						<key>desc</key>
+						<string>Shoot tentacles that deal 140% weapon damage and return 24% of damage dealt as Life for you.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Ball Lightning</string>
+						<key>desc</key>
+						<string>Fire a lightning arrow that electrocutes nearby enemies as it passes by for 80% of weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Screaming Skull</string>
+						<key>desc</key>
+						<string>Grants a 34% chance to shoot a skull that will fear affected enemies for 8 - 9 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 25 Hatred</string>
+				<key>name</key>
+				<string>Elemental Arrow</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>Shoot an elemental charged arrow that deals 100% weapon damage as Fire damage to all targets it passes through.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Discipline</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Blood Moon</string>
+						<key>desc</key>
+						<string>While active, gain 45% of all damage as Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Night Bane</string>
+						<key>desc</key>
+						<string>While active, gain 7 Hatred per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Well of Darkness</string>
+						<key>desc</key>
+						<string>Reduces Discipline cost to 13.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Shadow Glide</string>
+						<key>desc</key>
+						<string>While active, gain 55% movement speed.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Gloom</string>
+						<key>desc</key>
+						<string>While active, you have a 55% increased chance to dodge incoming attacks.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 20 Discipline</string>
+				<key>name</key>
+				<string>Shadow Power</string>
+				<key>level</key>
+				<string>19</string>
+				<key>desc1</key>
+				<string>Draw in the power of the shadows, increasing attack speed by 50% for 10 seconds.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Offense</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Supression Fire</string>
+						<key>desc</key>
+						<string>Every enemy hit grants 1 Discipline. Each volley can gain up to 9 Discipline in this way.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Full Broadside</string>
+						<key>desc</key>
+						<string>Increases the damage done to 242% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Fire at Will</string>
+						<key>desc</key>
+						<string>Cost reduced to 16 Hatred.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Burst Fire</string>
+						<key>desc</key>
+						<string>Everytime you fire, generate a shock pulse that damages all nearby enemies for 110% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Arsenal</string>
+						<key>desc</key>
+						<string>Every use also fires 10 rockets at nearby enemies that deal 150% weapon damage each.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 30 Hatred</string>
+				<key>name</key>
+				<string>Multishot</string>
+				<key>level</key>
+				<string>21</string>
+				<key>desc1</key>
+				<string>Fire a massive volley of arrows dealing 110% weapon damage to all enemies in the area.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Discipline</string>
+				<key>cost1</key>
+				<string>Cost: 10 Discipline</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Guardian Turret</string>
+						<key>desc</key>
+						<string>The turret also creates a shield that reduces damage taken by allies by 32%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Chain of Torment</string>
+						<key>desc</key>
+						<string>Create a tether between you and the sentry that does 240% of weapon damage every second to every enemy it touches.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Aid Station</string>
+						<key>desc</key>
+						<string>Heals nearby allies for 8% of their maximum Life per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Vigilant Watcher</string>
+						<key>desc</key>
+						<string>Increases duration of the turret to 48 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Spitfire Turret</string>
+						<key>desc</key>
+						<string>The turret will also fire homing rockets every 1.5 seconds aimed at random nearby targets for 240% weapon damage.</string>
+					</dict>
+				</array>
+				<key>name</key>
+				<string>Sentry</string>
+				<key>level</key>
+				<string>22</string>
+				<key>desc1</key>
+				<string>Drop a turret on the ground. The turret begins firing at nearby enemies for 40% of weapon damage. Lasts 20 seconds.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cost: 35 Hatred</string>
+				<key>category</key>
+				<string>Offense</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Dazzling Arrow</string>
+						<key>desc</key>
+						<string>Enemies hit by grenades have a 35% chance to be stunned for 2.5 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Loaded for Bear</string>
+						<key>desc</key>
+						<string>Increases the damage of the explosion at the impact location to 264%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Maelstrom</string>
+						<key>desc</key>
+						<string>Instead of releasing grenades, the cluster releases Shadow energy that deals 220% weapon damage to nearby enemies. You will gain 51% of the damage done as Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Shooting Stars</string>
+						<key>desc</key>
+						<string>Instead of releasing grenades, shoots up to 9 rockets at nearby enemies dealing 220% weapon damage each.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Cluster Bombs</string>
+						<key>desc</key>
+						<string>Launch the cluster through the air, dropping a series of bombs in a straight line that explode for 110% weapon damage each.</string>
+					</dict>
+				</array>
+				<key>name</key>
+				<string>Cluster Arrow</string>
+				<key>level</key>
+				<string>23</string>
+				<key>desc1</key>
+				<string>Fire a Cluster grenade that explodes for 120% weapon damage into a series of additional miniature bombs that explode for 40% weapon damage each.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cost: 20 Hatred per second</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Web Shot</string>
+						<key>desc</key>
+						<string>Slows the movement of affected targets by 40% for 5.0 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Bombardment</string>
+						<key>desc</key>
+						<string>Rapidly fire grenades instead of arrows that do 15% weapon damage to all enemies within 10 yard radius.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Withering Fire</string>
+						<key>desc</key>
+						<string>Reduce initial Hatred cost by 17.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>High Velocity</string>
+						<key>desc</key>
+						<string>Adds an additional 70% pierce chance to the projectiles fired.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Fire Support</string>
+						<key>desc</key>
+						<string>While channeling Rapid Fire launch 7 homing missiles every second that deal 50% weapon damage each to nearby targets.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Offense</string>
+				<key>name</key>
+				<string>Rapid Fire</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>Rapidly fire at 6 times your normal attack speed dealing 30% weapon damage with every shot.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 120 seconds</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Backup Plan</string>
+						<key>desc</key>
+						<string>Grants a 55% chance that the cooldown will not be triggered when used.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Punishment</string>
+						<key>desc</key>
+						<string>Removes cooldown. Skill now costs 19 Discipline to cast but restores all Hatred instead of all Discipline.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Battle Scars</string>
+						<key>desc</key>
+						<string>Also restores 55% of your Life when used.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Invigoration</string>
+						<key>desc</key>
+						<string>When activated, increases your maximum Discipline by 18 for 120 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Focused Mind</string>
+						<key>desc</key>
+						<string>Instead of replenishing Discipline immediately, you will gain 60 Discipline over 30 seconds.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Utility</string>
+				<key>name</key>
+				<string>Preparation</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>Instantly restore all Discipline.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cost: 20 Hatred per second</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Stinging Steel</string>
+						<key>desc</key>
+						<string>Throw out knives rather than arrows that do an extra 400% more weapon damage on successful critical hits.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Demolition</string>
+						<key>desc</key>
+						<string>Throw out bouncy grenades rather than arrows that explode for 72% weapon damage to targets within 9 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Drifting Shadow</string>
+						<key>desc</key>
+						<string>Movement speed increased to 100% of normal running speed while strafing.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Equilibrium</string>
+						<key>desc</key>
+						<string>Increase arrows fired to 10 additional arrows per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Rocket Storm</string>
+						<key>desc</key>
+						<string>In addition to regular firing, fire off homing rockets that hit for 120% of weapon damage.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Offense</string>
+				<key>name</key>
+				<string>Strafe</string>
+				<key>level</key>
+				<string>27</string>
+				<key>desc1</key>
+				<string>Shoot 3 times per second at random nearby enemies while moving at 55% of normal movement speed. Every shot deals 60% of weapon damage.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 60 seconds</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Stampede</string>
+						<key>desc</key>
+						<string>Summon a wave of 14 Shadow Beasts to tear across the ground, knocking back enemies and dealing 270% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Beastly Bombs</string>
+						<key>desc</key>
+						<string>Summon 20 Shadow Beasts to drop bombs on nearby enemies, dealing 330% weapon damage each.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Flying Strike</string>
+						<key>desc</key>
+						<string>A group of 12 Shadow Beasts plummet from the sky at a targeted location dealing 270% weapon damage and stunning enemies for 2 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Dark Cloud</string>
+						<key>desc</key>
+						<string>Launch a massive volley of guided arrows that rain down on enemies for the next 12 seconds for 120% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Anathema</string>
+						<key>desc</key>
+						<string>Summon a Shadow Beast that drops grenades from the sky for 20 seconds dealing 30% weapon damage.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Offense</string>
+				<key>name</key>
+				<string>Rain of Vengeance</string>
+				<key>level</key>
+				<string>29</string>
+				<key>desc1</key>
+				<string>Fire a massive volley of arrows around you. Arrows fall from the sky for 5 seconds dealing an average of 105% weapon damage per second.</string>
+			</dict>
+		</array>
 		<key>name</key>
 		<string>Demon Hunter</string>
 	</dict>
 	<dict>
+		<key>icon</key>
+		<string>Monk</string>
 		<key>pskill</key>
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Exalted Soul</string>
+				<string>Resolve</string>
 				<key>level</key>
 				<string>10</string>
 				<key>desc1</key>
-				<string>Increases maximum Spirit by 20%.</string>
+				<string>Damage you deal reduces enemy damage by 10% for 2.5 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Frenzied Attacks</string>
+				<string>The Guardian&apos;s Path</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>While dual-wielding, you gain a 10% chance to dodge incoming attacks. While using a two-handed weapon, all Spirit generation is increased by 20%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Fleet Footed</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>Increase base movement speed by 10%.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Transcendence</string>
 				<key>level</key>
 				<string>13</string>
 				<key>desc1</key>
-				<string>When wielding two weapons, the character has 20% increased critical strike chance and 30% increased critical strike damage.</string>
+				<string>Every point of Spirit spent heals you for 42.6 Life.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Aggression</string>
+				<string>Chant of Resonance</string>
 				<key>level</key>
 				<string>15</string>
 				<key>desc1</key>
-				<string>Increases attack by 20%.</string>
+				<string>Duration of all Mantras increased by 120 seconds. While one of your Mantras is active you gain 1 Spirit every second.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Superior Skill</string>
-				<key>level</key>
-				<string>15</string>
-				<key>desc1</key>
-				<string>Increases precision by 20%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Expert Defense</string>
+				<string>Seize the Initiative</string>
 				<key>level</key>
 				<string>17</string>
 				<key>desc1</key>
-				<string>Increases defense by 20%.</string>
+				<string>Your Defense is increased by 25% of your Attack.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Resonance</string>
+				<string>Exalted Soul</string>
 				<key>level</key>
 				<string>19</string>
 				<key>desc1</key>
-				<string>Increases the duration of auras by 120 seconds.</string>
+				<string>Increases maximum Spirit by 100.
+Spirit fuels your defensive and offensive abilities.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Untouchable</string>
-				<key>level</key>
-				<string>19</string>
-				<key>desc1</key>
-				<string>After dealing a critical strike, increases dodge chance by 10% for 10 seconds.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Counterattack</string>
+				<string>Sixth Sense</string>
 				<key>level</key>
 				<string>20</string>
 				<key>desc1</key>
-				<string>When the Monk dodges an attack, the next skill has its Spirit cost reduced by 40%.</string>
+				<string>Your dodge chance is increased by an amount equal to 50% of your chance to critical hit.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Weak Spot</string>
-				<key>level</key>
-				<string>20</string>
-				<key>desc1</key>
-				<string>Increases critical strike damage by 100%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Strength in Adversity</string>
+				<string>Pacifism</string>
 				<key>level</key>
 				<string>23</string>
 				<key>desc1</key>
-				<string>Healing effects are improved by 50% if the Monk is under 35% health.</string>
+				<string>While stunned, feared or charmed, all damage taken is reduced by 75%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -1577,592 +2409,2119 @@ Movement Speed: 20%</string>
 				<key>level</key>
 				<string>25</string>
 				<key>desc1</key>
-				<string>When the Monk receives a fatal blow, the Monk gains 30% health and 30% Spirit.</string>
+				<string>When receiving fatal damage, you are instead restored to 35% of maximum Life and 35% Spirit.
+This effect cannot occur more than once every 90 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Flawless Technique</string>
+				<string>Guiding Light</string>
+				<key>level</key>
+				<string>26</string>
+				<key>desc1</key>
+				<string>Whenever you heal another player with an active skill, you and the other player deal 16% more damage for 10 seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>One With Everything</string>
 				<key>level</key>
 				<string>28</string>
 				<key>desc1</key>
-				<string>Skills that generate Spirit (i.e. combos) do 20% more damage.</string>
+				<string>Your resistance to all elements is equal to your highest elemental resistance.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Strength of Spirit</string>
+				<string>Beacon of Ytar</string>
 				<key>level</key>
 				<string>30</string>
 				<key>desc1</key>
-				<string>Skills that require Spirit do 30% more damage.</string>
+				<string>The cooldown on your Lashing Tail Kick, Seven-Sided Strike and Wave of Light abilities is removed, but their Spirit cost is increased by 50%.</string>
 			</dict>
 		</array>
 		<key>askill</key>
 		<array>
 			<dict>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Searing Light</string>
+						<key>desc</key>
+						<string>Increases the chance affected enemies will miss attacks to 65%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Faith in the Light</string>
+						<key>desc</key>
+						<string>For 24 seconds after using Blinding Flash, all of your attacks are infused to deal 17 - 34 additional Holy damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Self Reflection</string>
+						<key>desc</key>
+						<string>Increases the duration enemies are blinded to 12 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Blinding Echo</string>
+						<key>desc</key>
+						<string>3 seconds after using Blinding Flash, a second flash of light will blind enemies within 20 yards for 2 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Blind and Confused</string>
+						<key>desc</key>
+						<string>Blinded enemies have a 100% chance to attack each other.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 50 Spirit</string>
 				<key>name</key>
 				<string>Blinding Flash</string>
 				<key>level</key>
 				<string>1</string>
 				<key>desc1</key>
-				<string>Spirit Skill</string>
-				<key>desc2</key>
-				<string>Creates a flash of light that blinds all nearby enemies. Blinded enemies will not attack unless they are attacked first. Lasts for X-X seconds. Blinded enemies have a X% reduced chance to hit.  Rank One: Blinds enemies for 3-4 seconds, 20% reduced chance to hit.  Rank Two: Blinds enemies for 3-5 seconds, 25% reduced chance to hit.</string>
+				<string>Create a flash of light that blinds all enemies within 20 yards for 5 seconds. Blinded enemies have a 30% chance to miss with attacks and will not attack unless they are attacked first.</string>
+				<key>category</key>
+				<string>Spirit Spender</string>
 			</dict>
 			<dict>
-				<key>desc1</key>
-				<string>One of two low-level combo skills available to the Monk, this punching attack lands three not-very quick hits, dealing increasing amounts of lightning damage with each attack.  Generates 3 Spirit per hit.</string>
-				<key>desc2</key>
-				<string>Unleashes a series of increasingly powerful lightning infused punches that deal X% weapon damage as lightning damage, and has a higher chance than normal to interrupt enemy attacks.</string>
-				<key>level</key>
-				<string>1</string>
+				<key>category</key>
+				<string>Spirit Generator</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Lightning Flash</string>
+						<key>desc</key>
+						<string>Each hit with Fists of Thunder increases your Dodge chance by 2.5%. This effect stacks up to 8 times.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Thunderclap</string>
+						<key>desc</key>
+						<string>Each punch causes a shockwave that hits all enemies within 8 yards of your primary target for 105% weapon damage as Lightning damage. Also enables you to teleport a short distance during the ability&apos;s first strike.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Rolling Thunder</string>
+						<key>desc</key>
+						<string>Critical hits with this skill generate 7 Spirit.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Chain Lightning</string>
+						<key>desc</key>
+						<string>The third strike creates chain lightning that can jump to up to 9 other nearby targets. Each lightning strike inflicts 80% weapon damage as Lightning damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Static Charge</string>
+						<key>desc</key>
+						<string>Enemies attacked are charged with static for 10 seconds. Charged enemies take 130% weapon damage as Lightning damage when you attack other nearby enemies with Fists of Thunder.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Generate: 6 Spirit per attack</string>
 				<key>name</key>
 				<string>Fists of Thunder</string>
+				<key>level</key>
+				<string>1</string>
+				<key>desc1</key>
+				<string>Deal a series of extremely fast punches that deal 100% weapon damage as Lightning damage. Every third hit deals damage to all enemies in front of you. Each strike has a 15% chance to interrupt enemy attacks.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Mantras</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Divine Protection</string>
+						<key>desc</key>
+						<string>When you or an ally under the effect of Mantra of Evasion is reduced below 20% Life, a shield of protection forms around that target, reducing incoming damage by 80% for 10 seconds.
+Each target can be protected at most once every 120 seconds by this effect.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Backlash</string>
+						<key>desc</key>
+						<string>Successfully dodging an attack creates a burst of flame dealing 120% weapon damage as Fire damage to all nearby enemies.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Wind Through the Reeds</string>
+						<key>desc</key>
+						<string>Mantra of Evasion also grants an increase in run speed by 10%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Unstoppable</string>
+						<key>desc</key>
+						<string>Mantra of Evasion also reduces the duration of all control imparing effects by 45%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Hard Target</string>
+						<key>desc</key>
+						<string>Mantra of Evasion also grants an increase in armor by 180%.</string>
+					</dict>
+				</array>
 				<key>desc1</key>
-				<string>A curing, cleansing spell that removes debuffs from the Monk and his party.</string>
-				<key>desc2</key>
-				<string>The Monk banishes any harmful effects from himself and his allies, including stun, slowing, and effects that reduce defensive or offensive abilities.</string>
-				<key>level</key>
-				<string>2</string>
-				<key>name</key>
-				<string>Breath of Heaven</string>
-			</dict>
-			<dict>
-				<key>desc1</key>
-				<string>A roundhouse kick that knocks back enemies.</string>
-				<key>desc2</key>
-				<string>The Monk unleashes a deadly roundhouse kick, causing knockback and dealing X-X physical damage.  Rank One: 25 Spirit, Deals 10-20 Physical damage.</string>
-				<key>level</key>
-				<string>3</string>
-				<key>name</key>
-				<string>Lashing Tail Kick</string>
-			</dict>
-			<dict>
-				<key>desc1</key>
-				<string>No description is available.</string>
-				<key>level</key>
-				<string>4</string>
-				<key>name</key>
-				<string>Mantra of Healing</string>
-			</dict>
-			<dict>
-				<key>desc1</key>
-				<string>No description is available.</string>
-				<key>level</key>
-				<string>5</string>
-				<key>name</key>
-				<string>Deadly Reach</string>
-			</dict>
-			<dict>
-				<key>desc1</key>
-				<string>A fast moving, charge-like attack, more useful for the movement than the damage dealt.</string>
-				<key>desc2</key>
-				<string>The Monk dashes quickly at the targeted enemy or location, dealing X% weapon damage plus X-X physical damage.</string>
-				<key>level</key>
-				<string>6</string>
-				<key>name</key>
-				<string>Dashing Strike</string>
-			</dict>
-			<dict>
-				<key>desc1</key>
-				<string>Spirit Skill</string>
-				<key>desc2</key>
-				<string>The Monk creates an illusion of himself composed of pure holy energy. This illusion attracts enemies to it, and then it explodes dealing X-X holy damage.  Rank One: Costs 40 Spirit, Explodes for 10-20 holy damage</string>
-				<key>level</key>
-				<string>7</string>
-				<key>name</key>
-				<string>Lethal Decoy</string>
-			</dict>
-			<dict>
-				<key>desc1</key>
-				<string>A debuff combo, this one slows enemies, while dealing fairly minor damage. Best mixed in for the first or second hit with another more impactful combo.</string>
-				<key>desc2</key>
-				<string>A series of large sweeping attacks that debilitate enemies and cause X% weapon damage.  First Hit: Enemies are dazed, reducing movement speed by X% for X seconds.  Second and Third Hit: Refreshes the duration of the daze effect.</string>
-				<key>level</key>
-				<string>8</string>
-				<key>name</key>
-				<string>Crippling Wave</string>
-			</dict>
-			<dict>
-				<key>desc1</key>
-				<string>No description is available.</string>
-				<key>level</key>
-				<string>9</string>
-				<key>name</key>
-				<string>Mantra of Retribution</string>
-			</dict>
-			<dict>
-				<key>desc1</key>
-				<string>A defensive skill that creates a small protected circle around the Monk into which no monster can enter. Spells and ranged attacks will still strike the Monk though.</string>
-				<key>desc2</key>
-				<string>Creates a protected region on the ground for X seconds that cannot be passed through.</string>
-				<key>level</key>
-				<string>11</string>
-				<key>name</key>
-				<string>Inner Sanctuary</string>
-			</dict>
-			<dict>
-				<key>desc1</key>
-				<string>This skill became an instant legend when the Monk debuted at Blizzcon 2009. It&apos;s a combo skill that deals two light damage hits, before the third booby traps the target with a beating heart visible above their head. If a monster dies with the heart still there, they explode in a supernova of blood, dealing substantial AoE damage to all nearby enemies.</string>
-				<key>desc2</key>
-				<string>A series of lethal strikes target enemy nerve clusters that sets up a deadly chain reaction within the target. Deals X% weapon damage.  Third Hit: Target bleeds for X physical damage over X seconds. If the target dies it explodes dealing X-X% of maximum health in physical damage to all enemies nearby.</string>
-				<key>level</key>
-				<string>12</string>
-				<key>name</key>
-				<string>Exploding Palm</string>
-			</dict>
-			<dict>
-				<key>desc1</key>
-				<string>No description is available.</string>
-				<key>level</key>
-				<string>14</string>
+				<string>Recite a Mantra that grants you and all allies within 40 yards a 30% chance to dodge attacks. Lasts 120 seconds.
+This is a Mantra. You can only have one Mantra active at a time.</string>
+				<key>cost1</key>
+				<string>Cooldown: 30 seconds</string>
 				<key>name</key>
 				<string>Mantra of Evasion</string>
+				<key>level</key>
+				<string>2</string>
 			</dict>
 			<dict>
-				<key>desc1</key>
-				<string>No description is available.</string>
+				<key>category</key>
+				<string>Spirit Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Scorpion Sting</string>
+						<key>desc</key>
+						<string>Instead of knocking enemies back, affected enemies are stunned for 3.0 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Vulture Claw Kick</string>
+						<key>desc</key>
+						<string>With a torrent of fire, strike all nearby enemies for 312% weapon damage as Fire damage and knock them back.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Sweeping Armada Kick</string>
+						<key>desc</key>
+						<string>All enemies around you are knocked back 260% farther and slow their movement by 40% for 10 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Spinning Flame Kick</string>
+						<key>desc</key>
+						<string>Hurl a column of fire that pierces through enemies, causing 312% weapon damage as Fire damage to each enemy it strikes.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Hand of Ytar</string>
+						<key>desc</key>
+						<string>Smite all enemies within 5 yards of a target location for 312% weapon damage and slows their movement by 40% for 10 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 25 Spirit</string>
+				<key>cost2</key>
+				<string>Cooldown: 3 seconds</string>
+				<key>name</key>
+				<string>Lashing Tail Kick</string>
 				<key>level</key>
-				<string>16</string>
+				<string>3</string>
+				<key>desc1</key>
+				<string>Unleash a deadly roundhouse kick, knocking enemies back and dealing 130% weapon damage.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Spirit Generator</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Keen Eye</string>
+						<key>desc</key>
+						<string>The third strike of Deadly Reach increases the armor of the monk by 80% for 10 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Foresight</string>
+						<key>desc</key>
+						<string>The third strike of Deadly Reach increases the damage of all attacks by 10% for 17 seconds. This effect can stack up to 3 times.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Strike from Beyond</string>
+						<key>desc</key>
+						<string>Critical hits with this skill generate 7 Spirit.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Piercing Trident</string>
+						<key>desc</key>
+						<string>The second and third strike of the skill have an increased area of effect. Also increases skill damage to 212% of weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Scattered Blows</string>
+						<key>desc</key>
+						<string>The third strike is replaced with an attack that will hit up to 9 enemies within 15 yards for 125% weapon damage as Lightning damage.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Generate: 6 Spirit per attack</string>
+				<key>name</key>
+				<string>Deadly Reach</string>
+				<key>level</key>
+				<string>4</string>
+				<key>desc1</key>
+				<string>Project lines of pure force over a short distance for 125% weapon damage. Every third hit extends out 25 yards.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Spirit Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Penitent Flame</string>
+						<key>desc</key>
+						<string>Enemies hit by Breath of Heaven run in fear for 9 seconds, and take 14 Holy damage per second as they flee.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Circle of Scorn</string>
+						<key>desc</key>
+						<string>In addition to healing, Breath of Heaven also sears enemies for 57 - 91 Holy damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Infused with Light</string>
+						<key>desc</key>
+						<string>Gain 1 additional Spirit from each combo attack for 33 seconds after using Breath of Heaven.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Circle of Life</string>
+						<key>desc</key>
+						<string>Increases the healing to 9820 - 13093 Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Blazing Wrath</string>
+						<key>desc</key>
+						<string>Increases all damage done by 20% for 33 seconds after Breath of Heaven is used.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 75 Spirit</string>
+				<key>name</key>
+				<string>Breath of Heaven</string>
+				<key>level</key>
+				<string>5</string>
+				<key>desc1</key>
+				<string>A blast of holy energy heals you and all allies within 12 yards for 4790 - 6387 Life.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Spirit Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Flying Side Kick</string>
+						<key>desc</key>
+						<string>Perform a flying kick that has a 50% chance to stun your target for 3.5 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Soaring Skull</string>
+						<key>desc</key>
+						<string>Fly through the air head first, slowing the movement of all enemies along the path by 50% for 10 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Quicksilver</string>
+						<key>desc</key>
+						<string>The cost of Dashing Strike is reduced to 3 Spirit.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Way of the Falling Star</string>
+						<key>desc</key>
+						<string>Increases movement speed by 55% for 3 seconds after using Dashing Strike to an enemy.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Blinding Speed</string>
+						<key>desc</key>
+						<string>Receive a 30% increased chance to dodge for 12 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 10 Spirit</string>
+				<key>name</key>
+				<string>Dashing Strike</string>
+				<key>level</key>
+				<string>6</string>
+				<key>desc1</key>
+				<string>Dash quickly at the targeted enemy or location dealing 50% weapon damage.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Spirit Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Simulacrum</string>
+						<key>desc</key>
+						<string>If you die while the decoy is alive, you are resurrected at the decoy&apos;s location with 100% Life. The decoy no longer attracts enemies and the duration is increased to 26 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Explosive Decoy</string>
+						<key>desc</key>
+						<string>Increases damage of the explosion to 94 - 172 Holy damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Spirit Link</string>
+						<key>desc</key>
+						<string>When the decoy explodes it also heals all allies within 25 yards for 3726 - 4471 Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Many Monks</string>
+						<key>desc</key>
+						<string>Spawn 3 decoys. Each decoy deals 31 - 56 Holy damage when it explodes.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Lethal Combatant</string>
+						<key>desc</key>
+						<string>Summons a stronger decoy for 13 seconds. The decoy can move and attack enemies for 85 - 149 damage per swing.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 75 Spirit</string>
+				<key>name</key>
+				<string>Lethal Decoy</string>
+				<key>level</key>
+				<string>7</string>
+				<key>desc1</key>
+				<string>Create an illusion of pure holy energy that attracts enemies to itself and explodes after 5 seconds for 43 - 78 Holy damage.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Spirit Generator</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Breaking Wave</string>
+						<key>desc</key>
+						<string>Affected targets take 80% additional damage from all attacks for 9 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Mangle</string>
+						<key>desc</key>
+						<string>Increase damage to 220% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Rising Tide</string>
+						<key>desc</key>
+						<string>Critical hits with this skill generate 7 Spirit.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Tsunami</string>
+						<key>desc</key>
+						<string>Crippling Wave&apos;s third attack range increases to 17 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Concussion</string>
+						<key>desc</key>
+						<string>Enemies hit by Crippling Wave inflict 50% less damage for 9 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Generate: 6 Spirit per attack</string>
+				<key>name</key>
+				<string>Crippling Wave</string>
+				<key>level</key>
+				<string>8</string>
+				<key>desc1</key>
+				<string>A series of large sweeping attacks that causes 100% weapon damage to all enemies in front of you. Every third hit damages all enemies around you and dazes them, slowing movement by 50% for 4.5 seconds.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Mantras</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Collateral Damage</string>
+						<key>desc</key>
+						<string>An attacker that triggers Mantra of Retribution has a 30% chance to suffer a feedback blast, dealing 39 - 46 damage to itself and surrounding enemies.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Retaliation</string>
+						<key>desc</key>
+						<string>Increase amount of damage reflected by the Mantra to 75%. The Mantra will now reflect ranged damage as well as melee damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Against All Odds</string>
+						<key>desc</key>
+						<string>Mantra of Retribution also restores 1 - 8 Spirit when reflecting damage done to you.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Transgression</string>
+						<key>desc</key>
+						<string>Mantra of Retribution also increases attack speed for you and all allies by 40%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Indignation</string>
+						<key>desc</key>
+						<string>When Mantra of Retribution damages an attacker, the attacker has a 100% chance to be stunned for 2 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cooldown: 30 seconds</string>
+				<key>name</key>
+				<string>Mantra of Retribution</string>
+				<key>level</key>
+				<string>9</string>
+				<key>desc1</key>
+				<string>Recite a Mantra that causes you and all allies within 40 yards to reflect melee damage back at enemies, dealing Holy damage equal to 40% of the damage sustained. Lasts 120 seconds.
+This is a Mantra. You can only have one Mantra active at a time.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Spirit Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Sanctified Ground</string>
+						<key>desc</key>
+						<string>When Inner Sanctuary expires it becomes Sanctified Ground for 6 seconds, slowing the movement of all enemies on it by 60%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Forbidden Palace</string>
+						<key>desc</key>
+						<string>Enemies within the area of effect of Inner Sanctuary when it is activated take 185 - 199 Holy damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Safe Haven</string>
+						<key>desc</key>
+						<string>You and all allies regenerate 1170.9 Life per second while inside the circle.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Consecration</string>
+						<key>desc</key>
+						<string>Increase the duration of Inner Sanctuary to 15 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Circle of Protection</string>
+						<key>desc</key>
+						<string>You and all allies standing in the area of effect of Inner Sanctuary take 55% less damage from attacks.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 80 Spirit</string>
+				<key>name</key>
+				<string>Inner Sanctuary</string>
+				<key>level</key>
+				<string>11</string>
+				<key>desc1</key>
+				<string>Create a circle of protection on the ground for 8 seconds that cannot be passed by enemies.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Spirit Generator</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Essence Burn</string>
+						<key>desc</key>
+						<string>The third strike causes the target to burn for 95% weapon damage as Fire damage every second for 3 seconds. If the target dies while burning it explodes causing all nearby enemies to burn for 100% weapon damage as Fire damage for 2 seconds. This effect can chain repeatedly.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Impending Doom</string>
+						<key>desc</key>
+						<string>Increases the duration of the bleed effect to 10 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Strong Spirit</string>
+						<key>desc</key>
+						<string>If a target dies and explodes with the bleed on them, gain 7 Spirit for each enemy hit by the explosion.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Creeping Demise</string>
+						<key>desc</key>
+						<string>The bleed effect hits up to 8 targets standing in front of you.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>The Flesh is Weak</string>
+						<key>desc</key>
+						<string>The first two strikes cause the enemy to take 10% additional damage for 5 seconds. This effect stacks up to 8 times on each target.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Generate: 6 Spirit per attack</string>
+				<key>name</key>
+				<string>Exploding Palm</string>
+				<key>level</key>
+				<string>12</string>
+				<key>desc1</key>
+				<string>The first two strikes in the attack deal 100% weapon damage. The third strike causes the target to bleed for 65% of weapon damage per second for 3 seconds. If the target dies while bleeding, it explodes, dealing 40% of the target&apos;s maximum Life as physical damage to all other enemies nearby.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Mantras</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Time of Need</string>
+						<key>desc</key>
+						<string>Mantra of Healing also increases all resistances by 50%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Sustenance</string>
+						<key>desc</key>
+						<string>Increases the Life regeneration granted by Mantra of Healing to 292.7 Life per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Soothing Breeze</string>
+						<key>desc</key>
+						<string>Mantra of Healing also grants you 2.0 Spirit per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Boon of Protection</string>
+						<key>desc</key>
+						<string>When Mantra of Healing is activated a temporary shield is placed on you and your allies for 10 seconds. The shield will absorb up to 40% of each person&apos;s maximum Life in damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Heavenly Body</string>
+						<key>desc</key>
+						<string>Mantra of Healing also increases Vitality by 45%.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cooldown: 30 seconds</string>
+				<key>name</key>
+				<string>Mantra of Healing</string>
+				<key>level</key>
+				<string>14</string>
+				<key>desc1</key>
+				<string>Recite a Mantra that causes you and all allies within 40 yards to gain increased Life regeneration by 106.4 Life per second. Lasts 120 seconds.
+This is a Mantra. You can only have one Mantra active at a time.</string>
+			</dict>
+			<dict>
+				<key>cost2</key>
+				<string> 12 Spirit per second.</string>
+				<key>category</key>
+				<string>Spirit Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Flurry</string>
+						<key>desc</key>
+						<string>Increases the potency of the hobbling effect, slowing enemy movement by 71.00%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Bluster</string>
+						<key>desc</key>
+						<string>Affected enemies also have their damage reduced by 60% for the duration of the effect.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Northern Breeze</string>
+						<key>desc</key>
+						<string>Reduces cost to 5 Spirit per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Tailwind</string>
+						<key>desc</key>
+						<string>Increases the movement speed of Tempest Rush to 140% of normal.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Slipstream</string>
+						<key>desc</key>
+						<string>Damage taken while running is reduced by 65%.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 3 Spirit plus an additional</string>
 				<key>name</key>
 				<string>Tempest Rush</string>
+				<key>level</key>
+				<string>16</string>
+				<key>desc1</key>
+				<string>Run directly through your enemies knocking them back and hobbling them, slowing their movement by 50% for 3 seconds. Also deals 75% of weapon damage per second while running.</string>
 			</dict>
 			<dict>
-				<key>desc1</key>
-				<string>Combo skill</string>
-				<key>desc2</key>
-				<string>The Monk sweeps his weapon in a circle, forming a barrier of force that deals X% weapon damage to every enemy hit. Can hit enemies multiple times.</string>
-				<key>level</key>
-				<string>17</string>
+				<key>category</key>
+				<string>Spirit Generator</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Master of Wind</string>
+						<key>desc</key>
+						<string>Increases the duration of the vortex buff to 12 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Blade Storm</string>
+						<key>desc</key>
+						<string>Intensify the vortex, increasing the damage per stack to 44% weapon damage per second. This increases the damage with 3 stacks to 132% weapon damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Inner Storm</string>
+						<key>desc</key>
+						<string>As long as your vortex is at the maximum stack count, you gain 2.4 Spirit per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Fire Storm</string>
+						<key>desc</key>
+						<string>Increases the radius of the vortex to 14 yards and the damage per stack to 36% weapon damage per second as Fire damage. This increases the damage with 3 stacks to 108% weapon damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Cyclone</string>
+						<key>desc</key>
+						<string>While your vortex is at the maximum stack count, every third hit spawns a lightning tornado that periodically shocks nearby enemies for 66% weapon damage as Lightning damage. Each spawned lightning tornado lasts 3 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Generate: 6 Spirit per attack</string>
 				<key>name</key>
 				<string>Sweeping Wind</string>
+				<key>level</key>
+				<string>17</string>
+				<key>desc1</key>
+				<string>Strike a target for 100% weapon damage. Every third hit creates a vortex of air that surrounds you. The vortex of air lasts 5 seconds and deals 20% weapon damage per second to all enemies within 10 yards. This vortex effect can stack up to 3 times for a total of 60% weapon damage per second to nearby enemies.</string>
 			</dict>
 			<dict>
-				<key>desc1</key>
-				<string>Spirit Skill</string>
-				<key>desc2</key>
-				<string>The Monk creates a shield that protects him from all incoming damage. Lasts X seconds.</string>
-				<key>level</key>
-				<string>18</string>
+				<key>category</key>
+				<string>Spirit Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Reap What is Sown</string>
+						<key>desc</key>
+						<string>90% of the damage absorbed by Serenity is unleashed as an explosion when Serenity expires, dealing up to 146 Holy damage to enemies within 20 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Peaceful Repose</string>
+						<key>desc</key>
+						<string>Heal yourself for 6387 - 8409 Life when Serenity is activated.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Tranquility</string>
+						<key>desc</key>
+						<string>Extends the protective shield and immunity to control impairing effects to allies within 45 yards for 3 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Instant Kharma</string>
+						<key>desc</key>
+						<string>While Serenity is active, 100% of all projectiles and melee attacks are reflected back at the attacker.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Ascension</string>
+						<key>desc</key>
+						<string>Increases the duration of Serenity to 6.5 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 35 Spirit</string>
+				<key>cost2</key>
+				<string>Cooldown: 60 seconds</string>
 				<key>name</key>
 				<string>Serenity</string>
+				<key>level</key>
+				<string>18</string>
+				<key>desc1</key>
+				<string>You are enveloped in a protective shield that intercepts all incoming damage for 3 seconds and grants immunity to all control impairing effects.</string>
 			</dict>
 			<dict>
-				<key>desc1</key>
-				<string>One of the most popular combo skills, this attack lands a crushing series of body shots on the enemy. It was shown in modified form in the Monk cinematic; used to pulverize the ribs of a Morlu Caster.</string>
-				<key>desc2</key>
-				<string>A series of punches strike enemies in front of the Monk that cause X% weapon damage.</string>
-				<key>level</key>
-				<string>21</string>
+				<key>category</key>
+				<string>Spirit Generator</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Windforce Flurry</string>
+						<key>desc</key>
+						<string>The third strike generates a wave of wind that deals 149 - 163 physical damage to enemies directly ahead of you.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Fists of Fury</string>
+						<key>desc</key>
+						<string>Affected targets will take an additional 35 Holy damage per second for 5 seconds. Also enables the first hit to dash a short distance.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Spirited Salvo</string>
+						<key>desc</key>
+						<string>Every activation of the skill has a 15% chance to generate 7 additional Spirit.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Hands of Lightning</string>
+						<key>desc</key>
+						<string>Increase the number of hits in the second strike from 8 to 22 hits.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Blazing Fists</string>
+						<key>desc</key>
+						<string>Critical hits increase your attack speed by 22% and movement speed by 11%. This effect lasts for 5 seconds and can stack up to 3 times.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Generate: 6 Spirit per attack</string>
 				<key>name</key>
 				<string>Way of the Hundred Fists</string>
+				<key>level</key>
+				<string>21</string>
+				<key>desc1</key>
+				<string>A rapid series of punches strikes enemies for 135% weapon damage.</string>
 			</dict>
 			<dict>
-				<key>desc1</key>
-				<string>No description is available.</string>
-				<key>level</key>
-				<string>22</string>
+				<key>category</key>
+				<string>Mantras</string>
+				<key>cost1</key>
+				<string>Cooldown: 30 seconds</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Intimidation</string>
+						<key>desc</key>
+						<string>Enemies affected by Mantra of Conviction inflict 45% less damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Overawe</string>
+						<key>desc</key>
+						<string>Increases Mantra strength so that enemies take 55% additional damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Reclamation</string>
+						<key>desc</key>
+						<string>You and your allies have a 75% chance to be healed for 958 - 1064 Life when striking an enemy under the effects of Mantra of Conviction.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Submission</string>
+						<key>desc</key>
+						<string>Enemies affected by Mantra of Conviction take 28 - 32 Holy damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Demoralize</string>
+						<key>desc</key>
+						<string>Slows the movement of enemies within 20 yards by 48%.</string>
+					</dict>
+				</array>
 				<key>name</key>
 				<string>Mantra of Conviction</string>
+				<key>level</key>
+				<string>22</string>
+				<key>desc1</key>
+				<string>Recite a Mantra that causes all enemies within 20 yards of you to take 20% additional damage. Lasts 120 seconds.
+This is a Mantra. You can only have one Mantra active at a time.</string>
 			</dict>
 			<dict>
-				<key>desc1</key>
-				<string>A very powerful attack, when used in Blizzcon 2009 this skill allowed the Monk to teleport to an enemy, to strike it or other nearby enemies five times, and all without ever being hit in return. It was expected to be nerfed, and has not been seen in action since.</string>
-				<key>desc2</key>
-				<string>Unleashes a fury of attacks striking nearby enemies X times for X% weapon damage for each hit.</string>
-				<key>level</key>
-				<string>24</string>
+				<key>cost1</key>
+				<string>Cost: 50 Spirit</string>
+				<key>cost2</key>
+				<string>Cooldown: 30 seconds</string>
+				<key>category</key>
+				<string>Spirit Spender</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Fulminating Onslaught</string>
+						<key>desc</key>
+						<string>Each impact explodes to deal 75 - 82 Holy damage around the target.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Sudden Assault</string>
+						<key>desc</key>
+						<string>Teleport to the target location for the strike, and damage increases to 234% weapon damage per hit.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Sustained Attack</string>
+						<key>desc</key>
+						<string>Reduces the cooldown of this ability to 16 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Several Sided Strike</string>
+						<key>desc</key>
+						<string>Increases the number of strikes made to 14 attacks.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Pandemonium</string>
+						<key>desc</key>
+						<string>Enemies hit by the barrage have a 55% chance per hit to be charmed or stunned for 3 seconds.</string>
+					</dict>
+				</array>
 				<key>name</key>
 				<string>Seven Sided Strike</string>
+				<key>level</key>
+				<string>24</string>
+				<key>desc1</key>
+				<string>Dash rapidly between many nearby enemies 7 times striking for 130% weapon damage with every hit.</string>
 			</dict>
 			<dict>
-				<key>desc1</key>
-				<string>No description is available.</string>
-				<key>level</key>
-				<string>27</string>
+				<key>cost1</key>
+				<string>Cost: 50 Spirit</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Eternal Ally</string>
+						<key>desc</key>
+						<string>Imbue the ally with the essence of life. When the ally dies it has a 75% chance to be reborn after 4 seconds. In addition, the physical damage of the ally&apos;s basic attack is increased to 55 - 92 per swing.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Fire Ally</string>
+						<key>desc</key>
+						<string>Imbue the ally with the essence of fire. The ally gains the ability to fire kick for 46 - 77 Fire damage plus an additional 28 Fire damage per second for 2 seconds to all enemies in a straight line.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Air Ally</string>
+						<key>desc</key>
+						<string>Imbue the ally with the essence of air. Every attack made by the ally has a 10% chance to generate 17 Spirit for you. In addition, the ally is surrounded in a torrent of wind that deals 32 - 49 physical damage per second to all nearby enemies.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Water Ally</string>
+						<key>desc</key>
+						<string>Imbue the ally with the essence of water. The ally gains the ability to perform a wave attack that deals 65 - 109 physical damage and slows the movement of affected targets by 60% for 2 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Earth Ally</string>
+						<key>desc</key>
+						<string>Imbue the ally with the essence of earth. Maximum Life for you and the ally is increased by 50%. The ally also gains the ability to create a wave of earth, dealing 53 - 85 physical damage to a single enemy and forcing that enemy to attack the ally for 25 seconds.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Spirit Spender</string>
 				<key>name</key>
 				<string>Mystic Ally</string>
+				<key>level</key>
+				<string>27</string>
+				<key>desc1</key>
+				<string>Summon an elemental ally capable of engaging enemies in combat until it is destroyed. The ally deals 21 - 36 physical damage per swing.</string>
 			</dict>
 			<dict>
-				<key>desc1</key>
-				<string>Spirit Skill</string>
-				<key>desc2</key>
-				<string>The Monk summons a rolling wave of holy fire that scorches everything in its path, dealing X holy damage.</string>
-				<key>level</key>
-				<string>29</string>
+				<key>cost1</key>
+				<string>Cost: 50 Spirit</string>
+				<key>cost2</key>
+				<string>Cooldown: 15 seconds</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Blinding Light</string>
+						<key>desc</key>
+						<string>Critical hits stun enemies for 5.0 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Wall of Light</string>
+						<key>desc</key>
+						<string>Increases damage of the initial impact to 116 - 175 Holy damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Empowered Wave</string>
+						<key>desc</key>
+						<string>Reduces the cooldown to 6 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Explosive Light</string>
+						<key>desc</key>
+						<string>Shoot out bursts of energy in all directions that deal 170 - 202 Holy damage to nearby enemies.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Pillar of the Ancients</string>
+						<key>desc</key>
+						<string>Summon an ancient pillar that deals 100% weapon damage followed by an additional 800% weapon damage after 2 seconds.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Spirit Spender</string>
 				<key>name</key>
 				<string>Wave of Light</string>
+				<key>level</key>
+				<string>29</string>
+				<key>desc1</key>
+				<string>Focuses the power of Light to smite all enemies in front of you for 57 - 85 Holy damage followed by an additional 36 - 57 Holy damage to all enemies in a line.</string>
 			</dict>
 		</array>
-		<key>icon</key>
-		<string>Monk</string>
 		<key>name</key>
 		<string>Monk</string>
 	</dict>
 	<dict>
+		<key>icon</key>
+		<string>Witch</string>
 		<key>askill</key>
 		<array>
 			<dict>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Snake to the Face</string>
+						<key>desc</key>
+						<string>Every shot has a 37% chance to be a snake that clamps on to the target and stuns it for 3 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Flaming Dart</string>
+						<key>desc</key>
+						<string>Ignite the dart, allowing it to deal a full 211 - 255 Fire damage at once.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Spined Dart</string>
+						<key>desc</key>
+						<string>Gain 290 Mana every time a dart hits a target.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Splinters</string>
+						<key>desc</key>
+						<string>Shoot 8 darts at once that deal 18 - 27 Poison damage each.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Numbing Dart</string>
+						<key>desc</key>
+						<string>Targets hit by a dart have their movement slowed by 60% for 6.0 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 176 Mana</string>
 				<key>name</key>
 				<string>Poison Dart</string>
 				<key>level</key>
 				<string>1</string>
 				<key>desc1</key>
-				<string>The Witch Doctor uses a blowpipe to fire a poison dart. A fairly slow attack that&apos;s hugely improved by runestones.</string>
-				<key>desc2</key>
-				<string>Fires a deadly poison dart that deals X-X poison damage and an additional X-X poison damage over X seconds.</string>
+				<string>Shoot a deadly poison dart that deals 46 - 67 Poison damage and an additional 57 Poison damage over 2 seconds.</string>
+				<key>category</key>
+				<string>Physical Realm</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Support</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Leeching Beasts</string>
+						<key>desc</key>
+						<string>Your zombie dogs gain 65% of damage dealt as Life, half of which heals you.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Burning Dogs</string>
+						<key>desc</key>
+						<string>Light your dogs on fire allowing them to burn nearby enemies for 50 Fire damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Final Gift</string>
+						<key>desc</key>
+						<string>Upon death, your zombie dogs have a 85% chance of leaving behind a health globe.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Life Link</string>
+						<key>desc</key>
+						<string>70% of damage taken is absorbed by your zombie dogs.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Rabid Dogs</string>
+						<key>desc</key>
+						<string>Your summoned zombie dogs gain an infectious bite that deals 75 Poison damage over 3 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 176 Mana</string>
+				<key>cost2</key>
+				<string>Cooldown: 60 seconds</string>
 				<key>name</key>
-				<string>Summon Zombie Dog</string>
+				<string>Summon Zombie Dogs</string>
 				<key>level</key>
 				<string>1</string>
 				<key>desc1</key>
-				<string>Better known as &quot;Mongrels,&quot; Zombie Dogs are the basic Witch Doctor pet, capable of tanking and fighting effectively, though they are not meant for a long life, and deal their best damage when Sacrificed.</string>
-				<key>desc2</key>
-				<string>The Witch Doctor summons a level X zombie dog to aid him. Can have up to X zombie dogs out at a time.</string>
+				<string>Summon 3 zombie dogs from the depths to fight by your side.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Physical Realm</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Addling Toads</string>
+						<key>desc</key>
+						<string>Mutate to yellow frogs that deal 114 - 159 Poison damage and confuse affected enemies for 2 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Explosive Toads</string>
+						<key>desc</key>
+						<string>Mutate to red bullfrogs that explode for 156 - 219 Fire damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Toad Affinity</string>
+						<key>desc</key>
+						<string>Reduces Mana cost to 62 Mana.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Rain of Toads</string>
+						<key>desc</key>
+						<string>Hail a rain of toads down from the sky that deals 170 Poison damage per second to enemies in the area for 1.5 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Toad of Hugeness</string>
+						<key>desc</key>
+						<string>Summon a giant toad that swallows enemies whole for up to 5 seconds, digesting for 64 physical damage per second.
+This rune adds a 5 second cooldown to the skill.</string>
+					</dict>
+				</array>
+				<key>desc1</key>
+				<string>Release a handful of toads that deal 71 - 99 Poison damage to enemies they come in contact with.</string>
+				<key>cost1</key>
+				<string>Cost: 211 Mana</string>
 				<key>name</key>
 				<string>Plague of Toads</string>
 				<key>level</key>
 				<string>2</string>
-				<key>desc1</key>
-				<string>The Witch Doctor summons several toads that hop forward like living Charged Bolts and explode against enemies. Some dramatic runestone effects are known for this skill.</string>
-				<key>desc2</key>
-				<string>Release a handful of toads that explode on contact with an enemy, dealing poison damage.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Support</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Death is Life</string>
+						<key>desc</key>
+						<string>Killed targets have a 65% chance to produce a health globe.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Groping Eels</string>
+						<key>desc</key>
+						<string>Increases the damage done to 51 physical damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Desperate Grasp</string>
+						<key>desc</key>
+						<string>Reduces the cooldown to 4.5 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Rain of Corpses</string>
+						<key>desc</key>
+						<string>Corpses fall from the sky dealing 46 - 85 physical damage to nearby enemies.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Unbreakable Grasp</string>
+						<key>desc</key>
+						<string>Increase the slow amount to 64%.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 53 Mana</string>
+				<key>cost2</key>
+				<string>Cooldown: 8 seconds</string>
 				<key>name</key>
 				<string>Grasp of the Dead</string>
 				<key>level</key>
 				<string>3</string>
 				<key>desc1</key>
-				<string>A powerful curse, this one deals damage as well as slowing enemies for a short duration.</string>
-				<key>desc2</key>
-				<string>Hands reach out, slowing enemies by X% and dealing X-X damage per second for X seconds.</string>
+				<string>Hands reach out from the ground slowing enemy movement by 50% and dealing 21 physical damage per second for 8 seconds.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Spirit Realm</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Resentful Spirit</string>
+						<key>desc</key>
+						<string>Modifies the spirit to do 395 Arcane damage over 2.1 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Consuming Spirit</string>
+						<key>desc</key>
+						<string>The spirit returns 45% of damage done as Life for you.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Draining Spirit</string>
+						<key>desc</key>
+						<string>The spirit returns 100% of damage done as Mana for you.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Lingering Spirit</string>
+						<key>desc</key>
+						<string>If there are no targets left the spirit will linger for up to 15 seconds looking for new targets.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Grasping Spirit</string>
+						<key>desc</key>
+						<string>Slows the movement of haunted targets by 50%.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 106 Mana</string>
 				<key>name</key>
 				<string>Haunt</string>
 				<key>level</key>
 				<string>4</string>
 				<key>desc1</key>
-				<string>A ranged spell attack, this sics a ghostly entity upon the target, dealing DoT. The Haunt will seek a new target when its victim dies.</string>
-				<key>desc2</key>
-				<string>Haunt an enemy with a spirit dealing X arcane damage over X seconds. If the target dies, the spirit will automatically haunt another nearby target.</string>
+				<string>Haunt an enemy with a spirit dealing 355 Arcane damage over 17 seconds. If the target dies, the spirit will automatically haunt another nearby enemy.
+You may have up to 3 Haunt effects active at once.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Physical Realm</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Explosive Beast</string>
+						<key>desc</key>
+						<string>Summon an explosive zombie dog that deals 124 - 174 Fire damage to all enemies within 9 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Zombie Bears</string>
+						<key>desc</key>
+						<string>A stampede of three Zombie Bears deal 53 - 75 damage to enemies in the area.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Undeath</string>
+						<key>desc</key>
+						<string>If the charger kills a target, at the end of its path it will reappear as a new charger that deals 50 - 70 Poison damage. This effect can repeat up to 8 times.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Wave of Zombies</string>
+						<key>desc</key>
+						<string>Summon 8 zombie chargers that deal 99 - 139 damage each.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Leperous Zombie</string>
+						<key>desc</key>
+						<string>The charger leaves behind a poisonous cloud that deals 64 Poison damage per second to enemies caught in it.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 229 Mana</string>
 				<key>name</key>
 				<string>Zombie Charger</string>
 				<key>level</key>
 				<string>5</string>
 				<key>desc1</key>
-				<string>A zombie is summoned, which charges straight in the direction specified, melting into nothing and dealing poison damage to any targes along the way. A runestone can grant the infamous Zombie Bears effect.</string>
-				<key>desc2</key>
-				<string>A reckless, suicidal zombie deals X-X poison damage to all enemies in its way.</string>
+				<string>Call forth a reckless, suicidal zombie that deals 71 - 99 Poison damage to all enemies in its way.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Support</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Jinx</string>
+						<key>desc</key>
+						<string>Increases the damage taken by hexed targets to 90%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Painful Transformation</string>
+						<key>desc</key>
+						<string>Hexed targets bleed for 39 damage per second while hexed.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Hedge Magic</string>
+						<key>desc</key>
+						<string>The Fetish Shaman will periodically heal friendly targets for 5322 Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Angry Chicken</string>
+						<key>desc</key>
+						<string>You turn into an Angry Chicken for up to 5 seconds that can explode for 135 - 213 damage to all enemies within 12 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Unstable Form</string>
+						<key>desc</key>
+						<string>Hexed targets explode when killed dealing 146 - 160 Poison damage to all enemies within 8 yards.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 176 Mana</string>
+				<key>cost2</key>
+				<string>Cooldown: 10 seconds</string>
 				<key>name</key>
 				<string>Hex</string>
 				<key>level</key>
 				<string>6</string>
 				<key>desc1</key>
-				<string>A curse of sorts, this one causes damage and blocks the afflicted&apos;s ability to attack.</string>
-				<key>desc2</key>
-				<string>Summon a fetish shaman for X seconds that will hex enemies into chickens. Hexed enemies are unable to perform offensive actions and will take X% additional damage.</string>
+				<string>Summon a Fetish Shaman for 8 seconds that will hex enemies into chickens. Hexed enemies are unable to perform offensive actions and take 20% additional damage.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Physical Realm</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Medusa Spiders</string>
+						<key>desc</key>
+						<string>Summon paralyzing spiders that have a 60% chance to slow enemies movement by 60% with every attack.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Blazing Spiders</string>
+						<key>desc</key>
+						<string>Summon fire spiders that deal 15 - 44 Fire damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Widowmakers</string>
+						<key>desc</key>
+						<string>Summon widowmaker spiders that leech 70% of the damage they deal as Mana for you.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Spider Queen</string>
+						<key>desc</key>
+						<string>Summon a mother spider that births spiderlings dealing 64 - 71 Poison damage per second to enemies in the area. Lasts 22 seconds.
+You may only have one mother spider summoned at a time.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Leaping Spiders</string>
+						<key>desc</key>
+						<string>Summon jumping spiders that leap up to 25 yards to reach their target and attack for 13 - 40 physical damage.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 282 Mana</string>
 				<key>name</key>
 				<string>Corpse Spiders</string>
 				<key>level</key>
 				<string>7</string>
 				<key>desc1</key>
-				<string>Spiders emerge from a rotting zombie corpse and launch themselves at nearby enemies, dealing poison damage with their swarming bites.</string>
-				<key>desc2</key>
-				<string>Summon X spiders to attack nearby enemies.</string>
+				<string>Summon 4 spiders to attack nearby enemies for 7 - 21 physical damage.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Spirit Realm</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Stalker</string>
+						<key>desc</key>
+						<string>Gain 50% increased movement speed for 4 seconds after cast.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Frightening Aspect</string>
+						<key>desc</key>
+						<string>Gain 170% additional armor for 8 seconds after casting Horrify.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Ruthless Terror</string>
+						<key>desc</key>
+						<string>Gain 282 Mana for every feared enemy.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Face of Death</string>
+						<key>desc</key>
+						<string>Increases the radius of the effect to 26 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Phobia</string>
+						<key>desc</key>
+						<string>Increases the duration of the fear to 12 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cooldown: 20 seconds</string>
 				<key>name</key>
 				<string>Horrify</string>
 				<key>level</key>
 				<string>8</string>
 				<key>desc1</key>
-				<string>A powerful curse, this one frightens nearby enemies into running away for a few seconds. The radius emanates from the Witch Doctor, not from the spot targeted when cast, so it only works on enemies who are very nearby.</string>
-				<key>desc2</key>
-				<string>Don a spectral mask that horrifies all enemies within X feet, causing them to run in fear for X seconds.</string>
+				<string>Don a spectral mask that horrifies all enemies within 12 yards, causing them to run in fear for 5 seconds.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Physical Realm</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Cloud of Bats</string>
+						<key>desc</key>
+						<string>Call forth a swirl of bats to damage nearby enemies for 156 - 234 Fire damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Dire Bats</string>
+						<key>desc</key>
+						<string>Summon fewer but larger bats that travel up to 40 yards and hit for 185 - 249 Fire damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Vampire Bats</string>
+						<key>desc</key>
+						<string>35% of damage done by the bats is gained as Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Hungry Bats</string>
+						<key>desc</key>
+						<string>Rapidly summon bats to seek out nearby targets for 96 - 217 Fire damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Plague Bats</string>
+						<key>desc</key>
+						<string>Enemies in the area are plagued. Damage is slow at first, but can increase over time to a maximum of 195 Poison damage per second.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 352 Mana per second</string>
 				<key>name</key>
 				<string>Firebats</string>
 				<key>level</key>
 				<string>9</string>
 				<key>desc1</key>
-				<string>A short range spell attack, this sends flaming bats out in an Inferno-like spray, dealing damage to anything in their path.</string>
-				<key>desc2</key>
-				<string>A swarm of fiery bats burn enemies in front of you for X fire damage per second.</string>
+				<string>A swarm of fiery bats burn enemies in front of you for 57 - 85 Fire damage per second.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Physical Realm</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Flash Fire</string>
+						<key>desc</key>
+						<string>Rather than exploding for area damage, each Firebomb can bounce up to 8 additional targets. Damage is reduced by 20% per bounce.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Conflagration</string>
+						<key>desc</key>
+						<string>In addition to the base explosion, create a larger blast that deals an additional 51 - 63 Fire damage to all enemies within 28 yards.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Pyrogeist</string>
+						<key>desc</key>
+						<string>Create a column of flame that spews fire at the closest enemy for 40 - 51 Fire damage. The column lasts 3 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Roll the Bones</string>
+						<key>desc</key>
+						<string>Allows the skull to bounce up to 2 times. The first hit deals 90 - 109 Fire damage and each bounce reduces the damage by 15%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Fire Pit</string>
+						<key>desc</key>
+						<string>Leaves behind a pool of fire that deals 28 Fire damage per second for 3 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 264 Mana</string>
 				<key>name</key>
 				<string>Firebomb</string>
 				<key>level</key>
 				<string>11</string>
 				<key>desc1</key>
-				<string>Previously known as Skull of Flame, this is a ranged attack that&apos;s thrown like a grenade. It deals explodes on impact, dealing considerable fire damage. The projectile is a human skull, filled with an explosive liquid.</string>
-				<key>desc2</key>
-				<string>Lob an explosive skull that deals X-X fire damage to all enemies caught in the explosion.</string>
+				<string>Lob an explosive skull that deals 64 - 78 Fire damage to all enemies within 8 yards.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Spirit Realm</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Healing Journey</string>
+						<key>desc</key>
+						<string>Gain 16% of your maximum Life every second while Spirit Walk is active.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Severance</string>
+						<key>desc</key>
+						<string>Enemies you walk through in spirit form take 121 - 135 physical damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Honored Guest</string>
+						<key>desc</key>
+						<string>Gain 11% of your maximum Mana every second while Spirit Walk is active.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Jaunt</string>
+						<key>desc</key>
+						<string>Increases the duration of Spirit Walk to 10.0 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Umbral Shock</string>
+						<key>desc</key>
+						<string>When Spirit Walk ends, your physical form bursts for 135 - 249 Fire damage to all enemies within 10 yards.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 176 Mana</string>
+				<key>cost2</key>
+				<string>Cooldown: 15 seconds</string>
 				<key>name</key>
 				<string>Spirit Walk</string>
 				<key>level</key>
 				<string>12</string>
 				<key>desc1</key>
-				<string>A powerful movement/escape skill, especially useful in the Battle Arena. The Witch Doctor leaves his physical body behind as a decoy and can run freely, invisible, for several seconds.</string>
-				<key>desc2</key>
-				<string>Enter the spirit realm, allowing unhindered movement for X seconds.</string>
+				<string>Enter the spirit realm for 3 seconds. While in the spirit realm, your movement is unhindered.
+Your link to the spirit realm will end if you cast any spell or your physical body sustains 50% of your maximum health in damage.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Spirit Realm</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Vengeful Spirit</string>
+						<key>desc</key>
+						<string>Affected enemies also take 146 - 167 physical damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Siphon</string>
+						<key>desc</key>
+						<string>Gain 4258 Life for every affected enemy.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Swallow Your Soul</string>
+						<key>desc</key>
+						<string>Gain 1188 Mana for every affected enemy.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Soul to Waste</string>
+						<key>desc</key>
+						<string>Increases duration of the effect to 65 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Languish</string>
+						<key>desc</key>
+						<string>Reduces the movement speed of enemies by 60% for 11 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cooldown: 15 seconds</string>
 				<key>name</key>
 				<string>Soul Harvest</string>
 				<key>level</key>
 				<string>14</string>
 				<key>desc1</key>
-				<string>A buff that increases the WD&apos;s spell damage based on how many enemies are nearby.</string>
-				<key>desc2</key>
-				<string>Feed on the life force of nearby enemies. Gain X% increased spell damage per enemy within X feet for X seconds.</string>
+				<string>Feed on the life force of up to 5 nearby enemies within 15 yards. Gain 126 Attack for each affected enemy. This effect lasts 30 seconds.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Support</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Next of Kin</string>
+						<key>desc</key>
+						<string>Each sacrificed dog has a 70% chance to resurrect as a new zombie dog.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Provoke the Pack</string>
+						<key>desc</key>
+						<string>Increase all damage done by 40% for every sacrificed dog for 60 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Pride</string>
+						<key>desc</key>
+						<string>Recover 792 Mana for each sacrificed dog.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>For the Master</string>
+						<key>desc</key>
+						<string>Gain 3513 Life for each sacrificed dog.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Black Blood</string>
+						<key>desc</key>
+						<string>Black inky goo shoots out and slows all affected enemies for 9 seconds.</string>
+					</dict>
+				</array>
 				<key>name</key>
 				<string>Sacrifice</string>
 				<key>level</key>
 				<string>16</string>
 				<key>desc1</key>
-				<string>This skill causes a Mongrel to detonate in a huge spray of purple and pink smoke, dealing physical damage to all nearby enemies.</string>
-				<key>desc2</key>
-				<string>A nearby zombie dog explodes, dealing X damage to all enemies within X yards.</string>
+				<string>All of your zombie dogs explode, each dealing 107 - 178 physical damage to all enemies within 12 yards.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Support</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Bruiser</string>
+						<key>desc</key>
+						<string>Gargantuan periodically slams enemies, dealing 124 - 139 physical damage and stunning them for 3 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Restless Giant</string>
+						<key>desc</key>
+						<string>When the Gargantuan encounters an Elite enemy or is faced with 5 enemies nearby it enrages for 15 seconds gaining:
+ 50% movement speed
+ 50% attack speed
+ 200% physical damage
+This effect cannot occur more than once every 120 seconds. Elite enemies include Champions, Rares, Bosses and other players.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Wrathful Protector</string>
+						<key>desc</key>
+						<string>The Gargantuan only lasts 20 seconds but is also more powerful. The Gargantuan&apos;s fists burn with fire, dealing 82 - 139 additional Fire damage and knocking enemies back with every hit.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Humongoid</string>
+						<key>desc</key>
+						<string>Gargantuan gains a Cleave ability allowing its attacks to hit multiple targets for 700% physical damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Big Stinker</string>
+						<key>desc</key>
+						<string>The Gargantuan is surrounded in a poison cloud, dealing 32 Poison damage per second to nearby enemies.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 528 Mana</string>
+				<key>cost2</key>
+				<string>Cooldown: 120 seconds</string>
 				<key>name</key>
 				<string>Gargantuan</string>
 				<key>level</key>
 				<string>18</string>
 				<key>desc1</key>
-				<string>A large, powerful zombie pet that tanks for the Witch Doctor.</string>
-				<key>desc2</key>
-				<string>Summon a large level X zombie follower to fight for you.</string>
+				<string>Summon a large zombie follower to fight for you. The Gargantuan swings for 18 - 25 physical damage with every swing.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Physical Realm</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Diseased Swarm</string>
+						<key>desc</key>
+						<string>Targets killed by the Locust Swarm leave behind a disease cloud that deals 32 Poison damage per second to enemies in the cloud. The cloud lasts 3 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Searing Locusts</string>
+						<key>desc</key>
+						<string>Ignite the locusts with fire causing them to deal 55 Fire damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Devouring Swarm</string>
+						<key>desc</key>
+						<string>Convert 40% of the damage done as Mana for you.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Pestilence</string>
+						<key>desc</key>
+						<string>When the swarm jumps there is a 55% chance to jump to two targets instead of one.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Cloud of Insects</string>
+						<key>desc</key>
+						<string>Increase the duration of the swarm to 10 seconds.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 352 Mana</string>
 				<key>name</key>
 				<string>Locust Swarm</string>
 				<key>level</key>
 				<string>19</string>
 				<key>desc1</key>
-				<string>A ranged spell attack, this sends out a cloud of locusts that swarm over enemies, eating their flesh from the bones. Locusts will chain between nearby enemies, potentially consuming numerous targets per cast.</string>
-				<key>desc2</key>
-				<string>A plague of locusts assault enemies dealing X damage per second over X seconds. The locusts will jump to additional nearby targets.</string>
+				<string>Summon a plague of locusts to assault enemies, dealing 25 Poison damage per second for 3 seconds. The locusts will jump to additional nearby targets.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Spirit Realm</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Manitou</string>
+						<key>desc</key>
+						<string>Summons a Spectre for 20 seconds that hovers over you conjuring spirit bolts at nearby enemies for 53 - 92 physical damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Phlebotomize</string>
+						<key>desc</key>
+						<string>Spirits return 40% of damage dealt as Life.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>The Spirit is Willing</string>
+						<key>desc</key>
+						<string>Spirits return 40% of damage dealt as Mana.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Well of Souls</string>
+						<key>desc</key>
+						<string>Every cast launches an additional 3 spirit bolts at nearby enemies other than the targeted enemy that deal 39 - 71 physical damage each.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Phantasm</string>
+						<key>desc</key>
+						<string>Summons a Spectre for 5 seconds that deals 51 - 52 physical damage per second to all enemies within 10 yards.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 141 Mana</string>
 				<key>name</key>
 				<string>Spirit Barrage</string>
 				<key>level</key>
 				<string>21</string>
 				<key>desc1</key>
-				<string>A Death from Above attack that&apos;s never yet been shown publicly. Acid Cloud covers a small radius, so presumably this one has a larger radius.</string>
-				<key>desc2</key>
-				<string>A multitude of spirit bolts bombard enemies in the targeted area. Each bolt deals X-X arcane damage.</string>
+				<string>Bombard a target with a spirit bolt that deals 36 - 71 physical damage.</string>
 			</dict>
 			<dict>
+				<key>category</key>
+				<string>Physical Realm</string>
+				<key>cost1</key>
+				<string>Cost: 528 Mana</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Kiss of Death</string>
+						<key>desc</key>
+						<string>Spit a cloud of acid that inflict 116 - 160 Poison damage followed by 29 Poison damage per second to enemies who remain in the area.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Corpse Bomb</string>
+						<key>desc</key>
+						<string>A corpse emerges from the ground and explodes for 148 - 203 Poison damage to enemies in the area.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Slow Burn</string>
+						<key>desc</key>
+						<string>Increases the duration of the acid pools to 10 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Acid Rain</string>
+						<key>desc</key>
+						<string>The initial splash is increased to 50 yards and deals 102 - 141 Poison damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Lob Blob Bomb</string>
+						<key>desc</key>
+						<string>The acid on the ground forms into a slime that irradiates nearby enemies for 27 Poison damage per second. The slime will survive for 18 seconds before dissipating.</string>
+					</dict>
+				</array>
 				<key>name</key>
 				<string>Acid Cloud</string>
 				<key>level</key>
 				<string>22</string>
 				<key>desc1</key>
-				<string>Originally a Wizard spell, this one was moved to the Witch Doctor to provide a DfA attack with a small radius that melts the flesh from the bones of anything in the targeted area.</string>
-				<key>desc2</key>
-				<string>Acid rains down dealing an initial X-X poison damage followed by X-X poison damage per second to nearby enemies who remain in the area.</string>
+				<string>Acid falls down dealing an initial 57 - 78 Poison damage followed by 14 Poison damage per second to enemies who remain in the area.</string>
 			</dict>
 			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 60 seconds</string>
+				<key>category</key>
+				<string>Spirit Realm</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Devolution</string>
+						<key>desc</key>
+						<string>Targets killed while confused have a 99% chance of spawning a zombie dog.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Paranoia</string>
+						<key>desc</key>
+						<string>All enemies in the area take 80% additional damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Unstable Realm</string>
+						<key>desc</key>
+						<string>Cooldown reduced to 4 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Mass Hysteria</string>
+						<key>desc</key>
+						<string>Up to 10 monsters who aren&apos;t confused will be stunned for 5.0 seconds when the spell is first cast.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Mass Hallucination</string>
+						<key>desc</key>
+						<string>Amid the confusion a giant spirit rampages through enemies dealing 256 - 270 physical damage per second to enemies it passes through.</string>
+					</dict>
+				</array>
 				<key>name</key>
 				<string>Mass Confusion</string>
 				<key>level</key>
 				<string>24</string>
 				<key>desc1</key>
-				<string>A mind control spell that temporarily changes the alignment of some enemies.</string>
-				<key>desc2</key>
-				<string>Incite paranoia in enemies, causing some to fight for the Witch Doctor for X seconds.</string>
+				<string>Incite paranoia in enemies, causing some to fight for you for 8 seconds.</string>
 			</dict>
 			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 120 seconds</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Boogie Man</string>
+						<key>desc</key>
+						<string>Enemies who die in the ritual area have a 75% chance to resurrect as a zombie dog.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Slam Dance</string>
+						<key>desc</key>
+						<string>Also increases the damage of all allies in the area by 40%.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Rain Dance</string>
+						<key>desc</key>
+						<string>Recover 1584 Mana per second while in the ritual area.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Jungle Drums</string>
+						<key>desc</key>
+						<string>Increases the duration of the ritual to 48 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Ghost Trance</string>
+						<key>desc</key>
+						<string>Also heals all allies in the area for 4.0% of their maximum Life per second.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Support</string>
 				<key>name</key>
 				<string>Big Bad Voodoo</string>
 				<key>level</key>
 				<string>25</string>
 				<key>desc1</key>
-				<string>No description is available.</string>
+				<string>Summon a fetish to begin a ritual dance that increases the attack, casting and movement speeds of all allies in the area by 15% for 20 seconds.</string>
 			</dict>
 			<dict>
+				<key>cost1</key>
+				<string>Cost: 352 Mana</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Pile On</string>
+						<key>desc</key>
+						<string>A tower of zombies falls over dealing 185 - 277 physical damage to any enemies in the way.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Creepers</string>
+						<key>desc</key>
+						<string>Up to 3 zombies will emerge entirely from the ground and attack nearby enemies for 36 - physical damage per swing.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Unrelenting Grip</string>
+						<key>desc</key>
+						<string>Zombies will slow the movement of enemies by 60% for 9 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Barricade</string>
+						<key>desc</key>
+						<string>Doubles the width of the wall. The line of zombies will attack for 30 - 44 physical damage per second.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Dead Rush</string>
+						<key>desc</key>
+						<string>Zombies run out in all directions dealing 99 - 128 physical damage to nearby enemies.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Physical Realm</string>
 				<key>name</key>
 				<string>Wall of Zombies</string>
 				<key>level</key>
 				<string>27</string>
 				<key>desc1</key>
-				<string>One of the showier Witch Doctor skills to be displayed in the early announcement, this one causes a wall of zombies to erupt from the earth. The WoZ blocks the progress of enemies as well as dealing physical damage to anything in range.</string>
-				<key>desc2</key>
-				<string>Zombies erupt from the earth and attack nearby enemies for X damage per second.</string>
+				<string>A line of zombies emerge from the ground, attacking nearby enemies for 21 - 36 physical damage per second for 5 seconds.</string>
 			</dict>
 			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 120 seconds</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Head Hunters</string>
+						<key>desc</key>
+						<string>Adds 2 Hunter Fetishes to the army. Hunter Fetishes shoot blowdarts at enemies dealing 43 - 46 Poison damage.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Fetish Ambush</string>
+						<key>desc</key>
+						<string>Each Fetish deals 146 - 167 physical damage to any enemy near it as they appear.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Devoted Following</string>
+						<key>desc</key>
+						<string>Decreases the cooldown to 50 seconds.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Legion of Daggers</string>
+						<key>desc</key>
+						<string>Adds 2 dagger-wielders to the army and increases their physical damage to 23 - 40.</string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>Tiki Torchers</string>
+						<key>desc</key>
+						<string>Adds 2 Fetish casters to the army. The casters breathe fire that deals 39 - 43 Fire damage in a cone in front of them.</string>
+					</dict>
+				</array>
+				<key>category</key>
+				<string>Support</string>
 				<key>name</key>
 				<string>Fetish Army</string>
 				<key>level</key>
 				<string>29</string>
 				<key>desc1</key>
-				<string>The Witch Doctor is able to summon Fetishes, versions of the monsters from Diablo II, to fight for him. Never yet publicly seen.</string>
-				<key>desc2</key>
-				<string>Summon an army of fetish creatures to fight by your side for X seconds.</string>
+				<string>Summon an army of Fetish creatures to fight by your side for 20 seconds. Dagger-wielding fetishes attack for 14 - 25 physical damage.</string>
 			</dict>
 		</array>
 		<key>pskill</key>
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Mana Regeneration</string>
+				<string>Circle of Life</string>
 				<key>level</key>
-				<string>3</string>
+				<string>10</string>
 				<key>desc1</key>
-				<string>Regenerates 2% of maximum mana per second.</string>
+				<string>Gain 10% of your maximum Mana whenever you are healed by a health globe.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Mind and Body</string>
+				<string>Vermin</string>
 				<key>level</key>
-				<string>3</string>
+				<string>10</string>
 				<key>desc1</key>
-				<string>Regenerates 20% health per minute.</string>
+				<string>Your Plague of Toads, Corpse Spiders and Firebats abilities do 20% more damage.</string>
 			</dict>
 			<dict>
 				<key>name</key>
 				<string>Spiritual Attunement</string>
 				<key>level</key>
-				<string>3</string>
+				<string>13</string>
 				<key>desc1</key>
-				<string>Increases maximum mana by 20%.</string>
+				<string>Maximum Mana is increased by 20%. Regenerate 2% of your maximum Mana per second.
+Mana is the fuel you use to cast offensive and defensive skills.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Care of the Master</string>
+				<string>Gruesome Feast</string>
 				<key>level</key>
-				<string>6</string>
+				<string>15</string>
 				<key>desc1</key>
-				<string>Increases the health of pets by 60%.</string>
+				<string>Gain 10% Attack for 10 seconds whenever you are healed by a health globe. This effect can stack up to 5 times.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Quickening</string>
+				<string>Blood Ritual</string>
 				<key>level</key>
-				<string>6</string>
+				<string>17</string>
 				<key>desc1</key>
-				<string>Increases casting speed by 10%.</string>
+				<string>50% of Mana costs are paid with Life. In addition, you regenerate 2% of your maximum Life per second.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Spirit Vessel</string>
+				<string>Zombie Handler</string>
 				<key>level</key>
-				<string>6</string>
+				<string>19</string>
 				<key>desc1</key>
-				<string>Health globes provide 10% of maximum mana when picked up.</string>
+				<string>You can have 4 Zombie Dogs out at once. The health of your Zombie Dogs and Gargantuan is increased by 60%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Aggression</string>
+				<string>Pierce the Veil</string>
 				<key>level</key>
-				<string>12</string>
+				<string>20</string>
 				<key>desc1</key>
-				<string>Increases attack by 20%.</string>
+				<string>All of your damage is increased by 20% but your Mana costs are increased by 30%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Superior Skill</string>
+				<string>Rush of Essence</string>
 				<key>level</key>
-				<string>12</string>
+				<string>23</string>
 				<key>desc1</key>
-				<string>Increases precision by 20%.</string>
+				<string>Spirit spells return 200% of their Mana cost over 10 seconds.
+
+Spirit spells are:
+ Haunt
+ Horrify
+ Soul Harvest
+ Spirit Barrage
+ Spirit Walk</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Expert Defense</string>
+				<string>Vision Quest</string>
 				<key>level</key>
-				<string>12</string>
+				<string>25</string>
 				<key>desc1</key>
-				<string>Increases defense by 20%.</string>
+				<string>Anytime you have 4 or more skills on cooldown your mana regeneration is increased by 300%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Toughness</string>
+				<string>Fierce Loyalty</string>
 				<key>level</key>
-				<string>12</string>
+				<string>26</string>
 				<key>desc1</key>
-				<string>Increases vitality by 20%.</string>
+				<string>All your pets gain 100% of the benefit of your thorns items.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Death Pact</string>
+				<string>Death Trance</string>
 				<key>level</key>
-				<string>18</string>
+				<string>28</string>
 				<key>desc1</key>
-				<string>When the Witch Doctor has under 35% health, damage taken is reduced by 20%.</string>
+				<string>Reduce damage by 20% whenever you are below 50% of your maximum Life.</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Leader of the Pack</string>
+				<string>Tribal Rites</string>
 				<key>level</key>
-				<string>18</string>
+				<string>30</string>
 				<key>desc1</key>
-				<string>Increases damage dealt by Zombie Dogs by 6%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Ritual of Blood</string>
-				<key>level</key>
-				<string>18</string>
-				<key>desc1</key>
-				<string>30% of mana costs for skills is taken from health instead.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Ferocity</string>
-				<key>level</key>
-				<string>24</string>
-				<key>desc1</key>
-				<string>Increases pet damage dealt by 40%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Plagued</string>
-				<key>level</key>
-				<string>24</string>
-				<key>desc1</key>
-				<string>Increases Animal and Plague skill damage by 20%.</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Rituals</string>
-				<key>level</key>
-				<string>24</string>
-				<key>desc1</key>
-				<string>Increases damage by 15% of health. (Unknown if max or current health.)</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Zombie Master</string>
-				<key>level</key>
-				<string>24</string>
-				<key>desc1</key>
-				<string>Increases Zombie skill damage by 20%.</string>
+				<string>The cooldowns of your Fetish Army, Big Bad Voodoo and Hex abilities are reduced by 25%.</string>
 			</dict>
 		</array>
-		<key>icon</key>
-		<string>Witch</string>
 		<key>name</key>
 		<string>Witch Doctor</string>
 	</dict>
@@ -2257,9 +4616,10 @@ Movement Speed: 20%</string>
 				<key>level</key>
 				<string>1</string>
 				<key>desc1</key>
-				<string>Launch a missile of magic energy causing 40 - 61 Arcane damage.</string>
-				<key>desc2</key>
-				<string>This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.</string>
+				<string>Launch a missile of magic energy causing 40 - 61 Arcane damage.
+
+This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.
+</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2298,15 +4658,16 @@ Movement Speed: 20%</string>
 					</dict>
 				</array>
 				<key>desc1</key>
-				<string>Surround yourself in a barrier of ice that increases armor by 50%, and causes 7 - 9 Cold damage to melee attackers, chilling them for 2 seconds. Lasts 120 seconds.</string>
+				<string>Surround yourself in a barrier of ice that increases armor by 50%, and causes 7 - 9 Cold damage to melee attackers, chilling them for 2 seconds. Lasts 120 seconds.
+
+This is an Armor spell. Only one Armor spell can be active at a time.
+</string>
 				<key>cost1</key>
 				<string>Cost: 25 Arcane Power</string>
 				<key>name</key>
 				<string>Ice Armor</string>
 				<key>level</key>
 				<string>2</string>
-				<key>desc2</key>
-				<string>This is an Armor spell. Only one Armor spell can be active at a time.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2346,14 +4707,15 @@ Movement Speed: 20%</string>
 				</array>
 				<key>cost1</key>
 				<string>Cost: 0 Arcane Power</string>
-				<key>desc2</key>
-				<string>This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.</string>
 				<key>name</key>
 				<string>Shock Pulse</string>
 				<key>level</key>
 				<string>3</string>
 				<key>desc1</key>
-				<string>Release a pulse of 3 unpredictable charges of electricity that deal 36 - 72 Lightning damage to enemies they hit.</string>
+				<string>Release a pulse of 3 unpredictable charges of electricity that deal 36 - 72 Lightning damage to enemies they hit.
+
+This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.
+</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2445,9 +4807,10 @@ Movement Speed: 20%</string>
 				<key>level</key>
 				<string>5</string>
 				<key>desc1</key>
-				<string>Summon a spectral blade that strikes all enemies in your path 3 times causing 35% weapon damage with each hit.</string>
-				<key>desc2</key>
-				<string>This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.</string>
+				<string>Summon a spectral blade that strikes all enemies in your path 3 times causing 35% weapon damage with each hit.
+
+This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.
+</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2492,9 +4855,10 @@ Movement Speed: 20%</string>
 				<key>level</key>
 				<string>6</string>
 				<key>desc1</key>
-				<string>Lightning arcs from your fingertips towards an enemy dealing 1 - 59 Lightning damage. The lightning can jump, hitting up to 2 enemies. Damage is reduced by 30% for each jump.</string>
-				<key>desc2</key>
-				<string>This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.</string>
+				<string>Lightning arcs from your fingertips towards an enemy dealing 1 - 59 Lightning damage. The lightning can jump, hitting up to 2 enemies. Damage is reduced by 30% for each jump.
+
+This is a Signature spell. Signature spells cost 1 less Arcane Power every time you gain a level.
+</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2764,9 +5128,10 @@ Movement Speed: 20%</string>
 				<key>level</key>
 				<string>13</string>
 				<key>desc1</key>
-				<string>Bathe yourself in electrical energy, shocking ranged and melee attackers for 1 - 61 Lightning damage. Lasts 120 seconds.</string>
-				<key>desc2</key>
-				<string>This is an Armor spell. Only one Armor spell can be active at a time.</string>
+				<string>Bathe yourself in electrical energy, shocking ranged and melee attackers for 1 - 61 Lightning damage. Lasts 120 seconds.
+
+This is an Armor spell. Only one Armor spell can be active at a time.
+</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -3085,9 +5450,10 @@ Movement Speed: 20%</string>
 				<key>level</key>
 				<string>22</string>
 				<key>desc1</key>
-				<string>Focus your energies, increasing your Defense by 20% but lowers your maximum Arcane Power by 20. Lasts 120 seconds.</string>
-				<key>desc2</key>
-				<string>This is an Armor spell. Only one Armor spell can be active at a time.</string>
+				<string>Focus your energies, increasing your Defense by 20% but lowers your maximum Arcane Power by 20. Lasts 120 seconds.
+
+This is an Armor spell. Only one Armor spell can be active at a time.
+</string>
 			</dict>
 			<dict>
 				<key>cost1</key>
@@ -3349,7 +5715,13 @@ Movement Speed: 20%</string>
 				<key>level</key>
 				<string>15</string>
 				<key>desc1</key>
-				<string>Every time you cast an Academic spell, you gain 5 Arcane Power. The following skills are Academic spells: Magic Missile, Shock Pulse, Spectral Blade, Electrocute</string>
+				<string>Every time you cast a Signature spell, you gain 5 Arcane Power.
+
+The following skills are Signature spells:
+ Magic Missile
+ Shock Pulse
+ Spectral Blade
+ Electrocute</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -3381,7 +5753,12 @@ Movement Speed: 20%</string>
 				<key>level</key>
 				<string>23</string>
 				<key>desc1</key>
-				<string>Increases the duration of your armor spells by 120 seconds. As long as an Armor spell is active, you gain 3 Life per second. The following skills are improved: Energy Armor, Ice Armor, Storm Armor</string>
+				<string>Increases the duration of your armor spells by 120 seconds. As long as an Armor spell is active, you gain 32 Life per second.
+
+The following skills are improved:
+ Energy Armor
+ Ice Armor
+ Storm Armor</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -3405,7 +5782,13 @@ Movement Speed: 20%</string>
 				<key>level</key>
 				<string>28</string>
 				<key>desc1</key>
-				<string>When you deal damage with a Signature spell you gain a Flash of Insight. After 8 Flashes of Insight your next non-Signature spell deals 50% additional damage. You cannot gain a Flash of Insight more than once every 1.5 seconds.</string>
+				<string>When you deal damage with a Signature spell you gain a Flash of Insight. After 8 Flashes of Insight your next non-Signature spell deals 50% additional damage. You cannot gain a Flash of Insight more than once every 1.5 seconds.
+
+The following skills are Signature spells:
+ Magic Missile
+ Shock Pulse
+ Spectral Blade
+ Electrocute</string>
 			</dict>
 			<dict>
 				<key>name</key>

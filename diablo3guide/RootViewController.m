@@ -12,13 +12,22 @@
 
 @implementation RootViewController
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self titleView].text = @"Diablo 3";
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"Daiblo 3 ";
-   
-    self.tableView.rowHeight = 125;
     
+    UILabel *titleView = [[UILabel alloc]initWithFrame:CGRectMake(0, 10, 320, 25)];
+    titleView.backgroundColor = [UIColor clearColor];
+    titleView.textAlignment = UITextAlignmentCenter;
+    titleView.textColor = [UIColor  yellowColor];
+    titleView.font = [UIFont fontWithName:@"Cochin" size:22];
+    [self.navigationController.navigationBar addSubview:titleView];
+    [titleView release];
+   
     UIButton *help = [UIButton buttonWithType:UIButtonTypeInfoLight];
     UIBarButtonItem *BackBarBtn = [[UIBarButtonItem alloc] initWithCustomView:help];
     [help addTarget:self action:@selector(help:) forControlEvents:UIControlEventTouchUpInside];
@@ -31,13 +40,14 @@
         [defaults setValue:@"YES" forKey:@"version1.0helpchecked"];
         [defaults synchronize];
     }
-    
+
+    self.tableView.rowHeight = 125;
 }
 
 -(void) help:(id)sender {
     ClassIntro *Combat = [[ClassIntro alloc]init];
     Combat.className = @"Help";
-    Combat.title = @"Help";
+    [self titleView].text = @"Help";
     [self.navigationController pushViewController:Combat animated:YES];
     [Combat release];
 }
@@ -148,24 +158,24 @@
     if (index == 0) {
         ClassIntro *basic = [[ClassIntro alloc]init];
         basic.className = @"Basic";
-        basic.title = @"Basic";
+        [self titleView].text = @"Basic";
         [self.navigationController pushViewController:basic animated:YES];
         [basic release];
     }else if (index == 1){
         ClassSelect *classSel = [[ClassSelect alloc] init];
-        classSel.title = @"Classes";
+        [self titleView].text = @"Classes";
         [self.navigationController pushViewController:classSel animated:YES];
         [classSel release];
     }else if (index == 2) {
         ClassIntro *Combat = [[ClassIntro alloc]init];
         Combat.className = @"Combat";
-        Combat.title = @"Combat";
+        [self titleView].text = @"Combat";
         [self.navigationController pushViewController:Combat animated:YES];
         [Combat release];
     }else if (index == 3) {
         ClassIntro *Interface = [[ClassIntro alloc]init];
         Interface.className = @"Interface";
-        Interface.title = @"Interface";
+        [self titleView].text = @"Interface";
         [self.navigationController pushViewController:Interface animated:YES];
         [Interface release];
     }
