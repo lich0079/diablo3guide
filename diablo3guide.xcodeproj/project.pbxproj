@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E301FA5B142F6478001A6A5D /* attr2.png in Resources */ = {isa = PBXBuildFile; fileRef = E301FA59142F6478001A6A5D /* attr2.png */; };
+		E301FA5C142F6478001A6A5D /* attr1.png in Resources */ = {isa = PBXBuildFile; fileRef = E301FA5A142F6478001A6A5D /* attr1.png */; };
 		E30D647814154E220022E90F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30D647714154E220022E90F /* QuartzCore.framework */; };
 		E3222CE7141F41EB00C4DA1B /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = E3222CE6141F41EB00C4DA1B /* unlock.png */; };
 		E3222CEC141F4A3000C4DA1B /* PassiveSkills.m in Sources */ = {isa = PBXBuildFile; fileRef = E3222CEA141F4A3000C4DA1B /* PassiveSkills.m */; };
@@ -84,6 +86,7 @@
 		E349F3551420CB28006A9F48 /* Death Trance.png in Resources */ = {isa = PBXBuildFile; fileRef = E349F3331420CB28006A9F48 /* Death Trance.png */; };
 		E349F3561420CB28006A9F48 /* Circle of Life.png in Resources */ = {isa = PBXBuildFile; fileRef = E349F3341420CB28006A9F48 /* Circle of Life.png */; };
 		E349F3571420CB28006A9F48 /* Blood Ritual.png in Resources */ = {isa = PBXBuildFile; fileRef = E349F3351420CB28006A9F48 /* Blood Ritual.png */; };
+		E356A4CF142F605800BFB63A /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = E356A4CE142F605800BFB63A /* bg2.png */; };
 		E357C15714024CCA005ED4F3 /* askill.png in Resources */ = {isa = PBXBuildFile; fileRef = E357C15614024CCA005ED4F3 /* askill.png */; };
 		E357C16214024FF1005ED4F3 /* pskill.png in Resources */ = {isa = PBXBuildFile; fileRef = E357C16114024FF1005ED4F3 /* pskill.png */; };
 		E357C1661402557A005ED4F3 /* Skills.m in Sources */ = {isa = PBXBuildFile; fileRef = E357C1641402557A005ED4F3 /* Skills.m */; };
@@ -332,6 +335,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E301FA59142F6478001A6A5D /* attr2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attr2.png; sourceTree = "<group>"; };
+		E301FA5A142F6478001A6A5D /* attr1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attr1.png; sourceTree = "<group>"; };
 		E30D647714154E220022E90F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E3222CE6141F41EB00C4DA1B /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlock.png; sourceTree = "<group>"; };
 		E3222CE9141F4A3000C4DA1B /* PassiveSkills.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassiveSkills.h; sourceTree = "<group>"; };
@@ -418,6 +423,7 @@
 		E349F3331420CB28006A9F48 /* Death Trance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Death Trance.png"; sourceTree = "<group>"; };
 		E349F3341420CB28006A9F48 /* Circle of Life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle of Life.png"; sourceTree = "<group>"; };
 		E349F3351420CB28006A9F48 /* Blood Ritual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blood Ritual.png"; sourceTree = "<group>"; };
+		E356A4CE142F605800BFB63A /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
 		E357C15614024CCA005ED4F3 /* askill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = askill.png; sourceTree = "<group>"; };
 		E357C16114024FF1005ED4F3 /* pskill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pskill.png; sourceTree = "<group>"; };
 		E357C1631402557A005ED4F3 /* Skills.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skills.h; sourceTree = "<group>"; };
@@ -788,6 +794,8 @@
 		E39B50F214020D3500F58D78 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				E301FA59142F6478001A6A5D /* attr2.png */,
+				E301FA5A142F6478001A6A5D /* attr1.png */,
 				E3FD025B14211D3C00549252 /* interface3.png */,
 				E3FD025914211C7B00549252 /* Inventory2.png */,
 				E3FD023F1421130600549252 /* Wiz-uniqueweapon.png */,
@@ -974,6 +982,7 @@
 				E329F5BB1403B04900ADF6D6 /* MonkCrest.png */,
 				E329F5A614039CDF00ADF6D6 /* serp.png */,
 				E334094314016F88000AD3B8 /* bg.png */,
+				E356A4CE142F605800BFB63A /* bg2.png */,
 				E334094714017245000AD3B8 /* classes.png */,
 				E3924AC614017BBD000BA714 /* classes@2x.png */,
 				E39B50DE14020D2600F58D78 /* Barbarian.png */,
@@ -1432,6 +1441,9 @@
 				E3FD0258142115C000549252 /* 125px-Demon-hunter-art4.jpg in Resources */,
 				E3FD025A14211C7B00549252 /* Inventory2.png in Resources */,
 				E3FD025C14211D3C00549252 /* interface3.png in Resources */,
+				E356A4CF142F605800BFB63A /* bg2.png in Resources */,
+				E301FA5B142F6478001A6A5D /* attr2.png in Resources */,
+				E301FA5C142F6478001A6A5D /* attr1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
