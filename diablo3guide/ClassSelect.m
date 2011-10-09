@@ -94,15 +94,6 @@
     UIImageView *bgimageView = [[UIImageView alloc] initWithImage:bgimage];
     cell.backgroundView = bgimageView;
     [bgimageView release];
-    //class name
-//    UILabel *blabel = [[UILabel alloc]initWithFrame:CGRectMake(150, 2, 150, 30)];
-//    blabel.text = [class objectForKey:@"name"];
-//    blabel.backgroundColor = [UIColor clearColor];
-//    [cell addSubview:blabel];
-//    [blabel release];
-//    blabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
-//    blabel.textAlignment = UITextAlignmentCenter;
-//    blabel.font = [UIFont fontWithName:@"Cochin" size:18];
     //class Active Skills
     UIButton *aSkill = [UIButton buttonWithType:UIButtonTypeCustom];
     aSkill.tag = indexPath.row;

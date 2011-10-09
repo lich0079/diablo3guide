@@ -303,6 +303,8 @@
 		E3E066221404D5AD00C4A644 /* Combat.png in Resources */ = {isa = PBXBuildFile; fileRef = E3E066211404D5AD00C4A644 /* Combat.png */; };
 		E3E066261404DA4500C4A644 /* Interface2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3E066251404DA4500C4A644 /* Interface2.png */; };
 		E3E066281404DD7E00C4A644 /* Basic3.png in Resources */ = {isa = PBXBuildFile; fileRef = E3E066271404DD7E00C4A644 /* Basic3.png */; };
+		E3E116181441B31B008C556B /* Exocet.TTF in Resources */ = {isa = PBXBuildFile; fileRef = E3E116161441B31B008C556B /* Exocet.TTF */; };
+		E3E116191441B31B008C556B /* ExocetLight.TTF in Resources */ = {isa = PBXBuildFile; fileRef = E3E116171441B31B008C556B /* ExocetLight.TTF */; };
 		E3FD02231420EE4000549252 /* res-fury.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FD02221420EE4000549252 /* res-fury.png */; };
 		E3FD02261420EF9F00549252 /* Bar-uniqueweapon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FD02251420EF9F00549252 /* Bar-uniqueweapon.png */; };
 		E3FD02281420F05700549252 /* Bar-amr.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FD02271420F05700549252 /* Bar-amr.png */; };
@@ -644,6 +646,8 @@
 		E3E066211404D5AD00C4A644 /* Combat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Combat.png; sourceTree = "<group>"; };
 		E3E066251404DA4500C4A644 /* Interface2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Interface2.png; sourceTree = "<group>"; };
 		E3E066271404DD7E00C4A644 /* Basic3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Basic3.png; sourceTree = "<group>"; };
+		E3E116161441B31B008C556B /* Exocet.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = Exocet.TTF; sourceTree = "<group>"; };
+		E3E116171441B31B008C556B /* ExocetLight.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ExocetLight.TTF; sourceTree = "<group>"; };
 		E3FD02221420EE4000549252 /* res-fury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "res-fury.png"; sourceTree = "<group>"; };
 		E3FD02251420EF9F00549252 /* Bar-uniqueweapon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar-uniqueweapon.png"; sourceTree = "<group>"; };
 		E3FD02271420F05700549252 /* Bar-amr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bar-amr.png"; sourceTree = "<group>"; };
@@ -774,6 +778,8 @@
 		E334091714016527000AD3B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E3E116161441B31B008C556B /* Exocet.TTF */,
+				E3E116171441B31B008C556B /* ExocetLight.TTF */,
 				E334092214016527000AD3B8 /* MainWindow.xib */,
 				E334092814016527000AD3B8 /* RootViewController.xib */,
 				E39B50D01401F84700F58D78 /* ClassSelect.xib */,
@@ -1444,6 +1450,8 @@
 				E356A4CF142F605800BFB63A /* bg2.png in Resources */,
 				E301FA5B142F6478001A6A5D /* attr2.png in Resources */,
 				E301FA5C142F6478001A6A5D /* attr1.png in Resources */,
+				E3E116181441B31B008C556B /* Exocet.TTF in Resources */,
+				E3E116191441B31B008C556B /* ExocetLight.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

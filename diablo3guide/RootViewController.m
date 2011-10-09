@@ -24,7 +24,7 @@
     titleView.backgroundColor = [UIColor clearColor];
     titleView.textAlignment = UITextAlignmentCenter;
     titleView.textColor = [UIColor  yellowColor];
-    titleView.font = [UIFont fontWithName:@"Cochin" size:22];
+    titleView.font = [UIFont fontWithName:normalfont size:22];
     [self.navigationController.navigationBar addSubview:titleView];
     [titleView release];
    
@@ -85,7 +85,7 @@
             [blabel release];
             blabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
             blabel.textAlignment = UITextAlignmentCenter;
-            blabel.font = [UIFont fontWithName:@"Cochin" size:28];
+            blabel.font = [UIFont fontWithName:normalfont size:28];
             break;
         case 1:
             cell.textLabel.text = @"";
@@ -102,7 +102,7 @@
             [label release];
             label.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
             label.textAlignment = UITextAlignmentCenter;
-            label.font = [UIFont fontWithName:@"Cochin" size:28];
+            label.font = [UIFont fontWithName:normalfont size:28];
             break;
         case 2:
             cell.textLabel.text = @"";
@@ -119,7 +119,7 @@
             [clabel release];
             clabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
             clabel.textAlignment = UITextAlignmentCenter;
-            clabel.font = [UIFont fontWithName:@"Cochin" size:28];
+            clabel.font = [UIFont fontWithName:normalfont size:28];
             break;
         case 3:
             cell.textLabel.text = @"";
@@ -136,7 +136,7 @@
             [ilabel release];
             ilabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
             ilabel.textAlignment = UITextAlignmentCenter;
-            ilabel.font = [UIFont fontWithName:@"Cochin" size:28];
+            ilabel.font = [UIFont fontWithName:normalfont size:28];
             break;
         default:
             break;
