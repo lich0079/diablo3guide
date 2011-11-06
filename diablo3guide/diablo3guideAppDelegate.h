@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface diablo3guideAppDelegate : NSObject <UIApplicationDelegate>
+@interface diablo3guideAppDelegate : NSObject <UIApplicationDelegate,MobClickDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 

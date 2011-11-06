@@ -89,8 +89,6 @@
 		E356A4CF142F605800BFB63A /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = E356A4CE142F605800BFB63A /* bg2.png */; };
 		E357C15714024CCA005ED4F3 /* askill.png in Resources */ = {isa = PBXBuildFile; fileRef = E357C15614024CCA005ED4F3 /* askill.png */; };
 		E357C16214024FF1005ED4F3 /* pskill.png in Resources */ = {isa = PBXBuildFile; fileRef = E357C16114024FF1005ED4F3 /* pskill.png */; };
-		E357C1661402557A005ED4F3 /* Skills.m in Sources */ = {isa = PBXBuildFile; fileRef = E357C1641402557A005ED4F3 /* Skills.m */; };
-		E357C1671402557A005ED4F3 /* Skills.xib in Resources */ = {isa = PBXBuildFile; fileRef = E357C1651402557A005ED4F3 /* Skills.xib */; };
 		E357C16A140256E1005ED4F3 /* BaseTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E357C169140256E1005ED4F3 /* BaseTable.m */; };
 		E357C16C14025844005ED4F3 /* Bash.png in Resources */ = {isa = PBXBuildFile; fileRef = E357C16B14025844005ED4F3 /* Bash.png */; };
 		E357C16E140261DF005ED4F3 /* Ground Stomp.png in Resources */ = {isa = PBXBuildFile; fileRef = E357C16D140261DF005ED4F3 /* Ground Stomp.png */; };
@@ -147,6 +145,10 @@
 		E3AB613A14062E7500A6C436 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E3AB613614062E7500A6C436 /* Icon-Small-50.png */; };
 		E3AB613B14062E7500A6C436 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = E3AB613714062E7500A6C436 /* Icon-Small.png */; };
 		E3AB613C14062E7500A6C436 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3AB613814062E7500A6C436 /* Icon-Small@2x.png */; };
+		E3ABCE4114596B2F007BA2D9 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ABCE3F14596B2F007BA2D9 /* libMobClickLibrary.a */; };
+		E3ABCE4414596B59007BA2D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ABCE4314596B59007BA2D9 /* SystemConfiguration.framework */; };
+		E3ABCE4614596B6A007BA2D9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ABCE4514596B6A007BA2D9 /* CoreTelephony.framework */; };
+		E3ABCE4814596BAC007BA2D9 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ABCE4714596BAC007BA2D9 /* libz.1.2.5.dylib */; };
 		E3B80D8F14034915007366B7 /* Demon HunterPSBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D8E14034915007366B7 /* Demon HunterPSBg.png */; };
 		E3B80D92140349E8007366B7 /* MonkASBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D90140349E8007366B7 /* MonkASBg.png */; };
 		E3B80D93140349E8007366B7 /* MonkPSBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D91140349E8007366B7 /* MonkPSBg.png */; };
@@ -428,9 +430,6 @@
 		E356A4CE142F605800BFB63A /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
 		E357C15614024CCA005ED4F3 /* askill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = askill.png; sourceTree = "<group>"; };
 		E357C16114024FF1005ED4F3 /* pskill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pskill.png; sourceTree = "<group>"; };
-		E357C1631402557A005ED4F3 /* Skills.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skills.h; sourceTree = "<group>"; };
-		E357C1641402557A005ED4F3 /* Skills.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skills.m; sourceTree = "<group>"; };
-		E357C1651402557A005ED4F3 /* Skills.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Skills.xib; sourceTree = "<group>"; };
 		E357C168140256E1005ED4F3 /* BaseTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTable.h; sourceTree = "<group>"; };
 		E357C169140256E1005ED4F3 /* BaseTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTable.m; sourceTree = "<group>"; };
 		E357C16B14025844005ED4F3 /* Bash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bash.png; sourceTree = "<group>"; };
@@ -490,6 +489,11 @@
 		E3AB613614062E7500A6C436 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		E3AB613714062E7500A6C436 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
 		E3AB613814062E7500A6C436 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		E3ABCE3F14596B2F007BA2D9 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobClickLibrary.a; path = diablo3guide/libMobClickLibrary.a; sourceTree = "<group>"; };
+		E3ABCE4014596B2F007BA2D9 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		E3ABCE4314596B59007BA2D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E3ABCE4514596B6A007BA2D9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E3ABCE4714596BAC007BA2D9 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		E3B80D8E14034915007366B7 /* Demon HunterPSBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Demon HunterPSBg.png"; sourceTree = "<group>"; };
 		E3B80D90140349E8007366B7 /* MonkASBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MonkASBg.png; sourceTree = "<group>"; };
 		E3B80D91140349E8007366B7 /* MonkPSBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MonkPSBg.png; sourceTree = "<group>"; };
@@ -684,10 +688,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3ABCE4814596BAC007BA2D9 /* libz.1.2.5.dylib in Frameworks */,
+				E3ABCE4614596B6A007BA2D9 /* CoreTelephony.framework in Frameworks */,
+				E3ABCE4414596B59007BA2D9 /* SystemConfiguration.framework in Frameworks */,
 				E30D647814154E220022E90F /* QuartzCore.framework in Frameworks */,
 				E334091114016527000AD3B8 /* UIKit.framework in Frameworks */,
 				E334091314016527000AD3B8 /* Foundation.framework in Frameworks */,
 				E334091514016527000AD3B8 /* CoreGraphics.framework in Frameworks */,
+				E3ABCE4114596B2F007BA2D9 /* libMobClickLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -740,6 +748,10 @@
 		E334090F14016526000AD3B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E3ABCE4714596BAC007BA2D9 /* libz.1.2.5.dylib */,
+				E3ABCE4514596B6A007BA2D9 /* CoreTelephony.framework */,
+				E3ABCE4314596B59007BA2D9 /* SystemConfiguration.framework */,
+				E3ABCE3F14596B2F007BA2D9 /* libMobClickLibrary.a */,
 				E30D647714154E220022E90F /* QuartzCore.framework */,
 				E334091014016526000AD3B8 /* UIKit.framework */,
 				E334091214016527000AD3B8 /* Foundation.framework */,
@@ -760,8 +772,6 @@
 				E334092614016527000AD3B8 /* RootViewController.m */,
 				E39B50CE1401F84700F58D78 /* ClassSelect.h */,
 				E39B50CF1401F84700F58D78 /* ClassSelect.m */,
-				E357C1631402557A005ED4F3 /* Skills.h */,
-				E357C1641402557A005ED4F3 /* Skills.m */,
 				E329FD3F141F32FB002B22F8 /* ActiveSkills.h */,
 				E329FD40141F32FB002B22F8 /* ActiveSkills.m */,
 				E3222CE9141F4A3000C4DA1B /* PassiveSkills.h */,
@@ -770,6 +780,7 @@
 				E329F5AA14039FC900ADF6D6 /* ClassIntro.m */,
 				E3222CFA141F5B4200C4DA1B /* Runestones.h */,
 				E3222CFB141F5B4200C4DA1B /* Runestones.m */,
+				E3ABCE4014596B2F007BA2D9 /* MobClick.h */,
 				E334091714016527000AD3B8 /* Supporting Files */,
 			);
 			path = diablo3guide;
@@ -783,7 +794,6 @@
 				E334092214016527000AD3B8 /* MainWindow.xib */,
 				E334092814016527000AD3B8 /* RootViewController.xib */,
 				E39B50D01401F84700F58D78 /* ClassSelect.xib */,
-				E357C1651402557A005ED4F3 /* Skills.xib */,
 				E329FD41141F32FB002B22F8 /* ActiveSkills.xib */,
 				E3222CEB141F4A3000C4DA1B /* PassiveSkills.xib */,
 				E3222CFC141F5B4200C4DA1B /* Runestones.xib */,
@@ -1161,7 +1171,6 @@
 				E39B50F114020D2600F58D78 /* Wizard@2x.png in Resources */,
 				E357C15714024CCA005ED4F3 /* askill.png in Resources */,
 				E357C16214024FF1005ED4F3 /* pskill.png in Resources */,
-				E357C1671402557A005ED4F3 /* Skills.xib in Resources */,
 				E357C16C14025844005ED4F3 /* Bash.png in Resources */,
 				E357C16E140261DF005ED4F3 /* Ground Stomp.png in Resources */,
 				E3D1CA8E1402730400E84211 /* Wrath of the Berserker.png in Resources */,
@@ -1466,7 +1475,6 @@
 				E334092114016527000AD3B8 /* diablo3guideAppDelegate.m in Sources */,
 				E334092714016527000AD3B8 /* RootViewController.m in Sources */,
 				E39B50D11401F84700F58D78 /* ClassSelect.m in Sources */,
-				E357C1661402557A005ED4F3 /* Skills.m in Sources */,
 				E357C16A140256E1005ED4F3 /* BaseTable.m in Sources */,
 				E329F5AC14039FC900ADF6D6 /* ClassIntro.m in Sources */,
 				E329FD42141F32FB002B22F8 /* ActiveSkills.m in Sources */,
@@ -1551,11 +1559,23 @@
 		E334092E14016527000AD3B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "diablo3guide/diablo3guide-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "diablo3guide/diablo3guide-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/diablo3guide\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1564,11 +1584,23 @@
 		E334092F14016527000AD3B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "diablo3guide/diablo3guide-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "diablo3guide/diablo3guide-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/diablo3guide\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1596,12 +1628,24 @@
 		E363E7CB14042650002AE007 /* dist */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				CODE_SIGN_IDENTITY = "iPhone Distribution: yang zhang";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "diablo3guide/diablo3guide-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "diablo3guide/diablo3guide-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/diablo3guide\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "38B57233-06EA-457C-82AC-17606959FDD5";
 				WRAPPER_EXTENSION = app;

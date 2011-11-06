@@ -151,6 +151,7 @@
 //    controller.title = [NSString stringWithFormat:@"%@",[class objectForKey:@"name"]];
     controller.skills = [class objectForKey:@"askill"];
     controller.className = [class objectForKey:@"name"];
+    [MobClick event:a_askill label:controller.className];
     [self.navigationController pushViewController:controller animated:YES];
     [controller release];
 }
@@ -162,6 +163,7 @@
 //    controller.title = [NSString stringWithFormat:@"%@",[class objectForKey:@"name"]];
     controller.skills = [class objectForKey:@"pskill"];
     controller.className = [class objectForKey:@"name"];
+    [MobClick event:a_pskill label:controller.className];
     [self.navigationController pushViewController:controller animated:YES];
     [controller release];
 }
@@ -173,6 +175,7 @@
     ClassIntro *controller = [[ClassIntro alloc] init];
     [self titleView].text = [NSString stringWithFormat:@"%@ Overview",[class objectForKey:@"name"]];
     controller.className = [class objectForKey:@"name"];
+    [MobClick event:a_overview label:controller.className];
     [self.navigationController pushViewController:controller animated:YES];
     [controller release];
 }

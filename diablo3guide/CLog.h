@@ -15,3 +15,16 @@
 
 #define isIPad  UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
 #define normalfont  @"ExocetLight"
+
+
+#define a_basic @"a_basic"
+#define a_class @"a_class"
+#define a_combat @"a_combat"
+#define a_interface @"a_interface"
+#define a_help @"a_help"
+
+#define a_overview @"a_overview"
+#define a_askill @"a_askill"
+#define a_pskill @"a_pskill"
+#define a_runestone @"a_runestone"
+

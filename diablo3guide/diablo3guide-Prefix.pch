@@ -16,4 +16,5 @@
     #import "ClassSelect.h"
     #import "ClassIntro.h"
     #import <QuartzCore/QuartzCore.h>
+    #import "MobClick.h"
 #endif

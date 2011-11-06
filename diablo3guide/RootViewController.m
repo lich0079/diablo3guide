@@ -45,6 +45,7 @@
 }
 
 -(void) help:(id)sender {
+    [MobClick event:a_help];
     ClassIntro *Combat = [[ClassIntro alloc]init];
     Combat.className = @"Help";
     [self titleView].text = @"Help";
@@ -156,23 +157,27 @@
     int index = indexPath.row;
     
     if (index == 0) {
+        [MobClick event:a_basic]; 
         ClassIntro *basic = [[ClassIntro alloc]init];
         basic.className = @"Basic";
         [self titleView].text = @"Basic";
         [self.navigationController pushViewController:basic animated:YES];
         [basic release];
     }else if (index == 1){
+        [MobClick event:a_class];
         ClassSelect *classSel = [[ClassSelect alloc] init];
         [self titleView].text = @"Classes";
         [self.navigationController pushViewController:classSel animated:YES];
         [classSel release];
     }else if (index == 2) {
+        [MobClick event:a_combat];
         ClassIntro *Combat = [[ClassIntro alloc]init];
         Combat.className = @"Combat";
         [self titleView].text = @"Combat";
         [self.navigationController pushViewController:Combat animated:YES];
         [Combat release];
     }else if (index == 3) {
+        [MobClick event:a_interface];
         ClassIntro *Interface = [[ClassIntro alloc]init];
         Interface.className = @"Interface";
         [self titleView].text = @"Interface";
