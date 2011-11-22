@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "ClassSelect.h"
 #import "ClassIntro.h"
+#import "FollowerSelect.h"
 
 @implementation RootViewController
 
@@ -61,7 +62,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    return 5;
 }
 
 // Customize the appearance of table view cells.
@@ -107,6 +108,23 @@
             break;
         case 2:
             cell.textLabel.text = @"";
+            UIImage *fimage = [UIImage imageNamed:@"followers.png"];
+            UIImageView *fimageView = [[UIImageView alloc] initWithImage:fimage];
+            fimageView.frame = CGRectMake(0, 0, fimage.size.width, fimage.size.height);
+            [cell addSubview:fimageView];
+            [fimageView release];
+            
+            UILabel *flabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 70, 320, 30)];
+            flabel.text = @"Followers";
+            flabel.backgroundColor = [UIColor clearColor];
+            [cell addSubview:flabel];
+            [flabel release];
+            flabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
+            flabel.textAlignment = UITextAlignmentCenter;
+            flabel.font = [UIFont fontWithName:normalfont size:28];
+            break;
+        case 3:
+            cell.textLabel.text = @"";
             UIImage *cimage = [UIImage imageNamed:@"Combat.png"];
             UIImageView *cimageView = [[UIImageView alloc] initWithImage:cimage];
             cimageView.frame = CGRectMake(0, 0, cimage.size.width, cimage.size.height);
@@ -122,7 +140,7 @@
             clabel.textAlignment = UITextAlignmentCenter;
             clabel.font = [UIFont fontWithName:normalfont size:28];
             break;
-        case 3:
+        case 4:
             cell.textLabel.text = @"";
             UIImage *iimage = [UIImage imageNamed:@"Interface2.png"];
             UIImageView *iimageView = [[UIImageView alloc] initWithImage:iimage];
@@ -170,13 +188,19 @@
         [self.navigationController pushViewController:classSel animated:YES];
         [classSel release];
     }else if (index == 2) {
+        [MobClick event:a_follower];
+        FollowerSelect *followerSel = [[FollowerSelect alloc] init];
+        [self titleView].text = @"Followers";
+        [self.navigationController pushViewController:followerSel animated:YES];
+        [followerSel release];
+    }else if (index == 3) {
         [MobClick event:a_combat];
         ClassIntro *Combat = [[ClassIntro alloc]init];
         Combat.className = @"Combat";
         [self titleView].text = @"Combat";
         [self.navigationController pushViewController:Combat animated:YES];
         [Combat release];
-    }else if (index == 3) {
+    }else if (index == 4) {
         [MobClick event:a_interface];
         ClassIntro *Interface = [[ClassIntro alloc]init];
         Interface.className = @"Interface";

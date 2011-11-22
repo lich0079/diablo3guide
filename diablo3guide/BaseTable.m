@@ -67,12 +67,16 @@
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
 
-#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 50000
-    if ([self.navigationController.navigationBar respondsToSelector:@selector(setBackgroundImage:forBarMetrics:)]){
-//        CLog(@"111");
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 5.0) {
+        CLog(@"ios5");
+        if ([self.navigationController.navigationBar respondsToSelector:@selector(setBackgroundImage:forBarMetrics:)]){
+            //        CLog(@"111");
             [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"navi.png"] forBarMetrics:UIBarMetricsDefault];
+        }
+    }else {
+        CLog(@"ios4");
+        
     }
-#endif
 }
 
 @end

@@ -62,7 +62,7 @@
     titleView.textAlignment = UITextAlignmentCenter;
     titleView.textColor = [UIColor  groupTableViewBackgroundColor];
     titleView.font = [UIFont fontWithName:@"Cochin" size:12];
-    titleView.text = @"Note: Information is based on level 60 and rank 7 runestones.";
+    titleView.text = @"Note: Information is based on level 60 and rank 4 runestones.";
     return [titleView autorelease];
 }
 

@@ -19,6 +19,7 @@
 
 #define a_basic @"a_basic"
 #define a_class @"a_class"
+#define a_follower @"a_follower"
 #define a_combat @"a_combat"
 #define a_interface @"a_interface"
 #define a_help @"a_help"

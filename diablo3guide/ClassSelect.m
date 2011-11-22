@@ -98,15 +98,15 @@
     UIButton *aSkill = [UIButton buttonWithType:UIButtonTypeCustom];
     aSkill.tag = indexPath.row;
     aSkill.frame = CGRectMake(170, 32, 130, 30);
-    NSString *askillImgpath = [[NSBundle mainBundle] pathForResource:@"askill" ofType:@"png"]; 
+    NSString *askillImgpath = [[NSBundle mainBundle] pathForResource:@"bar" ofType:@"png"]; 
     UIImage *askillimage = [UIImage imageWithContentsOfFile:askillImgpath];
     [aSkill setImage:askillimage forState:UIControlStateNormal];
     [aSkill setImage:askillimage forState:UIControlStateSelected];
-    aSkill.alpha = 0.8;
+    aSkill.alpha = 0.9;
     [aSkill addTarget:self action:@selector(aSkill:) forControlEvents:UIControlEventTouchUpInside];
     [cell addSubview:aSkill];
     
-    UILabel *aSkilllabel = [[UILabel alloc]initWithFrame:CGRectMake(180, 32, 100, 30)];
+    UILabel *aSkilllabel = [[UILabel alloc]initWithFrame:CGRectMake(187, 32, 100, 30)];
     aSkilllabel.text = @"Active Skills";
     aSkilllabel.backgroundColor = [UIColor clearColor];
     [cell addSubview:aSkilllabel];
@@ -117,15 +117,15 @@
     UIButton *pSkill = [UIButton buttonWithType:UIButtonTypeCustom];
     pSkill.tag = indexPath.row;
     pSkill.frame = CGRectMake(170, 70, 130, 30);
-    NSString *pSkillImgpath = [[NSBundle mainBundle] pathForResource:@"pskill" ofType:@"png"]; 
+    NSString *pSkillImgpath = [[NSBundle mainBundle] pathForResource:@"bar2" ofType:@"png"]; 
     UIImage *pSkillimage = [UIImage imageWithContentsOfFile:pSkillImgpath];
     [pSkill setImage:pSkillimage forState:UIControlStateNormal];
     [pSkill setImage:pSkillimage forState:UIControlStateSelected];
-    pSkill.alpha = 0.8;
+    pSkill.alpha = 0.9;
     [pSkill addTarget:self action:@selector(pSkill:) forControlEvents:UIControlEventTouchUpInside];
     [cell addSubview:pSkill];
     
-    UILabel *pSkilllabel = [[UILabel alloc]initWithFrame:CGRectMake(180, 70, 100, 30)];
+    UILabel *pSkilllabel = [[UILabel alloc]initWithFrame:CGRectMake(187, 70, 100, 30)];
     pSkilllabel.text = @"Passive Skills";
     pSkilllabel.backgroundColor = [UIColor clearColor];
     [cell addSubview:pSkilllabel];
