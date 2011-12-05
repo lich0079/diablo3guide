@@ -8,8 +8,8 @@
 
 #import "MainScreenVC.h"
 #import "ClassSelect.h"
-#import "ClassIntro.h"
 #import "FollowerSelect.h"
+#import "WebVC.h"
 
 @implementation MainScreenVC
 @synthesize basicLabel;
@@ -69,8 +69,9 @@
 }
 
 -(void) help:(id)sender {
-    [MobClick event:a_help];
-    ClassIntro *Combat = [[ClassIntro alloc]init];
+    [FlurryAnalytics logEvent:a_help];
+//    ClassIntro *Combat = [[ClassIntro alloc]init];
+    WebVC *Combat = [[WebVC alloc]init];
     Combat.className = @"Help";
     [self titleView].text = @"Help";
     [self.navigationController pushViewController:Combat animated:YES];
@@ -78,8 +79,8 @@
 }
 
 - (IBAction)basicClick:(id)sender {
-    [MobClick event:a_basic]; 
-    ClassIntro *basic = [[ClassIntro alloc]init];
+    [FlurryAnalytics logEvent:a_basic]; 
+    WebVC *basic = [[WebVC alloc]init];
     basic.className = @"Basic";
     [self titleView].text = @"Basic";
     [self.navigationController pushViewController:basic animated:YES];
@@ -87,7 +88,7 @@
 }
 
 - (IBAction)followersClick:(id)sender {
-    [MobClick event:a_follower];
+    [FlurryAnalytics logEvent:a_follower];
     FollowerSelect *followerSel = [[FollowerSelect alloc] init];
     [self titleView].text = @"Followers";
     [self.navigationController pushViewController:followerSel animated:YES];
@@ -95,7 +96,7 @@
 }
 
 - (IBAction)classesClick:(id)sender {
-    [MobClick event:a_class];
+    [FlurryAnalytics logEvent:a_class];
     ClassSelect *classSel = [[ClassSelect alloc] init];
     [self titleView].text = @"Classes";
     [self.navigationController pushViewController:classSel animated:YES];
@@ -103,8 +104,8 @@
 }
 
 - (IBAction)combatClick:(id)sender {
-    [MobClick event:a_combat];
-    ClassIntro *Combat = [[ClassIntro alloc]init];
+    [FlurryAnalytics logEvent:a_combat];
+    WebVC *Combat = [[WebVC alloc]init];
     Combat.className = @"Combat";
     [self titleView].text = @"Combat";
     [self.navigationController pushViewController:Combat animated:YES];
@@ -112,8 +113,8 @@
 }
 
 - (IBAction)interfaceClick:(id)sender {
-    [MobClick event:a_interface];
-    ClassIntro *Interface = [[ClassIntro alloc]init];
+    [FlurryAnalytics logEvent:a_interface];
+    WebVC *Interface = [[WebVC alloc]init];
     Interface.className = @"Interface";
     [self titleView].text = @"Interface";
     [self.navigationController pushViewController:Interface animated:YES];

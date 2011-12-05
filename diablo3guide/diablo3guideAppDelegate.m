@@ -7,6 +7,11 @@
 //
 
 #import "diablo3guideAppDelegate.h"
+void uncaughtExceptionHandler(NSException *exception);
+
+void uncaughtExceptionHandler(NSException *exception) {
+    [FlurryAnalytics logError:@"Uncaught" message:@"Crash!" exception:exception];
+}
 
 @implementation diablo3guideAppDelegate
 
@@ -17,28 +22,27 @@
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     
-    [MobClick setDelegate:self];
-    [MobClick appLaunched];
+    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
+    [FlurryAnalytics setAppVersion:@"1.41"];
+    [FlurryAnalytics startSession:@"R9PJHE8BTSGTNYX2M97U"];
+    [FlurryAnalytics logAllPageViews:self.navigationController];
     
     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    [MobClick appTerminated];
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    [MobClick appLaunched];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-    [MobClick appTerminated];
 }
 
 - (void)dealloc
@@ -48,7 +52,4 @@
     [super dealloc];
 }
 
-- (NSString *)appKey{
-    return @"4ea934865270154d66000074";
-}
 @end

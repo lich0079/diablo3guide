@@ -7,7 +7,7 @@
 //
 
 #import "FollowerSelect.h"
-#import "ClassIntro.h"
+#import "WebVC.h"
 #import "FollowerSkills.h"
 
 
@@ -93,6 +93,15 @@
     UIImageView *bgimageView = [[UIImageView alloc] initWithImage:bgimage];
     cell.backgroundView = bgimageView;
     [bgimageView release];
+    //class name
+    UILabel *classnamelabel = [[UILabel alloc]initWithFrame:CGRectMake(2, 82, 135, 30)];
+    classnamelabel.text = [class objectForKey:@"name"];
+    classnamelabel.backgroundColor = [UIColor clearColor];
+    classnamelabel.textAlignment = UITextAlignmentCenter;
+    classnamelabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
+    classnamelabel.font = [UIFont fontWithName:normalfont size:17];
+    [cell addSubview:classnamelabel];
+    [classnamelabel release];
     //class Active Skills
     UIButton *aSkill = [UIButton buttonWithType:UIButtonTypeCustom];
     aSkill.tag = indexPath.row;
@@ -143,7 +152,8 @@
     //    controller.title = [NSString stringWithFormat:@"%@",[class objectForKey:@"name"]];
     controller.skills = [class objectForKey:@"askill"];
     controller.className = [class objectForKey:@"name"];
-    [MobClick event:a_askill label:controller.className];
+    NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:controller.className, a_askill, nil];
+    [FlurryAnalytics logEvent:a_askill withParameters:dictionary];
     [self.navigationController pushViewController:controller animated:YES];
     [controller release];
 }
@@ -152,10 +162,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSDictionary *class = [classes objectAtIndex:indexPath.row];
-    ClassIntro *controller = [[ClassIntro alloc] init];
+    WebVC *controller = [[WebVC alloc] init];
     [self titleView].text = [NSString stringWithFormat:@"%@ Overview",[class objectForKey:@"name"]];
     controller.className = [class objectForKey:@"name"];
-    [MobClick event:a_overview label:controller.className];
+    NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:controller.className, a_overview, nil];
+    [FlurryAnalytics logEvent:a_overview withParameters:dictionary];
     [self.navigationController pushViewController:controller animated:YES];
     [controller release];
 }

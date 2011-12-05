@@ -224,7 +224,8 @@
     NSDictionary *skill = [skills objectAtIndex:indexPath.row];
     Runestones *controller = [[Runestones alloc] init];
     controller.skill = skill;
-    [MobClick event:a_runestone label:[skill objectForKey:@"name"]];
+    NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:[skill objectForKey:@"name"], a_runestone, nil];
+    [FlurryAnalytics logEvent:a_runestone withParameters:dictionary];
     [self.navigationController pushViewController:controller animated:YES];
     [controller release];
 }

@@ -14,7 +14,6 @@
     #import "CLog.h"
     #import "BaseTable.h"
     #import "ClassSelect.h"
-    #import "ClassIntro.h"
     #import <QuartzCore/QuartzCore.h>
-    #import "MobClick.h"
+    #import "FlurryAnalytics.h"
 #endif

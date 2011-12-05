@@ -39,8 +39,6 @@
 		E3222CFD141F5B4200C4DA1B /* Runestones.m in Sources */ = {isa = PBXBuildFile; fileRef = E3222CFB141F5B4200C4DA1B /* Runestones.m */; };
 		E3222CFE141F5B4200C4DA1B /* Runestones.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3222CFC141F5B4200C4DA1B /* Runestones.xib */; };
 		E329F5A714039CDF00ADF6D6 /* serp.png in Resources */ = {isa = PBXBuildFile; fileRef = E329F5A614039CDF00ADF6D6 /* serp.png */; };
-		E329F5AC14039FC900ADF6D6 /* ClassIntro.m in Sources */ = {isa = PBXBuildFile; fileRef = E329F5AA14039FC900ADF6D6 /* ClassIntro.m */; };
-		E329F5AD14039FC900ADF6D6 /* ClassIntro.xib in Resources */ = {isa = PBXBuildFile; fileRef = E329F5AB14039FC900ADF6D6 /* ClassIntro.xib */; };
 		E329F5AF1403A14F00ADF6D6 /* Barbarian.html in Resources */ = {isa = PBXBuildFile; fileRef = E329F5AE1403A14F00ADF6D6 /* Barbarian.html */; };
 		E329F5B21403AB6600ADF6D6 /* BarbarianCrest.png in Resources */ = {isa = PBXBuildFile; fileRef = E329F5B11403AB6600ADF6D6 /* BarbarianCrest.png */; };
 		E329F5B71403AD3500ADF6D6 /* Demon Hunter.html in Resources */ = {isa = PBXBuildFile; fileRef = E329F5B31403AD3500ADF6D6 /* Demon Hunter.html */; };
@@ -63,8 +61,6 @@
 		E334091D14016527000AD3B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E334091C14016527000AD3B8 /* main.m */; };
 		E334092114016527000AD3B8 /* diablo3guideAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E334092014016527000AD3B8 /* diablo3guideAppDelegate.m */; };
 		E334092414016527000AD3B8 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E334092214016527000AD3B8 /* MainWindow.xib */; };
-		E334092714016527000AD3B8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E334092614016527000AD3B8 /* RootViewController.m */; };
-		E334092A14016527000AD3B8 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E334092814016527000AD3B8 /* RootViewController.xib */; };
 		E334093114016544000AD3B8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E334093014016544000AD3B8 /* Icon.png */; };
 		E33409331401654E000AD3B8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E33409321401654D000AD3B8 /* Icon@2x.png */; };
 		E334094414016F88000AD3B8 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E334094314016F88000AD3B8 /* bg.png */; };
@@ -208,10 +204,8 @@
 		E3AB613A14062E7500A6C436 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = E3AB613614062E7500A6C436 /* Icon-Small-50.png */; };
 		E3AB613B14062E7500A6C436 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = E3AB613714062E7500A6C436 /* Icon-Small.png */; };
 		E3AB613C14062E7500A6C436 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3AB613814062E7500A6C436 /* Icon-Small@2x.png */; };
-		E3ABCE4114596B2F007BA2D9 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ABCE3F14596B2F007BA2D9 /* libMobClickLibrary.a */; };
 		E3ABCE4414596B59007BA2D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ABCE4314596B59007BA2D9 /* SystemConfiguration.framework */; };
-		E3ABCE4614596B6A007BA2D9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ABCE4514596B6A007BA2D9 /* CoreTelephony.framework */; };
-		E3ABCE4814596BAC007BA2D9 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ABCE4714596BAC007BA2D9 /* libz.1.2.5.dylib */; };
+		E3B001531485D787004E3AB3 /* libFlurryAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B001521485D787004E3AB3 /* libFlurryAnalytics.a */; };
 		E3B80D8F14034915007366B7 /* Demon HunterPSBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D8E14034915007366B7 /* Demon HunterPSBg.png */; };
 		E3B80D92140349E8007366B7 /* MonkASBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D90140349E8007366B7 /* MonkASBg.png */; };
 		E3B80D93140349E8007366B7 /* MonkPSBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B80D91140349E8007366B7 /* MonkPSBg.png */; };
@@ -381,6 +375,8 @@
 		E3E066281404DD7E00C4A644 /* Basic3.png in Resources */ = {isa = PBXBuildFile; fileRef = E3E066271404DD7E00C4A644 /* Basic3.png */; };
 		E3E116181441B31B008C556B /* Exocet.TTF in Resources */ = {isa = PBXBuildFile; fileRef = E3E116161441B31B008C556B /* Exocet.TTF */; };
 		E3E116191441B31B008C556B /* ExocetLight.TTF in Resources */ = {isa = PBXBuildFile; fileRef = E3E116171441B31B008C556B /* ExocetLight.TTF */; };
+		E3EC4739148C7BE100C77ABC /* WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EC4737148C7BE100C77ABC /* WebVC.m */; };
+		E3EC473A148C7BE100C77ABC /* WebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EC4738148C7BE100C77ABC /* WebVC.xib */; };
 		E3F83D74147A5C5300E2FE6C /* Templarcellbg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F83D72147A5C5200E2FE6C /* Templarcellbg.png */; };
 		E3F83D75147A5C5300E2FE6C /* Templarcellbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F83D73147A5C5200E2FE6C /* Templarcellbg@2x.png */; };
 		E3F83D7C147A6E8500E2FE6C /* Templar.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F83D7B147A6E8500E2FE6C /* Templar.png */; };
@@ -462,9 +458,6 @@
 		E3222CFB141F5B4200C4DA1B /* Runestones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runestones.m; sourceTree = "<group>"; };
 		E3222CFC141F5B4200C4DA1B /* Runestones.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Runestones.xib; sourceTree = "<group>"; };
 		E329F5A614039CDF00ADF6D6 /* serp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = serp.png; sourceTree = "<group>"; };
-		E329F5A914039FC900ADF6D6 /* ClassIntro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassIntro.h; sourceTree = "<group>"; };
-		E329F5AA14039FC900ADF6D6 /* ClassIntro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassIntro.m; sourceTree = "<group>"; };
-		E329F5AB14039FC900ADF6D6 /* ClassIntro.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassIntro.xib; sourceTree = "<group>"; };
 		E329F5AE1403A14F00ADF6D6 /* Barbarian.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Barbarian.html; sourceTree = "<group>"; };
 		E329F5B11403AB6600ADF6D6 /* BarbarianCrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarbarianCrest.png; sourceTree = "<group>"; };
 		E329F5B31403AD3500ADF6D6 /* Demon Hunter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Demon Hunter.html"; sourceTree = "<group>"; };
@@ -492,9 +485,6 @@
 		E334091F14016527000AD3B8 /* diablo3guideAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diablo3guideAppDelegate.h; sourceTree = "<group>"; };
 		E334092014016527000AD3B8 /* diablo3guideAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = diablo3guideAppDelegate.m; sourceTree = "<group>"; };
 		E334092314016527000AD3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		E334092514016527000AD3B8 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		E334092614016527000AD3B8 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		E334092914016527000AD3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		E334093014016544000AD3B8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		E33409321401654D000AD3B8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		E334094314016F88000AD3B8 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
@@ -644,11 +634,9 @@
 		E3AB613614062E7500A6C436 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		E3AB613714062E7500A6C436 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
 		E3AB613814062E7500A6C436 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		E3ABCE3F14596B2F007BA2D9 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobClickLibrary.a; path = diablo3guide/libMobClickLibrary.a; sourceTree = "<group>"; };
-		E3ABCE4014596B2F007BA2D9 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
 		E3ABCE4314596B59007BA2D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		E3ABCE4514596B6A007BA2D9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		E3ABCE4714596BAC007BA2D9 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		E3B001511485D787004E3AB3 /* FlurryAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAnalytics.h; sourceTree = "<group>"; };
+		E3B001521485D787004E3AB3 /* libFlurryAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryAnalytics.a; path = diablo3guide/libFlurryAnalytics.a; sourceTree = "<group>"; };
 		E3B80D8E14034915007366B7 /* Demon HunterPSBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Demon HunterPSBg.png"; sourceTree = "<group>"; };
 		E3B80D90140349E8007366B7 /* MonkASBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MonkASBg.png; sourceTree = "<group>"; };
 		E3B80D91140349E8007366B7 /* MonkPSBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MonkPSBg.png; sourceTree = "<group>"; };
@@ -818,6 +806,9 @@
 		E3E066271404DD7E00C4A644 /* Basic3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Basic3.png; sourceTree = "<group>"; };
 		E3E116161441B31B008C556B /* Exocet.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = Exocet.TTF; sourceTree = "<group>"; };
 		E3E116171441B31B008C556B /* ExocetLight.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ExocetLight.TTF; sourceTree = "<group>"; };
+		E3EC4736148C7BE100C77ABC /* WebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVC.h; sourceTree = "<group>"; };
+		E3EC4737148C7BE100C77ABC /* WebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebVC.m; sourceTree = "<group>"; };
+		E3EC4738148C7BE100C77ABC /* WebVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebVC.xib; sourceTree = "<group>"; };
 		E3F83D72147A5C5200E2FE6C /* Templarcellbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Templarcellbg.png; sourceTree = "<group>"; };
 		E3F83D73147A5C5200E2FE6C /* Templarcellbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Templarcellbg@2x.png"; sourceTree = "<group>"; };
 		E3F83D7B147A6E8500E2FE6C /* Templar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Templar.png; sourceTree = "<group>"; };
@@ -869,14 +860,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3ABCE4814596BAC007BA2D9 /* libz.1.2.5.dylib in Frameworks */,
-				E3ABCE4614596B6A007BA2D9 /* CoreTelephony.framework in Frameworks */,
 				E3ABCE4414596B59007BA2D9 /* SystemConfiguration.framework in Frameworks */,
 				E30D647814154E220022E90F /* QuartzCore.framework in Frameworks */,
 				E334091114016527000AD3B8 /* UIKit.framework in Frameworks */,
 				E334091314016527000AD3B8 /* Foundation.framework in Frameworks */,
 				E334091514016527000AD3B8 /* CoreGraphics.framework in Frameworks */,
-				E3ABCE4114596B2F007BA2D9 /* libMobClickLibrary.a in Frameworks */,
+				E3B001531485D787004E3AB3 /* libFlurryAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -932,10 +921,8 @@
 		E334090F14016526000AD3B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E3ABCE4714596BAC007BA2D9 /* libz.1.2.5.dylib */,
-				E3ABCE4514596B6A007BA2D9 /* CoreTelephony.framework */,
+				E3B001521485D787004E3AB3 /* libFlurryAnalytics.a */,
 				E3ABCE4314596B59007BA2D9 /* SystemConfiguration.framework */,
-				E3ABCE3F14596B2F007BA2D9 /* libMobClickLibrary.a */,
 				E30D647714154E220022E90F /* QuartzCore.framework */,
 				E334091014016526000AD3B8 /* UIKit.framework */,
 				E334091214016527000AD3B8 /* Foundation.framework */,
@@ -947,13 +934,17 @@
 		E334091614016527000AD3B8 /* diablo3guide */ = {
 			isa = PBXGroup;
 			children = (
+				E3EC4736148C7BE100C77ABC /* WebVC.h */,
+				E3EC4737148C7BE100C77ABC /* WebVC.m */,
+				E3EC4738148C7BE100C77ABC /* WebVC.xib */,
+				E3B001511485D787004E3AB3 /* FlurryAnalytics.h */,
 				E39B50DD1401FC9400F58D78 /* CLog.h */,
 				E334091F14016527000AD3B8 /* diablo3guideAppDelegate.h */,
 				E334092014016527000AD3B8 /* diablo3guideAppDelegate.m */,
 				E357C168140256E1005ED4F3 /* BaseTable.h */,
 				E357C169140256E1005ED4F3 /* BaseTable.m */,
-				E334092514016527000AD3B8 /* RootViewController.h */,
-				E334092614016527000AD3B8 /* RootViewController.m */,
+				E39E915C147B8BC500E6566C /* MainScreenVC.h */,
+				E39E915D147B8BC500E6566C /* MainScreenVC.m */,
 				E39B50CE1401F84700F58D78 /* ClassSelect.h */,
 				E39B50CF1401F84700F58D78 /* ClassSelect.m */,
 				E36122BD147A4BBD00007808 /* FollowerSelect.h */,
@@ -964,13 +955,8 @@
 				E3222CEA141F4A3000C4DA1B /* PassiveSkills.m */,
 				E39E9127147B5B6F00E6566C /* FollowerSkills.h */,
 				E39E9128147B5B6F00E6566C /* FollowerSkills.m */,
-				E329F5A914039FC900ADF6D6 /* ClassIntro.h */,
-				E329F5AA14039FC900ADF6D6 /* ClassIntro.m */,
 				E3222CFA141F5B4200C4DA1B /* Runestones.h */,
 				E3222CFB141F5B4200C4DA1B /* Runestones.m */,
-				E3ABCE4014596B2F007BA2D9 /* MobClick.h */,
-				E39E915C147B8BC500E6566C /* MainScreenVC.h */,
-				E39E915D147B8BC500E6566C /* MainScreenVC.m */,
 				E334091714016527000AD3B8 /* Supporting Files */,
 			);
 			path = diablo3guide;
@@ -984,13 +970,11 @@
 				E3E116161441B31B008C556B /* Exocet.TTF */,
 				E3E116171441B31B008C556B /* ExocetLight.TTF */,
 				E334092214016527000AD3B8 /* MainWindow.xib */,
-				E334092814016527000AD3B8 /* RootViewController.xib */,
 				E39B50D01401F84700F58D78 /* ClassSelect.xib */,
 				E36122BF147A4BBD00007808 /* FollowerSelect.xib */,
 				E329FD41141F32FB002B22F8 /* ActiveSkills.xib */,
 				E3222CEB141F4A3000C4DA1B /* PassiveSkills.xib */,
 				E3222CFC141F5B4200C4DA1B /* Runestones.xib */,
-				E329F5AB14039FC900ADF6D6 /* ClassIntro.xib */,
 				E334091814016527000AD3B8 /* diablo3guide-Info.plist */,
 				E334091914016527000AD3B8 /* InfoPlist.strings */,
 				E334091C14016527000AD3B8 /* main.m */,
@@ -1424,7 +1408,6 @@
 			files = (
 				E334091B14016527000AD3B8 /* InfoPlist.strings in Resources */,
 				E334092414016527000AD3B8 /* MainWindow.xib in Resources */,
-				E334092A14016527000AD3B8 /* RootViewController.xib in Resources */,
 				E334093114016544000AD3B8 /* Icon.png in Resources */,
 				E33409331401654E000AD3B8 /* Icon@2x.png in Resources */,
 				E334094414016F88000AD3B8 /* bg.png in Resources */,
@@ -1515,7 +1498,6 @@
 				E3D367C8140388E1004A7DE4 /* Glass Cannon.png in Resources */,
 				E3D367CB140388E1004A7DE4 /* Blur.png in Resources */,
 				E329F5A714039CDF00ADF6D6 /* serp.png in Resources */,
-				E329F5AD14039FC900ADF6D6 /* ClassIntro.xib in Resources */,
 				E329F5AF1403A14F00ADF6D6 /* Barbarian.html in Resources */,
 				E329F5B21403AB6600ADF6D6 /* BarbarianCrest.png in Resources */,
 				E329F5B71403AD3500ADF6D6 /* Demon Hunter.html in Resources */,
@@ -1820,6 +1802,7 @@
 				E39E9162147B8C2A00E6566C /* mainbg.png in Resources */,
 				E350A0EF147BAE9A00A62EAC /* bar.png in Resources */,
 				E3360727147BB83800505DE2 /* bar2.png in Resources */,
+				E3EC473A148C7BE100C77ABC /* WebVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1832,16 +1815,15 @@
 			files = (
 				E334091D14016527000AD3B8 /* main.m in Sources */,
 				E334092114016527000AD3B8 /* diablo3guideAppDelegate.m in Sources */,
-				E334092714016527000AD3B8 /* RootViewController.m in Sources */,
 				E39B50D11401F84700F58D78 /* ClassSelect.m in Sources */,
 				E357C16A140256E1005ED4F3 /* BaseTable.m in Sources */,
-				E329F5AC14039FC900ADF6D6 /* ClassIntro.m in Sources */,
 				E329FD42141F32FB002B22F8 /* ActiveSkills.m in Sources */,
 				E3222CEC141F4A3000C4DA1B /* PassiveSkills.m in Sources */,
 				E3222CFD141F5B4200C4DA1B /* Runestones.m in Sources */,
 				E36122C0147A4BBE00007808 /* FollowerSelect.m in Sources */,
 				E39E912A147B5B6F00E6566C /* FollowerSkills.m in Sources */,
 				E39E915F147B8BC500E6566C /* MainScreenVC.m in Sources */,
+				E3EC4739148C7BE100C77ABC /* WebVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1862,14 +1844,6 @@
 				E334092314016527000AD3B8 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		E334092814016527000AD3B8 /* RootViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E334092914016527000AD3B8 /* en */,
-			);
-			name = RootViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1934,10 +1908,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/diablo3guide\"",
 				);
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1959,10 +1930,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/diablo3guide\"",
 				);
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2005,10 +1973,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/diablo3guide\"",
 				);
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
