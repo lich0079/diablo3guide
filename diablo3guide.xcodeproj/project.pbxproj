@@ -26,6 +26,28 @@
 		E302363C1477860B006D0F52 /* zfeature-3.png in Resources */ = {isa = PBXBuildFile; fileRef = E302363A1477860B006D0F52 /* zfeature-3.png */; };
 		E302363D1477860B006D0F52 /* zfeature-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E302363B1477860B006D0F52 /* zfeature-1.png */; };
 		E302363F1477918B006D0F52 /* Combination Strike.png in Resources */ = {isa = PBXBuildFile; fileRef = E302363E1477918B006D0F52 /* Combination Strike.png */; };
+		E306183E1490714300E14145 /* Blacksmith.html in Resources */ = {isa = PBXBuildFile; fileRef = E306183B1490714300E14145 /* Blacksmith.html */; };
+		E306183F1490714300E14145 /* Jeweler.html in Resources */ = {isa = PBXBuildFile; fileRef = E306183C1490714300E14145 /* Jeweler.html */; };
+		E30618401490714300E14145 /* Mystic.html in Resources */ = {isa = PBXBuildFile; fileRef = E306183D1490714300E14145 /* Mystic.html */; };
+		E30618441490720500E14145 /* blackfeature-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E30618421490720500E14145 /* blackfeature-2.png */; };
+		E30618451490720500E14145 /* blackfeature-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E30618431490720500E14145 /* blackfeature-1.png */; };
+		E3061848149073A200E14145 /* Blacksmithcellbg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3061846149073A200E14145 /* Blacksmithcellbg.png */; };
+		E3061849149073A200E14145 /* Blacksmithcellbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3061847149073A200E14145 /* Blacksmithcellbg@2x.png */; };
+		E306184B149073EB00E14145 /* Blacksmith.png in Resources */ = {isa = PBXBuildFile; fileRef = E306184A149073EB00E14145 /* Blacksmith.png */; };
+		E306184D1490743000E14145 /* Blacksmith@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E306184C1490743000E14145 /* Blacksmith@2x.png */; };
+		E306184F149074C700E14145 /* blackprogression.png in Resources */ = {isa = PBXBuildFile; fileRef = E306184E149074C700E14145 /* blackprogression.png */; };
+		E30618531490809300E14145 /* Jewelerfeature-3.png in Resources */ = {isa = PBXBuildFile; fileRef = E30618501490809300E14145 /* Jewelerfeature-3.png */; };
+		E30618541490809300E14145 /* Jewelerfeature-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E30618511490809300E14145 /* Jewelerfeature-2.png */; };
+		E30618551490809300E14145 /* Jewelerfeature-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E30618521490809300E14145 /* Jewelerfeature-1.png */; };
+		E30618571490812300E14145 /* Jewelercrest.png in Resources */ = {isa = PBXBuildFile; fileRef = E30618561490812300E14145 /* Jewelercrest.png */; };
+		E306185A1490825C00E14145 /* Jewelercellbg.png in Resources */ = {isa = PBXBuildFile; fileRef = E30618581490825C00E14145 /* Jewelercellbg.png */; };
+		E306185B1490825C00E14145 /* Jewelercellbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E30618591490825C00E14145 /* Jewelercellbg@2x.png */; };
+		E306185D149082C300E14145 /* Jewelerprogression.png in Resources */ = {isa = PBXBuildFile; fileRef = E306185C149082C300E14145 /* Jewelerprogression.png */; };
+		E306185F149084ED00E14145 /* Mysticfeature-1.png in Resources */ = {isa = PBXBuildFile; fileRef = E306185E149084ED00E14145 /* Mysticfeature-1.png */; };
+		E30618611490850500E14145 /* Mysticcrest.png in Resources */ = {isa = PBXBuildFile; fileRef = E30618601490850500E14145 /* Mysticcrest.png */; };
+		E30618631490852A00E14145 /* Mysticprogression.png in Resources */ = {isa = PBXBuildFile; fileRef = E30618621490852A00E14145 /* Mysticprogression.png */; };
+		E3061866149085A000E14145 /* Mysticcellbg.png in Resources */ = {isa = PBXBuildFile; fileRef = E3061864149085A000E14145 /* Mysticcellbg.png */; };
+		E3061867149085A000E14145 /* Mysticcellbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3061865149085A000E14145 /* Mysticcellbg@2x.png */; };
 		E30D647814154E220022E90F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30D647714154E220022E90F /* QuartzCore.framework */; };
 		E3222CE7141F41EB00C4DA1B /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = E3222CE6141F41EB00C4DA1B /* unlock.png */; };
 		E3222CEC141F4A3000C4DA1B /* PassiveSkills.m in Sources */ = {isa = PBXBuildFile; fileRef = E3222CEA141F4A3000C4DA1B /* PassiveSkills.m */; };
@@ -153,6 +175,8 @@
 		E3924AC714017BBD000BA714 /* classes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3924AC614017BBD000BA714 /* classes@2x.png */; };
 		E397F93E140524050074FA13 /* navi.png in Resources */ = {isa = PBXBuildFile; fileRef = E397F93D140524050074FA13 /* navi.png */; };
 		E397F940140525E70074FA13 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E397F93F140525E70074FA13 /* back.png */; };
+		E398F31C1490678A007099C6 /* ArtisansSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = E398F31A1490678A007099C6 /* ArtisansSelect.m */; };
+		E398F31D1490678A007099C6 /* ArtisansSelect.xib in Resources */ = {isa = PBXBuildFile; fileRef = E398F31B1490678A007099C6 /* ArtisansSelect.xib */; };
 		E39B50D11401F84700F58D78 /* ClassSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = E39B50CF1401F84700F58D78 /* ClassSelect.m */; };
 		E39B50D21401F84700F58D78 /* ClassSelect.xib in Resources */ = {isa = PBXBuildFile; fileRef = E39B50D01401F84700F58D78 /* ClassSelect.xib */; };
 		E39B50D41401F93800F58D78 /* classes.plist in Resources */ = {isa = PBXBuildFile; fileRef = E39B50D31401F93800F58D78 /* classes.plist */; };
@@ -443,6 +467,28 @@
 		E302363A1477860B006D0F52 /* zfeature-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zfeature-3.png"; sourceTree = "<group>"; };
 		E302363B1477860B006D0F52 /* zfeature-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zfeature-1.png"; sourceTree = "<group>"; };
 		E302363E1477918B006D0F52 /* Combination Strike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Combination Strike.png"; sourceTree = "<group>"; };
+		E306183B1490714300E14145 /* Blacksmith.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Blacksmith.html; sourceTree = "<group>"; };
+		E306183C1490714300E14145 /* Jeweler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Jeweler.html; sourceTree = "<group>"; };
+		E306183D1490714300E14145 /* Mystic.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Mystic.html; sourceTree = "<group>"; };
+		E30618421490720500E14145 /* blackfeature-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackfeature-2.png"; sourceTree = "<group>"; };
+		E30618431490720500E14145 /* blackfeature-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackfeature-1.png"; sourceTree = "<group>"; };
+		E3061846149073A200E14145 /* Blacksmithcellbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blacksmithcellbg.png; sourceTree = "<group>"; };
+		E3061847149073A200E14145 /* Blacksmithcellbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blacksmithcellbg@2x.png"; sourceTree = "<group>"; };
+		E306184A149073EB00E14145 /* Blacksmith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blacksmith.png; sourceTree = "<group>"; };
+		E306184C1490743000E14145 /* Blacksmith@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blacksmith@2x.png"; sourceTree = "<group>"; };
+		E306184E149074C700E14145 /* blackprogression.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackprogression.png; sourceTree = "<group>"; };
+		E30618501490809300E14145 /* Jewelerfeature-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jewelerfeature-3.png"; sourceTree = "<group>"; };
+		E30618511490809300E14145 /* Jewelerfeature-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jewelerfeature-2.png"; sourceTree = "<group>"; };
+		E30618521490809300E14145 /* Jewelerfeature-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jewelerfeature-1.png"; sourceTree = "<group>"; };
+		E30618561490812300E14145 /* Jewelercrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jewelercrest.png; sourceTree = "<group>"; };
+		E30618581490825C00E14145 /* Jewelercellbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jewelercellbg.png; sourceTree = "<group>"; };
+		E30618591490825C00E14145 /* Jewelercellbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jewelercellbg@2x.png"; sourceTree = "<group>"; };
+		E306185C149082C300E14145 /* Jewelerprogression.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jewelerprogression.png; sourceTree = "<group>"; };
+		E306185E149084ED00E14145 /* Mysticfeature-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mysticfeature-1.png"; sourceTree = "<group>"; };
+		E30618601490850500E14145 /* Mysticcrest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mysticcrest.png; sourceTree = "<group>"; };
+		E30618621490852A00E14145 /* Mysticprogression.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mysticprogression.png; sourceTree = "<group>"; };
+		E3061864149085A000E14145 /* Mysticcellbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mysticcellbg.png; sourceTree = "<group>"; };
+		E3061865149085A000E14145 /* Mysticcellbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mysticcellbg@2x.png"; sourceTree = "<group>"; };
 		E30D647714154E220022E90F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E3222CE6141F41EB00C4DA1B /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlock.png; sourceTree = "<group>"; };
 		E3222CE9141F4A3000C4DA1B /* PassiveSkills.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassiveSkills.h; sourceTree = "<group>"; };
@@ -579,6 +625,9 @@
 		E3924AC614017BBD000BA714 /* classes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classes@2x.png"; sourceTree = "<group>"; };
 		E397F93D140524050074FA13 /* navi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi.png; sourceTree = "<group>"; };
 		E397F93F140525E70074FA13 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		E398F3191490678A007099C6 /* ArtisansSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtisansSelect.h; sourceTree = "<group>"; };
+		E398F31A1490678A007099C6 /* ArtisansSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtisansSelect.m; sourceTree = "<group>"; };
+		E398F31B1490678A007099C6 /* ArtisansSelect.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtisansSelect.xib; sourceTree = "<group>"; };
 		E39B50CE1401F84700F58D78 /* ClassSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassSelect.h; sourceTree = "<group>"; };
 		E39B50CF1401F84700F58D78 /* ClassSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassSelect.m; sourceTree = "<group>"; };
 		E39B50D01401F84700F58D78 /* ClassSelect.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassSelect.xib; sourceTree = "<group>"; };
@@ -878,6 +927,9 @@
 				E3F83D91147A75C800E2FE6C /* Enchantress.html */,
 				E3F83D92147A75C800E2FE6C /* Scoundrel.html */,
 				E3F83D8F147A75BE00E2FE6C /* Templar.html */,
+				E306183B1490714300E14145 /* Blacksmith.html */,
+				E306183C1490714300E14145 /* Jeweler.html */,
+				E306183D1490714300E14145 /* Mystic.html */,
 				E329F5AE1403A14F00ADF6D6 /* Barbarian.html */,
 				E329F5B31403AD3500ADF6D6 /* Demon Hunter.html */,
 				E329F5B41403AD3500ADF6D6 /* Monk.html */,
@@ -949,6 +1001,8 @@
 				E39B50CF1401F84700F58D78 /* ClassSelect.m */,
 				E36122BD147A4BBD00007808 /* FollowerSelect.h */,
 				E36122BE147A4BBD00007808 /* FollowerSelect.m */,
+				E398F3191490678A007099C6 /* ArtisansSelect.h */,
+				E398F31A1490678A007099C6 /* ArtisansSelect.m */,
 				E329FD3F141F32FB002B22F8 /* ActiveSkills.h */,
 				E329FD40141F32FB002B22F8 /* ActiveSkills.m */,
 				E3222CE9141F4A3000C4DA1B /* PassiveSkills.h */,
@@ -965,6 +1019,7 @@
 		E334091714016527000AD3B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E398F31B1490678A007099C6 /* ArtisansSelect.xib */,
 				E39E915E147B8BC500E6566C /* MainScreenVC.xib */,
 				E39E9129147B5B6F00E6566C /* FollowerSkills.xib */,
 				E3E116161441B31B008C556B /* Exocet.TTF */,
@@ -988,6 +1043,25 @@
 		E39B50F214020D3500F58D78 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				E3061864149085A000E14145 /* Mysticcellbg.png */,
+				E3061865149085A000E14145 /* Mysticcellbg@2x.png */,
+				E30618621490852A00E14145 /* Mysticprogression.png */,
+				E30618601490850500E14145 /* Mysticcrest.png */,
+				E306185E149084ED00E14145 /* Mysticfeature-1.png */,
+				E306185C149082C300E14145 /* Jewelerprogression.png */,
+				E30618581490825C00E14145 /* Jewelercellbg.png */,
+				E30618591490825C00E14145 /* Jewelercellbg@2x.png */,
+				E30618561490812300E14145 /* Jewelercrest.png */,
+				E30618501490809300E14145 /* Jewelerfeature-3.png */,
+				E30618511490809300E14145 /* Jewelerfeature-2.png */,
+				E30618521490809300E14145 /* Jewelerfeature-1.png */,
+				E306184E149074C700E14145 /* blackprogression.png */,
+				E306184A149073EB00E14145 /* Blacksmith.png */,
+				E306184C1490743000E14145 /* Blacksmith@2x.png */,
+				E3061846149073A200E14145 /* Blacksmithcellbg.png */,
+				E3061847149073A200E14145 /* Blacksmithcellbg@2x.png */,
+				E30618421490720500E14145 /* blackfeature-2.png */,
+				E30618431490720500E14145 /* blackfeature-1.png */,
 				E3360726147BB83800505DE2 /* bar2.png */,
 				E350A0EE147BAE9A00A62EAC /* bar.png */,
 				E39E9161147B8C2A00E6566C /* mainbg.png */,
@@ -1803,6 +1877,29 @@
 				E350A0EF147BAE9A00A62EAC /* bar.png in Resources */,
 				E3360727147BB83800505DE2 /* bar2.png in Resources */,
 				E3EC473A148C7BE100C77ABC /* WebVC.xib in Resources */,
+				E398F31D1490678A007099C6 /* ArtisansSelect.xib in Resources */,
+				E306183E1490714300E14145 /* Blacksmith.html in Resources */,
+				E306183F1490714300E14145 /* Jeweler.html in Resources */,
+				E30618401490714300E14145 /* Mystic.html in Resources */,
+				E30618441490720500E14145 /* blackfeature-2.png in Resources */,
+				E30618451490720500E14145 /* blackfeature-1.png in Resources */,
+				E3061848149073A200E14145 /* Blacksmithcellbg.png in Resources */,
+				E3061849149073A200E14145 /* Blacksmithcellbg@2x.png in Resources */,
+				E306184B149073EB00E14145 /* Blacksmith.png in Resources */,
+				E306184D1490743000E14145 /* Blacksmith@2x.png in Resources */,
+				E306184F149074C700E14145 /* blackprogression.png in Resources */,
+				E30618531490809300E14145 /* Jewelerfeature-3.png in Resources */,
+				E30618541490809300E14145 /* Jewelerfeature-2.png in Resources */,
+				E30618551490809300E14145 /* Jewelerfeature-1.png in Resources */,
+				E30618571490812300E14145 /* Jewelercrest.png in Resources */,
+				E306185A1490825C00E14145 /* Jewelercellbg.png in Resources */,
+				E306185B1490825C00E14145 /* Jewelercellbg@2x.png in Resources */,
+				E306185D149082C300E14145 /* Jewelerprogression.png in Resources */,
+				E306185F149084ED00E14145 /* Mysticfeature-1.png in Resources */,
+				E30618611490850500E14145 /* Mysticcrest.png in Resources */,
+				E30618631490852A00E14145 /* Mysticprogression.png in Resources */,
+				E3061866149085A000E14145 /* Mysticcellbg.png in Resources */,
+				E3061867149085A000E14145 /* Mysticcellbg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1824,6 +1921,7 @@
 				E39E912A147B5B6F00E6566C /* FollowerSkills.m in Sources */,
 				E39E915F147B8BC500E6566C /* MainScreenVC.m in Sources */,
 				E3EC4739148C7BE100C77ABC /* WebVC.m in Sources */,
+				E398F31C1490678A007099C6 /* ArtisansSelect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

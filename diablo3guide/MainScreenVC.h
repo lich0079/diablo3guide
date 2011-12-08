@@ -21,7 +21,7 @@
 - (IBAction)basicClick:(id)sender;
 - (IBAction)followersClick:(id)sender;
 - (IBAction)classesClick:(id)sender;
-- (IBAction)combatClick:(id)sender;
+- (IBAction)artisanClick:(id)sender;
 - (IBAction)interfaceClick:(id)sender;
 
 

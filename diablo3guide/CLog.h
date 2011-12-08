@@ -22,6 +22,7 @@
 #define a_follower @"a_follower"
 #define a_combat @"a_combat"
 #define a_interface @"a_interface"
+#define a_artisan @"a_artisan"
 #define a_help @"a_help"
 
 #define a_overview @"a_overview"

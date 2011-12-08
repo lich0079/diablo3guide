@@ -273,7 +273,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Combat</string>
+						<string key="IBUIText">Artisans</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC42NTA5ODAzOTIyIDAuNDYyNzQ1MDk4IDAuMjQzMTM3MjU0OQA</bytes>
@@ -288,7 +288,7 @@
 					<object class="IBUILabel" id="643906454">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{110, 337}, {100, 21}}</string>
+						<string key="NSFrame">{{85, 337}, {154, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="36658861"/>
@@ -298,7 +298,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Interface</string>
+						<string key="IBUIText">Combat &amp; Interface</string>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC42NTA5ODAzOTIyIDAuNDYyNzQ1MDk4IDAuMjQzMTM3MjU0OQA</bytes>
@@ -441,12 +441,12 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">combatClick:</string>
+						<string key="label">artisanClick:</string>
 						<reference key="source" ref="920836761"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">41</int>
+					<int key="connectionID">53</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -581,7 +581,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">52</int>
+			<int key="maxID">53</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -589,23 +589,23 @@
 					<string key="className">MainScreenVC</string>
 					<string key="superclassName">UIViewController</string>
 					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="artisanClick:">id</string>
 						<string key="basicClick:">id</string>
 						<string key="classesClick:">id</string>
-						<string key="combatClick:">id</string>
 						<string key="followersClick:">id</string>
 						<string key="interfaceClick:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="artisanClick:">
+							<string key="name">artisanClick:</string>
+							<string key="candidateClassName">id</string>
+						</object>
 						<object class="IBActionInfo" key="basicClick:">
 							<string key="name">basicClick:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="classesClick:">
 							<string key="name">classesClick:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="combatClick:">
-							<string key="name">combatClick:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="followersClick:">

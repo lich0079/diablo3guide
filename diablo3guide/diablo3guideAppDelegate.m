@@ -23,7 +23,7 @@ void uncaughtExceptionHandler(NSException *exception) {
     [self.window makeKeyAndVisible];
     
     NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
-    [FlurryAnalytics setAppVersion:@"1.41"];
+    [FlurryAnalytics setAppVersion:@"1.50"];
     [FlurryAnalytics startSession:@"R9PJHE8BTSGTNYX2M97U"];
     [FlurryAnalytics logAllPageViews:self.navigationController];
     

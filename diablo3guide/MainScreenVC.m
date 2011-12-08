@@ -10,6 +10,7 @@
 #import "ClassSelect.h"
 #import "FollowerSelect.h"
 #import "WebVC.h"
+#import "ArtisansSelect.h"
 
 @implementation MainScreenVC
 @synthesize basicLabel;
@@ -20,7 +21,9 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self titleView].text = @"Diablo 3";
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSDictionary *info = [bundle infoDictionary];
+    [self titleView].text = [info objectForKey:@"CFBundleDisplayName"];
 }
 
 - (void)viewDidLoad {
@@ -87,14 +90,6 @@
     [basic release];
 }
 
-- (IBAction)followersClick:(id)sender {
-    [FlurryAnalytics logEvent:a_follower];
-    FollowerSelect *followerSel = [[FollowerSelect alloc] init];
-    [self titleView].text = @"Followers";
-    [self.navigationController pushViewController:followerSel animated:YES];
-    [followerSel release];
-}
-
 - (IBAction)classesClick:(id)sender {
     [FlurryAnalytics logEvent:a_class];
     ClassSelect *classSel = [[ClassSelect alloc] init];
@@ -103,11 +98,18 @@
     [classSel release];
 }
 
-- (IBAction)combatClick:(id)sender {
-    [FlurryAnalytics logEvent:a_combat];
-    WebVC *Combat = [[WebVC alloc]init];
-    Combat.className = @"Combat";
-    [self titleView].text = @"Combat";
+- (IBAction)followersClick:(id)sender {
+    [FlurryAnalytics logEvent:a_follower];
+    FollowerSelect *followerSel = [[FollowerSelect alloc] init];
+    [self titleView].text = @"Followers";
+    [self.navigationController pushViewController:followerSel animated:YES];
+    [followerSel release];
+}
+
+- (IBAction)artisanClick:(id)sender {
+    [FlurryAnalytics logEvent:a_artisan];
+    ArtisansSelect *Combat = [[ArtisansSelect alloc]init];
+    [self titleView].text = @"Artisans";
     [self.navigationController pushViewController:Combat animated:YES];
     [Combat release];
 }
@@ -116,7 +118,7 @@
     [FlurryAnalytics logEvent:a_interface];
     WebVC *Interface = [[WebVC alloc]init];
     Interface.className = @"Interface";
-    [self titleView].text = @"Interface";
+    [self titleView].text = @"Combat & Interface";
     [self.navigationController pushViewController:Interface animated:YES];
     [Interface release];
 }
