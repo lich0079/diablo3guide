@@ -21,12 +21,13 @@ void uncaughtExceptionHandler(NSException *exception) {
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
-    
+
+#ifndef DEBUG
     NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
-    [FlurryAnalytics setAppVersion:@"1.50"];
+    [FlurryAnalytics setAppVersion:@"1.51"];
     [FlurryAnalytics startSession:@"R9PJHE8BTSGTNYX2M97U"];
     [FlurryAnalytics logAllPageViews:self.navigationController];
-    
+#endif
     return YES;
 }
 
