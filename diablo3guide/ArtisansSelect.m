@@ -33,7 +33,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-	self.artisanNames = [NSArray arrayWithObjects:@"Blacksmith",@"Jeweler",@"Mystic", nil];
+	self.artisanNames = [NSArray arrayWithObjects:@"Blacksmith",@"Jeweler", nil];//,@"Mystic"
     self.tableView.rowHeight = 140;
     [self backButton];
 }
