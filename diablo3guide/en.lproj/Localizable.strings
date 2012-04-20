@@ -1,0 +1,16 @@
+{
+	"Active Skills" = "Active Skills";
+	"Passive Skills" = "Passive Skills";
+	overview = overview;
+	classes = CLASSES;
+	Followers = Followers;
+	Skills = Skills;
+	Help = Help;
+	Artisans = Artisans;
+	whatnew = "What's New in Diablo III";
+	Blacksmith = Blacksmith;
+	Jeweler = Jeweler;
+	bdesc = "Steely forge-master who creates and repairs mighty weapons and pieces of armor.";
+	jdesc = "Wandering jewelcrafter who can combine and improve powerful gems.";
+	maintitle = "DIII Guide";
+}

@@ -27,7 +27,7 @@
 #pragma mark - View lifecycle
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self titleView].text = @"Artisans";
+    [self titleView].text = NSLocalizedString(@"Artisans", nil);
 }
 
 - (void)viewDidLoad {
@@ -80,7 +80,7 @@
     [bgimageView release];
     //class name
     UILabel *classnamelabel = [[UILabel alloc]initWithFrame:CGRectMake(2, 82, 135, 30)];
-    classnamelabel.text = name;
+    classnamelabel.text = NSLocalizedString(name, nil);
     classnamelabel.backgroundColor = [UIColor clearColor];
     classnamelabel.textAlignment = UITextAlignmentCenter;
     classnamelabel.textColor = [UIColor  colorWithRed:115 green:72 blue:0 alpha:1];
@@ -92,10 +92,10 @@
     UILabel *desc = [[UILabel alloc]initWithFrame:CGRectMake(10, 100, 300, 40)];
     switch (indexPath.row) {
         case 0:
-            desc.text = @"Steely forge-master who creates and repairs mighty weapons and pieces of armor.";
+            desc.text = NSLocalizedString(@"bdesc", nil);
             break;
         case 1:
-            desc.text = @"Wandering jewelcrafter who can combine and improve powerful gems.";
+            desc.text = NSLocalizedString(@"jdesc", nil);
             break;
         case 2:
             desc.text = @"Seer who uses her talents to infuse your items with magical properties.";
@@ -127,7 +127,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *name = [artisanNames objectAtIndex:indexPath.row];
     WebVC *controller = [[WebVC alloc] init];
-    [self titleView].text = [NSString stringWithFormat:@"%@ Overview",name];
+    [self titleView].text = [NSString stringWithFormat:@"%@ %@", NSLocalizedString(name, nil),NSLocalizedString(@"overview", nil)];
     controller.className = name;
     NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:controller.className, a_overview, nil];
     [FlurryAnalytics logEvent:a_overview withParameters:dictionary];

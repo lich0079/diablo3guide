@@ -56,15 +56,15 @@
     return 6;
 }
 
-- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
-    UILabel *titleView = [[UILabel alloc]init];
-    titleView.backgroundColor = [UIColor clearColor];
-    titleView.textAlignment = UITextAlignmentCenter;
-    titleView.textColor = [UIColor  groupTableViewBackgroundColor];
-    titleView.font = [UIFont fontWithName:@"Cochin" size:12];
-    titleView.text = @"Note: Information is based on level 60 and rank 4 runestones.";
-    return [titleView autorelease];
-}
+//- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+//    UILabel *titleView = [[UILabel alloc]init];
+//    titleView.backgroundColor = [UIColor clearColor];
+//    titleView.textAlignment = UITextAlignmentCenter;
+//    titleView.textColor = [UIColor  groupTableViewBackgroundColor];
+//    titleView.font = [UIFont fontWithName:@"Cochin" size:12];
+//    titleView.text = @"Note: Information is based on level 60 and rank 4 runestones.";
+//    return [titleView autorelease];
+//}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -73,7 +73,7 @@
     if (indexPath.row == 0) {
         NSString *skillName = [skill objectForKey:@"name"];
         //skill png
-        NSString *path = [[NSBundle mainBundle] pathForResource:skillName ofType:@"png"]; 
+        NSString *path = [[NSBundle mainBundle] pathForResource:[skill objectForKey:@"img"] ofType:@"png"]; 
         UIImage *bimage = [UIImage imageWithContentsOfFile:path];
         if (!bimage) {
             bimage = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Skill_blank" ofType:@"png"]];
@@ -90,6 +90,7 @@
         [skillNameLabel release];
         skillNameLabel.textColor = [UIColor  redColor];
         skillNameLabel.font = [UIFont fontWithName:@"Cochin" size:18];
+        skillNameLabel.adjustsFontSizeToFitWidth = YES;
         //skill unlock
         NSString *unlock = [[NSBundle mainBundle] pathForResource:@"unlock" ofType:@"png"]; 
         UIImage *unlockImage = [UIImage imageWithContentsOfFile:unlock];
@@ -99,7 +100,7 @@
         [unlockImageView release];
         //skill level
         UILabel *level = [[UILabel alloc]initWithFrame:CGRectMake(295, 16, 20, 30)];
-        level.text = [NSString stringWithFormat:@"%@", [skill objectForKey:@"level"]];
+        level.text = [skill objectForKey:@"level"];
         level.backgroundColor = [UIColor clearColor];
         level.textAlignment = UITextAlignmentCenter;
         level.textColor = [UIColor greenColor];
@@ -185,21 +186,10 @@
         NSDictionary *runestone = [runestones objectAtIndex:(indexPath.row - 1)];
         NSString *name = [runestone objectForKey:@"name"];
         NSString *desc = [runestone objectForKey:@"desc"];
-        NSString *runestoneName = @"";
         
-        if (indexPath.row == 1 ) {
-            runestoneName = @"Alabaster";
-        }else if (indexPath.row == 2 ) {
-            runestoneName = @"Crimson";
-        }else if (indexPath.row == 3 ) {
-            runestoneName = @"Golden";
-        }else if (indexPath.row == 4 ) {
-            runestoneName = @"Indigo";
-        }else if (indexPath.row == 5 ) {
-            runestoneName = @"Obsidian";
-        }
         //runestone png
-        NSString *path = [[NSBundle mainBundle] pathForResource:runestoneName ofType:@"png"]; 
+        NSString *runestoneImgName = [NSString stringWithFormat:@"rune%@",[runestone objectForKey:@"img"]];
+        NSString *path = [[NSBundle mainBundle] pathForResource:runestoneImgName ofType:@"png"]; 
         UIImage *bimage = [UIImage imageWithContentsOfFile:path];
         UIImageView *bimageView = [[UIImageView alloc] initWithImage:bimage];
         bimageView.frame = CGRectMake(2, 2, 36, 36);
@@ -212,7 +202,24 @@
         [cell addSubview:nameLabel];
         nameLabel.textColor = [UIColor  redColor];
         nameLabel.font = [UIFont fontWithName:@"Cochin" size:18];
+        nameLabel.adjustsFontSizeToFitWidth = YES;
         [nameLabel release];
+        //skill unlock
+        NSString *unlock = [[NSBundle mainBundle] pathForResource:@"unlock" ofType:@"png"]; 
+        UIImage *unlockImage = [UIImage imageWithContentsOfFile:unlock];
+        UIImageView *unlockImageView = [[UIImageView alloc] initWithImage:unlockImage];
+        unlockImageView.frame = CGRectMake(290, 2, 28, 40);
+        [cell addSubview:unlockImageView];
+        [unlockImageView release];
+        //skill level
+        UILabel *level = [[UILabel alloc]initWithFrame:CGRectMake(295, 16, 20, 30)];
+        level.text = [runestone objectForKey:@"level"];
+        level.backgroundColor = [UIColor clearColor];
+        level.textAlignment = UITextAlignmentCenter;
+        level.textColor = [UIColor greenColor];
+        level.font = [UIFont fontWithName:@"Cochin" size:13];
+        [cell addSubview:level];
+        [level release];
         
         float height = 40;
         

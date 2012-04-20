@@ -55,15 +55,15 @@
     return [skills count];
 }
 
-- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
-    UILabel *titleView = [[UILabel alloc]init];
-    titleView.backgroundColor = [UIColor clearColor];
-    titleView.textAlignment = UITextAlignmentCenter;
-    titleView.textColor = [UIColor  groupTableViewBackgroundColor];
-    titleView.font = [UIFont fontWithName:@"Cochin" size:12];
-    titleView.text = @"Note: Information is based on level 60.";
-    return [titleView autorelease];
-}
+//- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+//    UILabel *titleView = [[UILabel alloc]init];
+//    titleView.backgroundColor = [UIColor clearColor];
+//    titleView.textAlignment = UITextAlignmentCenter;
+//    titleView.textColor = [UIColor  groupTableViewBackgroundColor];
+//    titleView.font = [UIFont fontWithName:@"Cochin" size:12];
+//    titleView.text = @"Note: Information is based on level 60.";
+//    return [titleView autorelease];
+//}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -73,7 +73,7 @@
     NSString *skillName = [skill objectForKey:@"name"];
     
     //skill png
-    NSString *imageName = skillName;
+    NSString *imageName = [skill objectForKey:@"img"];
     if ([imageName isEqualToString:@"Multishot"]) {
         imageName = @"MultishotF";
     }

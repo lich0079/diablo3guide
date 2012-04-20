@@ -1,0 +1,16 @@
+{
+	"Active Skills" = "\U4e3b\U52a8\U6280\U80fd";
+	"Passive Skills" = "\U88ab\U52a8\U6280\U80fd";
+	overview = "\U7efc\U5408\U4ecb\U7ecd";
+	classes = "\U804c\U4e1a";
+	Followers = "\U8ffd\U968f\U8005";
+	Skills = "\U6280\U80fd";
+	Help = "\U4f7f\U7528\U8bf4\U660e";
+	whatnew = "\U6697\U9ed1III\U65b0\U7279\U6027";
+	maintitle = "\U6697\U9ed1III\U624b\U518c";
+	Artisans = "\U5de5\U5320";
+	Blacksmith = "\U94c1\U5320";
+	Jeweler = "\U73e0\U5b9d\U5320";
+	bdesc = "\U94a2\U94c1\U822c\U7684\U94f8\U70bc\U5927\U5e08\U521b\U9020\U548c\U4fee\U590d\U4f1f\U5927\U7684\U6b66\U5668\U548c\U88c5\U5907\U3002";
+	jdesc = "\U6d41\U6d6a\U7684\U5b9d\U77f3\U5236\U4f5c\U5e08\U80fd\U591f\U5408\U6210\U548c\U5f3a\U5316\U795e\U79d8\U7684\U5b9d\U77f3\U3002";
+}

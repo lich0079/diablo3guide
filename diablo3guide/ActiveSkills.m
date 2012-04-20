@@ -27,7 +27,7 @@
 #pragma mark - View lifecycle
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self titleView].text = className;
+    [self titleView].text = [NSString stringWithFormat:@"%@ %@",className,NSLocalizedString(@"Active Skills", nil)];
 }
 
 - (void)viewDidLoad {
@@ -56,15 +56,15 @@
     return [skills count];
 }
 
-- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
-    UILabel *titleView = [[UILabel alloc]init];
-    titleView.backgroundColor = [UIColor clearColor];
-    titleView.textAlignment = UITextAlignmentCenter;
-    titleView.textColor = [UIColor  groupTableViewBackgroundColor];
-    titleView.font = [UIFont fontWithName:@"Cochin" size:12];
-    titleView.text = @"Note: Information is based on level 60.";
-    return [titleView autorelease];
-}
+//- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+//    UILabel *titleView = [[UILabel alloc]init];
+//    titleView.backgroundColor = [UIColor clearColor];
+//    titleView.textAlignment = UITextAlignmentCenter;
+//    titleView.textColor = [UIColor  groupTableViewBackgroundColor];
+//    titleView.font = [UIFont fontWithName:@"Cochin" size:12];
+//    titleView.text = @"Note: Information is based on level 60.";
+//    return [titleView autorelease];
+//}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -74,7 +74,7 @@
     NSString *skillName = [skill objectForKey:@"name"];
     
     //skill png
-    NSString *path = [[NSBundle mainBundle] pathForResource:skillName ofType:@"png"]; 
+    NSString *path = [[NSBundle mainBundle] pathForResource:[skill objectForKey:@"img"] ofType:@"png"]; 
     UIImage *bimage = [UIImage imageWithContentsOfFile:path];
     UIImageView *bimageView = [[UIImageView alloc] initWithImage:bimage];
     bimageView.frame = CGRectMake(2, 2, 64, 64);
@@ -88,6 +88,7 @@
     [skillNameLabel release];
     skillNameLabel.textColor = [UIColor  redColor];
     skillNameLabel.font = [UIFont fontWithName:@"Cochin" size:18];
+    skillNameLabel.adjustsFontSizeToFitWidth = YES;
     //skill unlock
     NSString *unlock = [[NSBundle mainBundle] pathForResource:@"unlock" ofType:@"png"]; 
     UIImage *unlockImage = [UIImage imageWithContentsOfFile:unlock];

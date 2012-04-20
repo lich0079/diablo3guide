@@ -21,19 +21,21 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    NSBundle *bundle = [NSBundle mainBundle];
-    NSDictionary *info = [bundle infoDictionary];
-    [self titleView].text = [info objectForKey:@"CFBundleDisplayName"];
+
+    [self titleView].text = NSLocalizedString(@"maintitle", nil);
+    [self titleView].adjustsFontSizeToFitWidth = YES;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UILabel *titleView = [[UILabel alloc]initWithFrame:CGRectMake(0, 10, 320, 25)];
+    UILabel *titleView = [[UILabel alloc]initWithFrame:CGRectMake(20, 10, 280, 25)];
     titleView.backgroundColor = [UIColor clearColor];
     titleView.textAlignment = UITextAlignmentCenter;
     titleView.textColor = [UIColor  yellowColor];
     titleView.font = [UIFont fontWithName:normalfont size:22];
+    titleView.adjustsFontSizeToFitWidth = YES;
+    
     [self.navigationController.navigationBar addSubview:titleView];
     [titleView release];
     
@@ -53,10 +55,15 @@
     
     
     basicLabel.font = [UIFont fontWithName:normalfont size:17];
+    basicLabel.adjustsFontSizeToFitWidth = YES;
     classesLabel.font = [UIFont fontWithName:normalfont size:17];
+    classesLabel.adjustsFontSizeToFitWidth = YES;
     followersLabel.font = [UIFont fontWithName:normalfont size:17];
+    followersLabel.adjustsFontSizeToFitWidth = YES;
     combatLabel.font = [UIFont fontWithName:normalfont size:17];
-    interfaceLabel.font = [UIFont fontWithName:normalfont size:17];
+    combatLabel.adjustsFontSizeToFitWidth = YES;
+    interfaceLabel.font = [UIFont fontWithName:normalfont size:15];
+    interfaceLabel.adjustsFontSizeToFitWidth = YES;
     
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 5.0) {
         CLog(@"ios5");
@@ -76,7 +83,7 @@
 //    ClassIntro *Combat = [[ClassIntro alloc]init];
     WebVC *Combat = [[WebVC alloc]init];
     Combat.className = @"Help";
-    [self titleView].text = @"Help";
+    [self titleView].text = NSLocalizedString(@"Help", nil);
     [self.navigationController pushViewController:Combat animated:YES];
     [Combat release];
 }
@@ -85,7 +92,7 @@
     [FlurryAnalytics logEvent:a_basic]; 
     WebVC *basic = [[WebVC alloc]init];
     basic.className = @"Basic";
-    [self titleView].text = @"Basic";
+    [self titleView].text = NSLocalizedString(@"whatnew", nil);
     [self.navigationController pushViewController:basic animated:YES];
     [basic release];
 }
@@ -93,7 +100,7 @@
 - (IBAction)classesClick:(id)sender {
     [FlurryAnalytics logEvent:a_class];
     ClassSelect *classSel = [[ClassSelect alloc] init];
-    [self titleView].text = @"Classes";
+   // [self titleView].text = NSLocalizedString(@"classes", nil);
     [self.navigationController pushViewController:classSel animated:YES];
     [classSel release];
 }
@@ -101,7 +108,7 @@
 - (IBAction)followersClick:(id)sender {
     [FlurryAnalytics logEvent:a_follower];
     FollowerSelect *followerSel = [[FollowerSelect alloc] init];
-    [self titleView].text = @"Followers";
+   // [self titleView].text = NSLocalizedString(@"Followers", nil);
     [self.navigationController pushViewController:followerSel animated:YES];
     [followerSel release];
 }
@@ -109,7 +116,7 @@
 - (IBAction)artisanClick:(id)sender {
     [FlurryAnalytics logEvent:a_artisan];
     ArtisansSelect *Combat = [[ArtisansSelect alloc]init];
-    [self titleView].text = @"Artisans";
+    //[self titleView].text = NSLocalizedString(@"Artisans", nil);
     [self.navigationController pushViewController:Combat animated:YES];
     [Combat release];
 }

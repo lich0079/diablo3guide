@@ -24,7 +24,7 @@ void uncaughtExceptionHandler(NSException *exception) {
 
 #ifndef DEBUG
     NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
-    [FlurryAnalytics setAppVersion:@"1.55"];
+    [FlurryAnalytics setAppVersion:@"1.80"];
     [FlurryAnalytics startSession:@"R9PJHE8BTSGTNYX2M97U"];
     [FlurryAnalytics logAllPageViews:self.navigationController];
 #endif

@@ -29,7 +29,7 @@
 #pragma mark - View lifecycle
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self titleView].text = @"Followers";
+    [self titleView].text = NSLocalizedString(@"Followers", nil);
 }
 
 - (void)viewDidLoad {
@@ -114,8 +114,9 @@
     [aSkill addTarget:self action:@selector(aSkill:) forControlEvents:UIControlEventTouchUpInside];
     [cell addSubview:aSkill];
     
-    UILabel *aSkilllabel = [[UILabel alloc]initWithFrame:CGRectMake(253, 52, 80, 30)];
-    aSkilllabel.text = @"Skills";
+    UILabel *aSkilllabel = [[UILabel alloc]initWithFrame:CGRectMake(240, 52, 65, 30)];
+    aSkilllabel.text = NSLocalizedString(@"Skills", nil);
+    aSkilllabel.textAlignment = UITextAlignmentCenter;
     aSkilllabel.backgroundColor = [UIColor clearColor];
     [cell addSubview:aSkilllabel];
     [aSkilllabel release];
@@ -163,8 +164,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSDictionary *class = [classes objectAtIndex:indexPath.row];
     WebVC *controller = [[WebVC alloc] init];
-    [self titleView].text = [NSString stringWithFormat:@"%@ Overview",[class objectForKey:@"name"]];
-    controller.className = [class objectForKey:@"name"];
+    [self titleView].text = [NSString stringWithFormat:@"%@ %@",[class objectForKey:@"name"],NSLocalizedString(@"overview", nil)];
+    controller.className = [class objectForKey:@"icon"];
     NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:controller.className, a_overview, nil];
     [FlurryAnalytics logEvent:a_overview withParameters:dictionary];
     [self.navigationController pushViewController:controller animated:YES];

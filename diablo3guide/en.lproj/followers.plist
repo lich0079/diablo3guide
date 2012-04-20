@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>Enchantress</string>
+		<key>askill</key>
+		<array>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 25 seconds</string>
+				<key>name</key>
+				<string>Charm</string>
+				<key>img</key>
+				<string>Charm</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>Charms an enemy to fight for you for 4 seconds.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 10 seconds</string>
+				<key>name</key>
+				<string>Forceful Push</string>
+				<key>img</key>
+				<string>Forceful Push</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>Summon an Arcane explosion 8 yards around an enemy, dealing 100% weapon damage as Arcane damage and knocking back all monsters caught within it.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Powered Armor</string>
+				<key>img</key>
+				<string>Powered Armor</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>Enchantress buffs herself and her allies, increasing Armor by 15%. Attackers are slowed by 30% for 3 seconds.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 20 seconds</string>
+				<key>name</key>
+				<string>Reflect Missiles</string>
+				<key>img</key>
+				<string>Reflect Missiles</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>Place a shield on the Enchantress and her allies that reflects incoming projectiles for 5 seconds.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 45 seconds</string>
+				<key>name</key>
+				<string>Disorient</string>
+				<key>img</key>
+				<string>Disorient</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>Cast a flash of confusion on a group of enemies in an area, causing them to stumble around disoriented for 2 seconds.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 15 seconds</string>
+				<key>name</key>
+				<string>Erosion</string>
+				<key>img</key>
+				<string>Scorched Earth</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>Conjures a pool of arcane energy that deals 50% weapon damage per second as Arcane. Affected enemies take an extra 15% damage from all attacks for 3 seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Focused Mind</string>
+				<key>img</key>
+				<string>Focused Mind</string>
+				<key>level</key>
+				<string>30</string>
+				<key>desc1</key>
+				<string>An aura that increases attack speed by 3% to allies within 40 yards.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 60 seconds</string>
+				<key>name</key>
+				<string>Mass Control</string>
+				<key>img</key>
+				<string>Mass Hex</string>
+				<key>level</key>
+				<string>30</string>
+				<key>desc1</key>
+				<string>The Enchantress lobs a bulb of magical energy at the player that will hex all enemies within 15 yards into chickens for 5 seconds. Hexed enemies are unable to perform offensive actions.</string>
+			</dict>
+		</array>
+		<key>name</key>
+		<string>Enchantress</string>
+		<key>desc</key>
+		<string>Mistress of magic whose powerful illusions disable and confuse her foes.</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>Scoundrel</string>
+		<key>name</key>
+		<string>Scoundrel</string>
+		<key>askill</key>
+		<array>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 6 seconds</string>
+				<key>name</key>
+				<string>Crippling Shot</string>
+				<key>img</key>
+				<string>Crippling Shot</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>Ranged attack that slows the target by 60% for 3 seconds.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 6 seconds</string>
+				<key>name</key>
+				<string>Poison Bolts</string>
+				<key>img</key>
+				<string>Poison Bolts</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>Ranged attack which deals 40% weapon damage and an additional 40% weapon damage as Poison damage over 3 seconds.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 30 seconds</string>
+				<key>name</key>
+				<string>Dirty Fighting</string>
+				<key>img</key>
+				<string>Dirty Fighting</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>Blinds enemies in front of the Scoundrel for 3 seconds.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 30 seconds</string>
+				<key>name</key>
+				<string>Vanish</string>
+				<key>img</key>
+				<string>Vanish</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>The Scoundrel vanishes in a cloud of smoke when injured, reappearing after 5 seconds. While vanished, he will heal himself for 15505 Life.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Multishot</string>
+				<key>img</key>
+				<string>Multishot</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>The Scoundrel&apos;s ranged attacks fire 3 bolts at a time.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 20 seconds</string>
+				<key>name</key>
+				<string>Powered Shot</string>
+				<key>img</key>
+				<string>Powered Shot</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>Powerful ranged attack that explodes on impact, dealing 25% weapon damage as Arcane damage to targets within 6 yards and has a 50% chance to Stun them for 2 seconds.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Anatomy</string>
+				<key>img</key>
+				<string>Anatomy</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>Increases critical hit chance by 3% for the Scoundrel and his allies.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Hysteria</string>
+				<key>img</key>
+				<string>Hysteria</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>Whenever you or the Scoundrel land a Critical Hit, you both will go into hysterics, increasing all damage done by 10% for 3 seconds. This effect cannot occur more than once every 6 seconds.</string>
+			</dict>
+		</array>
+		<key>desc</key>
+		<string>Expert grifter who poisons, blinds, and skewers enemies from range.</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>Templar</string>
+		<key>name</key>
+		<string>Templar</string>
+		<key>askill</key>
+		<array>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 30 seconds</string>
+				<key>name</key>
+				<string>Heal</string>
+				<key>img</key>
+				<string>Heal</string>
+				<key>level</key>
+				<string>5</string>
+				<key>desc1</key>
+				<string>Heals you or the Templar for 4651 Life.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 60 seconds</string>
+				<key>name</key>
+				<string>Intervene</string>
+				<key>img</key>
+				<string>Intervene</string>
+				<key>level</key>
+				<string>5</string>
+				<key>desc1</key>
+				<string>Taunts enemies attacking player for 3 seconds when hero is below 50% Life.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Intimidate</string>
+				<key>img</key>
+				<string>Intimidate</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>Enemy units are slowed by 60% for 3 seconds when they hit the Templar.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Loyalty</string>
+				<key>img</key>
+				<string>Loyalty</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>Regenerates 155 Life per second for you and the Templar.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 30 seconds</string>
+				<key>name</key>
+				<string>Charge</string>
+				<key>img</key>
+				<string>Charge</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>Charges a target, dealing 50% weapon damage and stunning all enemies within 8 yards for 2 seconds.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 15 seconds</string>
+				<key>name</key>
+				<string>Onslaught</string>
+				<key>img</key>
+				<string>Onslaught</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>Delivers a massive blow to an enemy for 200% weapon damage.</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>Cooldown: 30 seconds</string>
+				<key>name</key>
+				<string>Guardian</string>
+				<key>img</key>
+				<string>Guardian</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>Rush to the aid of wounded ally, knocking back enemies within 15 yards and healing the wounded ally for 4651 Life.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Inspire</string>
+				<key>img</key>
+				<string>Inspire</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>Increase resource generation for all allies that the Templar is following.
+Mana: +2 per second.
+Arcane Power: +0.5 per second.
+Hatred: +1 per second.
+Fury: +8% generated.
+Spirit: +12% generated.</string>
+			</dict>
+		</array>
+		<key>desc</key>
+		<string>Peerless holy warrior who challenges demons head-on in melee.</string>
+	</dict>
+</array>
+</plist>

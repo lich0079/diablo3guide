@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>Enchantress</string>
+		<key>askill</key>
+		<array>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：25 秒</string>
+				<key>name</key>
+				<string>魅惑</string>
+				<key>img</key>
+				<string>Charm</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>魅惑一个敌人，让它为你而战，持续 4 秒。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：10 秒</string>
+				<key>name</key>
+				<string>力压</string>
+				<key>img</key>
+				<string>Forceful Push</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>在一个敌人周围 8 码范围内召唤出一次奥术爆炸，造成相当于 100% 武器伤害的奥术伤害，同时将所有波及到的怪物击退。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>能动护甲</string>
+				<key>img</key>
+				<string>Powered Armor</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>女巫为她及她的盟友施放增益法术，增加 15% 的防御。而攻击者将被减速 30%，持续 3 秒。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：20 秒</string>
+				<key>name</key>
+				<string>反射飞弹</string>
+				<key>img</key>
+				<string>Reflect Missiles</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>女巫为她及她的盟友施放持续 5 秒的护盾，可以反射袭来的投射物。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：45 秒</string>
+				<key>name</key>
+				<string>迷失</string>
+				<key>img</key>
+				<string>Disorient</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>对区域内的一队敌人施放一个混乱闪光，致使它们迷失方向，持续 2 秒。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：15 秒</string>
+				<key>name</key>
+				<string>侵蚀</string>
+				<key>img</key>
+				<string>Scorched Earth</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>将一片区域置于纯净的奥术能量的沐浴之中，持续 3 秒。陷入该奥术池中的敌人承受的伤害额外提升 15%，持续 3 秒，同时它们每秒钟受到相当于 50% 武器伤害的奥术伤害。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>敏锐之心</string>
+				<key>img</key>
+				<string>Focused Mind</string>
+				<key>level</key>
+				<string>30</string>
+				<key>desc1</key>
+				<string>光环, 增加40码内的盟友3%的攻击速度。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：60 秒</string>
+				<key>name</key>
+				<string>妖术弥撒</string>
+				<key>img</key>
+				<string>Mass Hex</string>
+				<key>level</key>
+				<string>30</string>
+				<key>desc1</key>
+				<string>女巫对玩家施放一个魔法能量球，可以对 15 码内的所有敌人施以妖术把它们变成小鸡，持续 5 秒。被变鸡的敌人将无法进攻。</string>
+			</dict>
+		</array>
+		<key>name</key>
+		<string>女巫</string>
+		<key>desc</key>
+		<string>幻象魔法的专家，可以瘫痪并迷惑敌人。</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>Scoundrel</string>
+		<key>name</key>
+		<string>恶棍</string>
+		<key>askill</key>
+		<array>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：6 秒</string>
+				<key>name</key>
+				<string>致残射击</string>
+				<key>img</key>
+				<string>Crippling Shot</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>一次远程攻击，降低目标移动速度 60%，持续 3 秒。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：6 秒</string>
+				<key>name</key>
+				<string>毒箭</string>
+				<key>img</key>
+				<string>Poison Bolts</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>一次远程攻击造成40% 武器伤害，并在 3 秒内造成 40% 武器伤害的毒伤。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：30 秒</string>
+				<key>name</key>
+				<string>卑鄙搏斗</string>
+				<key>img</key>
+				<string>Dirty Fighting</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>致盲恶棍前方的敌人 3 秒。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：30 秒</string>
+				<key>name</key>
+				<string>消失</string>
+				<key>img</key>
+				<string>Vanish</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>受伤后恶棍消失于烟雾中，在 5 秒后重新出现。消失时恶棍将治疗 15505 点生命值。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>多重箭</string>
+				<key>img</key>
+				<string>Multishot</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>恶棍的远程攻击一次射出 3 支箭矢。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：20 秒</string>
+				<key>name</key>
+				<string>强能射击</string>
+				<key>img</key>
+				<string>Powered Shot</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>一次强大的远程攻击，对 6 码内造成 25% 武器伤害的奥术伤害，并有 50% 的几率使他们昏迷 3 秒。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>解剖</string>
+				<key>img</key>
+				<string>Anatomy</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>恶棍和同伴的精确提高 3% 暴击率。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>歇斯底里</string>
+				<key>img</key>
+				<string>Hysteria</string>
+				<key>level</key>
+				<string>25</string>
+				<key>desc1</key>
+				<string>每次你或恶棍打出爆击，你们都会进入歇斯底里状态，攻击提高 10%，持续 3 秒。此效果6秒内只会出现一次。
+                    
+这个效果每 6 秒最多触发一次。</string>
+			</dict>
+		</array>
+		<key>desc</key>
+		<string>欺敌高手，以远程攻击射穿敌人，并且让对方中毒与目盲。</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>Templar</string>
+		<key>name</key>
+		<string>圣堂武士</string>
+		<key>askill</key>
+		<array>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：30 秒</string>
+				<key>name</key>
+				<string>治疗</string>
+				<key>img</key>
+				<string>Heal</string>
+				<key>level</key>
+				<string>5</string>
+				<key>desc1</key>
+				<string>为你或圣堂武士治疗 4651 点生命值。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：60 秒</string>
+				<key>name</key>
+				<string>阻挠</string>
+				<key>img</key>
+				<string>Intervene</string>
+				<key>level</key>
+				<string>5</string>
+				<key>desc1</key>
+				<string>当英雄的生命值低于 50% 时，嘲讽攻击玩家的敌人 3 秒。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>恐吓</string>
+				<key>img</key>
+				<string>Intimidate</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>当敌人攻击圣堂武士时，敌人的移动速度将被降低 60%，持续 3 秒。
+                    
+这个效果不与其他减速效果叠加。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>忠诚</string>
+				<key>img</key>
+				<string>Loyalty</string>
+				<key>level</key>
+				<string>10</string>
+				<key>desc1</key>
+				<string>为你和圣堂武士每秒恢复 155 点生命值。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：30 秒</string>
+				<key>name</key>
+				<string>冲锋</string>
+				<key>img</key>
+				<string>Charge</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>冲锋一个敌人，造成 50% 武器伤害，并使 8 码内所有敌人昏迷 2 秒。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：15 秒</string>
+				<key>name</key>
+				<string>猛攻</string>
+				<key>img</key>
+				<string>Onslaught</string>
+				<key>level</key>
+				<string>15</string>
+				<key>desc1</key>
+				<string>朝一个敌人发动一次猛攻，造成 200% 武器伤害。</string>
+			</dict>
+			<dict>
+				<key>cost1</key>
+				<string>冷却：30 秒</string>
+				<key>name</key>
+				<string>守护者</string>
+				<key>img</key>
+				<string>Guardian</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>当圣堂武士的同伴生命值较低时，会冲锋到同伴附近并击退15码的敌人，治疗同伴4651点生命值。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>鼓舞</string>
+				<key>img</key>
+				<string>Inspire</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>提高圣堂武士跟随的所有同伴的能量恢复。
+                    
+法力：每秒 +2
+奥术能量：每秒 +0.5
+憎恨：每秒 +1
+怒气：恢复 +8%
+内力：恢复 +12%</string>
+			</dict>
+		</array>
+		<key>desc</key>
+		<string>无人能出其右的神圣战士，以近战的方式迎击恶魔。</string>
+	</dict>
+</array>
+</plist>
