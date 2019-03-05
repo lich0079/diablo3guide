@@ -13,6 +13,8 @@
 - (void)backButton;
 - (void)backClick:(id)sender;
 - (UILabel *)titleView;
+- (void) share;
+- (UIBarButtonItem *)shareButton;
 @end
 
 @interface BaseTable : UITableViewController

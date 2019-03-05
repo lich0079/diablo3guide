@@ -24,6 +24,7 @@
 				<string>10</string>
 				<key>desc1</key>
 				<string>Critical hit chance increased by 5%. Critical hit damage increased by 50%.
+                    
 Many skills and runestone effects rely on critical hits to trigger their effects.</string>
 			</dict>
 			<dict>
@@ -53,20 +54,6 @@ Mighty Weapons: 3 Fury per hit</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Inspiring Presence</string>
-				<key>img</key>
-				<string>Inspiring Presence</string>
-				<key>level</key>
-				<string>20</string>
-				<key>desc1</key>
-				<string>The duration of your shouts is doubled. While benefiting from your War Cry or Battle Rage you regenerate 1% of your maximum Life per second.
-Your shouts are:
- Battle Rage
- Threatning Shout
- War Cry</string>
-			</dict>
-			<dict>
-				<key>name</key>
 				<string>Berserker Rage</string>
 				<key>img</key>
 				<string>Berserker Rage</string>
@@ -74,6 +61,21 @@ Your shouts are:
 				<string>20</string>
 				<key>desc1</key>
 				<string>You inflict an additional 25% damage while at maximum Fury.</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Inspiring Presence</string>
+				<key>img</key>
+				<string>Inspiring Presence</string>
+				<key>level</key>
+				<string>20</string>
+				<key>desc1</key>
+				<string>The duration of your shouts is doubled. After using a shout you regenerate 2% of your maximum Life per second for 60 seconds.
+                    
+Your shouts are:
+ Battle Rage
+ Threatening Shout
+ War Cry</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -93,7 +95,8 @@ Your shouts are:
 				<key>level</key>
 				<string>27</string>
 				<key>desc1</key>
-				<string>Increases Fury generation by 10% and maximum Fury is increased by 20.
+				<string>Increases Fury generation by 20% and maximum Fury is increased by 20.
+                    
 Fury is used to fuel your most powerful attacks.</string>
 			</dict>
 			<dict>
@@ -115,6 +118,7 @@ Fury is used to fuel your most powerful attacks.</string>
 				<string>30</string>
 				<key>desc1</key>
 				<string>Increases armor by 25%.
+                    
 Thorns damage dealt increased by 50%.</string>
 			</dict>
 			<dict>
@@ -165,7 +169,7 @@ Thorns damage dealt increased by 50%.</string>
 				<key>level</key>
 				<string>55</string>
 				<key>desc1</key>
-				<string>You no longer degenerate Fury. Instead, you gain 1 Fury every 2 seconds.</string>
+				<string>You no longer degenerate Fury. Instead, you gain 2 Fury every 1 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -205,7 +209,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Onslaught</string>
 						<key>desc</key>
-						<string>Add 2 reverberations that cause 22% weapon damage per strike. Removes the chance for Knockback.</string>
+						<string>Add 2 reverberations that cause 25% weapon damage per strike. Removes the chance for Knockback.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -215,7 +219,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Punish</string>
 						<key>desc</key>
-						<string>Increases the damage of your skills by 6% for 5 seconds after using Bash. This effect stacks up to 3 times.</string>
+						<string>Increases the damage of your skills by 8% for 5 seconds after using Bash. This effect stacks up to 3 times.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -225,7 +229,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Instigation</string>
 						<key>desc</key>
-						<string>Generate 6 additional Fury per attack.</string>
+						<string>Generate 4 additional Fury per attack.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -239,7 +243,7 @@ Thorns damage dealt increased by 50%.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Generate: 6 Fury per attack</string>
+				<string>Generate: 8 Fury per attack</string>
 				<key>name</key>
 				<string>Bash</string>
 				<key>img</key>
@@ -247,7 +251,7 @@ Thorns damage dealt increased by 50%.</string>
 				<key>level</key>
 				<string>1</string>
 				<key>desc1</key>
-				<string>Brutally smash an enemy for 150% weapon damage with a 20% chance for Knockback.</string>
+				<string>Brutally smash an enemy for 165% weapon damage with a 20% chance for Knockback.</string>
 				<key>category</key>
 				<string>Primary</string>
 			</dict>
@@ -264,7 +268,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Rolling Thunder</string>
 						<key>desc</key>
-						<string>Create a shockwave that deals 155% weapon damage to all enemies within 22 yards in front of you.</string>
+						<string>Create a shockwave that deals 275% weapon damage to all enemies within 22 yards in front of you.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -274,7 +278,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Smash</string>
 						<key>desc</key>
-						<string>Strike a smaller area for 270% weapon damage.</string>
+						<string>Strike a smaller area for 406% weapon damage.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -284,7 +288,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>The Devil&apos;s Anvil</string>
 						<key>desc</key>
-						<string>Create a tremor at the point of impact for 2 seconds that slows the movement speed of enemies by 60%.</string>
+						<string>Create a tremor at the point of impact for 2 seconds that slows the movement speed of enemies by 80%.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -308,7 +312,7 @@ Thorns damage dealt increased by 50%.</string>
 					</dict>
 				</array>
 				<key>desc1</key>
-				<string>Call forth a massive hammer to smash enemies directly in front of you for 200% weapon damage. Hammer of the Ancients has a 5% increased chance to Critical Hit.</string>
+				<string>Call forth a massive hammer to smash enemies directly in front of you for 325% weapon damage. Hammer of the Ancients has a 1% increased Critical Hit Chance for every 5 Fury that you have.</string>
 				<key>cost1</key>
 				<string>Cost: 20 Fury</string>
 				<key>name</key>
@@ -361,7 +365,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Broad Sweep</string>
 						<key>desc</key>
-						<string>Increase damage to 156% weapon damage to enemies caught in the swing.</string>
+						<string>Increase damage to 175% weapon damage to enemies caught in the swing.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -383,7 +387,7 @@ Thorns damage dealt increased by 50%.</string>
 				<key>level</key>
 				<string>3</string>
 				<key>desc1</key>
-				<string>Swing your weapon in a wide arc to deal 120% weapon damage to all enemies caught in the swing.</string>
+				<string>Swing your weapon in a wide arc to deal 140% weapon damage to all enemies caught in the swing.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -438,7 +442,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Avalanche</string>
 						<key>desc</key>
-						<string>Enemies are knocked back 12 yards and inflict 55% weapon damage to enemies in the landing area.</string>
+						<string>Enemies are knocked back 9 yards and inflict 55% weapon damage to enemies in the landing area.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -487,7 +491,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Lacerate</string>
 						<key>desc</key>
-						<string>Increase damage to 271% weapon damage as Physical every second for 3 seconds.</string>
+						<string>Increase damage to 903% weapon damage as Physical every second for 5 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -497,7 +501,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Mutilate</string>
 						<key>desc</key>
-						<string>Increase bleeding duration to 5 seconds.</string>
+						<string>Affected enemies also have their movement speed reduced by 60%.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -507,7 +511,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Bloodbath</string>
 						<key>desc</key>
-						<string>Enemies killed while bleeding cause all enemies within 10 yards to begin bleeding for 60% weapon damage as Physical over 3 seconds.</string>
+						<string>Enemies killed while bleeding cause all enemies within 10 yards to begin bleeding for 100% weapon damage as Physical over 5 seconds.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -519,7 +523,7 @@ Thorns damage dealt increased by 50%.</string>
 				<key>level</key>
 				<string>5</string>
 				<key>desc1</key>
-				<string>A sweeping strike causes all nearby enemies to bleed for 210% weapon damage as Physical over 3 seconds.</string>
+				<string>A sweeping strike causes all nearby enemies to bleed for 700% weapon damage as Physical over 5 seconds.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -534,7 +538,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Iron Impact</string>
 						<key>desc</key>
-						<string>Gain 300% additional Armor for 4 seconds after landing.</string>
+						<string>Gain 100% additional Armor per enemy hit for 3 seconds after landing.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -657,7 +661,7 @@ Thorns damage dealt increased by 50%.</string>
 				<key>level</key>
 				<string>9</string>
 				<key>desc1</key>
-				<string>Throw a spear to pull an enemy back to you, briefly slowing the target&apos;s movement by 60% and dealing 185% weapon damage.</string>
+				<string>Throw a spear to pull an enemy back to you, briefly slowing the target&apos;s movement by 60% and dealing 185% weapon damage, roots the target in place for 1.5. seconds.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -749,7 +753,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Shattered Ground</string>
 						<key>desc</key>
-						<string>Increase damage to 202% weapon damage and increases the knockback by 100%.</string>
+						<string>Increase damage to 288% weapon damage and increases the knockback by 100%.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -779,7 +783,7 @@ Thorns damage dealt increased by 50%.</string>
 						<key>name</key>
 						<string>Cracking Rift</string>
 						<key>desc</key>
-						<string>Focus the seismic shockwaves along a narrow path to inflict 255% weapon damage to targets along a 42 yard path.</string>
+						<string>Focus the seismic shockwaves along a narrow path to inflict 340% weapon damage to targets along a 42 yard path.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -791,7 +795,7 @@ Thorns damage dealt increased by 50%.</string>
 				<key>level</key>
 				<string>12</string>
 				<key>desc1</key>
-				<string>Slam the ground to cause a wave of destruction that deals 155% weapon damage and knockback to targets in a 45 yard arc.</string>
+				<string>Slam the ground to cause a wave of destruction that deals 240% weapon damage and knockback to targets in a 45 yard arc.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -873,7 +877,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 						<key>name</key>
 						<string>Mighty Throw</string>
 						<key>desc</key>
-						<string>Increase thrown weapon damage to 156% weapon damage.</string>
+						<string>Increase thrown weapon damage to 169% weapon damage.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -893,7 +897,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 						<key>name</key>
 						<string>Throwing Hammer</string>
 						<key>desc</key>
-						<string>Hurl a hammer with a 75% chance to stun the target for 2 seconds.</string>
+						<string>Hurl a hammer with a 50% chance to Stun the target for 2 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -903,7 +907,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 						<key>name</key>
 						<string>Stupefy</string>
 						<key>desc</key>
-						<string>Aim for the head, gaining a 20% chance of causing your target to be confused and attack other enemies for 6 seconds.</string>
+						<string>Aim for the head, gaining a 20% chance of causing your target to be Confused and attack other enemies for 6 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -925,7 +929,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 				<key>level</key>
 				<string>14</string>
 				<key>desc1</key>
-				<string>Hurl a throwing weapon at an enemy for 120% weapon damage and slow the movement of the enemy by 60% for 2 seconds.</string>
+				<string>Hurl a throwing weapon at an enemy for 130% weapon damage and Slow the movement of the enemy by 60% for 2 seconds.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -1027,7 +1031,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 						<key>name</key>
 						<string>Grim Harvest</string>
 						<key>desc</key>
-						<string>Enemies are badly shaken and have a 15% chance to drop additional treasure.</string>
+						<string>Enemies are badly shaken and have a 15% chance to drop additional treasure or health globes.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -1053,7 +1057,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 				<key>cost1</key>
 				<string>Cost: 15 Fury</string>
 				<key>cost2</key>
-				<string>Cooldown: 15 seconds</string>
+				<string>Cooldown: 10 seconds</string>
 				<key>name</key>
 				<string>Threatening Shout</string>
 				<key>img</key>
@@ -1110,7 +1114,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 					</dict>
 					<dict>
 						<key>level</key>
-						<string>59</string>
+						<string>56</string>
 						<key>img</key>
 						<string>4</string>
 						<key>name</key>
@@ -1165,7 +1169,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 						<key>name</key>
 						<string>Blood Funnel</string>
 						<key>desc</key>
-						<string>Critical strikes restore 1% of your maximum Life.</string>
+						<string>Critical Hits restore 2% of your maximum Life.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -1185,11 +1189,11 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 						<key>name</key>
 						<string>Volcanic Eruption</string>
 						<key>desc</key>
-						<string>Turns Whirlwind into a torrent of magma that inflicts 143% weapon damage as Fire.</string>
+						<string>Turns Whirlwind into a torrent of magma that inflicts 188% weapon damage as Fire.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cost: 16 Fury</string>
+				<string>Cost: 10 Fury</string>
 				<key>name</key>
 				<string>Whirlwind</string>
 				<key>img</key>
@@ -1197,7 +1201,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 				<key>level</key>
 				<string>20</string>
 				<key>desc1</key>
-				<string>Deliver multiple attacks to everything in your path for 110% weapon damage.</string>
+				<string>Deliver multiple attacks to everything in your path for 145% weapon damage.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -1333,7 +1337,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 				<key>level</key>
 				<string>22</string>
 				<key>desc1</key>
-				<string>Enter a rage which increases damage by 15% and critical hit chance by 3% for 30 seconds.</string>
+				<string>Enter a rage which increases damage by 15% and critical hit chance by 3% for 120 seconds.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -1508,7 +1512,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 						<key>name</key>
 						<string>Crushing Advance</string>
 						<key>desc</key>
-						<string>Reflect 30% of incoming melee damage for 4 seconds after Overpower is activated.</string>
+						<string>Reflect 35% of incoming melee damage for 4 seconds after Overpower is activated.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -1532,7 +1536,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cooldown: 15 seconds</string>
+				<string>Cooldown: 12 seconds</string>
 				<key>name</key>
 				<string>Overpower</string>
 				<key>img</key>
@@ -1565,7 +1569,7 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 						<key>name</key>
 						<string>Charge!</string>
 						<key>desc</key>
-						<string>Increases Fury gained to 60.</string>
+						<string>Increases Fury gained to 40.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -1595,13 +1599,13 @@ Inflict 220% weapon damage to all nearby enemies. You heal 5.0% of your maximum 
 						<key>name</key>
 						<string>Impunity</string>
 						<key>desc</key>
-						<string>All of your resistances are increased by 50% while affected by War Cry.</string>
+						<string>All of your resistances are increased by 20% while affected by War Cry.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Generate: 30 Fury</string>
+				<string>Generate: 20 Fury</string>
 				<key>cost2</key>
-				<string>Cooldown: 30 seconds</string>
+				<string>Cooldown: 20 seconds</string>
 				<key>name</key>
 				<string>War Cry</string>
 				<key>img</key>
@@ -1714,7 +1718,7 @@ Movement Speed: 20%</string>
 				<key>level</key>
 				<string>10</string>
 				<key>desc1</key>
-				<string>Every 10 seconds, your next bow attack will immobilize your target for 3 seconds.</string>
+				<string>Every 7 seconds, your next skill that costs Hatred will immobilize your target for 2 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -1754,7 +1758,8 @@ Movement Speed: 20%</string>
 				<key>level</key>
 				<string>20</string>
 				<key>desc1</key>
-				<string>Critical hits have a chance to restore 2 Discipline.
+				<string>Critical hits have a chance to restore 1 Discipline.
+                    
 Discipline is used to fuel many of your tactical and defensive skills.</string>
 			</dict>
 			<dict>
@@ -1765,7 +1770,7 @@ Discipline is used to fuel many of your tactical and defensive skills.</string>
 				<key>level</key>
 				<string>25</string>
 				<key>desc1</key>
-				<string>As long as you have not taken damage in the last 3 seconds you gain 1% of your maximum Life per second.</string>
+				<string>Gain 1% of your maximum Life per second.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -1786,6 +1791,7 @@ Discipline is used to fuel many of your tactical and defensive skills.</string>
 				<string>30</string>
 				<key>desc1</key>
 				<string>Gain bonuses based on weapon held:
+                    
 Bow: 15% increased damage
 Crossbows: 50% critical damage
 Hand Crossbows: 10% chance to critical hit</string>
@@ -1798,7 +1804,7 @@ Hand Crossbows: 10% chance to critical hit</string>
 				<key>level</key>
 				<string>30</string>
 				<key>desc1</key>
-				<string>Enemies hit by Fan of Knives, Spike Trap and Caltrops have their damage reduced by 25% for 3 seconds.</string>
+				<string>Enemies hit by Fan of Knives, Spike Trap, Caltrops, Grenades and Sentry fire have their damage reduced by 20% for 3 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -1808,7 +1814,8 @@ Hand Crossbows: 10% chance to critical hit</string>
 				<key>level</key>
 				<string>35</string>
 				<key>desc1</key>
-				<string>Reduces the Discipline cost of all skills by 20%.
+				<string>Reduces the Discipline cost of all skills by 10%. Increases your Life, Armor and all of your resistances by 10%.
+                    
 Discipline is used to fuel many of your tactical and defensive skills.</string>
 			</dict>
 			<dict>
@@ -1819,7 +1826,7 @@ Discipline is used to fuel many of your tactical and defensive skills.</string>
 				<key>level</key>
 				<string>40</string>
 				<key>desc1</key>
-				<string>The duration of your Caltrops, Marked for Death, Spike Trap and Sentry is increased by 100%.</string>
+				<string>The duration of your Caltrops, Marked for Death, Spike Trap and Sentry is increased by 100%. Increases the maximum number of Sentries to 3 and Spike Traps to 6.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -1850,6 +1857,7 @@ Discipline is used to fuel many of your tactical and defensive skills.</string>
 				<string>55</string>
 				<key>desc1</key>
 				<string>Damage from rockets increased by 50%.
+                    
 Rockets are fired from certain socketed skill effects.</string>
 			</dict>
 		</array>
@@ -1945,7 +1953,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Chemical Burn</string>
 						<key>desc</key>
-						<string>Your target will also Bleed for 125% weapon damage as Physical over 2 seconds.</string>
+						<string>Your target will also Bleed for 220% weapon damage as Physical over 2 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -1979,7 +1987,7 @@ Rockets are fired from certain socketed skill effects.</string>
 					</dict>
 				</array>
 				<key>desc1</key>
-				<string>Impale a target for 250% weapon damage.</string>
+				<string>Impale a target for 265% weapon damage.</string>
 				<key>cost1</key>
 				<string>Cost: 25 Hatred</string>
 				<key>name</key>
@@ -2012,7 +2020,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Shock Collar</string>
 						<key>desc</key>
-						<string>Strike targets with electrified chains that do an additional 18% weapon damage per second as Lightning for 2 seconds.</string>
+						<string>Strike targets with electrified chains that do an additional 70% weapon damage over 2 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2054,7 +2062,7 @@ Rockets are fired from certain socketed skill effects.</string>
 				<key>level</key>
 				<string>3</string>
 				<key>desc1</key>
-				<string>Imbue an arrow with shadow energy that deals 75% weapon damage and entangles up to 2 enemies, slowing their movement by 60% for 2 seconds.</string>
+				<string>Imbue an arrow with shadow energy that deals 90% weapon damage and entangles up to 2 enemies, slowing their movement by 60% for 2 seconds.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2176,7 +2184,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Bombardment</string>
 						<key>desc</key>
-						<string>Rapidly fire grenades instead of arrows for 276% weapon damage as Fire to all enemies within a 4 yard radius.</string>
+						<string>Rapidly fire grenades instead of arrows for 345% weapon damage as Fire to all enemies within a 4 yard radius.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -2190,7 +2198,7 @@ Rockets are fired from certain socketed skill effects.</string>
 				<key>level</key>
 				<string>5</string>
 				<key>desc1</key>
-				<string>Rapidly fire for 228% weapon damage as Physical.</string>
+				<string>Rapidly fire for 276% weapon damage as Physical.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2215,7 +2223,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Lingering Fog</string>
 						<key>desc</key>
-						<string>Increase the duration of the effect to 3 seconds.</string>
+						<string>Increase the duration of the effect to 1.5 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2245,7 +2253,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Choking Gas</string>
 						<key>desc</key>
-						<string>Leave behind a cloud of gas that deals 70% weapon damage per second as Physical to enemies in the area for 5 seconds.</string>
+						<string>Leave behind a cloud of gas that deals 700% weapon damage as Physical to enemies in the area over 5 seconds.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -2257,7 +2265,7 @@ Rockets are fired from certain socketed skill effects.</string>
 				<key>level</key>
 				<string>8</string>
 				<key>desc1</key>
-				<string>Vanish behind a wall of smoke, becoming momentarily invisible for 2 seconds.</string>
+				<string>Vanish behind a wall of smoke, becoming momentarily invisible for 1 seconds.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2272,7 +2280,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Action Shot</string>
 						<key>desc</key>
-						<string>As you travel, shoot arrows for 75% weapon damage at nearby targets.</string>
+						<string>As you travel, shoot 4 arrows for 75% weapon damage at nearby targets.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2302,7 +2310,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Acrobatics</string>
 						<key>desc</key>
-						<string>Removes the Discipline cost but adds a 15 cooldown.</string>
+						<string>Removes the Discipline cost but adds a 10 second cooldown.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2312,7 +2320,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Trail of Cinders</string>
 						<key>desc</key>
-						<string>Ignite with fire dealing 100% weapon damage as Fire to everything along your path.</string>
+						<string>Leave a trail of fire in your wake that inflicts 300% weapon damage as Fire over 3 seconds.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -2339,7 +2347,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Volatile Explosives</string>
 						<key>desc</key>
-						<string>Increase the explosion radius to 14 yards.</string>
+						<string>Increase the explosion radius to 20 yards.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2349,7 +2357,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Thunder Ball</string>
 						<key>desc</key>
-						<string>When the bola explodes, it deals 130% weapon damage as Lightning and has a 35% chance to stun the primary target for 1.5 seconds.</string>
+						<string>When the bola explodes, it deals 160% weapon damage as Lightning and has a 35% chance to stun the primary target for 1.5 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2359,7 +2367,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Acid Strike</string>
 						<key>desc</key>
-						<string>Shoot 3 bolas that deal 130% weapon damage as Poison each. The bolas no longer explode for area damage to nearby targets.</string>
+						<string>Shoot 3 bolas that deal 160% weapon damage as Poison each. The bolas no longer explode for area damage to nearby targets.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2379,7 +2387,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Imminent Doom</string>
 						<key>desc</key>
-						<string>Augments the bola to deal 182% weapon damage as Arcane to the target and 154% weapon damage as Arcane to all other targets within 7 yards, but increases the explosion delay to 2 seconds.</string>
+						<string>Augments the bola to deal 216% weapon damage as Arcane to the target and 154% weapon damage as Arcane to all other targets within 7 yards, but increases the explosion delay to 2 seconds.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -2391,7 +2399,7 @@ Rockets are fired from certain socketed skill effects.</string>
 				<key>level</key>
 				<string>11</string>
 				<key>desc1</key>
-				<string>Shoot out an explosive bola that wraps itself around its target. After 1 second, the bola explodes dealing 130% weapon damage as Fire to the target and an additional 110% weapon damage as Fire to all other targets within 7 yards.</string>
+				<string>Shoot out an explosive bola that wraps itself around its target. After 1 second, the bola explodes dealing 160% weapon damage as Fire to the target and an additional 110% weapon damage as Fire to all other targets within 14 yards.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2406,7 +2414,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Twin Chakrams</string>
 						<key>desc</key>
-						<string>A second Chakram mirrors the first. Each Chakram deals 101% weapon damage as Physical.</string>
+						<string>A second Chakram mirrors the first. Each Chakram deals 114% weapon damage as Physical.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2416,7 +2424,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Serpentine</string>
 						<key>desc</key>
-						<string>The Chakram follows a slow curve, dealing 203% weapon damage as Poison to enemies along the path.</string>
+						<string>The Chakram follows a slow curve, dealing 230% weapon damage as Poison to enemies along the path.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2426,7 +2434,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Razor Disk</string>
 						<key>desc</key>
-						<string>The Chakram spirals out from the targeted location dealing 165% weapon damage as Arcane to enemies along the path.</string>
+						<string>The Chakram spirals out from the targeted location dealing 187% weapon damage as Arcane to enemies along the path.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2436,7 +2444,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Boomerang</string>
 						<key>desc</key>
-						<string>The Chakram path turns into a loop, dealing 188% weapon damage as Lightning to enemies along the path.</string>
+						<string>The Chakram path turns into a loop, dealing 230% weapon damage as Lightning to enemies along the path.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2446,7 +2454,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Shuriken Cloud</string>
 						<key>desc</key>
-						<string>Surround yourself with spinning Chakrams for 120 seconds, dealing 30% weapon damage per second as Physical to nearby enemies.</string>
+						<string>Surround yourself with spinning Chakrams for 120 seconds, dealing 34% weapon damage per second as Physical to nearby enemies.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -2458,7 +2466,7 @@ Rockets are fired from certain socketed skill effects.</string>
 				<key>level</key>
 				<string>12</string>
 				<key>desc1</key>
-				<string>Fire a swirling Chakram that does 150% weapon damage as Physical to enemies along its path.</string>
+				<string>Fire a swirling Chakram that does 170% weapon damage as Physical to enemies along its path.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2538,9 +2546,9 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>img</key>
 						<string>1</string>
 						<key>name</key>
-						<string>Shrapnel</string>
+						<string>Hardened</string>
 						<key>desc</key>
-						<string>Shoot exploding bolts that also deal 30% weapon damage as Fire to all enemies within 6 yards of the primary target.</string>
+						<string>Instead of backflipping, your Armor is increased by 25% for 3 seconds. This does not cost Discipline.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2550,7 +2558,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Parting Gift</string>
 						<key>desc</key>
-						<string>Whenever a backflip is triggered, leave a poison bomb behind that explodes for 45% weapon damage as Poison in a 12 yard radius after 1.2 seconds. Turns Evasive Fire into Poison damage.</string>
+						<string>Whenever a backflip is triggered, leave a poison bomb behind that explodes for 55% weapon damage as Poison in a 12 yard radius after 0.6 seconds. Turns Evasive Fire into Poison damage.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2560,7 +2568,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Covering Fire</string>
 						<key>desc</key>
-						<string>Shoot a spread of bolts that hit up to 3 targets for 125% weapon damage each.</string>
+						<string>Shoot a spread of bolts that hit up to 3 targets for 130% weapon damage each.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2594,7 +2602,7 @@ Rockets are fired from certain socketed skill effects.</string>
 				<key>level</key>
 				<string>14</string>
 				<key>desc1</key>
-				<string>Shoot for 125% weapon damage. If an enemy is in front of you at close range, you will also backflip away 15 yards.</string>
+				<string>Shoot for 130% weapon damage. If an enemy is in front of you at close range, you will also backflip away 15 yards.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2676,7 +2684,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Night Bane</string>
 						<key>desc</key>
-						<string>Gain an additional 4 Hatred per second while Shadow Power is active.</string>
+						<string>Gain an additional 3 Hatred per second while Shadow Power is active.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2686,7 +2694,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Blood Moon</string>
 						<key>desc</key>
-						<string>Increases the amount of Life gained to 30% of all damage dealt.</string>
+						<string>Increases damage done as Life to 25%.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2706,7 +2714,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Gloom</string>
 						<key>desc</key>
-						<string>Reduce incoming damage by 65% while Shadow Power is active.</string>
+						<string>Reduce incoming damage by 35% while Shadow Power is active.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2716,7 +2724,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Shadow Glide</string>
 						<key>desc</key>
-						<string>Gain 40% bonus to movement speed while Shadow Power is active.</string>
+						<string>Gain 30% bonus to movement speed while Shadow Power is active.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -2728,7 +2736,7 @@ Rockets are fired from certain socketed skill effects.</string>
 				<key>level</key>
 				<string>16</string>
 				<key>desc1</key>
-				<string>Draw in the power of the shadows, gaining 20% of all damage done as Life for 3 seconds.</string>
+				<string>Draw in the power of the shadows, gaining 15% of all damage done as Life for 5 seconds.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2743,7 +2751,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Spider Companion</string>
 						<key>desc</key>
-						<string>Summons a spider instead of a raven. The spider&apos;s attacks also slow the movement of targets by 60% for 2 - 2 seconds.</string>
+						<string>Summon a spider instead of a raven. The spider&apos;s attacks also Slow the movement of enemies by 60% for 2 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2753,7 +2761,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Bat Companion</string>
 						<key>desc</key>
-						<string>Summons a bat instead of a raven. The bat grants you 3 Hatred per second.</string>
+						<string>Summon a bat instead of a raven. The bat grants you 3 Hatred per second.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2763,7 +2771,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Boar Companion</string>
 						<key>desc</key>
-						<string>Summon a boar instead of a raven. The boar&apos;s attacks hit all enemies in an area with every swing.</string>
+						<string>Summon a boar instead of a raven. The boar increases your Life regeneration by 155 per second. In addition the boar increases your resistances to all damage types by 15%.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2773,7 +2781,7 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Ferret Companion</string>
 						<key>desc</key>
-						<string>Summons ferrets instead of a raven. The ferrets collect gold for you and increase gold found on monsters by 10%.</string>
+						<string>Summon ferrets instead of a raven. The ferrets collect gold for you and increase gold found on monsters by 10%.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2783,11 +2791,13 @@ Rockets are fired from certain socketed skill effects.</string>
 						<key>name</key>
 						<string>Wolf Companion</string>
 						<key>desc</key>
-						<string>Summon a powerful but temporary wolf ally rather than a long-term raven companion. The wolf will fight with you for 25 seconds and attacks enemies for 60% of your weapon damage as Physical.</string>
+						<string>Summon a wolf instead of a raven. The wolf attacks for 94% of your weapon damage as Physical.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
 				<string>Cost: 10 Discipline</string>
+				<key>cost2</key>
+				<string>Cooldown: 30 seconds</string>
 				<key>name</key>
 				<string>Companion</string>
 				<key>img</key>
@@ -2795,7 +2805,7 @@ Rockets are fired from certain socketed skill effects.</string>
 				<key>level</key>
 				<string>17</string>
 				<key>desc1</key>
-				<string>Summon a raven companion. Your raven companion will periodically peck at enemies for 30% of your weapon damage as Physical.</string>
+				<string>Summon a raven companion. Your raven companion will periodically peck at enemies for 38% of your weapon damage as Physical.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -2868,74 +2878,6 @@ Rockets are fired from certain socketed skill effects.</string>
 			</dict>
 			<dict>
 				<key>category</key>
-				<string>Devices</string>
-				<key>runestones</key>
-				<array>
-					<dict>
-						<key>level</key>
-						<string>27</string>
-						<key>img</key>
-						<string>2</string>
-						<key>name</key>
-						<string>Bandolier</string>
-						<key>desc</key>
-						<string>Increase the maximum number of traps that can be out simultaneously to 6.</string>
-					</dict>
-					<dict>
-						<key>level</key>
-						<string>30</string>
-						<key>img</key>
-						<string>3</string>
-						<key>name</key>
-						<string>Sticky Trap</string>
-						<key>desc</key>
-						<string>Plant a bomb on an enemy rather than on the ground. If the target dies within 30 seconds, the trap explodes dealing 404% weapon damage to all enemies within 8 yards.</string>
-					</dict>
-					<dict>
-						<key>level</key>
-						<string>39</string>
-						<key>img</key>
-						<string>1</string>
-						<key>name</key>
-						<string>Long Fuse</string>
-						<key>desc</key>
-						<string>Increases the arming time to 2 seconds but increases damage to 371% weapon damage.</string>
-					</dict>
-					<dict>
-						<key>level</key>
-						<string>46</string>
-						<key>img</key>
-						<string>4</string>
-						<key>name</key>
-						<string>Lightning Rod</string>
-						<key>desc</key>
-						<string>When the trap is triggered it releases a pulse of lightning that will bounce to up to 3 enemies for 275% weapon damage as Lightning.</string>
-					</dict>
-					<dict>
-						<key>level</key>
-						<string>55</string>
-						<key>img</key>
-						<string>5</string>
-						<key>name</key>
-						<string>Scatter</string>
-						<key>desc</key>
-						<string>Simultaneously place all 3 traps at once.</string>
-					</dict>
-				</array>
-				<key>cost1</key>
-				<string>Cost: 30 Hatred</string>
-				<key>name</key>
-				<string>Spike Trap</string>
-				<key>img</key>
-				<string>Spike Trap</string>
-				<key>level</key>
-				<string>17</string>
-				<key>desc1</key>
-				<string>Lay a trap that arms after 1.2 seconds and triggers when an enemy approaches. The trap does 275% weapon damage to all enemies within 8 yards.
-You can have a maximum of 3 Spike Traps active at one time.</string>
-			</dict>
-			<dict>
-				<key>category</key>
 				<string>Archery</string>
 				<key>runestones</key>
 				<array>
@@ -2945,9 +2887,9 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 						<key>img</key>
 						<string>2</string>
 						<key>name</key>
-						<string>Equilibrium</string>
+						<string>Emberstrafe</string>
 						<key>desc</key>
-						<string>Increases your attack speed by 20% when using Strafe.</string>
+						<string>Leave a trail of fire in your wake that inflicts 65% weapon damage as Fire over 2 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -2987,11 +2929,11 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 						<key>name</key>
 						<string>Demolition</string>
 						<key>desc</key>
-						<string>Throw out bouncy grenades that explode for 144% weapon damage to targets within 9 yards.</string>
+						<string>Throw out bouncy grenades that explode for 187% weapon damage to targets within 9 yards.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cost: 15 Hatred</string>
+				<string>Cost: 12 Hatred</string>
 				<key>name</key>
 				<string>Strafe</string>
 				<key>img</key>
@@ -2999,7 +2941,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 				<key>level</key>
 				<string>19</string>
 				<key>desc1</key>
-				<string>Shoot at random nearby enemies for 120% weapon damage while moving at 65% of normal movement speed.</string>
+				<string>Shoot at random nearby enemies for 156% weapon damage while moving at 75% of normal movement speed.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -3148,7 +3090,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 						<key>name</key>
 						<string>Fire at Will</string>
 						<key>desc</key>
-						<string>Cost reduced to 20 Hatred. Deals 165% weapon damage as Lightning.</string>
+						<string>Cost reduced to 15 Hatred. Deals 165% weapon damage as Lightning.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -3194,7 +3136,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 				<key>name</key>
 				<string>Multishot</string>
 				<key>cost1</key>
-				<string>Cost: 40 Hatred</string>
+				<string>Cost: 30 Hatred</string>
 				<key>img</key>
 				<string>Multishot</string>
 				<key>level</key>
@@ -3209,13 +3151,82 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 				<array>
 					<dict>
 						<key>level</key>
+						<string>27</string>
+						<key>img</key>
+						<string>2</string>
+						<key>name</key>
+						<string>Echoing Blast</string>
+						<key>desc</key>
+						<string>Your Spike Traps can explode up to 3 times, dealing 275% weapon damage as Poison to all enemies within 8 yards each time.</string>
+					</dict>
+					<dict>
+						<key>level</key>
+						<string>30</string>
+						<key>img</key>
+						<string>3</string>
+						<key>name</key>
+						<string>Sticky Trap</string>
+						<key>desc</key>
+						<string>Plant a bomb on an enemy rather than on the ground. If the target dies within 30 seconds, the bomb explodes dealing 404% weapon damage to all enemies within 16 yards.</string>
+					</dict>
+					<dict>
+						<key>level</key>
+						<string>39</string>
+						<key>img</key>
+						<string>1</string>
+						<key>name</key>
+						<string>Long Fuse</string>
+						<key>desc</key>
+						<string>Increases the arming time to 2 seconds but increases damage to 371% weapon damage.</string>
+					</dict>
+					<dict>
+						<key>level</key>
+						<string>46</string>
+						<key>img</key>
+						<string>4</string>
+						<key>name</key>
+						<string>Lightning Rod</string>
+						<key>desc</key>
+						<string>When the trap is triggered it releases a pulse of lightning that will bounce to up to 3 enemies for 275% weapon damage as Lightning.</string>
+					</dict>
+					<dict>
+						<key>level</key>
+						<string>55</string>
+						<key>img</key>
+						<string>5</string>
+						<key>name</key>
+						<string>Scatter</string>
+						<key>desc</key>
+						<string>Simultaneously place all 3 traps at once.</string>
+					</dict>
+				</array>
+				<key>cost1</key>
+				<string>Cost: 30 Hatred</string>
+				<key>name</key>
+				<string>Spike Trap</string>
+				<key>img</key>
+				<string>Spike Trap</string>
+				<key>level</key>
+				<string>22</string>
+				<key>desc1</key>
+				<string>Lay a trap that arms after 1.2 seconds and triggers when an enemy approaches. The trap does 275% weapon damage to all enemies within 8 yards.
+                    
+You can have a maximum of 3 Spike Traps active at one time.</string>
+			</dict>
+			<dict>
+				<key>category</key>
+				<string>Devices</string>
+				<key>runestones</key>
+				<array>
+					<dict>
+						<key>level</key>
 						<string>28</string>
 						<key>img</key>
 						<string>3</string>
 						<key>name</key>
 						<string>Spitfire Turret</string>
 						<key>desc</key>
-						<string>The turret will also fire homing rockets aimed at random nearby targets for 8% weapon damage as Fire.</string>
+						<string>The turret will also fire homing rockets aimed at random nearby targets for 30% weapon damage as Fire.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -3225,7 +3236,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 						<key>name</key>
 						<string>Vigilant Watcher</string>
 						<key>desc</key>
-						<string>Increases duration of the turret to 40 seconds.</string>
+						<string>Reduces the cooldown of Sentry to 6 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -3235,7 +3246,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 						<key>name</key>
 						<string>Chain of Torment</string>
 						<key>desc</key>
-						<string>Create a tether between you and the Sentry that does 40% weapon damage every second to every enemy it touches.</string>
+						<string>Create a tether between you and the Sentry that does 125% weapon damage every second to every enemy it touches.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -3259,7 +3270,9 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cost: 10 Discipline</string>
+				<string>Cost: 30 Hatred</string>
+				<key>cost2</key>
+				<string>Cooldown: 8 seconds</string>
 				<key>name</key>
 				<string>Sentry</string>
 				<key>img</key>
@@ -3267,7 +3280,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 				<key>level</key>
 				<string>25</string>
 				<key>desc1</key>
-				<string>Drop a turret on the ground. The turret begins firing at nearby enemies for 20% weapon damage. Lasts 30 seconds.</string>
+				<string>Drop a turret on the ground. The turret begins firing at nearby enemies for 175% weapon damage. Lasts 30 seconds. You may have 2 turrets active at a time.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -3302,7 +3315,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 						<key>name</key>
 						<string>Maelstrom</string>
 						<key>desc</key>
-						<string>Instead of releasing grenades, the cluster releases shadow energy that deals 145% weapon damage as Physical to nearby enemies. You will gain 4% of the damage done as Life.</string>
+						<string>Instead of releasing grenades, the cluster releases shadow energy that deals 165% weapon damage as Physical to nearby enemies. You will gain 4% of the damage done as Life.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -3322,7 +3335,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 						<key>name</key>
 						<string>Loaded for Bear</string>
 						<key>desc</key>
-						<string>Increases the damage of the explosion at the impact location to 290% weapon damage as Fire.</string>
+						<string>Increases the damage of the explosion at the impact location to 304% weapon damage as Fire.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -3334,7 +3347,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 				<key>level</key>
 				<string>27</string>
 				<key>desc1</key>
-				<string>Fire a cluster arrow that explodes for 200% weapon damage as Fire into a series of additional miniature bombs that explode for 100% weapon damage as Fire each.</string>
+				<string>Fire a cluster arrow that explodes for 225% weapon damage as Fire into a series of additional miniature bombs that explode for 100% weapon damage as Fire each.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -3349,7 +3362,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 						<key>name</key>
 						<string>Dark Cloud</string>
 						<key>desc</key>
-						<string>Launch a massive volley of guided arrows that rain down on enemies for 34% weapon damage for the 12 seconds.</string>
+						<string>Launch a massive volley of guided arrows that rain down on enemies for 792% weapon damage over 12 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -3359,7 +3372,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 						<key>name</key>
 						<string>Beastly Bombs</string>
 						<key>desc</key>
-						<string>Summon 20 Shadow Beasts to drop bombs on enemies, dealing 125% weapon damage each.</string>
+						<string>Summon 20 Shadow Beasts to drop bombs on enemies, dealing 245% weapon damage each.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -3369,7 +3382,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 						<key>name</key>
 						<string>Stampede</string>
 						<key>desc</key>
-						<string>Summon a wave of 10 Shadow Beasts to tear across the ground, knocking back enemies and dealing 75% weapon damage each.</string>
+						<string>Summon a wave of 10 Shadow Beasts to tear across the ground, knocking back enemies and dealing 120% weapon damage each.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -3379,7 +3392,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 						<key>name</key>
 						<string>Anathema</string>
 						<key>desc</key>
-						<string>Summon a Shadow Beast that drops grenades from the sky for 10 seconds dealing 115% weapon damage.</string>
+						<string>Summon a Shadow Beast that drops grenades from the sky over 15 seconds dealing 3300% weapon damage.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -3389,7 +3402,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 						<key>name</key>
 						<string>Flying Strike</string>
 						<key>desc</key>
-						<string>A group of 8 Shadow Beasts plummet from the sky at a targeted location dealing 60% weapon damage each and stunning enemies for 2 seconds.</string>
+						<string>A group of 8 Shadow Beasts plummet from the sky at a targeted location dealing 100% weapon damage each and stunning enemies for 2 seconds.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -3401,7 +3414,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 				<key>level</key>
 				<string>30</string>
 				<key>desc1</key>
-				<string>Fire a massive volley of arrows around you. Arrows fall from the sky dealing 75% weapon damage for 5 seconds to all enemies in the area.</string>
+				<string>Fire a massive volley of arrows around you. Arrows fall from the sky dealing 715% weapon damage over 5 seconds to all enemies in the area.</string>
 			</dict>
 		</array>
 		<key>name</key>
@@ -3432,7 +3445,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 				<key>level</key>
 				<string>10</string>
 				<key>desc1</key>
-				<string>Damage you deal reduces enemy damage by 25% for 2.5 seconds.</string>
+				<string>Damage you deal reduces enemy damage by 20% for 2.5 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -3442,7 +3455,7 @@ You can have a maximum of 3 Spike Traps active at one time.</string>
 				<key>level</key>
 				<string>13</string>
 				<key>desc1</key>
-				<string>Increases maximum Spirit by 100.
+				<string>Increases maximum Spirit by 100, generates 1 Spirit per second.
                     
 Spirit fuels your defensive and offensive abilities.</string>
 			</dict>
@@ -3474,7 +3487,7 @@ Spirit fuels your defensive and offensive abilities.</string>
 				<key>level</key>
 				<string>20</string>
 				<key>desc1</key>
-				<string>Your Armor is increased by 100% of your Dexterity.</string>
+				<string>Your Armor is increased by 50% of your Dexterity.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -3484,7 +3497,7 @@ Spirit fuels your defensive and offensive abilities.</string>
 				<key>level</key>
 				<string>24</string>
 				<key>desc1</key>
-				<string>While dual-wielding, you gain a 15% chance to dodge incoming attacks. While using a two-handed weapon, all Spirit generation is increased by 25%.</string>
+				<string>While dual-wielding, you gain a 15% chance to dodge incoming attacks. While using a two-handed weapon, all Spirit generation is increased by 35%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -3504,7 +3517,7 @@ Spirit fuels your defensive and offensive abilities.</string>
 				<key>level</key>
 				<string>30</string>
 				<key>desc1</key>
-				<string>While stunned, feared or charmed, all damage taken is reduced by 75%.</string>
+				<string>While you are under a Stun, Fear, Immobilize or Charm effect, all damage taken is reduced by 75%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -3514,7 +3527,7 @@ Spirit fuels your defensive and offensive abilities.</string>
 				<key>level</key>
 				<string>35</string>
 				<key>desc1</key>
-				<string>Reduces all cooldowns by 15%.</string>
+				<string>Reduces all cooldowns by 20%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -3556,7 +3569,7 @@ Spirit fuels your defensive and offensive abilities.</string>
 				<key>desc1</key>
 				<string>When receiving fatal damage, you are instead restored to 35% of maximum Life and 35% Spirit.
                     
-This effect cannot occur more than once every 90 seconds.</string>
+This effect cannot occur more than once every 60 seconds.</string>
 			</dict>
 		</array>
 		<key>askill</key>
@@ -3641,7 +3654,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Vulture Claw Kick</string>
 						<key>desc</key>
-						<string>With a torrent of fire, strike all nearby enemies for 220% weapon damage as Fire and knock them back.</string>
+						<string>With a torrent of fire, strike all nearby enemies for 258% weapon damage as Fire and knock them back.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -3661,7 +3674,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Spinning Flame Kick</string>
 						<key>desc</key>
-						<string>Hurl a column of fire that pierces through enemies, causing 240% weapon damage as Fire to each enemy it strikes.</string>
+						<string>Hurl a column of fire that pierces through enemies, causing 294% weapon damage as Fire to each enemy it strikes.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -3693,7 +3706,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 				<key>level</key>
 				<string>2</string>
 				<key>desc1</key>
-				<string>Unleash a deadly roundhouse kick, knocking enemies back and dealing 200% weapon damage.</string>
+				<string>Unleash a deadly roundhouse kick, knocking enemies back and dealing 235% weapon damage.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -3898,7 +3911,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 				<key>level</key>
 				<string>5</string>
 				<key>desc1</key>
-				<string>Charge directly through your enemies, knocking them back and hobbling them, slowing their movement by 60% for 2 seconds. Also deals 50% weapon damage while running.</string>
+				<string>Charge directly through your enemies, knocking them back and hobbling them, slowing their movement by 60% for 2 seconds. Also deals 85% weapon damage while running.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -3943,7 +3956,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Infused with Light</string>
 						<key>desc</key>
-						<string>Gain 6 additional Spirit from Spirit generator attacks for 5 seconds after using Breath of Heaven.</string>
+						<string>Gain 8 additional Spirit from Spirit generating attacks for 5 seconds after using Breath of Heaven.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -4026,7 +4039,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 					</dict>
 				</array>
 				<key>desc1</key>
-				<string>Dash quickly at the targeted enemy or location, dealing 100% weapon damage and rooting the target for 1 second.</string>
+				<string>Dash quickly at the targeted enemy or location, dealing 160% weapon damage and rooting the target for 1 second.</string>
 				<key>cost1</key>
 				<string>Cost: 25 Spirit</string>
 				<key>name</key>
@@ -4093,7 +4106,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Generate: 6 Spirit per attack</string>
+				<string>Generate: 7 Spirit per attack</string>
 				<key>name</key>
 				<string>Crippling Wave</string>
 				<key>img</key>
@@ -4116,7 +4129,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Wall of Light</string>
 						<key>desc</key>
-						<string>Increases damage of the initial impact to 312% weapon damage as Holy.</string>
+						<string>Increases damage of the initial impact to 566% weapon damage as Holy.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -4126,7 +4139,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Explosive Light</string>
 						<key>desc</key>
-						<string>Shoot out bursts of energy that deal 285% weapon damage as Holy to nearby enemies.</string>
+						<string>Shoot out bursts of energy that deal 430% weapon damage as Holy to nearby enemies.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -4156,7 +4169,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Pillar of the Ancients</string>
 						<key>desc</key>
-						<string>Summon an ancient pillar that deals 210% weapon damage followed by an additional 210% weapon damage after 2 seconds.</string>
+						<string>Summon an ancient pillar that deals 280% weapon damage followed by an additional 210% weapon damage after 2 seconds.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -4168,7 +4181,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 				<key>level</key>
 				<string>12</string>
 				<key>desc1</key>
-				<string>Focuses a wave of light that crushes enemies for 215% weapon damage as Holy, followed by an additional 45% weapon damage as Holy to all enemies in a line.</string>
+				<string>Focuses a wave of light that crushes enemies for 390% weapon damage as Holy, followed by an additional 45% weapon damage as Holy to all enemies in a line.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -4213,7 +4226,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Impending Doom</string>
 						<key>desc</key>
-						<string>Increases the duration of the bleed effect to 5 seconds.</string>
+						<string>Increases the duration of the Bleed effect to deal 220% weapon damage as Physical over 15 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -4235,7 +4248,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 				<key>level</key>
 				<string>13</string>
 				<key>desc1</key>
-				<string>Cause a target to Bleed for 220% weapon damage as Physical over 3 seconds. If the target dies while bleeding, it explodes and deals 30% of the target&apos;s maximum Life as Physical damage to all nearby enemies.</string>
+				<string>Cause a target to Bleed for 745% weapon damage as Physical over 9 seconds. If the target dies while bleeding, it explodes and deals 30% of the target&apos;s maximum Life as Physical damage to all nearby enemies.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -4337,7 +4350,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Fists of Fury</string>
 						<key>desc</key>
-						<string>Affected targets will take an additional 10% weapon damage per second as Holy for 5 seconds. Also enables the first hit to dash a short distance.</string>
+						<string>Affected targets will take an additional 100% weapon damage per second as Holy over 5 seconds. Also enables the first hit to dash a short distance.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -4361,7 +4374,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Generate: 6 Spirit per attack</string>
+				<string>Generate: 8 Spirit per attack</string>
 				<key>name</key>
 				<string>Way of the Hundred Fists</string>
 				<key>img</key>
@@ -4404,7 +4417,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Tranquility</string>
 						<key>desc</key>
-						<string>Extends the protective shield to allies within 45 yards for 2 seconds, and makes them immune to control impairing effects like Slow and Frozen.</string>
+						<string>Extends the protective shield to allies within 45 yards for 1 seconds, and makes them immune to control impairing effects like Slow and Frozen.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -4453,7 +4466,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Sudden Assault</string>
 						<key>desc</key>
-						<string>Teleport to the target and increases damage done to 1007% weapon damage over 7 hits.</string>
+						<string>Teleport to the target and increases damage done to 2309% weapon damage over 7 hits.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -4493,7 +4506,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Fulminating Onslaught</string>
 						<key>desc</key>
-						<string>Each strike explodes, dealing 111% weapon damage as Holy in a 7 yard radius around the target.</string>
+						<string>Each strike explodes, dealing 254% weapon damage as Holy in a 7 yard radius around the target.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -4507,7 +4520,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 				<key>level</key>
 				<string>17</string>
 				<key>desc1</key>
-				<string>Dash rapidly between nearby enemies dealing 777% weapon damage over 7 hits.</string>
+				<string>Dash rapidly between nearby enemies dealing 1777% weapon damage over 7 hits.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -4532,7 +4545,9 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Divine Protection</string>
 						<key>desc</key>
-						<string>Each target can be protected at most once every 90 seconds by this effect.</string>
+						<string>When you or an ally under the effect of Mantra of Evasion is reduced below 25% Life, a shield of protection forms around that target, reducing damage taken by 80% for 3 seconds.
+                            
+Each target can be protected at most once every 90 seconds by this effect.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -4542,7 +4557,7 @@ This effect cannot occur more than once every 90 seconds.</string>
 						<key>name</key>
 						<string>Wind Through the Reeds</string>
 						<key>desc</key>
-						<string>Mantra of Evasion also grants an increase in movement speed by 5%.</string>
+						<string>Mantra of Evasion also grants an increase in movement speed by 8%.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -4664,7 +4679,7 @@ This is a Mantra. You can only have one Mantra active at a time.</string>
 						<key>name</key>
 						<string>Master of Wind</string>
 						<key>desc</key>
-						<string>Increases the duration of the vortex to 10 seconds.</string>
+						<string>Increases the duration of the vortex to 20 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -4911,7 +4926,7 @@ This is a Mantra. You can only have one Mantra active at a time.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cost: 25 Spirit</string>
+				<string>Cost: 50 Spirit</string>
 				<key>name</key>
 				<string>Mantra of Healing</string>
 				<key>img</key>
@@ -5015,7 +5030,7 @@ This is a Mantra. You can only have one Mantra active at a time.</string>
 				<key>level</key>
 				<string>10</string>
 				<key>desc1</key>
-				<string>Whenever an enemy dies within 12 yards, there is a 5% chance that a Zombie Dog will automatically emerge. The range of this effect is increased by items that increase your gold pickup radius.</string>
+				<string>Whenever an enemy dies within 12 yards, there is a 30% chance that a Zombie Dog will automatically emerge. The range of this effect is increased by items that increase your gold pickup radius.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -5025,7 +5040,7 @@ This is a Mantra. You can only have one Mantra active at a time.</string>
 				<key>level</key>
 				<string>10</string>
 				<key>desc1</key>
-				<string>Reduces all damage taken by you and your pets by 20%.</string>
+				<string>Reduces all damage taken by you and your pets by 15%.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -5036,6 +5051,7 @@ This is a Mantra. You can only have one Mantra active at a time.</string>
 				<string>13</string>
 				<key>desc1</key>
 				<string>Maximum Mana is increased by 20%. Regenerate 1% of your maximum Mana per second.
+                    
 Mana is the fuel you use to cast offensive and defensive skills.</string>
 			</dict>
 			<dict>
@@ -5096,7 +5112,7 @@ Mana is the fuel you use to cast offensive and defensive skills.</string>
 				<key>level</key>
 				<string>30</string>
 				<key>desc1</key>
-				<string>Whenever you cast a physical realm spell, you have a 3% chance to summon a dagger-wielding Fetish to fight by your side for 60 seconds.
+				<string>Whenever you cast a physical realm spell, you have a 5% chance to summon a dagger-wielding Fetish to fight by your side for 60 seconds.
                     
 Physical realm spells are:
  Poison Dart
@@ -5117,7 +5133,7 @@ Physical realm spells are:
 				<key>level</key>
 				<string>30</string>
 				<key>desc1</key>
-				<string>Reduces the cooldown of your Horrify, Spirit Walk, and Soul Harvest spells by 2 seconds. In addition, the next time you receive fatal damage, you automatically enter the spirit realm for 3 seconds and heal to 10% of your maximum Life. This effect cannot occur more than once every 90 seconds.</string>
+				<string>Reduces the cooldown of your Horrify, Spirit Walk, and Soul Harvest spells by 2 seconds. In addition, the next time you receive fatal damage, you automatically enter the spirit realm for 2 seconds and heal to 15% of your maximum Life. This effect cannot occur more than once every 90 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -5127,15 +5143,7 @@ Physical realm spells are:
 				<key>level</key>
 				<string>36</string>
 				<key>desc1</key>
-				<string>Spirit spells return 30% of their Mana cost over 10 seconds.
-
-Spirit spells are:
- Haunt
- Horrify
- Mass Confusion
- Soul Harvest
- Spirit Barrage
- Spirit Walk</string>
+				<string>Returns a flat amount of Mana over 10 seconds (49 Mana at level 60).</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -5145,7 +5153,7 @@ Spirit spells are:
 				<key>level</key>
 				<string>40</string>
 				<key>desc1</key>
-				<string>Anytime you have 4 or more skills on cooldown your Mana regeneration is increased by 300%.</string>
+				<string>Grants 30% increased Mana regeneration for 5 seconds after doing damage with Corpse Spiders, Firebomb, Plague of Toads, or Poison Dart.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -5165,7 +5173,7 @@ Spirit spells are:
 				<key>level</key>
 				<string>50</string>
 				<key>desc1</key>
-				<string>Whenever an enemy dies within 8 yards, regain 1% of your maximum Life and Mana and the cooldown on all of your abilities is reduced by 1 second. This range is extended by items that increase your gold pickup radius.</string>
+				<string>Whenever an enemy dies within 8 yards, regain 2% of your maximum Life and Mana and the cooldown on all of your abilities is reduced by 1 second. This range is extended by items that increase your gold pickup radius.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -5175,7 +5183,7 @@ Spirit spells are:
 				<key>level</key>
 				<string>55</string>
 				<key>desc1</key>
-				<string>The cooldowns of your Fetish Army, Big Bad Voodoo, and Hex abilities are reduced by 25%.</string>
+				<string>The cooldowns of your Fetish Army, Big Bad Voodoo, Hex abilities, Gargantuan, Mass Confusion, and Summon Zombie Dogs are reduced by 25%.</string>
 			</dict>
 		</array>
 		<key>askill</key>
@@ -5211,7 +5219,7 @@ Spirit spells are:
 						<key>name</key>
 						<string>Spined Dart</string>
 						<key>desc</key>
-						<string>Gain 24 Mana every time a dart hits a target.</string>
+						<string>Gain 29 Mana every time a dart hits a target.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -5221,7 +5229,7 @@ Spirit spells are:
 						<key>name</key>
 						<string>Flaming Dart</string>
 						<key>desc</key>
-						<string>Ignite the dart, allowing it to deal a full 160% weapon damage as Fire at once.</string>
+						<string>Ignite the dart, allowing it to deal a full 180% weapon damage as Fire at once.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -5280,7 +5288,7 @@ Spirit spells are:
 						<key>name</key>
 						<string>Death is Life</string>
 						<key>desc</key>
-						<string>Enemies who die while in the area of Grasp of the Dead have a 5% chance to produce a health globe.</string>
+						<string>Enemies who die while in the area of Grasp of the Dead have a 10% chance to produce health globe or summon a Zombie Dog.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -5304,7 +5312,7 @@ Spirit spells are:
 					</dict>
 				</array>
 				<key>desc1</key>
-				<string>Ghoulish hands reach out from the ground, slowing enemy movement by 60% and dealing 20% weapon damage as Physical for 8 seconds.</string>
+				<string>Ghoulish hands reach out from the ground, slowing enemy movement by 60% and dealing 320% weapon damage as Physical over 8 seconds.</string>
 				<key>cost1</key>
 				<string>Cost: 122 Mana</string>
 				<key>cost2</key>
@@ -5339,7 +5347,8 @@ Spirit spells are:
 						<key>name</key>
 						<string>Spider Queen</string>
 						<key>desc</key>
-						<string>You may only have one Spider Queen summoned at a time.</string>
+						<string>Summon a spider queen that births spiderlings, dealing 630% weapon damage as Poison to enemies in the area over 15 seconds.                            
+You may only have one spider queen summoned at a time.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -5442,7 +5451,7 @@ Spirit spells are:
 				<key>cost1</key>
 				<string>Cost: 49 Mana</string>
 				<key>cost2</key>
-				<string>Cooldown: 60 seconds</string>
+				<string>Cooldown: 45 seconds</string>
 				<key>name</key>
 				<string>Summon Zombie Dogs</string>
 				<key>img</key>
@@ -5485,7 +5494,7 @@ Spirit spells are:
 						<key>name</key>
 						<string>Plague Bats</string>
 						<key>desc</key>
-						<string>Diseased bats fly towards the enemy and infect them. Damage is slow at first, but can increase over time to a maximum of 225% weapon damage as Poison.</string>
+						<string>Diseased bats fly towards the enemy and infect them. Damage is slow at first, but can increase over time to a maximum of 270% weapon damage as Poison.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -5495,7 +5504,7 @@ Spirit spells are:
 						<key>name</key>
 						<string>Hungry Bats</string>
 						<key>desc</key>
-						<string>Rapidly summon bats to seek out nearby targets for 280% weapon damage per second as Fire.</string>
+						<string>Rapidly summon bats to seek out nearby targets for 350% weapon damage per second as Fire.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -5505,11 +5514,11 @@ Spirit spells are:
 						<key>name</key>
 						<string>Cloud of Bats</string>
 						<key>desc</key>
-						<string>Call forth a swirl of bats to damage nearby enemies for 195% weapon damage as Fire. The damage of the bats increases by 10% every second, up to a maximum of 50%.</string>
+						<string>Call forth a swirl of bats to damage nearby enemies for 195% weapon damage as Fire. The damage of the bats increases by 20% every second, up to a maximum of 100%.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cost: 122 Mana</string>
+				<string>Cost: 98 Mana</string>
 				<key>name</key>
 				<string>Firebats</string>
 				<key>img</key>
@@ -5517,7 +5526,7 @@ Spirit spells are:
 				<key>level</key>
 				<string>5</string>
 				<key>desc1</key>
-				<string>Call forth a swarm of fiery bats to burn enemies in front of you for 150% weapon damage as Fire.</string>
+				<string>Call forth a swarm of fiery bats to burn enemies in front of you for 180% weapon damage as Fire.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -5578,7 +5587,7 @@ Spirit spells are:
 				<key>cost1</key>
 				<string>Cost: 37 Mana</string>
 				<key>cost2</key>
-				<string>Cooldown: 20 seconds</string>
+				<string>Cooldown: 16 seconds</string>
 				<key>name</key>
 				<string>Horrify</string>
 				<key>img</key>
@@ -5625,7 +5634,7 @@ Spirit spells are:
 						<key>name</key>
 						<string>Languish</string>
 						<key>desc</key>
-						<string>Reduces the movement speed of enemies by 60% for 3 seconds.</string>
+						<string>Reduces the movement speed of enemies by 80% for 3 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -5645,7 +5654,7 @@ Spirit spells are:
 						<key>name</key>
 						<string>Vengeful Spirit</string>
 						<key>desc</key>
-						<string>Affected enemies also take 70% weapon damage as Physical.</string>
+						<string>Affected enemies also take 230% weapon damage as Physical.</string>
 					</dict>
 				</array>
 				<key>name</key>
@@ -5714,7 +5723,7 @@ Spirit spells are:
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cost: 34 Mana</string>
+				<string>Cost: 12 Mana</string>
 				<key>name</key>
 				<string>Plague of Toads</string>
 				<key>img</key>
@@ -5747,7 +5756,7 @@ Spirit spells are:
 						<key>name</key>
 						<string>Resentful Spirit</string>
 						<key>desc</key>
-						<string>Summon a vengeful spirit that does 0% weapon damage as Arcane over 0 seconds.</string>
+						<string>Summon a vengeful spirit that does 383% weapon damage as Arcane over 2 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -5789,7 +5798,7 @@ Spirit spells are:
 				<key>level</key>
 				<string>12</string>
 				<key>desc1</key>
-				<string>Haunt an enemy with a spirit dealing 575% weapon damage as Arcane over 12 seconds. If the target dies, the spirit will automatically haunt another nearby enemy.</string>
+				<string>Haunt an enemy with a spirit, dealing 575% weapon damage as Arcane over 6 seconds. If the target dies, the spirit will haunt another nearby enemy.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -5869,7 +5878,7 @@ Spirit spells are:
 						<key>name</key>
 						<string>Leperous Zombie</string>
 						<key>desc</key>
-						<string>The Zombie Charger leaves behind a cloud of noxious vapors that deals 25% weapon damage as Poison to enemies caught in it.</string>
+						<string>The Zombie Charger leaves behind a cloud of noxious vapors that deals 240% weapon damage as Poison over 3 seconds to enemies caught in it.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -5889,7 +5898,7 @@ Spirit spells are:
 						<key>name</key>
 						<string>Wave of Zombies</string>
 						<key>desc</key>
-						<string>Summon 3 zombie chargers that each deal 72% weapon damage as Poison.</string>
+						<string>Summon 3 zombie chargers that each deal 115% weapon damage as Poison.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -5956,7 +5965,7 @@ Spirit spells are:
 						<key>name</key>
 						<string>Umbral Shock</string>
 						<key>desc</key>
-						<string>When Spirit Walk ends, your physical body erupts for 85% weapon damage as Fire to all enemies within 10 yards.</string>
+						<string>When Spirit Walk ends, your physical body erupts for 310% weapon damage as Fire to all enemies within 10 yards.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -5966,7 +5975,7 @@ Spirit spells are:
 						<key>name</key>
 						<string>Severance</string>
 						<key>desc</key>
-						<string>Enemies you walk through in spirit form take 100% weapon damage as Physical.</string>
+						<string>Enemies you walk through in spirit form take 450% weapon damage as Physical over 2 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -5991,6 +6000,7 @@ Spirit spells are:
 				<string>16</string>
 				<key>desc1</key>
 				<string>Enter the spirit realm for 2 seconds. While in the spirit realm, your movement is unhindered.
+                    
 Your link to the spirit realm will end if you cast any spell or your physical body sustains 50% of your maximum Life in damage.</string>
 			</dict>
 			<dict>
@@ -6016,7 +6026,7 @@ Your link to the spirit realm will end if you cast any spell or your physical bo
 						<key>name</key>
 						<string>Well of Souls</string>
 						<key>desc</key>
-						<string>Fire an additional 3 spirits that seek out other targets and deal 30% weapon damage as Physical.</string>
+						<string>Fire an additional 3 spirits that seek out other targets and deal 65% weapon damage as Physical.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6046,7 +6056,7 @@ Your link to the spirit realm will end if you cast any spell or your physical bo
 						<key>name</key>
 						<string>Manitou</string>
 						<key>desc</key>
-						<string>Summon a spectre for 20 seconds that hovers over you, unleashing spirit bolts at nearby enemies for 28% weapon damage as Physical.</string>
+						<string>Summon a spectre for 20 seconds that hovers over you, unleashing spirit bolts at nearby enemies for 1667% weapon damage as Physical over 20 seconds.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -6058,7 +6068,7 @@ Your link to the spirit realm will end if you cast any spell or your physical bo
 				<key>level</key>
 				<string>17</string>
 				<key>desc1</key>
-				<string>Bombard a target with a spirit blast that deals 190% weapon damage as Physical.</string>
+				<string>Bombard a target with a spirit blast that deals 230% weapon damage as Physical.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -6073,7 +6083,7 @@ Your link to the spirit realm will end if you cast any spell or your physical bo
 						<key>name</key>
 						<string>Humongoid</string>
 						<key>desc</key>
-						<string>Gargantuan gains a Cleave ability allowing its attacks to hit multiple targets for 32% of your weapon damage as Physical.</string>
+						<string>Gargantuan gains a Cleave ability allowing its attacks to hit multiple targets for 130% of your weapon damage as Physical.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6083,10 +6093,13 @@ Your link to the spirit realm will end if you cast any spell or your physical bo
 						<key>name</key>
 						<string>Restless Giant</string>
 						<key>desc</key>
-						<string> 20% movement speed
+						<string>When the Gargantuan encounters an elite enemy or is near 5 enemies, it enrages for 15 seconds gaining:
+                            
+ 20% movement speed
  35% attack speed
- 200% physical damage
-This effect cannot occur more than once every 120 seconds. Elite enemies include Champions, Rares, Bosses and other players.</string>
+ 200% Physical damage
+                            
+This effect cannot occur more than once every 120 seconds. Elite enemies include champions, rares, bosses, and other players.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6096,7 +6109,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 						<key>name</key>
 						<string>Wrathful Protector</string>
 						<key>desc</key>
-						<string>Summon a more powerful Gargantuan that only lasts for 15 seconds. The Gargantuan&apos;s fists burn with fire, dealing 55% of your weapon damage as Fire and knocking enemies back.</string>
+						<string>Summon a more powerful Gargantuan that only lasts for 15 seconds. The Gargantuan&apos;s fists burn with fire, dealing 110% of your weapon damage as Fire and knocking enemies back.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6116,7 +6129,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 						<key>name</key>
 						<string>Bruiser</string>
 						<key>desc</key>
-						<string>The Gargantuan gains the ability to the periodically slam enemies, dealing 100% of your weapon damage as Physical and stunning them for 3 seconds.</string>
+						<string>The Gargantuan gains the ability to the periodically slam enemies, dealing 200% of your weapon damage as Physical and stunning them for 3 seconds.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -6130,7 +6143,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 				<key>level</key>
 				<string>19</string>
 				<key>desc1</key>
-				<string>Summon a large zombie follower to fight for you. The Gargantuan attacks for 25% of your weapon damage as Physical damage with every swing.</string>
+				<string>Summon a large zombie follower to fight for you. The Gargantuan attacks for 100% of your weapon damage as Physical damage with every swing.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -6165,7 +6178,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 						<key>name</key>
 						<string>Fire Pit</string>
 						<key>desc</key>
-						<string>The explosion creates a pool of fire that deals 8% weapon damage per second as Fire for 3 seconds.</string>
+						<string>The explosion creates a pool of fire that deals 36% weapon damage per second as Fire over 3 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6175,7 +6188,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 						<key>name</key>
 						<string>Pyrogeist</string>
 						<key>desc</key>
-						<string>Create a column of flame that spews fire at the closest enemy for 140% weapon damage as Fire over 3 seconds.</string>
+						<string>Create a column of flame that spews fire at the closest enemy for 640% weapon damage as Fire over 6 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6197,7 +6210,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 				<key>level</key>
 				<string>21</string>
 				<key>desc1</key>
-				<string>Lob an explosive skull that deals 85% weapon damage as Fire to all enemies within 8 yards.</string>
+				<string>Lob an explosive skull that deals 110% weapon damage as Fire to all enemies within 8 yards.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -6289,7 +6302,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 						<key>name</key>
 						<string>Lob Blob Bomb</string>
 						<key>desc</key>
-						<string>The acid on the ground forms into a slime that irradiates nearby enemies for 25% weapon damage as Poison. The slime will survive for 5 seconds before dissipating.</string>
+						<string>Increases base damage of Acid Cloud to 115% weapon damage， the acid on the ground forms into a slime that irradiates nearby enemies for 50% weapon damage as Poison. The slime will survive for 5 seconds before dissipating.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6299,7 +6312,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 						<key>name</key>
 						<string>Slow Burn</string>
 						<key>desc</key>
-						<string>Increases the duration of the acid pools to 6 seconds.</string>
+						<string>Increases base damage of Acid Cloud to 115% weapon damage， and deals additional 300% weapon damage over 6 seconds</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6309,7 +6322,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 						<key>name</key>
 						<string>Kiss of Death</string>
 						<key>desc</key>
-						<string>Spit a cloud of acid that inflicts 110% weapon damage as Poison, followed by 82% weapon damage as Poison to enemies who remain in the area.</string>
+						<string>Spit a cloud of acid that inflicts 126% weapon damage as Poison, followed by 165% weapon damage as Poison to enemies who remain in the area over 3 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6319,7 +6332,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 						<key>name</key>
 						<string>Corpse Bomb</string>
 						<key>desc</key>
-						<string>Raise a corpse from the ground that explodes for 200% weapon damage as Poison to enemies in the area.</string>
+						<string>Raise a corpse from the ground that explodes for 230% weapon damage as Poison to enemies in the area.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -6331,7 +6344,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 				<key>level</key>
 				<string>22</string>
 				<key>desc1</key>
-				<string>Cause acid to rain down, dealing an initial 100% weapon damage as Poison, followed by 75% weapon damage as Poison over 3 seconds to enemies who remain in the area.</string>
+				<string>Cause acid to rain down, dealing an initial 115% weapon damage as Poison, followed by 150% weapon damage as Poison over 3 seconds to enemies who remain in the area.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -6581,7 +6594,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 						<key>name</key>
 						<string>Pile On</string>
 						<key>desc</key>
-						<string>Summon a tower of zombies falls over dealing 765% weapon damage as Physical to any enemies in the way and knocks them back.</string>
+						<string>Summon a tower of zombies that falls over, dealing 550% weapon damage as Physical to any enemies it hits and knocks them back. Reduces the cooldown to 10 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6597,7 +6610,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 				<key>cost1</key>
 				<string>Cost: 103 Mana</string>
 				<key>cost2</key>
-				<string>Cooldown: 25 seconds</string>
+				<string>Cooldown: 20 seconds</string>
 				<key>name</key>
 				<string>Wall of Zombies</string>
 				<key>img</key>
@@ -6605,7 +6618,7 @@ This effect cannot occur more than once every 120 seconds. Elite enemies include
 				<key>level</key>
 				<string>28</string>
 				<key>desc1</key>
-				<string>Raise a line of zombies from the ground that attacks nearby enemies for 80% weapon damage as Physical for 5 seconds.</string>
+				<string>Raise a line of zombies from the ground that attacks nearby enemies for 800% weapon damage as Physical over 5 seconds.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -6785,7 +6798,7 @@ The following skills are Signature spells:
 				<key>level</key>
 				<string>37</string>
 				<key>desc1</key>
-				<string>Lightning damage dealt to enemies has up to a 5% chance to stun the target for 3 seconds.</string>
+				<string>Lightning damage dealt to enemies has up to a 8% chance to Stun the target for 2 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -6846,7 +6859,7 @@ The following skills are Signature spells:
 				<key>level</key>
 				<string>60</string>
 				<key>desc1</key>
-				<string>When reduced below 20% Life, release a shockwave that knocks all enemies back. This effect cannot occur more than once every 60 seconds.</string>
+				<string>When reduced below 30% Life, you heal to 45% of your maximum Life and release a shockwave that knocks enemies back and slows them by 60% for 3 seconds. This effect cannot occur more than once every 60 seconds.</string>
 			</dict>
 		</array>
 		<key>askill</key>
@@ -6862,7 +6875,7 @@ The following skills are Signature spells:
 						<key>name</key>
 						<string>Charged Blast</string>
 						<key>desc</key>
-						<string>Increases the damage of Magic Missile to 143% weapon damage as Arcane.</string>
+						<string>Increases the damage of Magic Missile to 163% weapon damage as Arcane.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6872,7 +6885,7 @@ The following skills are Signature spells:
 						<key>name</key>
 						<string>Split</string>
 						<key>desc</key>
-						<string>Fire 3 missiles that each deal 50% weapon damage as Arcane.</string>
+						<string>Fire 3 missiles that each deal 56% weapon damage as Arcane.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6882,7 +6895,7 @@ The following skills are Signature spells:
 						<key>name</key>
 						<string>Penetrating Blast</string>
 						<key>desc</key>
-						<string>Missiles have a 70% chance to pierce through their target and hit additional enemies.</string>
+						<string>Missiles have a 100% chance to pierce through their target and hit additional enemies.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6902,7 +6915,7 @@ The following skills are Signature spells:
 						<key>name</key>
 						<string>Seeker</string>
 						<key>desc</key>
-						<string>Missiles track the nearest enemy and their damage is increased to 121% weapon damage as Arcane.</string>
+						<string>Missiles track the nearest enemy and their damage is increased to 138% weapon damage as Arcane.</string>
 					</dict>
 				</array>
 				<key>name</key>
@@ -6914,7 +6927,7 @@ The following skills are Signature spells:
 				<key>desc1</key>
 				<string>This is a Signature spell. Signature spells are free to cast.
                     
-Launch a missile of magic energy, causing 110% weapon damage as Arcane.</string>
+Launch a missile of magic energy, causing 125% weapon damage as Arcane.</string>
 				<key>category</key>
 				<string>Primary</string>
 			</dict>
@@ -6931,7 +6944,7 @@ Launch a missile of magic energy, causing 110% weapon damage as Arcane.</string>
 						<key>name</key>
 						<string>Numb</string>
 						<key>desc</key>
-						<string>Increase enemy slow amount to 60% for 3 seconds.</string>
+						<string>Increase the amount the target&apos;s movement is slowed to 80% for 4 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6951,7 +6964,7 @@ Launch a missile of magic energy, causing 110% weapon damage as Arcane.</string>
 						<key>name</key>
 						<string>Cold Blood</string>
 						<key>desc</key>
-						<string>Reduce casting cost to 0 Arcane Power.</string>
+						<string>Reduce casting cost to 10 Arcane Power.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6961,7 +6974,7 @@ Launch a missile of magic energy, causing 110% weapon damage as Arcane.</string>
 						<key>name</key>
 						<string>Sleet Storm</string>
 						<key>desc</key>
-						<string>Create a swirling storm around you, dealing 215% weapon damage as Cold to all enemies caught within it.</string>
+						<string>Create a swirling storm around you, dealing 280% weapon damage as Cold to all enemies caught within it.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -6971,11 +6984,11 @@ Launch a missile of magic energy, causing 110% weapon damage as Arcane.</string>
 						<key>name</key>
 						<string>Black Ice</string>
 						<key>desc</key>
-						<string>Enemies killed with Ray of Frost leave behind a patch of ice that deals 193% weapon damage as Cold to enemies moving through it over 3 seconds.</string>
+						<string>Enemies killed with Ray of Frost leave behind a patch of ice that deals 387% weapon damage as Cold to enemies moving through it over 3 seconds.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cost: 20 Arcane Power</string>
+				<string>Cost: 16 Arcane Power</string>
 				<key>name</key>
 				<string>Ray of Frost</string>
 				<key>img</key>
@@ -6983,7 +6996,7 @@ Launch a missile of magic energy, causing 110% weapon damage as Arcane.</string>
 				<key>level</key>
 				<string>2</string>
 				<key>desc1</key>
-				<string>Project a beam of frozen ice that blasts 215% weapon damage as Cold to the first enemy it hits, slowing the target&apos;s movement by 30% for 3 seconds.</string>
+				<string>Project a beam of frozen ice that blasts 215% weapon damage as Cold to the first enemy it hits, slowing the target&apos;s movement by 60% for 4 seconds.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -7008,7 +7021,7 @@ Launch a missile of magic energy, causing 110% weapon damage as Arcane.</string>
 						<key>name</key>
 						<string>Fire Bolts</string>
 						<key>desc</key>
-						<string>Cast bolts of fire that each deal 137% weapon damage as Fire.</string>
+						<string>Cast bolts of fire that each deal 152% weapon damage as Fire.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7028,7 +7041,7 @@ Launch a missile of magic energy, causing 110% weapon damage as Arcane.</string>
 						<key>name</key>
 						<string>Lightning Affinity</string>
 						<key>desc</key>
-						<string>Every target hit by a pulse restores 2 Arcane Power.</string>
+						<string>Every target hit by a pulse restores 3 Arcane Power.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7219,7 +7232,7 @@ Release a medium range pulse of 3 unpredictable charges of electricity that deal
 						<key>name</key>
 						<string>Mirror Skin</string>
 						<key>desc</key>
-						<string>Reflects 50% of damage absorbed back at the attacker.</string>
+						<string>Reflects 100% of damage absorbed back at the attacker.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7229,7 +7242,7 @@ Release a medium range pulse of 3 unpredictable charges of electricity that deal
 						<key>name</key>
 						<string>Enduring Skin</string>
 						<key>desc</key>
-						<string>Increase duration to 8 seconds.</string>
+						<string>Increase duration to 9 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7239,7 +7252,7 @@ Release a medium range pulse of 3 unpredictable charges of electricity that deal
 						<key>name</key>
 						<string>Diamond Shards</string>
 						<key>desc</key>
-						<string>When Diamond Skin wears off, diamond shards will explode in all directions dealing 155% weapon damage as Physical to enemies nearby.</string>
+						<string>When Diamond Skin wears off, diamond shards will explode in all directions dealing 210% weapon damage as Physical to enemies nearby.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -7276,7 +7289,7 @@ Release a medium range pulse of 3 unpredictable charges of electricity that deal
 						<key>name</key>
 						<string>Force Affinity</string>
 						<key>desc</key>
-						<string>Reduce casting cost to 15 Arcane Power and cooldown is reduced to 12 seconds.</string>
+						<string>Reduce casting cost to 15 Arcane Power and cooldown is reduced to 9 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7312,7 +7325,7 @@ Release a medium range pulse of 3 unpredictable charges of electricity that deal
 				<key>cost1</key>
 				<string>Cost: 25 Arcane Power</string>
 				<key>cost2</key>
-				<string>Cooldown: 15 seconds</string>
+				<string>Cooldown: 12 seconds</string>
 				<key>name</key>
 				<string>Wave of Force</string>
 				<key>img</key>
@@ -7335,7 +7348,7 @@ Release a medium range pulse of 3 unpredictable charges of electricity that deal
 						<key>name</key>
 						<string>Deep Cuts</string>
 						<key>desc</key>
-						<string>Enemies hit by the blade will Bleed for an additional 35% weapon damage done over 3 seconds.</string>
+						<string>Enemies hit by the blade will Bleed for an additional 45% weapon damage over 3 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7345,7 +7358,7 @@ Release a medium range pulse of 3 unpredictable charges of electricity that deal
 						<key>name</key>
 						<string>Impactful Blades</string>
 						<key>desc</key>
-						<string>Hits have a 5% chance to cause Knockback and slow the movement of enemies by 60% for 1 seconds.</string>
+						<string>Slow the movement speed of enemies by 80% for 1 second .</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7355,7 +7368,7 @@ Release a medium range pulse of 3 unpredictable charges of electricity that deal
 						<key>name</key>
 						<string>Siphoning Blade</string>
 						<key>desc</key>
-						<string>Every enemy hit grants 1 Arcane Power.</string>
+						<string>Every enemy hit grants 3 Arcane Power.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7365,7 +7378,7 @@ Release a medium range pulse of 3 unpredictable charges of electricity that deal
 						<key>name</key>
 						<string>Healing Blades</string>
 						<key>desc</key>
-						<string>Whenever the blades do critical damage, you are healed 8% of the damage done.</string>
+						<string>Whenever the blades do damage, you are healed for 5% of the damage done.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7387,7 +7400,7 @@ Release a medium range pulse of 3 unpredictable charges of electricity that deal
 				<key>desc1</key>
 				<string>This is a Signature spell. Signature spells are free to cast.
                     
-Summon a spectral blade that strikes all enemies in your path for 135% weapon damage.</string>
+Summon a spectral blade that strikes all enemies in your path for 165% weapon damage.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -7422,7 +7435,7 @@ Summon a spectral blade that strikes all enemies in your path for 135% weapon da
 						<key>name</key>
 						<string>Arcane Mines</string>
 						<key>desc</key>
-						<string>Instead of firing projectiles, lay Arcane mines that arm after 2 seconds. These mines explode when an enemy approaches, dealing 150% weapon damage as Arcane. Enemies caught in the explosion have their movement and attack speeds reduced by 30% for 3 seconds.</string>
+						<string>Instead of firing projectiles, lay Arcane mines that arm after 2 seconds. These mines explode when an enemy approaches, dealing 180% weapon damage as Arcane. Enemies caught in the explosion have their movement and attack speeds reduced by 30% for 3 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7442,11 +7455,11 @@ Summon a spectral blade that strikes all enemies in your path for 135% weapon da
 						<key>name</key>
 						<string>Cascade</string>
 						<key>desc</key>
-						<string>Enemies killed by Arcane Torrent have a 100% chance to fire a new missile at a nearby enemy dealing 175% weapon damage as Arcane.</string>
+						<string>Enemies killed by Arcane Torrent have a 100% chance to fire a new missile at a nearby enemy dealing 210% weapon damage as Arcane.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cost: 20 Arcane Power</string>
+				<string>Cost: 16 Arcane Power</string>
 				<key>name</key>
 				<string>Arcane Torrent</string>
 				<key>img</key>
@@ -7454,7 +7467,7 @@ Summon a spectral blade that strikes all enemies in your path for 135% weapon da
 				<key>level</key>
 				<string>12</string>
 				<key>desc1</key>
-				<string>Hurl a barrage of arcane projectiles that deal 175% weapon damage as Arcane to all enemies near the impact location.</string>
+				<string>Hurl a barrage of arcane projectiles that deal 210% weapon damage as Arcane to all enemies near the impact location.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -7509,8 +7522,13 @@ Summon a spectral blade that strikes all enemies in your path for 135% weapon da
 						<key>name</key>
 						<string>Storm Chaser</string>
 						<key>desc</key>
-						<string>Casting Energy Twister grants you a Wind Charge. You can store up to 5 Wind Charges at a time. Casting an Signature spell releases all Wind Charges as a giant Energy Twister that deals 25% damage per Wind Charge.
-Signature spells are: Magic Missile, Shock Pulse, Spectral Blade, Electrocute.</string>
+						<string>Casting Energy Twister grants you a Wind Charge. You can store up to 3 Wind Charges at a time. Casting a Signature spell releases all Wind Charges as a giant Energy Twister that deals 75% weapon damage as Arcane per Wind Charge.
+                            
+The following skills are Signature spells:
+ Magic Missile
+ Shock Pulse
+ Spectral Blade
+ Electrocute</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -7547,7 +7565,8 @@ Signature spells are: Magic Missile, Shock Pulse, Spectral Blade, Electrocute.</
 						<key>name</key>
 						<string>Crystallize</string>
 						<key>desc</key>
-						<string>Whenever you are struck by a melee attack, your Armor is increased by 15% for 30 seconds. This effect can stack up to 3 times.</string>
+						<string>Crystallize
+Whenever you are struck by a melee attack, your Armor is increased by 20% for 30 seconds. This effect can stack up to 3 times.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7557,7 +7576,7 @@ Signature spells are: Magic Missile, Shock Pulse, Spectral Blade, Electrocute.</
 						<key>name</key>
 						<string>Jagged Ice</string>
 						<key>desc</key>
-						<string>Melee attackers also take 100% weapon damage as Cold.</string>
+						<string>Melee attackers also take 130% weapon damage as Cold.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7589,7 +7608,7 @@ Signature spells are: Magic Missile, Shock Pulse, Spectral Blade, Electrocute.</
 				<key>level</key>
 				<string>14</string>
 				<key>desc1</key>
-				<string>Surround yourself in a barrier of ice causing 80% weapon damage as Cold to melee attackers, chilling them for 2 seconds. Lasts 120 seconds.
+				<string>Surround yourself in a barrier of ice that reduces damage from melee attacks by 12%. Melee attackers are either Chilled or Frozen for 2 seconds. Lasts 120 seconds.
                     
 This is an Armor spell. Only one Armor spell can be active at a time.</string>
 			</dict>
@@ -7616,7 +7635,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Forked Lightning</string>
 						<key>desc</key>
-						<string>Critical Hits release 4 charged bolts in random directions, dealing 46% weapon damage as Lightning to any targets hit.</string>
+						<string>Critical Hits release 4 charged bolts in random directions, dealing 55% weapon damage as Lightning to any targets hit.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7626,7 +7645,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Lightning Blast</string>
 						<key>desc</key>
-						<string>Create streaks of lightning that pierce through targets, hitting all enemies for 80% weapon damage as Lightning.</string>
+						<string>Create streaks of lightning that pierce through targets, hitting all enemies for 86% weapon damage as Lightning.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7646,7 +7665,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Arc Lightning</string>
 						<key>desc</key>
-						<string>Blast a cone of lightning that causes 80% weapon damage as Lightning to all affected targets.</string>
+						<string>Blast a cone of lightning that causes 115% weapon damage as Lightning to all affected targets.</string>
 					</dict>
 				</array>
 				<key>name</key>
@@ -7658,7 +7677,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 				<key>desc1</key>
 				<string>This is a Signature spell. Signature spells are free to cast.
                     
-Lightning arcs from your fingertips, dealing 80% weapon damage as Lightning. The lightning can jump, hitting up to 2 additional enemies.</string>
+Lightning arcs from your fingertips, dealing 90% weapon damage as Lightning. The lightning can jump, hitting up to 2 additional enemies.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -7693,7 +7712,7 @@ Lightning arcs from your fingertips, dealing 80% weapon damage as Lightning. The
 						<key>name</key>
 						<string>Time Shell</string>
 						<key>desc</key>
-						<string>Reduce the area Slow Time affects to 10 yards, but increases the potency of the movement speed reduction to 80%.</string>
+						<string>Increases the potency of the movement speed reduction to 80%.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7703,7 +7722,7 @@ Lightning arcs from your fingertips, dealing 80% weapon damage as Lightning. The
 						<key>name</key>
 						<string>Perpetuity</string>
 						<key>desc</key>
-						<string>Reduce cooldown to 16 seconds.</string>
+						<string>Reduces the cooldown of Slow Time to 12 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7717,7 +7736,7 @@ Lightning arcs from your fingertips, dealing 80% weapon damage as Lightning. The
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cooldown: 20 seconds</string>
+				<string>Cooldown: 15 seconds</string>
 				<key>name</key>
 				<string>Slow Time</string>
 				<key>img</key>
@@ -7725,7 +7744,7 @@ Lightning arcs from your fingertips, dealing 80% weapon damage as Lightning. The
 				<key>level</key>
 				<string>16</string>
 				<key>desc1</key>
-				<string>Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 30%. This bubble also slows the movement of enemy projectiles by 90%.</string>
+				<string>Invoke a bubble of warped time and space for 8 seconds, reducing enemy attack speed by 20% and movement speed by 60%. This bubble also slows the movement of enemy projectiles by 90%.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -7740,7 +7759,7 @@ Lightning arcs from your fingertips, dealing 80% weapon damage as Lightning. The
 						<key>name</key>
 						<string>Reactive Armor</string>
 						<key>desc</key>
-						<string>Whenever you are hit, you have a chance to be enveloped with a lightning shield for 6 seconds that shocks nearby enemies for 50% weapon damage as Lightning.</string>
+						<string>Ranged and melee attackers are shocked for 70% weapon damage as Lightning.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7758,9 +7777,9 @@ Lightning arcs from your fingertips, dealing 80% weapon damage as Lightning. The
 						<key>img</key>
 						<string>1</string>
 						<key>name</key>
-						<string>Strike Back</string>
+						<string>Thunder Storm</string>
 						<key>desc</key>
-						<string>Increase the damage of the shock to 91% weapon damage as Lightning.</string>
+						<string>Increase the damage of the shock to 130% weapon damage as Lightning.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7792,7 +7811,7 @@ Lightning arcs from your fingertips, dealing 80% weapon damage as Lightning. The
 				<key>level</key>
 				<string>17</string>
 				<key>desc1</key>
-				<string>Bathe yourself in electrical energy, shocking ranged and melee attackers for 70% weapon damage as Lightning. Lasts 120 seconds.
+				<string>Bathe yourself in electrical energy, periodically shocking a nearby enemy for 100% weapon damage as Lightning. Lasts 120 seconds.
                     
 This is an Armor spell. Only one Armor spell can be active at a time.</string>
 			</dict>
@@ -7819,7 +7838,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Time Bomb</string>
 						<key>desc</key>
-						<string>Explosive Blast detonates from the point it was originally cast after 2.5 seconds for 292% weapon damage as Physical.</string>
+						<string>Explosive Blast detonates from the point it was originally cast after 2.5 seconds for 315% weapon damage as Physical.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7853,7 +7872,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cost: 45 Arcane Power</string>
+				<string>Cost: 20 Arcane Power</string>
 				<key>cost2</key>
 				<string>Cooldown: 6 second</string>
 				<key>name</key>
@@ -7955,7 +7974,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Chaos Nexus</string>
 						<key>desc</key>
-						<string>When casting the beam you become charged with energy that spits out at nearby enemies doing 40% weapon damage as Arcane.</string>
+						<string>When casting the beam you become charged with energy that spits out at nearby enemies doing 44% weapon damage as Arcane.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7975,7 +7994,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Entropy</string>
 						<key>desc</key>
-						<string>The beam fractures into a short-ranged cone that deals 178% weapon damage as Arcane.</string>
+						<string>The beam fractures into a short-ranged cone that deals 196% weapon damage as Arcane.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -7985,11 +8004,11 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Intensify</string>
 						<key>desc</key>
-						<string>Damage increases slowly over time to inflict a maximum of 202% weapon damage as Arcane.</string>
+						<string>Damage increases slowly over time to inflict a maximum of 221% weapon damage as Arcane.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cost: 20 Arcane Power</string>
+				<string>Cost: 18 Arcane Power</string>
 				<key>name</key>
 				<string>Disintegrate</string>
 				<key>img</key>
@@ -7997,7 +8016,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 				<key>level</key>
 				<string>21</string>
 				<key>desc1</key>
-				<string>Thrust a beam of pure energy forward, dealing 155% weapon damage as Arcane and disintegrating enemies it kills.</string>
+				<string>Thrust a beam of pure energy forward, dealing 170% weapon damage as Arcane and disintegrating enemies it kills.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -8012,7 +8031,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Arcane Hydra</string>
 						<key>desc</key>
-						<string>Summon an Arcane Hydra that spits Arcane Orbs, which explode on impact, causing 28% weapon damage as Arcane to enemies near the explosion.</string>
+						<string>Summon an Arcane Hydra that spits Arcane Orbs, which explode on impact, causing 60% weapon damage as Arcane to enemies near the explosion.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -8022,7 +8041,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Lightning Hydra</string>
 						<key>desc</key>
-						<string>Summon a Lightning Hydra that electrocutes enemies for 34% weapon damage as Lightning.</string>
+						<string>Summon a Lightning Hydra that electrocutes enemies for 64% weapon damage as Lightning.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -8042,7 +8061,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Frost Hydra</string>
 						<key>desc</key>
-						<string>Summon a Frost Hydra that breathes a short range cone of frost, causing 31% weapon damage as Cold to all enemies in the cone.</string>
+						<string>Summon a Frost Hydra that breathes a short range cone of frost, causing 36% weapon damage as Cold to all enemies in the cone.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -8052,7 +8071,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Mammoth Hydra</string>
 						<key>desc</key>
-						<string>Summon a Mammoth Hydra that breathes a river of flame at nearby enemies, dealing 22% weapon damage per second as Fire to enemies caught on the burning ground.</string>
+						<string>Summon a Mammoth Hydra that breathes a river of flame at nearby enemies, dealing 67% weapon damage per second as Fire to enemies caught on the burning ground.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -8087,9 +8106,9 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>img</key>
 						<string>3</string>
 						<key>name</key>
-						<string>Dartling</string>
+						<string>Vigoron</string>
 						<key>desc</key>
-						<string>Summons a lightning Familiar whose projectiles have a 100% chance to pierce through enemies.</string>
+						<string>While the Familiar is active, you regenerate 310 Life per second.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -8099,7 +8118,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Ancient Guardian</string>
 						<key>desc</key>
-						<string>Summon a protective Familiar. When you are below 35% Life the Familiar will fully absorb damage from 1 attack every 6 seconds.</string>
+						<string>Summon a protective Familiar. When you are below 50% Life the Familiar will fully absorb damage from 1 attack every 6 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -8186,7 +8205,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Calamity</string>
 						<key>desc</key>
-						<string>Casts a low power Wave of Force upon arrival, dealing 75% weapon damage as Physical to all nearby enemies.</string>
+						<string>Casts a low power Wave of Force upon arrival, dealing 265% weapon damage as Physical to all nearby enemies.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -8215,7 +8234,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Molten Impact</string>
 						<key>desc</key>
-						<string>Increases the damage of the Meteor impact to 260% weapon damage as Fire and the molten fire to 78% weapon damage as Fire over 3 seconds.</string>
+						<string>Increases the damage of the Meteor impact to 390% weapon damage as Fire and the molten fire to 90% weapon damage as Fire over 3 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -8235,7 +8254,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Meteor Shower</string>
 						<key>desc</key>
-						<string>Unleash a volley of 7 smaller Meteors that each strike for 80% weapon damage as Fire.</string>
+						<string>Unleash a volley of 7 smaller Meteors that each strike for 104% weapon damage as Fire.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -8245,7 +8264,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Comet</string>
 						<key>desc</key>
-						<string>Transforms the Meteor to ice that deals 240% weapon damage as Cold. The impact site is covered in a freezing mist that deals 72% weapon damage as Cold and Slows enemy movement by 60% over 3 seconds.</string>
+						<string>Transforms the Meteor to ice that deals 312% weapon damage as Cold. The impact site is covered in a freezing mist that deals 72% weapon damage as Cold and Slows enemy movement by 60% over 3 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -8259,7 +8278,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cost: 60 Arcane Power</string>
+				<string>Cost: 50 Arcane Power</string>
 				<key>name</key>
 				<string>Meteor</string>
 				<key>img</key>
@@ -8267,7 +8286,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 				<key>level</key>
 				<string>25</string>
 				<key>desc1</key>
-				<string>Summon an immense Meteor that plummets from the sky, causing 200% weapon damage as Fire to all enemies it crashes into. The ground it hits is scorched with molten fire that deals 60% weapon damage as Fire over 3 seconds.</string>
+				<string>Summon an immense Meteor that plummets from the sky, causing 260% weapon damage as Fire to all enemies it crashes into. The ground it hits is scorched with molten fire that deals 60% weapon damage as Fire over 3 seconds.</string>
 			</dict>
 			<dict>
 				<key>category</key>
@@ -8393,7 +8412,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
-				<string>Cost: 45 Arcane Power</string>
+				<string>Cost: 40 Arcane Power</string>
 				<key>name</key>
 				<string>Blizzard</string>
 				<key>img</key>
@@ -8456,7 +8475,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Prismatic Armor</string>
 						<key>desc</key>
-						<string>Increases all of your resistances by 40% while Energy Armor is active.</string>
+						<string>Increases all of your resistances by 25% while Energy Armor is active.</string>
 					</dict>
 				</array>
 				<key>cost1</key>
@@ -8468,7 +8487,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 				<key>level</key>
 				<string>28</string>
 				<key>desc1</key>
-				<string>Focus your energies, increasing your Armor by 65% but decreasing your maximum Arcane Power by 20. Lasts 120 seconds.
+				<string>Focus your energies, increasing your Armor by 35% but decreasing your maximum Arcane Power by 20. Lasts 120 seconds.
                     
 This is an Armor spell. Only one Armor spell can be active at a time.</string>
 			</dict>
@@ -8485,7 +8504,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Arcane Destruction</string>
 						<key>desc</key>
-						<string>An explosion erupts around you when you transform causing 450% weapon damage as Arcane to all enemies within 15 yards.</string>
+						<string>An explosion erupts around you when you transform causing 1600% weapon damage as Arcane to all enemies within 15 yards.</string>
 					</dict>
 					<dict>
 						<key>level</key>
@@ -8515,7 +8534,7 @@ This is an Armor spell. Only one Armor spell can be active at a time.</string>
 						<key>name</key>
 						<string>Slow Time</string>
 						<key>desc</key>
-						<string>Archon form can now cast Slow Time that lasts for 8 seconds.</string>
+						<string>Archon form can now cast Slow Time that lasts for 15 seconds.</string>
 					</dict>
 					<dict>
 						<key>level</key>

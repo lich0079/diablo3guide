@@ -204,9 +204,12 @@
 		E3672FBA1516213D00120721 /* Help.html in Resources */ = {isa = PBXBuildFile; fileRef = E3672FBC1516213D00120721 /* Help.html */; };
 		E3672FBE1516214300120721 /* Combat.html in Resources */ = {isa = PBXBuildFile; fileRef = E3672FC01516214300120721 /* Combat.html */; };
 		E3672FC21516214800120721 /* Interface.html in Resources */ = {isa = PBXBuildFile; fileRef = E3672FC41516214800120721 /* Interface.html */; };
+		E37838A516367349002D1E25 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E37838A416367349002D1E25 /* Default-568h@2x.png */; };
 		E37DD52515162E6C0036B23E /* Mystic.html in Resources */ = {isa = PBXBuildFile; fileRef = E37DD52715162E6C0036B23E /* Mystic.html */; };
 		E37DD52B15164AC40036B23E /* MainScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E37DD52D15164AC40036B23E /* MainScreenVC.xib */; };
 		E38052261404F4C400695207 /* bullet2.gif in Resources */ = {isa = PBXBuildFile; fileRef = E38052251404F4C400695207 /* bullet2.gif */; };
+		E38EB83E16AF8A7600B484CB /* openin.png in Resources */ = {isa = PBXBuildFile; fileRef = E38EB83C16AF8A7600B484CB /* openin.png */; };
+		E38EB83F16AF8A7600B484CB /* openin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E38EB83D16AF8A7600B484CB /* openin@2x.png */; };
 		E3924AC714017BBD000BA714 /* classes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3924AC614017BBD000BA714 /* classes@2x.png */; };
 		E393A5F11507C18D007AF84A /* Grave Injustice.png in Resources */ = {isa = PBXBuildFile; fileRef = E393A5F01507C18D007AF84A /* Grave Injustice.png */; };
 		E397F93E140524050074FA13 /* navi.png in Resources */ = {isa = PBXBuildFile; fileRef = E397F93D140524050074FA13 /* navi.png */; };
@@ -701,12 +704,15 @@
 		E3672FC11516214600120721 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/Combat.html"; sourceTree = "<group>"; };
 		E3672FC31516214800120721 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/Interface.html; sourceTree = "<group>"; };
 		E3672FC51516214B00120721 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/Interface.html"; sourceTree = "<group>"; };
+		E37838A416367349002D1E25 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E37DD52615162E6C0036B23E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/Mystic.html; sourceTree = "<group>"; };
 		E37DD52915162E700036B23E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/Mystic.html"; sourceTree = "<group>"; };
 		E37DD52A151646600036B23E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		E37DD52C15164AC40036B23E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainScreenVC.xib; sourceTree = "<group>"; };
 		E37DD52E15164ACC0036B23E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainScreenVC.xib"; sourceTree = "<group>"; };
 		E38052251404F4C400695207 /* bullet2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bullet2.gif; sourceTree = "<group>"; };
+		E38EB83C16AF8A7600B484CB /* openin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = openin.png; sourceTree = "<group>"; };
+		E38EB83D16AF8A7600B484CB /* openin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "openin@2x.png"; sourceTree = "<group>"; };
 		E3924AC614017BBD000BA714 /* classes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classes@2x.png"; sourceTree = "<group>"; };
 		E393A5F01507C18D007AF84A /* Grave Injustice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grave Injustice.png"; sourceTree = "<group>"; };
 		E397F93D140524050074FA13 /* navi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi.png; sourceTree = "<group>"; };
@@ -1026,6 +1032,7 @@
 		E334090114016526000AD3B8 = {
 			isa = PBXGroup;
 			children = (
+				E37838A416367349002D1E25 /* Default-568h@2x.png */,
 				E363E7C81404261B002AE007 /* Default@2x.png */,
 				E363E7C6140425A0002AE007 /* Default.png */,
 				E33409321401654D000AD3B8 /* Icon@2x.png */,
@@ -1124,6 +1131,8 @@
 		E39B50F214020D3500F58D78 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				E38EB83C16AF8A7600B484CB /* openin.png */,
+				E38EB83D16AF8A7600B484CB /* openin@2x.png */,
 				E30259791533343A00995A73 /* dhfeature-1.png */,
 				E36416EC1508903300EED49D /* mzl.ojspbyqz.170x170-75.png */,
 				E36416E21508902100EED49D /* mzl.ctjjyjor.170x170-75.png */,
@@ -2041,6 +2050,9 @@
 				E36416ED1508903300EED49D /* mzl.ojspbyqz.170x170-75.png in Resources */,
 				E31F0A9F15147C99006A2B9F /* Localizable.strings in Resources */,
 				E302597A1533343A00995A73 /* dhfeature-1.png in Resources */,
+				E37838A516367349002D1E25 /* Default-568h@2x.png in Resources */,
+				E38EB83E16AF8A7600B484CB /* openin.png in Resources */,
+				E38EB83F16AF8A7600B484CB /* openin@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2314,7 +2326,7 @@
 				GCC_PREFIX_HEADER = "diablo3guide/diablo3guide-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "diablo3guide/diablo3guide-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/diablo3guide\"",
@@ -2336,7 +2348,7 @@
 				GCC_PREFIX_HEADER = "diablo3guide/diablo3guide-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "diablo3guide/diablo3guide-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/diablo3guide\"",
@@ -2379,7 +2391,7 @@
 				GCC_PREFIX_HEADER = "diablo3guide/diablo3guide-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "diablo3guide/diablo3guide-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/diablo3guide\"",

@@ -39,7 +39,7 @@
 				<key>level</key>
 				<string>20</string>
 				<key>desc1</key>
-				<string>Enchantress buffs herself and her allies, increasing Armor by 15%. Attackers are slowed by 30% for 3 seconds.</string>
+				<string>Buffs you and the Enchantress, increasing Armor by 5% and slowing attackers by 30% for 3 seconds.</string>
 			</dict>
 			<dict>
 				<key>cost1</key>
@@ -51,11 +51,11 @@
 				<key>level</key>
 				<string>20</string>
 				<key>desc1</key>
-				<string>Place a shield on the Enchantress and her allies that reflects incoming projectiles for 5 seconds.</string>
+				<string>Buffs you and the Enchantress, reducing damage from ranged attacks by 6%.</string>
 			</dict>
 			<dict>
 				<key>cost1</key>
-				<string>Cooldown: 45 seconds</string>
+				<string>Cooldown: 25 seconds</string>
 				<key>name</key>
 				<string>Disorient</string>
 				<key>img</key>
@@ -63,7 +63,7 @@
 				<key>level</key>
 				<string>15</string>
 				<key>desc1</key>
-				<string>Cast a flash of confusion on a group of enemies in an area, causing them to stumble around disoriented for 2 seconds.</string>
+				<string>Cast a flash of Confusion on a group of enemies in an area, causing them to stumble around disoriented for 2 seconds.</string>
 			</dict>
 			<dict>
 				<key>cost1</key>
@@ -89,7 +89,7 @@
 			</dict>
 			<dict>
 				<key>cost1</key>
-				<string>Cooldown: 60 seconds</string>
+				<string>Cooldown: 30 seconds</string>
 				<key>name</key>
 				<string>Mass Control</string>
 				<key>img</key>
@@ -134,7 +134,7 @@
 				<key>level</key>
 				<string>10</string>
 				<key>desc1</key>
-				<string>Ranged attack which deals 40% weapon damage and an additional 40% weapon damage as Poison damage over 3 seconds.</string>
+				<string>Ranged attack which deals 100% weapon damage and an additional 40% weapon damage as Poison over 2 seconds.</string>
 			</dict>
 			<dict>
 				<key>cost1</key>
@@ -200,7 +200,7 @@
 				<key>level</key>
 				<string>25</string>
 				<key>desc1</key>
-				<string>Whenever you or the Scoundrel land a Critical Hit, you both will go into hysterics, increasing all damage done by 10% for 3 seconds. This effect cannot occur more than once every 6 seconds.</string>
+				<string>Whenever you or the Scoundrel land a Critical Hit, you both will go into hysterics, increasing all damage done by 10% for 3 seconds. This effect cannot occur more than once every 5 seconds.</string>
 			</dict>
 		</array>
 		<key>desc</key>
@@ -223,11 +223,11 @@
 				<key>level</key>
 				<string>5</string>
 				<key>desc1</key>
-				<string>Heals you or the Templar for 4651 Life.</string>
+				<string>Heals you and the Templar for 4651 Life.</string>
 			</dict>
 			<dict>
 				<key>cost1</key>
-				<string>Cooldown: 60 seconds</string>
+				<string>Cooldown: 30 seconds</string>
 				<key>name</key>
 				<string>Intervene</string>
 				<key>img</key>
@@ -235,7 +235,7 @@
 				<key>level</key>
 				<string>5</string>
 				<key>desc1</key>
-				<string>Taunts enemies attacking player for 3 seconds when hero is below 50% Life.</string>
+				<string>Taunt enemies within 10 yards of you for 1 second when you are hit.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -245,7 +245,7 @@
 				<key>level</key>
 				<string>10</string>
 				<key>desc1</key>
-				<string>Enemy units are slowed by 60% for 3 seconds when they hit the Templar.</string>
+				<string>Enemies that hit or are hit by the Templar are slowed by 60% for 3 seconds.</string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -302,7 +302,7 @@
 				<string>20</string>
 				<key>desc1</key>
 				<string>Increase resource generation for all allies that the Templar is following.
-Mana: +2 per second.
+Mana: +4 per second.
 Arcane Power: +0.5 per second.
 Hatred: +1 per second.
 Fury: +8% generated.

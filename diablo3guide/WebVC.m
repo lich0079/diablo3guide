@@ -27,7 +27,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.web = [[UIWebView alloc ] initWithFrame:self.view.bounds];
+    
+    CGRect screenSize = [UIScreen mainScreen].bounds;
+    CGRect webSize = CGRectMake(0, 0, screenSize.size.width, screenSize.size.height - 20);
+    self.web = [[UIWebView alloc ] initWithFrame:webSize];
+    
+//    self.web = [[UIWebView alloc ] initWithFrame:self.view.bounds];
     [self.web release];
     self.web.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"bg2.png"]];
     //        self.web.backgroundColor = [UIColor clearColor];
@@ -44,6 +49,12 @@
     //        scroller.alwaysBounceHorizontal = NO;
     //    }
     [self backButton];
+    
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0) {
+        CLog(@"ios6");
+        self.navigationItem.rightBarButtonItem = [self shareButton];
+    }else {
+    }
 }
 
 - (void)viewDidUnload {

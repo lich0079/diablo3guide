@@ -76,6 +76,13 @@
 
     }
     
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0) {
+        CLog(@"ios6");
+        self.navigationItem.leftBarButtonItem = [self shareButton];
+    }else {
+    }
+    
+    
 }
 
 -(void) help:(id)sender {

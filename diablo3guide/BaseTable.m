@@ -52,6 +52,24 @@
     }
     return nil;
 }
+
+- (UIBarButtonItem *)shareButton {
+    UIButton *BackBtn = [[[UIButton alloc] initWithFrame:CGRectMake(0.0, 0.0, 62.0, 40.0)]autorelease];
+    [BackBtn setImage:[UIImage imageNamed:@"openin.png"] forState:UIControlStateNormal];
+    [BackBtn addTarget:self action:@selector(share) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *BackBarBtn = [[[UIBarButtonItem alloc] initWithCustomView:BackBtn]autorelease];
+    return BackBarBtn;
+}
+-(void) share {
+    UIGraphicsBeginImageContext(self.view.window.frame.size);
+    [self.view.window.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    NSArray *activityItems = [NSArray arrayWithObjects:NSLocalizedString(@"sharetitle", nil), @"https://itunes.apple.com/app/id635647671",viewImage, nil];
+    UIActivityViewController *activityVC = [[[UIActivityViewController alloc]initWithActivityItems:activityItems applicationActivities:nil]autorelease];;
+    [self presentViewController:activityVC animated:YES completion:nil];
+}
 @end
 
 
@@ -76,6 +94,11 @@
     }else {
         CLog(@"ios4");
         
+    }
+    
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0) {
+        self.navigationItem.rightBarButtonItem = [self shareButton];
+    }else {
     }
 }
 

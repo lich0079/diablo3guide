@@ -13,4 +13,5 @@
 	bdesc = "Steely forge-master who creates and repairs mighty weapons and pieces of armor.";
 	jdesc = "Wandering jewelcrafter who can combine and improve powerful gems.";
 	maintitle = "DIII Guide";
+    "sharetitle"="DIII Guide";
 }
